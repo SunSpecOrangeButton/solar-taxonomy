@@ -8553,7 +8553,7 @@
           xlink:label="label_solar_InverterPowerFactor"
           xlink:role="http://www.xbrl.org/2003/role/documentation"
           xlink:type="resource"
-          xml:lang="en">The ratio of the real power flowing to the load to the apparent power in the circuit. The power factor is a dimensionless number in the closed interval of −1 to 1. A power factor of less than one means that the voltage and current waveforms are not in phase, reducing the instantaneous product of the two waveforms (V × I).</label>
+          xml:lang="en">The ratio of the real power flowing to the load to the apparent power in the circuit. The power factor is a dimensionless number in the closed interval of -1 to 1. A power factor of less than one means that the voltage and current waveforms are not in phase, reducing the instantaneous product of the two waveforms (V x I).</label>
         <loc
           xlink:href="solar_2017-09-08_r01.xsd#solar_EngineeringProcurementAndConstructionAgreementPerformanceGuaranteeTerm"
           xlink:label="solar_EngineeringProcurementAndConstructionAgreementPerformanceGuaranteeTerm"
@@ -26693,7 +26693,7 @@
           xlink:label="label_solar_LesseeClaimDocumentsCounterparties"
           xlink:role="http://www.xbrl.org/2003/role/documentation"
           xlink:type="resource"
-          xml:lang="en">Names of counterparties to the Lessee Claim Documents, providing evidence of Lessee’s claim to state rebates, subsidies or incentives for the project.</label>
+          xml:lang="en">Names of counterparties to the Lessee Claim Documents, providing evidence of Lessee's claim to state rebates, subsidies or incentives for the project.</label>
         <label
           xlink:label="label_solar_DeveloperEngineeringProcurementAndConstructionActivitiesAsPrime"
           xlink:role="http://www.xbrl.org/2003/role/label"
@@ -27628,7 +27628,7 @@
           xlink:label="label_solar_LesseeClaimDocumentsEffectiveDate"
           xlink:role="http://www.xbrl.org/2003/role/documentation"
           xlink:type="resource"
-          xml:lang="en">Effective date of the Lessee Claim Documents, providing evidence of Lessee’s claim to state rebates, subsidies or incentives for the project.</label>
+          xml:lang="en">Effective date of the Lessee Claim Documents, providing evidence of Lessee's claim to state rebates, subsidies or incentives for the project.</label>
         <label
           xlink:label="label_solar_MaintenanceCostUnderWarrantyBalanceOfSystem"
           xlink:role="http://www.xbrl.org/2003/role/label"
@@ -27748,7 +27748,7 @@
           xlink:label="label_solar_InverterGroundFaultIsolationDetection"
           xlink:role="http://www.xbrl.org/2003/role/documentation"
           xlink:type="resource"
-          xml:lang="en">Information about the inverter’s GFDI (ground fault isolation detection), which is a fuse that trips when any ground fault current exceeds the ampere rating of the fuse.</label>
+          xml:lang="en">Information about the inverter's GFDI (ground fault isolation detection), which is a fuse that trips when any ground fault current exceeds the ampere rating of the fuse.</label>
         <label
           xlink:label="label_solar_ProjectAdministrationAgreementAvailabilityOfFinalDocument"
           xlink:role="http://www.xbrl.org/2003/role/label"
@@ -51214,7 +51214,7 @@ The ground coverage ratio must be a value greater than 0.01 and less than 0.99.<
           xlink:label="label_solar_LesseeClaimDocumentsExpirationDate"
           xlink:role="http://www.xbrl.org/2003/role/documentation"
           xlink:type="resource"
-          xml:lang="en">Expiration date of the Lessee Claim Documents, providing evidence of Lessee’s claim to state rebates, subsidies or incentives for the project.</label>
+          xml:lang="en">Expiration date of the Lessee Claim Documents, providing evidence of Lessee's claim to state rebates, subsidies or incentives for the project.</label>
         <label
           xlink:label="label_solar_ProjectIdentifierTable"
           xlink:role="http://www.xbrl.org/2003/role/documentation"
@@ -52494,7 +52494,7 @@ The ground coverage ratio must be a value greater than 0.01 and less than 0.99.<
           xlink:label="label_solar_ModulePerformanceWarrantyGuaranteedOutput"
           xlink:role="http://www.xbrl.org/2003/role/documentation"
           xlink:type="resource"
-          xml:lang="en">Description of a solar panel’s performance warranty, which will guarantee a percentage of production at depending on the age of the module. i.e. 80% after 25 years.</label>
+          xml:lang="en">Description of a solar panel's performance warranty, which will guarantee a percentage of production at depending on the age of the module. i.e. 80% after 25 years.</label>
         <loc
           xlink:href="solar_2017-09-08_r01.xsd#solar_ProjectDescriptionNameOfTaxEquityProvider"
           xlink:label="solar_ProjectDescriptionNameOfTaxEquityProvider"
@@ -55964,7 +55964,7 @@ The ground coverage ratio must be a value greater than 0.01 and less than 0.99.<
           xlink:label="label_solar_LesseeClaimDocumentsAbstract"
           xlink:role="http://www.xbrl.org/2003/role/documentation"
           xlink:type="resource"
-          xml:lang="en">Information about the Lessee Claim Documents, providing evidence of Lessee’s claim to state rebates, subsidies or incentives for the project.</label>
+          xml:lang="en">Information about the Lessee Claim Documents, providing evidence of Lessee's claim to state rebates, subsidies or incentives for the project.</label>
         <label
           xlink:label="label_solar_ComponentName"
           xlink:role="http://www.xbrl.org/2003/role/label"
