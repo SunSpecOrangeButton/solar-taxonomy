@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Schema for numeric types -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"  xmlns:link="http://www.xbrl.org/2003/linkbase"  xmlns:solar-types="http://xbrl-us/dtr/type/solar-types"  xmlns:xbrli="http://www.xbrl.org/2003/instance"  xmlns:xlink="http://www.w3.org/1999/xlink"  attributeFormDefault="unqualified" blockDefault="" elementFormDefault="qualified" finalDefault=""  targetNamespace="http://xbrl.us/dtr/type/solar-types">
+  <xs:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+  <complexType xmlns="http://www.w3.org/2001/XMLSchema" abstract="false" mixed="false" name="inverterItemType">
+    <simpleContent>
+      <restriction base="xbrli:stringItemType">
+        <xs:enumeration value="Central"/>
+        <xs:enumeration value="String"/>
+        <xs:enumeration value="Micro"/>
+      </restriction>
+    </simpleContent>
+  </complexType>
+  <complexType xmlns="http://www.w3.org/2001/XMLSchema" abstract="false" mixed="false" name="moduleItemType">
+    <simpleContent>
+      <restriction base="xbrli:stringItemType">
+        <xs:enumeration value="CdTe"/>
+        <xs:enumeration value="CIGS"/>
+        <xs:enumeration value="ASi"/>
+        <xs:enumeration value="MonoSi"/>
+        <xs:enumeration value="MultiSi"/>
+        <xs:enumeration value="CPV"/>
+        <xs:enumeration value="Other"/>
+      </restriction>
+    </simpleContent>
+  </complexType>
+  <complexType xmlns="http://www.w3.org/2001/XMLSchema" abstract="false" mixed="false" name="trackerItemType">
+    <simpleContent>
+      <restriction base="xbrli:stringItemType">
+        <xs:enumeration value="Fixed Tilt"/>
+        <xs:enumeration value="Single Axis Tracking"/>
+        <xs:enumeration value="Dual Axis Tracking"/>
+        <xs:enumeration value="Azimuth Axis Tracking"/>
+        <xs:enumeration value="Seasonal Tilt"/>
+        <xs:enumeration value="Other"/>
+      </restriction>
+    </simpleContent>
+  </complexType>
+  <complexType xmlns="http://www.w3.org/2001/XMLSchema" abstract="false" mixed="false" name="solarSystemCharacterItemType">
+    <simpleContent>
+      <restriction base="xbrli:stringItemType">
+        <xs:enumeration value="Utility"/>
+        <xs:enumeration value="Commercial"/>
+        <xs:enumeration value="Residential"/>
+        <xs:enumeration value="Aggregate"/>
+      </restriction>
+    </simpleContent>
+  </complexType>
+  <complexType xmlns="http://www.w3.org/2001/XMLSchema" abstract="false" mixed="false" name="internetConnectionItemType">
+    <simpleContent>
+      <restriction base="xbrli:stringItemType">
+        <xs:enumeration value="Cellular"/>
+        <xs:enumeration value="Shared Broadband"/>
+        <xs:enumeration value="Dedicated Broadband"/>
+        <xs:enumeration value="Satellite"/>
+        <xs:enumeration value="Other"/>
+      </restriction>
+    </simpleContent>
+  </complexType>
+  <complexType xmlns="http://www.w3.org/2001/XMLSchema" abstract="false" mixed="false" name="occupancyItemType">
+    <simpleContent>
+      <restriction base="xbrli:stringItemType">
+        <xs:enumeration value="Owner Occupied"/>
+        <xs:enumeration value="Rental"/>
+      </restriction>
+    </simpleContent>
+  </complexType>
+  <complexType xmlns="http://www.w3.org/2001/XMLSchema" abstract="false" mixed="false" name="climateZoneType">
+    <simpleContent>
+      <restriction base="xbrli:stringItemType">
+        <xs:enumeration value="Hot Humid"/>
+        <xs:enumeration value="Mixed Humid"/>
+        <xs:enumeration value="Hot Dry"/>
+        <xs:enumeration value="Mixed Dry"/>
+        <xs:enumeration value="Cold"/>
+        <xs:enumeration value="Very Cold"/>
+        <xs:enumeration value="Subarctic"/>
+        <xs:enumeration value="Marine"/>
+      </restriction>
+    </simpleContent>
+  </complexType>
+  <complexType xmlns="http://www.w3.org/2001/XMLSchema" abstract="false" mixed="false" name="siteControlItemType">
+    <simpleContent>
+      <restriction base="xbrli:stringItemType">
+        <xs:enumeration value="Lease"/>
+        <xs:enumeration value="Own"/>
+        <xs:enumeration value="Rent"/>
+      </restriction>
+    </simpleContent>
+  </complexType>
+  <complexType xmlns="http://www.w3.org/2001/XMLSchema" abstract="false" mixed="false" name="moduleOrientationItemType">
+    <simpleContent>
+      <restriction base="xbrli:stringItemType">
+        <xs:enumeration value="Portrait"/>
+        <xs:enumeration value="Landscape"/>
+      </restriction>
+    </simpleContent>
+  </complexType>
+  <complexType xmlns="http://www.w3.org/2001/XMLSchema" abstract="false" mixed="false" name="sPVOrCounterpartyItemType">
+    <simpleContent>
+      <restriction base="xbrli:stringItemType">
+        <xs:enumeration value="SPV"/>
+        <xs:enumeration value="Counterparty"/>
+      </restriction>
+    </simpleContent>
+  </complexType>
+  <complexType xmlns="http://www.w3.org/2001/XMLSchema" abstract="false" mixed="false" name="fundOrProjectItemType">
+    <simpleContent>
+      <restriction base="xbrli:stringItemType">
+        <xs:enumeration value="Fund"/>
+        <xs:enumeration value="Project"/>
+      </restriction>
+    </simpleContent>
+  </complexType>
+  <complexType xmlns="http://www.w3.org/2001/XMLSchema" abstract="false" mixed="false" name="fundStatusItemType">
+    <simpleContent>
+      <restriction base="xbrli:stringItemType">
+        <xs:enumeration value="Closed"/>
+        <xs:enumeration value="Open"/>
+        <xs:enumeration value="Committed"/>
+      </restriction>
+    </simpleContent>
+  </complexType>
+  <complexType xmlns="http://www.w3.org/2001/XMLSchema" abstract="false" mixed="false" name="financingEventItemType">
+    <simpleContent>
+      <restriction base="xbrli:stringItemType">
+        <xs:enumeration value="Origination Request"/>
+        <xs:enumeration value="Signing Non-binding Commitment"/>
+        <xs:enumeration value="Signing Binding Commitment"/>
+        <xs:enumeration value="Signing And Closing"/>
+        <xs:enumeration value="Closing"/>
+        <xs:enumeration value="Funding"/>
+        <xs:enumeration value="Other"/>
+      </restriction>
+    </simpleContent>
+  </complexType>
+  <complexType xmlns="http://www.w3.org/2001/XMLSchema" abstract="false" mixed="false" name="eventStatusItemType">
+    <simpleContent>
+      <restriction base="xbrli:stringItemType">
+        <xs:enumeration value="In Process"/>
+        <xs:enumeration value="Finalized"/>
+      </restriction>
+    </simpleContent>
+  </complexType>
+  <complexType xmlns="http://www.w3.org/2001/XMLSchema" abstract="false" mixed="false" name="participantItemType">
+    <simpleContent>
+      <restriction base="xbrli:stringItemType">
+        <xs:enumeration value="Fund"/>
+        <xs:enumeration value="Project"/>
+        <xs:enumeration value="Developer Attorney"/>
+        <xs:enumeration value="Corporate Attorney"/>
+        <xs:enumeration value="Contract Attorney"/>
+        <xs:enumeration value="Environmental Attorney"/>
+        <xs:enumeration value="Land-Use Attorney"/>
+        <xs:enumeration value="Tax Attorney"/>
+        <xs:enumeration value="Litigation Attorney"/>
+        <xs:enumeration value="Interconnecting Utility as Authority Having Jurisdiction"/>
+        <xs:enumeration value="Permitting Authority as Authority Having Jurisdiction"/>
+        <xs:enumeration value="Regional Transmission Operator as Authority Having Jurisdiction"/>
+        <xs:enumeration value="Independent System Operator as Authority Having Jurisdiction"/>
+        <xs:enumeration value="Environmental Consultant"/>
+        <xs:enumeration value="Equipment Factory Auditor"/>
+        <xs:enumeration value="Independent Engineer"/>
+        <xs:enumeration value="Insurance Consultant"/>
+        <xs:enumeration value="Equipment Reliability Test Lab"/>
+        <xs:enumeration value="Tax Consultant"/>
+        <xs:enumeration value="Transmission Consultant"/>
+        <xs:enumeration value="Appraiser"/>
+        <xs:enumeration value="Weather Data Provider"/>
+        <xs:enumeration value="Utility"/>
+        <xs:enumeration value="REC Offtaker"/>
+        <xs:enumeration value="General Contractor"/>
+        <xs:enumeration value="Engineering Contractor/Installer"/>
+        <xs:enumeration value="Construction Contractor/Installer"/>
+        <xs:enumeration value="Subcontractor Contractor/Installer"/>
+        <xs:enumeration value="Builders/Construction All-Risk Insurers"/>
+        <xs:enumeration value="Ocean Cargo Insurer"/>
+        <xs:enumeration value="General Liability Insurer"/>
+        <xs:enumeration value="Automobile Liability Insurer"/>
+        <xs:enumeration value="Workers Compensation Insurer"/>
+        <xs:enumeration value="Umbrella/Excess Liability Insurer"/>
+        <xs:enumeration value="Pollution Liability Insurer"/>
+        <xs:enumeration value="Property Insurer"/>
+        <xs:enumeration value="Business Interruption Insurer"/>
+        <xs:enumeration value="Project Performance Insurer"/>
+        <xs:enumeration value="Construction Lender"/>
+        <xs:enumeration value="Back-leverage Lender"/>
+        <xs:enumeration value="Commercial Lender"/>
+        <xs:enumeration value="Personal Lender"/>
+        <xs:enumeration value="LLC Partner Managing Member"/>
+        <xs:enumeration value="LLC Partner Voting Member"/>
+        <xs:enumeration value="LLC Partner Passive Member"/>
+        <xs:enumeration value="Project Developer"/>
+        <xs:enumeration value="Project Host"/>
+        <xs:enumeration value="Long-term Equity Investor"/>
+        <xs:enumeration value="Tax-equity Investor"/>
+        <xs:enumeration value="Lessor"/>
+        <xs:enumeration value="Asset Manager"/>
+        <xs:enumeration value="Back-up Asset Manager"/>
+        <xs:enumeration value="Collateral Agent"/>
+        <xs:enumeration value="Energy Price Forecaster"/>
+        <xs:enumeration value="Hedge Provider"/>
+        <xs:enumeration value="Monitoring Service Provider"/>
+        <xs:enumeration value="Back-up Monitoring Service Provider"/>
+        <xs:enumeration value="Parallel Monitoring Service Provider"/>
+        <xs:enumeration value="Operator"/>
+        <xs:enumeration value="Maintenance Provider"/>
+        <xs:enumeration value="Back-up Maintenance Provider"/>
+        <xs:enumeration value="Scheduling Coordinator"/>
+        <xs:enumeration value="Site Security Company"/>
+        <xs:enumeration value="Subcontractor"/>
+        <xs:enumeration value="Telecom Provider"/>
+        <xs:enumeration value="Trustee"/>
+        <xs:enumeration value="Energy Forecasting Service"/>
+        <xs:enumeration value="Equipment Warranty Provider"/>
+        <xs:enumeration value="Construction Warranty Provider"/>
+        <xs:enumeration value="Site Owner/Site Control"/>
+        <xs:enumeration value="Equipment Manufacturer"/>
+        <xs:enumeration value="PPA Offtaker"/>
+        <xs:enumeration value="Other"/>
+      </restriction>
+    </simpleContent>
+  </complexType>
+  <complexType xmlns="http://www.w3.org/2001/XMLSchema" abstract="false" mixed="false" name="projectAssetTypeItemType">
+    <simpleContent>
+      <restriction base="xbrli:stringItemType">
+        <xs:enumeration value="Wind"/>
+        <xs:enumeration value="Solar"/>
+        <xs:enumeration value="Solar Plus Storage"/>
+      </restriction>
+    </simpleContent>
+  </complexType>
+  <complexType xmlns="http://www.w3.org/2001/XMLSchema" abstract="false" mixed="false" name="projectClassItemType">
+    <simpleContent>
+      <restriction base="xbrli:stringItemType">
+        <xs:enumeration value="Utility Scale"/>
+        <xs:enumeration value="Distributed Generation"/>
+        <xs:enumeration value="Community Solar"/>
+        <xs:enumeration value="Residential"/>
+        <xs:enumeration value="Other"/>
+      </restriction>
+    </simpleContent>
+  </complexType>
+  <complexType xmlns="http://www.w3.org/2001/XMLSchema" abstract="false" mixed="false" name="projectInterconnectionItemType">
+    <simpleContent>
+      <restriction base="xbrli:stringItemType">
+        <xs:enumeration value="Behind the Meter"/>
+        <xs:enumeration value="Virtual Net Meter"/>
+        <xs:enumeration value="In Front of Meter"/>
+      </restriction>
+    </simpleContent>
+  </complexType>
+  <complexType xmlns="http://www.w3.org/2001/XMLSchema" abstract="false" mixed="false" name="projectStageItemType">
+    <simpleContent>
+      <restriction base="xbrli:stringItemType">
+        <xs:enumeration value="Under Development"/>
+        <xs:enumeration value="In Construction"/>
+        <xs:enumeration value="In Operation"/>
+      </restriction>
+    </simpleContent>
+  </complexType>
+  <complexType xmlns="http://www.w3.org/2001/XMLSchema" abstract="false" mixed="false" name="investmentStatusItemType">
+    <simpleContent>
+      <restriction base="xbrli:stringItemType">
+        <xs:enumeration value="Awarded"/>
+        <xs:enumeration value="Committed"/>
+        <xs:enumeration value="Partial Funding"/>
+        <xs:enumeration value="Fully Funded"/>
+      </restriction>
+    </simpleContent>
+  </complexType>
+  <complexType xmlns="http://www.w3.org/2001/XMLSchema" abstract="false" mixed="false" name="regulatoryFacilityItemType">
+    <simpleContent>
+      <restriction base="xbrli:stringItemType">
+        <xs:enumeration value="QF"/> <!-- (Qualified Facility) -->
+        <xs:enumeration value="EWG"/> <!-- (Exempt Wholesale Generators) -->
+        <xs:enumeration value="NA"/> <!-- (Not Applicable) -->
+      </restriction>
+    </simpleContent>
+  </complexType>
+  <complexType xmlns="http://www.w3.org/2001/XMLSchema" abstract="false" mixed="false" name="regulatoryApprovalStatusItemType">
+    <simpleContent>
+      <restriction base="xbrli:stringItemType">
+        <xs:enumeration value="Not Submitted"/>
+        <xs:enumeration value="Submitted"/>
+        <xs:enumeration value="Approved"/>
+        <xs:enumeration value="Declined"/>
+      </restriction>
+    </simpleContent>
+  </complexType>
+  <complexType xmlns="http://www.w3.org/2001/XMLSchema" abstract="false" mixed="false" name="hedgeItemType">
+    <simpleContent>
+      <restriction base="xbrli:stringItemType">
+        <xs:enumeration value="Swap"/>
+        <xs:enumeration value="Revenue Put"/>
+        <xs:enumeration value="CfD"/> <!-- (Contracts for Difference)-->
+        <xs:enumeration value="None"/>
+        <xs:enumeration value="Other"/>
+      </restriction>
+    </simpleContent>
+  </complexType>
+  <complexType xmlns="http://www.w3.org/2001/XMLSchema" abstract="false" mixed="false" name="divisionStateApprovalStatusItemType">
+    <simpleContent>
+      <restriction base="xbrli:stringItemType">
+        <xs:enumeration value="Not Submitted"/>
+        <xs:enumeration value="Submitted"/>
+        <xs:enumeration value="Conditional"/>
+        <xs:enumeration value="Final Approval"/>
+        <xs:enumeration value="Not Applicable"/>
+      </restriction>
+    </simpleContent>
+  </complexType>
+  <complexType xmlns="http://www.w3.org/2001/XMLSchema" abstract="false" mixed="false" name="feeStatusItemType">
+    <simpleContent>
+      <restriction base="xbrli:stringItemType">
+        <xs:enumeration value="Not Applicable"/>
+        <xs:enumeration value="Not Due"/>
+        <xs:enumeration value="Overdue"/>
+        <xs:enumeration value="Partially Paid"/>
+        <xs:enumeration value="Fully Paid"/>
+      </restriction>
+    </simpleContent>
+  </complexType>
+  <complexType xmlns="http://www.w3.org/2001/XMLSchema" abstract="false" mixed="false" name="zoningPermitPropertyItemType">
+    <simpleContent>
+      <restriction base="xbrli:stringItemType">
+        <xs:enumeration value="Plant"/>
+        <xs:enumeration value="Gen Tie Line"/>
+        <xs:enumeration value="Substation"/>
+      </restriction>
+    </simpleContent>
+  </complexType>
+  <complexType xmlns="http://www.w3.org/2001/XMLSchema" abstract="false" mixed="false" name="energyBudgetPhaseItemType">
+    <simpleContent>
+      <restriction base="xbrli:stringItemType">
+        <xs:enumeration value="Closing"/>
+        <xs:enumeration value="Initial Funding"/>
+        <xs:enumeration value="Final Funding"/>
+      </restriction>
+    </simpleContent>
+  </complexType>
+  <complexType xmlns="http://www.w3.org/2001/XMLSchema" abstract="false" mixed="false" name="titlePolicyInsuranceItemType">
+    <simpleContent>
+      <restriction base="xbrli:stringItemType">
+        <xs:enumeration value="Not Applicable"/>
+        <xs:enumeration value="Not Issued"/>
+        <xs:enumeration value="Pro Forma"/>
+        <xs:enumeration value="Final"/>
+      </restriction>
+    </simpleContent>
+  </complexType>
+  <complexType xmlns="http://www.w3.org/2001/XMLSchema" abstract="false" mixed="false" name="aLTASurveyItemType">
+    <simpleContent>
+      <restriction base="xbrli:stringItemType">
+        <xs:enumeration value="Not applicable"/>
+        <xs:enumeration value="Not Received"/>
+        <xs:enumeration value="Preliminary"/>
+        <xs:enumeration value="Final"/>
+      </restriction>
+    </simpleContent>
+  </complexType>
+  <complexType xmlns="http://www.w3.org/2001/XMLSchema" abstract="false" mixed="false" name="batteryConnectionItemType">
+    <simpleContent>
+      <restriction base="xbrli:stringItemType">
+        <xs:enumeration value="DC-Coupled"/>
+        <xs:enumeration value="AC-Coupled"/>
+      </restriction>
+    </simpleContent>
+  </complexType>
+  <complexType xmlns="http://www.w3.org/2001/XMLSchema" abstract="false" mixed="false" name="employeeRoleItemType">
+    <simpleContent>
+      <restriction base="xbrli:stringItemType">
+        <xs:enumeration value="Fund"/>
+        <xs:enumeration value="Project"/>
+      </restriction>
+    </simpleContent>
+  </complexType>
+  <complexType xmlns="http://www.w3.org/2001/XMLSchema" abstract="false" mixed="false" name="employeeLevelItemType">
+    <simpleContent>
+      <restriction base="xbrli:stringItemType">
+        <xs:enumeration value="Lead"/>
+        <xs:enumeration value="Support"/>
+      </restriction>
+    </simpleContent>
+  </complexType>
+  <complexType xmlns="http://www.w3.org/2001/XMLSchema" abstract="false" mixed="false" name="approvalRequestItemType">
+    <simpleContent>
+      <restriction base="xbrli:stringItemType">
+        <xs:enumeration value="Not submitted"/>
+        <xs:enumeration value="Submitted"/>
+        <xs:enumeration value="Conditional Approval"/>
+        <xs:enumeration value="Final Approval"/>
+        <xs:enumeration value="Declined"/>
+      </restriction>
+    </simpleContent>
+  </complexType>
+  <complexType xmlns="http://www.w3.org/2001/XMLSchema" abstract="false" mixed="false" name="creditSupportStatusItemType">
+    <simpleContent>
+      <restriction base="xbrli:stringItemType">
+        <xs:enumeration value="Not Due"/>
+        <xs:enumeration value="Over Due"/>
+        <xs:enumeration value="Granted"/>
+        <xs:enumeration value="Expired"/>
+      </restriction>
+    </simpleContent>
+  </complexType>
+  <complexType xmlns="http://www.w3.org/2001/XMLSchema" abstract="false" mixed="false" name="securityInterestItemType">
+    <simpleContent>
+      <restriction base="xbrli:stringItemType">
+        <xs:enumeration value="Mortgage"/>
+        <xs:enumeration value="Deed of Trust"/>
+        <xs:enumeration value="Lien"/>
+        <xs:enumeration value="Pledge"/>
+        <xs:enumeration value="Collateral Assignment"/>
+        <xs:enumeration value="Other"/>
+      </restriction>
+    </simpleContent>
+  </complexType>
+  <complexType xmlns="http://www.w3.org/2001/XMLSchema" abstract="false" mixed="false" name="assetSecuredItemType">
+    <simpleContent>
+      <restriction base="xbrli:stringItemType">
+        <xs:enumeration value="Land"/>
+        <xs:enumeration value="Membership Interest"/>
+        <xs:enumeration value="Contract"/>
+        <xs:enumeration value="Bank Account"/>
+        <xs:enumeration value="Other"/>
+      </restriction>
+    </simpleContent>
+  </complexType>
+  <complexType xmlns="http://www.w3.org/2001/XMLSchema" abstract="false" mixed="false" name="securityInterestStatusItemType">
+    <simpleContent>
+      <restriction base="xbrli:stringItemType">
+        <xs:enumeration value="Not Due"/>
+        <xs:enumeration value="Over Due"/>
+        <xs:enumeration value="Granted"/>
+        <xs:enumeration value="Expired"/>
+      </restriction>
+    </simpleContent>
+  </complexType>
+  <complexType xmlns="http://www.w3.org/2001/XMLSchema" abstract="false" mixed="false" name="inverterPhaseItemType">
+    <simpleContent>
+      <restriction base="xbrli:stringItemType">
+        <xs:enumeration value="Single Phase"/>
+        <xs:enumeration value="Three Phase WYE"/>
+        <xs:enumeration value="Three Phase Delta"/>
+      </restriction>
+    </simpleContent>
+  </complexType>
+  <complexType xmlns="http://www.w3.org/2001/XMLSchema" abstract="false" mixed="false" name="approvalStatusItemType">
+    <simpleContent>
+      <restriction base="xbrli:stringItemType">
+        <xs:enumeration value="Closed"/>
+        <xs:enumeration value="Open"/>
+      </restriction>
+    </simpleContent>
+  </complexType>
+
+
+
+</xs:schema>
