@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Orange Button Taxonomy - Cut Sheet (Data Sheet)-->
+<xs:schema
+  attributeFormDefault="unqualified"
+  elementFormDefault="qualified"
+  targetNamespace="solar-cutsheet"
+  xmlns:genlink="http://xbrl.org/2008/generic"
+  xmlns:link="http://www.xbrl.org/2003/linkbase"
+  xmlns:nonnum="http://www.xbrl.org/dtr/type/non-numeric"
+  xmlns:solar="http://xbrl.us/Solar/v1.1/2018-02-09/solar"
+  xmlns:solar-cutsheet="solar-cutsheet"
+  xmlns:xbrldt="http://xbrl.org/2005/xbrldt"
+  xmlns:xbrli="http://www.xbrl.org/2003/instance"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:annotation>
+        <xs:documentation>This schema contains the entry point for the cut sheet.</xs:documentation>
+        <xs:appinfo>
+            <link:roleType
+              id="roleType_CutSheet"
+              roleURI="http://xbrl.us/Solar/v1.1/2018-02-09/roles/CutSheet">
+                <link:definition>100395 - Documents - Cut Sheet</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+                <link:usedOn>genlink:link</link:usedOn>
+            </link:roleType>
+            <link:linkbaseRef
+              xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"
+              xlink:href="solar_2018-02-09_r01-CutSheet_pre.xml"
+              xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef"
+              xlink:type="simple"/>
+            <link:linkbaseRef
+              xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"
+              xlink:href="solar_2018-02-09_r01-CutSheet_def.xml"
+              xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef"
+              xlink:type="simple"/>
+            <link:linkbaseRef
+              xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"
+              xlink:href="solar_2018-02-09_r01_uml.xml"
+              xlink:type="simple"/>
+        </xs:appinfo>
+    </xs:annotation>
+    <xs:import
+      namespace="http://www.xbrl.org/2003/instance"
+      schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+    <xs:import
+      namespace="http://xbrl.us/Solar/v1.1/2018-02-09/solar"
+      schemaLocation="solar_2018-02-09_r01.xsd"/>
+</xs:schema>
