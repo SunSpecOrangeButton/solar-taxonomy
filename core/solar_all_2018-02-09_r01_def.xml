@@ -8,92 +8,48 @@
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
     <roleRef
-      roleURI="http://xbrl.us/Solar/v1.1/2018-02-09/roles/EngineeringProcurementAndConstructionContract"
-      xlink:href="solar_all_2018-02-09_r01.xsd#roleType_EngineeringProcurementAndConstructionContract"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/Solar/v1.1/2018-02-09/roles/FinancialPerformance"
-      xlink:href="solar_all_2018-02-09_r01.xsd#roleType_FinancialPerformance"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/Solar/v1.1/2018-02-09/roles/ComponentMaintenance"
-      xlink:href="solar_all_2018-02-09_r01.xsd#roleType_ComponentMaintenance"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/Solar/v1.1/2018-02-09/roles/IndependentEngineeringServicesCheckList"
-      xlink:href="solar_all_2018-02-09_r01.xsd#roleType_IndependentEngineeringServicesCheckList"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/Solar/v1.1/2018-02-09/roles/Portfolio"
-      xlink:href="solar_all_2018-02-09_r01.xsd#roleType_Portfolio"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/Solar/v1.1/2018-02-09/roles/SystemDeviceListing"
-      xlink:href="solar_all_2018-02-09_r01.xsd#roleType_SystemDeviceListing"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/Solar/v1.1/2018-02-09/roles/OperationalEventReport"
-      xlink:href="solar_all_2018-02-09_r01.xsd#roleType_OperationalEventReport"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/Solar/v1.1/2018-02-09/roles/Site"
-      xlink:href="solar_all_2018-02-09_r01.xsd#roleType_Site"
-      xlink:type="simple"/>
-    <roleRef
       roleURI="http://xbrl.us/Solar/v1.1/2018-02-09/roles/CutSheet"
       xlink:href="solar_all_2018-02-09_r01.xsd#roleType_CutSheet"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/Solar/v1.1/2018-02-09/roles/Project"
-      xlink:href="solar_all_2018-02-09_r01.xsd#roleType_Project"
       xlink:type="simple"/>
     <roleRef
       roleURI="http://xbrl.us/Solar/v1.1/2018-02-09/roles/PowerPurchaseAgreement"
       xlink:href="solar_all_2018-02-09_r01.xsd#roleType_PowerPurchaseAgreement"
       xlink:type="simple"/>
     <roleRef
+      roleURI="http://xbrl.us/Solar/v1.1/2018-02-09/roles/ComponentMaintenance"
+      xlink:href="solar_all_2018-02-09_r01.xsd#roleType_ComponentMaintenance"
+      xlink:type="simple"/>
+    <roleRef
       roleURI="http://xbrl.us/Solar/v1.1/2018-02-09/roles/Developer"
       xlink:href="solar_all_2018-02-09_r01.xsd#roleType_Developer"
       xlink:type="simple"/>
-    <arcroleRef
-      arcroleURI="http://xbrl.org/int/dim/arcrole/domain-member"
-      xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#domain-member"
-      xlink:type="simple"/>
-    <arcroleRef
-      arcroleURI="http://xbrl.org/int/dim/arcrole/hypercube-dimension"
-      xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#hypercube-dimension"
-      xlink:type="simple"/>
     <roleRef
-      roleURI="http://xbrl.us/Solar/v1.1/2018-02-09/roles/ProjectFinancing"
-      xlink:href="solar_all_2018-02-09_r01.xsd#roleType_ProjectFinancing"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/Solar/v1.1/2018-02-09/roles/SystemProduction"
-      xlink:href="solar_all_2018-02-09_r01.xsd#roleType_SystemProduction"
+      roleURI="http://xbrl.us/Solar/v1.1/2018-02-09/roles/Project"
+      xlink:href="solar_all_2018-02-09_r01.xsd#roleType_Project"
       xlink:type="simple"/>
     <roleRef
       roleURI="http://xbrl.us/Solar/v1.1/2018-02-09/roles/Sponsor"
       xlink:href="solar_all_2018-02-09_r01.xsd#roleType_Sponsor"
       xlink:type="simple"/>
     <roleRef
-      roleURI="http://xbrl.us/Solar/v1.1/2018-02-09/roles/Utility"
-      xlink:href="solar_all_2018-02-09_r01.xsd#roleType_Utility"
-      xlink:type="simple"/>
-    <arcroleRef
-      arcroleURI="http://xbrl.org/int/dim/arcrole/all"
-      xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#all"
+      roleURI="http://xbrl.us/Solar/v1.1/2018-02-09/roles/Fund"
+      xlink:href="solar_all_2018-02-09_r01.xsd#roleType_Fund"
       xlink:type="simple"/>
     <roleRef
-      roleURI="http://xbrl.us/Solar/v1.1/2018-02-09/roles/OperationalPerformance"
-      xlink:href="solar_all_2018-02-09_r01.xsd#roleType_OperationalPerformance"
+      roleURI="http://xbrl.us/Solar/v1.1/2018-02-09/roles/EngineeringProcurementAndConstructionContract"
+      xlink:href="solar_all_2018-02-09_r01.xsd#roleType_EngineeringProcurementAndConstructionContract"
       xlink:type="simple"/>
     <roleRef
-      roleURI="http://xbrl.us/Solar/v1.1/2018-02-09/roles/SystemInstallationType"
-      xlink:href="solar_all_2018-02-09_r01.xsd#roleType_SystemInstallationType"
+      roleURI="http://xbrl.us/Solar/v1.1/2018-02-09/roles/Site"
+      xlink:href="solar_all_2018-02-09_r01.xsd#roleType_Site"
       xlink:type="simple"/>
     <roleRef
       roleURI="http://xbrl.us/Solar/v1.1/2018-02-09/roles/AssetManager"
       xlink:href="solar_all_2018-02-09_r01.xsd#roleType_AssetManager"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/Solar/v1.1/2018-02-09/roles/IndependentEngineeringServicesCheckList"
+      xlink:href="solar_all_2018-02-09_r01.xsd#roleType_IndependentEngineeringServicesCheckList"
       xlink:type="simple"/>
     <arcroleRef
       arcroleURI="http://xbrl.org/int/dim/arcrole/dimension-domain"
@@ -104,28 +60,68 @@
       xlink:href="solar_all_2018-02-09_r01.xsd#roleType_SystemInstallationCost"
       xlink:type="simple"/>
     <roleRef
-      roleURI="http://xbrl.us/Solar/v1.1/2018-02-09/roles/ComponentMaintenanceEvents"
-      xlink:href="solar_all_2018-02-09_r01.xsd#roleType_ComponentMaintenanceEvents"
+      roleURI="http://xbrl.us/Solar/v1.1/2018-02-09/roles/OperationalPerformance"
+      xlink:href="solar_all_2018-02-09_r01.xsd#roleType_OperationalPerformance"
       xlink:type="simple"/>
     <roleRef
-      roleURI="http://xbrl.us/Solar/v1.1/2018-02-09/roles/MonthlyOperatingReport"
-      xlink:href="solar_all_2018-02-09_r01.xsd#roleType_MonthlyOperatingReport"
+      roleURI="http://xbrl.us/Solar/v1.1/2018-02-09/roles/Portfolio"
+      xlink:href="solar_all_2018-02-09_r01.xsd#roleType_Portfolio"
       xlink:type="simple"/>
     <arcroleRef
       arcroleURI="http://xbrl.org/int/dim/arcrole/dimension-default"
       xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#dimension-default"
       xlink:type="simple"/>
     <roleRef
-      roleURI="http://xbrl.us/Solar/v1.1/2018-02-09/roles/Fund"
-      xlink:href="solar_all_2018-02-09_r01.xsd#roleType_Fund"
-      xlink:type="simple"/>
-    <roleRef
       roleURI="http://xbrl.us/Solar/v1.1/2018-02-09/roles/Participant"
       xlink:href="solar_all_2018-02-09_r01.xsd#roleType_Participant"
       xlink:type="simple"/>
     <roleRef
+      roleURI="http://xbrl.us/Solar/v1.1/2018-02-09/roles/ComponentMaintenanceEvents"
+      xlink:href="solar_all_2018-02-09_r01.xsd#roleType_ComponentMaintenanceEvents"
+      xlink:type="simple"/>
+    <arcroleRef
+      arcroleURI="http://xbrl.org/int/dim/arcrole/all"
+      xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#all"
+      xlink:type="simple"/>
+    <arcroleRef
+      arcroleURI="http://xbrl.org/int/dim/arcrole/domain-member"
+      xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#domain-member"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/Solar/v1.1/2018-02-09/roles/ProjectFinancing"
+      xlink:href="solar_all_2018-02-09_r01.xsd#roleType_ProjectFinancing"
+      xlink:type="simple"/>
+    <roleRef
       roleURI="http://xbrl.us/Solar/v1.1/2018-02-09/roles/System"
       xlink:href="solar_all_2018-02-09_r01.xsd#roleType_System"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/Solar/v1.1/2018-02-09/roles/OperationalEventReport"
+      xlink:href="solar_all_2018-02-09_r01.xsd#roleType_OperationalEventReport"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/Solar/v1.1/2018-02-09/roles/Utility"
+      xlink:href="solar_all_2018-02-09_r01.xsd#roleType_Utility"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/Solar/v1.1/2018-02-09/roles/SystemDeviceListing"
+      xlink:href="solar_all_2018-02-09_r01.xsd#roleType_SystemDeviceListing"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/Solar/v1.1/2018-02-09/roles/SystemProduction"
+      xlink:href="solar_all_2018-02-09_r01.xsd#roleType_SystemProduction"
+      xlink:type="simple"/>
+    <arcroleRef
+      arcroleURI="http://xbrl.org/int/dim/arcrole/hypercube-dimension"
+      xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#hypercube-dimension"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/Solar/v1.1/2018-02-09/roles/MonthlyOperatingReport"
+      xlink:href="solar_all_2018-02-09_r01.xsd#roleType_MonthlyOperatingReport"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/Solar/v1.1/2018-02-09/roles/FinancialPerformance"
+      xlink:href="solar_all_2018-02-09_r01.xsd#roleType_FinancialPerformance"
       xlink:type="simple"/>
     <roleRef
       roleURI="http://xbrl.us/Solar/v1.1/2018-02-09/roles/OperationsandMaintenanceContract"
@@ -134,6 +130,10 @@
     <roleRef
       roleURI="http://xbrl.us/Solar/v1.1/2018-02-09/roles/OperationsManager"
       xlink:href="solar_all_2018-02-09_r01.xsd#roleType_OperationsManager"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/Solar/v1.1/2018-02-09/roles/SystemInstallationType"
+      xlink:href="solar_all_2018-02-09_r01.xsd#roleType_SystemInstallationType"
       xlink:type="simple"/>
     <definitionLink
       xlink:role="http://xbrl.us/Solar/v1.1/2018-02-09/roles/CutSheet"
@@ -16628,7 +16628,7 @@
           xlink:type="arc"/>
     </definitionLink>
     <definitionLink
-      xlink:role="http://xbrl.us/Solar/v1.1/2018-02-09/roles/Portfolio"
+      xlink:role="http://xbrl.us/Solar/v1.1/2018-02-09/roles/AssetManager"
       xlink:type="extended">
         <loc
           xlink:href="solar_2018-02-09_r01.xsd#solar_AssetManagerAbstract"
@@ -16930,7 +16930,7 @@
           xlink:type="arc"/>
     </definitionLink>
     <definitionLink
-      xlink:role="http://xbrl.us/Solar/v1.1/2018-02-09/roles/AssetManager"
+      xlink:role="http://xbrl.us/Solar/v1.1/2018-02-09/roles/Portfolio"
       xlink:type="extended">
         <loc
           xlink:href="solar_2018-02-09_r01.xsd#solar_PortfolioAbstract"
@@ -31885,10 +31885,10 @@
       xlink:role="http://xbrl.us/Solar/v1.1/2018-02-09/roles/OperationsManager"
       xlink:type="extended"/>
     <definitionLink
-      xlink:role="http://xbrl.us/Solar/v1.1/2018-02-09/roles/Portfolio"
+      xlink:role="http://xbrl.us/Solar/v1.1/2018-02-09/roles/AssetManager"
       xlink:type="extended"/>
     <definitionLink
-      xlink:role="http://xbrl.us/Solar/v1.1/2018-02-09/roles/AssetManager"
+      xlink:role="http://xbrl.us/Solar/v1.1/2018-02-09/roles/Portfolio"
       xlink:type="extended"/>
     <definitionLink
       xlink:role="http://xbrl.us/Solar/v1.1/2018-02-09/roles/Sponsor"

@@ -18,7 +18,7 @@
             <link:roleType
               id="roleType_AssetManager"
               roleURI="http://xbrl.us/Solar/v1.1/2018-02-09/roles/AssetManager">
-                <link:definition>100185 - Data - Portfolio</link:definition>
+                <link:definition>100180 - Data - Asset Manager</link:definition>
                 <link:usedOn>link:presentationLink</link:usedOn>
                 <link:usedOn>link:definitionLink</link:usedOn>
             </link:roleType>

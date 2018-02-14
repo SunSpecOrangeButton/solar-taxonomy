@@ -9,21 +9,21 @@
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd
                       http://xbrl.org/2008/generic http://www.xbrl.org/2008/generic-link.xsd">
+    <arcroleRef
+      arcroleURI="http://xbrl.us/arcrole/Composition"
+      xlink:href="../../core/solar-gen-roles-2017-03-31.xsd#composition"
+      xlink:type="simple"/>
     <roleRef
       roleURI="http://xbrl.us/Solar/v1.1/2018-02-09/roles/CutSheet"
       xlink:href="solar-cutsheet_2018-02-09_r01.xsd#roleType_CutSheet"
-      xlink:type="simple"/>
-    <arcroleRef
-      arcroleURI="http://xbrl.us/arcrole/Property"
-      xlink:href="../../core/solar-gen-roles-2017-03-31.xsd#property"
       xlink:type="simple"/>
     <arcroleRef
       arcroleURI="http://xbrl.us/arcrole/Inheritance"
       xlink:href="../../core/solar-gen-roles-2017-03-31.xsd#inheritance"
       xlink:type="simple"/>
     <arcroleRef
-      arcroleURI="http://xbrl.us/arcrole/Composition"
-      xlink:href="../../core/solar-gen-roles-2017-03-31.xsd#composition"
+      arcroleURI="http://xbrl.us/arcrole/Property"
+      xlink:href="../../core/solar-gen-roles-2017-03-31.xsd#property"
       xlink:type="simple"/>
     <generic:link
       xlink:role="http://xbrl.us/Solar/v1.1/2018-02-09/roles/CutSheet"
