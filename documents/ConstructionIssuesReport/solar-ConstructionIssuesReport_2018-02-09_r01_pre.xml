@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Orange Button Taxonomy - ConstructionIssuesReport-->
+<linkbase
+  xmlns="http://www.xbrl.org/2003/linkbase"
+  xmlns:xbrli="http://www.xbrl.org/2003/instance"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+    <roleRef
+      roleURI="http://xbrl.us/Solar/v1.1/2018-02-09/roles/ConstructionIssuesReport"
+      xlink:href="solar-ConstructionIssuesReport_2018-02-09_r01.xsd#roleType_ConstructionIssuesReport"
+      xlink:type="simple"/>
+    <presentationLink
+      xlink:role="http://xbrl.us/Solar/v1.1/2018-02-09/roles/ConstructionIssuesReport"
+      xlink:type="extended">
+        <loc
+          xlink:href="../../core/solar_2018-02-09_r01.xsd#solar_IssuesDuringConstructionAbstract"
+          xlink:label="solar_IssuesDuringConstructionAbstract"
+          xlink:type="locator"/>
+        <loc
+          xlink:href="../../core/solar_2018-02-09_r01.xsd#solar_IssuesDuringConstructionEquipmentIssues"
+          xlink:label="solar_IssuesDuringConstructionEquipmentIssues"
+          xlink:type="locator"/>
+        <presentationArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_IssuesDuringConstructionAbstract"
+          xlink:to="solar_IssuesDuringConstructionEquipmentIssues"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../../core/solar_2018-02-09_r01.xsd#solar_IssuesDuringConstructionOtherTechnicalIssues"
+          xlink:label="solar_IssuesDuringConstructionOtherTechnicalIssues"
+          xlink:type="locator"/>
+        <presentationArc
+          order="2"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_IssuesDuringConstructionAbstract"
+          xlink:to="solar_IssuesDuringConstructionOtherTechnicalIssues"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../../core/solar_2018-02-09_r01.xsd#solar_IssuesDuringConstructionSecurityIssues"
+          xlink:label="solar_IssuesDuringConstructionSecurityIssues"
+          xlink:type="locator"/>
+        <presentationArc
+          order="3"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_IssuesDuringConstructionAbstract"
+          xlink:to="solar_IssuesDuringConstructionSecurityIssues"
+          xlink:type="arc"/>
+    </presentationLink>
+</linkbase>

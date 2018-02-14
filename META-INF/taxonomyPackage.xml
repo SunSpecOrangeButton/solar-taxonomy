@@ -17,17 +17,17 @@
     <tp:entryPoint>
       <tp:name>Full Solar Entry Point including documentation labels.</tp:name>
       <tp:description>This is the  entry point for viewing the entire Orange Button Taxonomy. Documentation labels are included.</tp:description>
-      <tp:entryPointDocument href="../solar_all_2018-02-09_r01.xsd"/>
+      <tp:entryPointDocument href="../core/solar_all_2018-02-09_r01.xsd"/>
     </tp:entryPoint>
     <tp:entryPoint>
       <tp:name>Solar Cut Sheet (DataSheet).</tp:name>
       <tp:description>This is the  entry point for creating a cutsheet. It includes the elements for a product vendor to define their products.</tp:description>
-      <tp:entryPointDocument href="../solar-cutsheet_2018-02-09_r01.xsd"/>
+      <tp:entryPointDocument href="../documents/CutSheet/solar-cutsheet_2018-02-09_r01.xsd"/>
     </tp:entryPoint>
     <tp:entryPoint>
       <tp:name>Solar Device Listing.</tp:name>
       <tp:description>This is the  entry point for creating a detailed listing of the equipment comprising a PV system.</tp:description>
-      <tp:entryPointDocument href="../solar-device-listing_2018-02-09_r01"/>
+      <tp:entryPointDocument href="../data/SystemDeviceListing/solar-SystemDeviceListing_2018-02-09_r01.xsd"/>
     </tp:entryPoint>
  </tp:entryPoints>
 </tp:taxonomyPackage>
