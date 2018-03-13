@@ -1,6 +1,6 @@
 # The Draft Solar Taxonomy 2018
 
-## Review and comment through Monday, March 12, 2018 - [https://xbrl.us/us-taxonomies](https://xbrl.us/us-taxonomies)
+## Review and comment through Thursday, April 5, 2018 - [https://xbrl.us/us-taxonomies](https://xbrl.us/us-taxonomies)
 
 ## The draft 2018 Solar Taxonomy developed by XBRL US and SunSpec Alliance for the Orange Button program.
 
