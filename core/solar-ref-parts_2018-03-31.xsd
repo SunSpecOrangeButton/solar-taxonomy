@@ -1,0 +1,54 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" attributeFormDefault="unqualified"
+  elementFormDefault="qualified" xmlns:link="http://www.xbrl.org/2003/linkbase"
+  xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:solar-part="http://xbrl.us/solar/parts"
+  targetNamespace="http://xbrl.us/solar/parts">
+
+  <xs:annotation>
+    <xs:documentation> This schem defines reference roles and parts </xs:documentation>
+    <xs:appinfo> </xs:appinfo>
+  </xs:annotation>
+
+  <xs:import namespace="http://www.xbrl.org/2003/linkbase"
+    schemaLocation="http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd"/>
+
+  <xs:element id="solar-part_Publisher" name="Publisher" substitutionGroup="link:part" type="xs:token">
+    <xs:annotation>
+      <xs:documentation xml:lang="en"> Publisher </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+
+  <xs:element id="solar-part_Document" name="Document" substitutionGroup="link:part" type="xs:token">
+    <xs:annotation>
+      <xs:documentation xml:lang="en"> Document </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+
+  <xs:element id="solar-part_Element" name="Element" substitutionGroup="link:part" type="xs:token">
+    <xs:annotation>
+      <xs:documentation xml:lang="en"> Element </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+
+  <xs:element id="solar-part_Dimension" name="Dimension" substitutionGroup="link:part"
+    type="xs:token">
+    <xs:annotation>
+      <xs:documentation xml:lang="en"> Dimension </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+
+  <xs:element id="solar-part_Sample" name="Sample" substitutionGroup="link:part"
+    type="xs:token">
+    <xs:annotation>
+      <xs:documentation xml:lang="en">Sample</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  
+  <xs:element id="solar-part_Confidentiality" name="Confidentiality" substitutionGroup="link:part"
+    type="xs:token">
+    <xs:annotation>
+      <xs:documentation xml:lang="en">Confidentiality</xs:documentation>
+    </xs:annotation>
+  </xs:element>  
+
+</xs:schema>
