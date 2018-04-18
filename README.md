@@ -4,7 +4,7 @@ This Taxonomy was developed as part of the U.S. Department of Energy Solar Energ
 
 <a href="https://sunspec.org/sunspec-about/" target="_blank">SunSpec Alliance</a> heads the Orange Button project team that is tasked with establishing an open, easy-to-adopt, solar data architecture, and standards. XBRL US leads the effort to build the financial portion of Orange Button standards, leveraging elements from the U.S. GAAP Taxonomy for public companies, and from existing solar data standards.
 
-See <a href="https://xbrl.us/solar-taxonomy" target="_blank">XBRL US</a>, <a href="https://yeti1.corefiling.com/yeti/resources/yeti-gwt/Yeti.jsp#tax~(id~103*v~149)!net~(a~1653*l~451)!lang~(code~en-us)!rg~(rg~22*p~11)" target="_blank">Taxonomy Viewer</a> and [Authorized Use / Legal Notice](https://xbrl.us/solar_legal).
+See <a href="https://xbrl.us/solar-taxonomy" target="_blank">XBRL US</a> and [Authorized Use / Legal Notice](https://xbrl.us/solar_legal) for details.
 
 The folders and files in the master branch of this repository are [current release version](https://github.com/xbrlus/solar/releases) of the Solar Taxonomy.
 
