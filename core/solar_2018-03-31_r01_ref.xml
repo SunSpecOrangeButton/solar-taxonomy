@@ -18,24 +18,6 @@
       xlink:role="http://www.xbrl.org/2003/role/link"
       xlink:type="extended">
         <loc
-          xlink:href="solar_2018-03-31_r01.xsd#solar_UtilityIdentifier"
-          xlink:label="solar_UtilityIdentifier"
-          xlink:type="locator"/>
-        <referenceArc
-          order="1"
-          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
-          xlink:from="solar_UtilityIdentifier"
-          xlink:to="label_solar_UtilityIdentifier"
-          xlink:type="arc"/>
-        <reference
-          xlink:label="label_solar_UtilityIdentifier"
-          xlink:role="http://xbrl.us/solar/v1.2/2018-03-31/roles/reference/standard"
-          xlink:type="resource">
-            <ref:Publisher>IECRE</ref:Publisher>
-            <solar-part:Element>UtilityconnectID</solar-part:Element>
-            <solar-part:Sample>hjty33@f.c</solar-part:Sample>
-        </reference>
-        <loc
           xlink:href="solar_2018-03-31_r01.xsd#solar_SystemName"
           xlink:label="solar_SystemName"
           xlink:type="locator"/>
@@ -107,6 +89,24 @@
             <ref:Publisher>IECRE</ref:Publisher>
             <solar-part:Element>Utility_connect</solar-part:Element>
             <solar-part:Sample>PG&amp;E</solar-part:Sample>
+        </reference>
+        <loc
+          xlink:href="solar_2018-03-31_r01.xsd#solar_UtilityIdentifier"
+          xlink:label="solar_UtilityIdentifier"
+          xlink:type="locator"/>
+        <referenceArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
+          xlink:from="solar_UtilityIdentifier"
+          xlink:to="label_solar_UtilityIdentifier"
+          xlink:type="arc"/>
+        <reference
+          xlink:label="label_solar_UtilityIdentifier"
+          xlink:role="http://xbrl.us/solar/v1.2/2018-03-31/roles/reference/standard"
+          xlink:type="resource">
+            <ref:Publisher>IECRE</ref:Publisher>
+            <solar-part:Element>UtilityconnectID</solar-part:Element>
+            <solar-part:Sample>hjty33@f.c</solar-part:Sample>
         </reference>
         <loc
           xlink:href="solar_2018-03-31_r01.xsd#solar_MajorDesignModel"
@@ -266,7 +266,7 @@
           xlink:type="resource">
             <ref:Publisher>IECRE</ref:Publisher>
             <solar-part:Element>ModuleIDDesignator</solar-part:Element>
-            <solar-part:Dimension>ProductIdentificationAxis</solar-part:Dimension>
+            <solar-part:Dimension>ProductIdentifierAxis</solar-part:Dimension>
             <solar-part:Sample>SD-NG7</solar-part:Sample>
         </reference>
         <loc
@@ -285,7 +285,7 @@
           xlink:type="resource">
             <ref:Publisher>IECRE</ref:Publisher>
             <solar-part:Element>InverterModelDesignator</solar-part:Element>
-            <solar-part:Dimension>ProductIdentificationAxis</solar-part:Dimension>
+            <solar-part:Dimension>ProductIdentifierAxis</solar-part:Dimension>
         </reference>
         <loc
           xlink:href="solar_2018-03-31_r01.xsd#solar_Model"
@@ -303,7 +303,7 @@
           xlink:type="resource">
             <ref:Publisher>IECRE</ref:Publisher>
             <solar-part:Element>TransformerLVModelDesignator</solar-part:Element>
-            <solar-part:Dimension>ProductIdentificationAxis</solar-part:Dimension>
+            <solar-part:Dimension>ProductIdentifierAxis</solar-part:Dimension>
             <solar-part:Sample>GET480TFE 235</solar-part:Sample>
         </reference>
         <loc
@@ -781,6 +781,23 @@
             <solar-part:Sample>62</solar-part:Sample>
         </reference>
         <loc
+          xlink:href="solar_2018-03-31_r01.xsd#solar_OneYearInPlaneAssumedIrradiation"
+          xlink:label="solar_OneYearInPlaneAssumedIrradiation"
+          xlink:type="locator"/>
+        <referenceArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
+          xlink:from="solar_OneYearInPlaneAssumedIrradiation"
+          xlink:to="label_solar_OneYearInPlaneAssumedIrradiation"
+          xlink:type="arc"/>
+        <reference
+          xlink:label="label_solar_OneYearInPlaneAssumedIrradiation"
+          xlink:role="http://xbrl.us/solar/v1.2/2018-03-31/roles/reference/standard"
+          xlink:type="resource">
+            <ref:Publisher>IECRE</ref:Publisher>
+            <solar-part:Document>61724-1 Ed. 2</solar-part:Document>
+        </reference>
+        <loc
           xlink:href="solar_2018-03-31_r01.xsd#solar_OneYearInPlaneMeasuredIrradiation"
           xlink:label="solar_OneYearInPlaneMeasuredIrradiation"
           xlink:type="locator"/>
@@ -836,37 +853,17 @@
             <solar-part:Document>61724.3 Section 6.8.1</solar-part:Document>
         </reference>
         <loc
-          xlink:href="solar_2018-03-31_r01.xsd#solar_PredictedEnergyAtTheRevenueMeterInstant"
-          xlink:label="solar_PredictedEnergyAtTheRevenueMeterInstant"
+          xlink:href="solar_2018-03-31_r01.xsd#solar_PredictedEnergyAtTheRevenueMeter"
+          xlink:label="solar_PredictedEnergyAtTheRevenueMeter"
           xlink:type="locator"/>
         <referenceArc
           order="1"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
-          xlink:from="solar_PredictedEnergyAtTheRevenueMeterInstant"
-          xlink:to="label_solar_PredictedEnergyAtTheRevenueMeterInstant"
+          xlink:from="solar_PredictedEnergyAtTheRevenueMeter"
+          xlink:to="label_solar_PredictedEnergyAtTheRevenueMeter"
           xlink:type="arc"/>
         <reference
-          xlink:label="label_solar_PredictedEnergyAtTheRevenueMeterInstant"
-          xlink:role="http://xbrl.us/solar/v1.2/2018-03-31/roles/reference/standard"
-          xlink:type="resource">
-            <ref:Publisher>IECRE</ref:Publisher>
-            <solar-part:Document>61724-3</solar-part:Document>
-            <solar-part:Element>Predicted_energy_revenue _meter</solar-part:Element>
-            <solar-part:Dimension>PeriodAxis</solar-part:Dimension>
-            <solar-part:Sample>60000</solar-part:Sample>
-        </reference>
-        <loc
-          xlink:href="solar_2018-03-31_r01.xsd#solar_PredictedEnergyAtTheRevenueMeterDuration"
-          xlink:label="solar_PredictedEnergyAtTheRevenueMeterDuration"
-          xlink:type="locator"/>
-        <referenceArc
-          order="1"
-          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
-          xlink:from="solar_PredictedEnergyAtTheRevenueMeterDuration"
-          xlink:to="label_solar_PredictedEnergyAtTheRevenueMeterDuration"
-          xlink:type="arc"/>
-        <reference
-          xlink:label="label_solar_PredictedEnergyAtTheRevenueMeterDuration"
+          xlink:label="label_solar_PredictedEnergyAtTheRevenueMeter"
           xlink:role="http://xbrl.us/solar/v1.2/2018-03-31/roles/reference/standard"
           xlink:type="resource">
             <ref:Publisher>IECRE</ref:Publisher>
@@ -895,42 +892,22 @@
             <solar-part:Sample>1</solar-part:Sample>
         </reference>
         <loc
-          xlink:href="solar_2018-03-31_r01.xsd#solar_ExpectedEnergyAtTheRevenueMeterDuration"
-          xlink:label="solar_ExpectedEnergyAtTheRevenueMeterDuration"
+          xlink:href="solar_2018-03-31_r01.xsd#solar_ExpectedEnergyAtTheRevenueMeter"
+          xlink:label="solar_ExpectedEnergyAtTheRevenueMeter"
           xlink:type="locator"/>
         <referenceArc
           order="1"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
-          xlink:from="solar_ExpectedEnergyAtTheRevenueMeterDuration"
-          xlink:to="label_solar_ExpectedEnergyAtTheRevenueMeterDuration"
+          xlink:from="solar_ExpectedEnergyAtTheRevenueMeter"
+          xlink:to="label_solar_ExpectedEnergyAtTheRevenueMeter"
           xlink:type="arc"/>
         <reference
-          xlink:label="label_solar_ExpectedEnergyAtTheRevenueMeterDuration"
+          xlink:label="label_solar_ExpectedEnergyAtTheRevenueMeter"
           xlink:role="http://xbrl.us/solar/v1.2/2018-03-31/roles/reference/standard"
           xlink:type="resource">
             <ref:Publisher>IECRE</ref:Publisher>
             <solar-part:Document>61724-3 Section 6.6.7</solar-part:Document>
             <solar-part:Element>Expected_energy_revenue _meter</solar-part:Element>
-            <solar-part:Sample>60000</solar-part:Sample>
-        </reference>
-        <loc
-          xlink:href="solar_2018-03-31_r01.xsd#solar_ExpectedEnergyAtTheRevenueMeterInstant"
-          xlink:label="solar_ExpectedEnergyAtTheRevenueMeterInstant"
-          xlink:type="locator"/>
-        <referenceArc
-          order="1"
-          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
-          xlink:from="solar_ExpectedEnergyAtTheRevenueMeterInstant"
-          xlink:to="label_solar_ExpectedEnergyAtTheRevenueMeterInstant"
-          xlink:type="arc"/>
-        <reference
-          xlink:label="label_solar_ExpectedEnergyAtTheRevenueMeterInstant"
-          xlink:role="http://xbrl.us/solar/v1.2/2018-03-31/roles/reference/standard"
-          xlink:type="resource">
-            <ref:Publisher>IECRE</ref:Publisher>
-            <solar-part:Document>61724-3 Section 6.6.6</solar-part:Document>
-            <solar-part:Element>Expected_energy_revenue _meter</solar-part:Element>
-            <solar-part:Dimension>PeriodAxis</solar-part:Dimension>
             <solar-part:Sample>60000</solar-part:Sample>
         </reference>
         <loc

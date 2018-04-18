@@ -19,6 +19,12 @@
         <xs:documentation>This schema contains core elements for the Solar taxonomy and is a comprehensie list of all roles.</xs:documentation>
         <xs:appinfo>
             <link:roleType
+              id="roleType_UML"
+              roleURI="http://xbrl.us/Solar/v1.2/2018-03-31/roles/UML">
+                <link:definition>100000 - UML</link:definition>
+                <link:usedOn>genlink:link</link:usedOn>
+            </link:roleType>
+            <link:roleType
               id="roleType_Site"
               roleURI="http://xbrl.us/Solar/v1.2/2018-03-31/roles/Site">
                 <link:definition>100100 - Data - Site</link:definition>
@@ -31,7 +37,6 @@
                 <link:definition>100110 - Data - System</link:definition>
                 <link:usedOn>link:presentationLink</link:usedOn>
                 <link:usedOn>link:definitionLink</link:usedOn>
-                <link:usedOn>genlink:link</link:usedOn>
             </link:roleType>
             <link:roleType
               id="roleType_SystemDeviceListing"
@@ -75,7 +80,6 @@
                 <link:definition>100130 - Data - Participant</link:definition>
                 <link:usedOn>link:presentationLink</link:usedOn>
                 <link:usedOn>link:definitionLink</link:usedOn>
-                <link:usedOn>genlink:link</link:usedOn>
             </link:roleType>
             <link:roleType
               id="roleType_Project"
@@ -152,6 +156,13 @@
               id="roleType_ComponentMaintenanceActions"
               roleURI="http://xbrl.us/Solar/v1.2/2018-03-31/roles/ComponentMaintenanceActions">
                 <link:definition>100197 - Data - Operational Performance - Component Maintenance Actions</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_Insurance"
+              roleURI="http://xbrl.us/Solar/v1.2/2018-03-31/roles/Insurance">
+                <link:definition>100198 - Data - Insurance</link:definition>
                 <link:usedOn>link:presentationLink</link:usedOn>
                 <link:usedOn>link:definitionLink</link:usedOn>
             </link:roleType>
@@ -383,18 +394,21 @@
               roleURI="http://xbrl.us/Solar/v1.2/2018-03-31/roles/EnvironmentalAssessmentI">
                 <link:definition>100440 - Documents - Environmental Assessment I</link:definition>
                 <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
             </link:roleType>
             <link:roleType
               id="roleType_EnvironmentalAssessmentII"
               roleURI="http://xbrl.us/Solar/v1.2/2018-03-31/roles/EnvironmentalAssessmentII">
                 <link:definition>100450 - Documents - Environmental Assessment II</link:definition>
                 <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
             </link:roleType>
             <link:roleType
               id="roleType_EnvironmentalImpactReport"
               roleURI="http://xbrl.us/Solar/v1.2/2018-03-31/roles/EnvironmentalImpactReport">
                 <link:definition>100460 - Documents - Environmental Impact Report</link:definition>
                 <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
             </link:roleType>
             <link:roleType
               id="roleType_EquipmentSpecSheets"
@@ -902,30 +916,35 @@
               roleURI="http://xbrl.us/Solar/v1.2/2018-03-31/roles/SiteControlContract">
                 <link:definition>101068 - Documents - Site Control Contract</link:definition>
                 <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
             </link:roleType>
             <link:roleType
               id="roleType_SiteLease"
               roleURI="http://xbrl.us/Solar/v1.2/2018-03-31/roles/SiteLease">
                 <link:definition>101070 - Documents - Site Lease</link:definition>
                 <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
             </link:roleType>
             <link:roleType
               id="roleType_SiteLeaseAssignment"
               roleURI="http://xbrl.us/Solar/v1.2/2018-03-31/roles/SiteLeaseAssignment">
                 <link:definition>101080 - Documents - Site Lease Assignment</link:definition>
                 <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
             </link:roleType>
             <link:roleType
               id="roleType_SiteLeaseMemo"
               roleURI="http://xbrl.us/Solar/v1.2/2018-03-31/roles/SiteLeaseMemo">
                 <link:definition>101090 - Documents - Site Lease Memo</link:definition>
                 <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
             </link:roleType>
             <link:roleType
               id="roleType_SiteLicenseAgreement"
               roleURI="http://xbrl.us/Solar/v1.2/2018-03-31/roles/SiteLicenseAgreement">
                 <link:definition>101100 - Documents - Site License Agreement</link:definition>
                 <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
             </link:roleType>
             <link:roleType
               id="roleType_SubstantialCompletionCertificate"
@@ -982,6 +1001,7 @@
               roleURI="http://xbrl.us/Solar/v1.2/2018-03-31/roles/TitleSurvey">
                 <link:definition>101160 - Documents - Title Survey</link:definition>
                 <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
             </link:roleType>
             <link:roleType
               id="roleType_TransmissionReportandCurtailmentEstimate"
@@ -1019,12 +1039,14 @@
               roleURI="http://xbrl.us/Solar/v1.2/2018-03-31/roles/VegetationManagementAgreement">
                 <link:definition>101215 - Documents - Vegetation Management Agreement</link:definition>
                 <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
             </link:roleType>
             <link:roleType
               id="roleType_WashingAndWasteAgreement"
               roleURI="http://xbrl.us/Solar/v1.2/2018-03-31/roles/WashingAndWasteAgreement">
                 <link:definition>101216 - Documents - Washing And Waste Agreement</link:definition>
                 <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
             </link:roleType>
             <link:roleType
               id="roleType_WiringInstructions"
