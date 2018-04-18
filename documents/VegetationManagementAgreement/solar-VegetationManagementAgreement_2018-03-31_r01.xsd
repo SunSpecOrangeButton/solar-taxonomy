@@ -20,6 +20,7 @@
               roleURI="http://xbrl.us/Solar/v1.2/2018-03-31/roles/VegetationManagementAgreement">
                 <link:definition>101215 - Documents - Vegetation Management Agreement</link:definition>
                 <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
             </link:roleType>
             <link:linkbaseRef
               xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"

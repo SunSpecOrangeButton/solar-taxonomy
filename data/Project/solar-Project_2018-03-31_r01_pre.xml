@@ -1203,24 +1203,12 @@
           xlink:from="solar_LeaseContractForProjectAbstract"
           xlink:to="solar_PaymentServicingLastPaymentDate"
           xlink:type="arc"/>
-        <presentationArc
-          order="23"
-          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_LeaseContractForProjectAbstract"
-          xlink:to="solar_ProjectEarlyBuyOutAmount"
-          xlink:type="arc"/>
-        <presentationArc
-          order="24"
-          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_LeaseContractForProjectAbstract"
-          xlink:to="solar_ProjectEarlyBuyoutDate"
-          xlink:type="arc"/>
         <loc
           xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_PaymentServicingLeaseEscalatorEndDate"
           xlink:label="solar_PaymentServicingLeaseEscalatorEndDate"
           xlink:type="locator"/>
         <presentationArc
-          order="25"
+          order="23"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
           xlink:from="solar_LeaseContractForProjectAbstract"
           xlink:to="solar_PaymentServicingLeaseEscalatorEndDate"
@@ -1230,7 +1218,7 @@
           xlink:label="solar_PaymentServicingLeaseEscalatorStartDate"
           xlink:type="locator"/>
         <presentationArc
-          order="26"
+          order="24"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
           xlink:from="solar_LeaseContractForProjectAbstract"
           xlink:to="solar_PaymentServicingLeaseEscalatorStartDate"
@@ -1240,7 +1228,7 @@
           xlink:label="solar_PaymentServicingLeaseInitialMonthlyPayment"
           xlink:type="locator"/>
         <presentationArc
-          order="27"
+          order="25"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
           xlink:from="solar_LeaseContractForProjectAbstract"
           xlink:to="solar_PaymentServicingLeaseInitialMonthlyPayment"
@@ -1622,11 +1610,21 @@
           xlink:to="solar_PartnershipFlipP99FlipPeriod"
           xlink:type="arc"/>
         <loc
+          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_PartnershipFlipP50FlipDate"
+          xlink:label="solar_PartnershipFlipP50FlipDate"
+          xlink:type="locator"/>
+        <presentationArc
+          order="16"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_PartnershipFlipContractForProjectAbstract"
+          xlink:to="solar_PartnershipFlipP50FlipDate"
+          xlink:type="arc"/>
+        <loc
           xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_PartnershipFlipP50FlipPeriod"
           xlink:label="solar_PartnershipFlipP50FlipPeriod"
           xlink:type="locator"/>
         <presentationArc
-          order="16"
+          order="17"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
           xlink:from="solar_PartnershipFlipContractForProjectAbstract"
           xlink:to="solar_PartnershipFlipP50FlipPeriod"

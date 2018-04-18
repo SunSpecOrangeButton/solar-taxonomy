@@ -18,11 +18,31 @@
           xlink:label="solar_DeveloperPerformanceGuaranteeAbstract"
           xlink:type="locator"/>
         <loc
+          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_DeveloperPortfolioPerformanceGuaranteeDocumentLink"
+          xlink:label="solar_DeveloperPortfolioPerformanceGuaranteeDocumentLink"
+          xlink:type="locator"/>
+        <presentationArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_DeveloperPerformanceGuaranteeAbstract"
+          xlink:to="solar_DeveloperPortfolioPerformanceGuaranteeDocumentLink"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_PreparerOfDeveloperPortfolioPerformanceGuaranteeAgreement"
+          xlink:label="solar_PreparerOfDeveloperPortfolioPerformanceGuaranteeAgreement"
+          xlink:type="locator"/>
+        <presentationArc
+          order="2"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_DeveloperPerformanceGuaranteeAbstract"
+          xlink:to="solar_PreparerOfDeveloperPortfolioPerformanceGuaranteeAgreement"
+          xlink:type="arc"/>
+        <loc
           xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_DeveloperPortfolioPerformanceGuaranteeAbstract"
           xlink:label="solar_DeveloperPortfolioPerformanceGuaranteeAbstract"
           xlink:type="locator"/>
         <presentationArc
-          order="1"
+          order="3"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
           xlink:from="solar_DeveloperPerformanceGuaranteeAbstract"
           xlink:to="solar_DeveloperPortfolioPerformanceGuaranteeAbstract"
@@ -87,10 +107,6 @@
           xlink:from="solar_DeveloperPortfolioPerformanceGuaranteeAbstract"
           xlink:to="solar_DeveloperPortfolioPerformanceType"
           xlink:type="arc"/>
-        <loc
-          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_DeveloperPortfolioPerformanceGuaranteeDocumentLink"
-          xlink:label="solar_DeveloperPortfolioPerformanceGuaranteeDocumentLink"
-          xlink:type="locator"/>
         <presentationArc
           order="7"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
@@ -98,31 +114,11 @@
           xlink:to="solar_DeveloperPortfolioPerformanceGuaranteeDocumentLink"
           xlink:type="arc"/>
         <loc
-          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_PreparerOfDeveloperPortfolioPerformanceGuaranteeAgreement"
-          xlink:label="solar_PreparerOfDeveloperPortfolioPerformanceGuaranteeAgreement"
-          xlink:type="locator"/>
-        <presentationArc
-          order="8"
-          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_DeveloperPortfolioPerformanceGuaranteeAbstract"
-          xlink:to="solar_PreparerOfDeveloperPortfolioPerformanceGuaranteeAgreement"
-          xlink:type="arc"/>
-        <loc
-          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_DocumentIdentifierDeveloperPortfolioPerformanceGuaranteeAgreement"
-          xlink:label="solar_DocumentIdentifierDeveloperPortfolioPerformanceGuaranteeAgreement"
-          xlink:type="locator"/>
-        <presentationArc
-          order="9"
-          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_DeveloperPortfolioPerformanceGuaranteeAbstract"
-          xlink:to="solar_DocumentIdentifierDeveloperPortfolioPerformanceGuaranteeAgreement"
-          xlink:type="arc"/>
-        <loc
           xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_DeveloperProjectPerformanceGuaranteeAbstract"
           xlink:label="solar_DeveloperProjectPerformanceGuaranteeAbstract"
           xlink:type="locator"/>
         <presentationArc
-          order="2"
+          order="4"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
           xlink:from="solar_DeveloperPerformanceGuaranteeAbstract"
           xlink:to="solar_DeveloperProjectPerformanceGuaranteeAbstract"

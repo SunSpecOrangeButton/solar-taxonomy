@@ -7,6 +7,14 @@
   xmlns:xlink="http://www.w3.org/1999/xlink"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+    <arcroleRef
+      arcroleURI="http://xbrl.org/int/dim/arcrole/dimension-domain"
+      xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#dimension-domain"
+      xlink:type="simple"/>
+    <arcroleRef
+      arcroleURI="http://xbrl.org/int/dim/arcrole/all"
+      xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#all"
+      xlink:type="simple"/>
     <roleRef
       roleURI="http://xbrl.us/Solar/v1.2/2018-03-31/roles/MonthlyOperatingReport"
       xlink:href="solar-MonthlyOperatingReport_2018-03-31_r01.xsd#roleType_MonthlyOperatingReport"
@@ -16,20 +24,12 @@
       xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#domain-member"
       xlink:type="simple"/>
     <arcroleRef
-      arcroleURI="http://xbrl.org/int/dim/arcrole/all"
-      xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#all"
-      xlink:type="simple"/>
-    <arcroleRef
       arcroleURI="http://xbrl.org/int/dim/arcrole/dimension-default"
       xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#dimension-default"
       xlink:type="simple"/>
     <arcroleRef
       arcroleURI="http://xbrl.org/int/dim/arcrole/hypercube-dimension"
       xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#hypercube-dimension"
-      xlink:type="simple"/>
-    <arcroleRef
-      arcroleURI="http://xbrl.org/int/dim/arcrole/dimension-domain"
-      xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#dimension-domain"
       xlink:type="simple"/>
     <definitionLink
       xlink:role="http://xbrl.us/Solar/v1.2/2018-03-31/roles/MonthlyOperatingReport"
@@ -239,14 +239,14 @@
           xlink:to="solar_MeasuredEnergy"
           xlink:type="arc"/>
         <loc
-          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_ExpectedEnergyAtTheRevenueMeterDuration"
-          xlink:label="solar_ExpectedEnergyAtTheRevenueMeterDuration"
+          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_ExpectedEnergyAtTheRevenueMeter"
+          xlink:label="solar_ExpectedEnergyAtTheRevenueMeter"
           xlink:type="locator"/>
         <definitionArc
           order="5"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
           xlink:from="solar_MonthlyOperatingReportSummaryAbstract"
-          xlink:to="solar_ExpectedEnergyAtTheRevenueMeterDuration"
+          xlink:to="solar_ExpectedEnergyAtTheRevenueMeter"
           xlink:type="arc"/>
         <loc
           xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_PerformanceRatioNonWeatherCorrected"

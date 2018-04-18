@@ -218,14 +218,14 @@
           xlink:to="solar_MeasuredEnergy"
           xlink:type="arc"/>
         <loc
-          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_ExpectedEnergyAtTheRevenueMeterDuration"
-          xlink:label="solar_ExpectedEnergyAtTheRevenueMeterDuration"
+          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_ExpectedEnergyAtTheRevenueMeter"
+          xlink:label="solar_ExpectedEnergyAtTheRevenueMeter"
           xlink:type="locator"/>
         <presentationArc
           order="5"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
           xlink:from="solar_MonthlyOperatingReportSummaryAbstract"
-          xlink:to="solar_ExpectedEnergyAtTheRevenueMeterDuration"
+          xlink:to="solar_ExpectedEnergyAtTheRevenueMeter"
           xlink:type="arc"/>
         <loc
           xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_PerformanceRatioNonWeatherCorrected"

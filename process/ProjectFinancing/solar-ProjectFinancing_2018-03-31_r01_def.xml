@@ -8,16 +8,16 @@
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
     <arcroleRef
-      arcroleURI="http://xbrl.org/int/dim/arcrole/domain-member"
-      xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#domain-member"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/Solar/v1.2/2018-03-31/roles/ProjectFinancing"
-      xlink:href="solar-ProjectFinancing_2018-03-31_r01.xsd#roleType_ProjectFinancing"
+      arcroleURI="http://xbrl.org/int/dim/arcrole/dimension-domain"
+      xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#dimension-domain"
       xlink:type="simple"/>
     <arcroleRef
       arcroleURI="http://xbrl.org/int/dim/arcrole/all"
       xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#all"
+      xlink:type="simple"/>
+    <arcroleRef
+      arcroleURI="http://xbrl.org/int/dim/arcrole/domain-member"
+      xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#domain-member"
       xlink:type="simple"/>
     <arcroleRef
       arcroleURI="http://xbrl.org/int/dim/arcrole/dimension-default"
@@ -27,9 +27,9 @@
       arcroleURI="http://xbrl.org/int/dim/arcrole/hypercube-dimension"
       xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#hypercube-dimension"
       xlink:type="simple"/>
-    <arcroleRef
-      arcroleURI="http://xbrl.org/int/dim/arcrole/dimension-domain"
-      xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#dimension-domain"
+    <roleRef
+      roleURI="http://xbrl.us/Solar/v1.2/2018-03-31/roles/ProjectFinancing"
+      xlink:href="solar-ProjectFinancing_2018-03-31_r01.xsd#roleType_ProjectFinancing"
       xlink:type="simple"/>
     <definitionLink
       xlink:role="http://xbrl.us/Solar/v1.2/2018-03-31/roles/ProjectFinancing"
@@ -2859,6 +2859,16 @@
           xlink:to="solar_TitleReportLink"
           xlink:type="arc"/>
         <loc
+          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_TitlePolicyIdentifier"
+          xlink:label="solar_TitlePolicyIdentifier"
+          xlink:type="locator"/>
+        <definitionArc
+          order="8"
+          xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
+          xlink:from="solar_TitlePolicyAbstract"
+          xlink:to="solar_TitlePolicyIdentifier"
+          xlink:type="arc"/>
+        <loc
           xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_AmericanLandTitleAssociationSurveyAbstract"
           xlink:label="solar_AmericanLandTitleAssociationSurveyAbstract"
           xlink:type="locator"/>
@@ -3337,11 +3347,21 @@
           xlink:to="solar_SiteIdentifier"
           xlink:type="arc"/>
         <loc
+          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_CulturalResourcePermitAction"
+          xlink:label="solar_CulturalResourcePermitAction"
+          xlink:type="locator"/>
+        <definitionArc
+          order="4"
+          xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
+          xlink:from="solar_CulturalResourcePermitActionLineItems"
+          xlink:to="solar_CulturalResourcePermitAction"
+          xlink:type="arc"/>
+        <loc
           xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_CulturalResourcePermitActionDescription"
           xlink:label="solar_CulturalResourcePermitActionDescription"
           xlink:type="locator"/>
         <definitionArc
-          order="4"
+          order="5"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
           xlink:from="solar_CulturalResourcePermitActionLineItems"
           xlink:to="solar_CulturalResourcePermitActionDescription"
@@ -3766,12 +3786,18 @@
           xlink:from="solar_TitlePolicyExceptionTable"
           xlink:to="solar_TitlePolicyExceptionAxis"
           xlink:type="arc"/>
+        <definitionArc
+          order="2"
+          xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
+          xlink:from="solar_TitlePolicyExceptionDetailsLineItems"
+          xlink:to="solar_TitlePolicyIdentifier"
+          xlink:type="arc"/>
         <loc
           xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_TitlePolicyExceptionDescription"
           xlink:label="solar_TitlePolicyExceptionDescription"
           xlink:type="locator"/>
         <definitionArc
-          order="2"
+          order="3"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
           xlink:from="solar_TitlePolicyExceptionDetailsLineItems"
           xlink:to="solar_TitlePolicyExceptionDescription"
@@ -3824,12 +3850,18 @@
           xlink:from="solar_TitlePolicyExclusionTable"
           xlink:to="solar_TitlePolicyExclusionAxis"
           xlink:type="arc"/>
+        <definitionArc
+          order="2"
+          xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
+          xlink:from="solar_TitlePolicyExclusionDetailsLineItems"
+          xlink:to="solar_TitlePolicyIdentifier"
+          xlink:type="arc"/>
         <loc
           xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_TitlePolicyExclusionDescription"
           xlink:label="solar_TitlePolicyExclusionDescription"
           xlink:type="locator"/>
         <definitionArc
-          order="2"
+          order="3"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
           xlink:from="solar_TitlePolicyExclusionDetailsLineItems"
           xlink:to="solar_TitlePolicyExclusionDescription"
@@ -4650,15 +4682,11 @@
           xlink:from="solar_ParticipantLineItems"
           xlink:to="solar_ParticipantName"
           xlink:type="arc"/>
-        <loc
-          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_ParticipantLegalEntityIdentifier"
-          xlink:label="solar_ParticipantLegalEntityIdentifier"
-          xlink:type="locator"/>
         <definitionArc
           order="3"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
           xlink:from="solar_ParticipantLineItems"
-          xlink:to="solar_ParticipantLegalEntityIdentifier"
+          xlink:to="dei_LegalEntityIdentifier"
           xlink:type="arc"/>
         <loc
           xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_ParticipantParentCompanyLegalEntityIdentifier"
