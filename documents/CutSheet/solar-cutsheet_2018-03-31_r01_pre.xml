@@ -158,11 +158,21 @@
           xlink:to="solar_Model"
           xlink:type="arc"/>
         <loc
+          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_ProductIdentifier"
+          xlink:label="solar_ProductIdentifier"
+          xlink:type="locator"/>
+        <presentationArc
+          order="6"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_ProductIdentifierLineItems"
+          xlink:to="solar_ProductIdentifier"
+          xlink:type="arc"/>
+        <loc
           xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_ProductName"
           xlink:label="solar_ProductName"
           xlink:type="locator"/>
         <presentationArc
-          order="6"
+          order="7"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
           xlink:from="solar_ProductIdentifierLineItems"
           xlink:to="solar_ProductName"
@@ -172,7 +182,7 @@
           xlink:label="solar_CutSheetDocumentLink"
           xlink:type="locator"/>
         <presentationArc
-          order="7"
+          order="8"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
           xlink:from="solar_ProductIdentifierLineItems"
           xlink:to="solar_CutSheetDocumentLink"
@@ -182,7 +192,7 @@
           xlink:label="solar_EquipmentWarrantiesAbstract"
           xlink:type="locator"/>
         <presentationArc
-          order="8"
+          order="9"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
           xlink:from="solar_ProductIdentifierLineItems"
           xlink:to="solar_EquipmentWarrantiesAbstract"
@@ -232,7 +242,7 @@
           xlink:label="solar_ProductIdentifierModuleAbstract"
           xlink:type="locator"/>
         <presentationArc
-          order="9"
+          order="10"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
           xlink:from="solar_ProductIdentifierLineItems"
           xlink:to="solar_ProductIdentifierModuleAbstract"
@@ -558,14 +568,14 @@
           xlink:to="solar_ModuleFrameMaterial"
           xlink:type="arc"/>
         <loc
-          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_ModuleFrontMaterialDesciption"
-          xlink:label="solar_ModuleFrontMaterialDesciption"
+          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_ModuleFrontMaterialDescription"
+          xlink:label="solar_ModuleFrontMaterialDescription"
           xlink:type="locator"/>
         <presentationArc
           order="5"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
           xlink:from="solar_ModuleNameplateAbstract"
-          xlink:to="solar_ModuleFrontMaterialDesciption"
+          xlink:to="solar_ModuleFrontMaterialDescription"
           xlink:type="arc"/>
         <loc
           xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_ModuleJunctionBoxRating"
@@ -782,7 +792,7 @@
           xlink:label="solar_ProductIdentifierOptimizerAbstract"
           xlink:type="locator"/>
         <presentationArc
-          order="10"
+          order="11"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
           xlink:from="solar_ProductIdentifierLineItems"
           xlink:to="solar_ProductIdentifierOptimizerAbstract"
@@ -972,7 +982,7 @@
           xlink:label="solar_ProductIdentifierInverterAbstract"
           xlink:type="locator"/>
         <presentationArc
-          order="11"
+          order="12"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
           xlink:from="solar_ProductIdentifierLineItems"
           xlink:to="solar_ProductIdentifierInverterAbstract"
@@ -1768,7 +1778,7 @@
           xlink:label="solar_ProductIdentifierCombinerAbstract"
           xlink:type="locator"/>
         <presentationArc
-          order="12"
+          order="13"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
           xlink:from="solar_ProductIdentifierLineItems"
           xlink:to="solar_ProductIdentifierCombinerAbstract"
@@ -1788,7 +1798,7 @@
           xlink:label="solar_ProductIdentifierMeterAbstract"
           xlink:type="locator"/>
         <presentationArc
-          order="13"
+          order="14"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
           xlink:from="solar_ProductIdentifierLineItems"
           xlink:to="solar_ProductIdentifierMeterAbstract"
@@ -2058,7 +2068,7 @@
           xlink:label="solar_ProductIdentifierMonitoringSolutionAbstract"
           xlink:type="locator"/>
         <presentationArc
-          order="14"
+          order="15"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
           xlink:from="solar_ProductIdentifierLineItems"
           xlink:to="solar_ProductIdentifierMonitoringSolutionAbstract"
@@ -2078,7 +2088,7 @@
           xlink:label="solar_ProductIdentifierLoggerAbstract"
           xlink:type="locator"/>
         <presentationArc
-          order="15"
+          order="16"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
           xlink:from="solar_ProductIdentifierLineItems"
           xlink:to="solar_ProductIdentifierLoggerAbstract"
@@ -2098,7 +2108,7 @@
           xlink:label="solar_ProductIdentifierTrackerAbstract"
           xlink:type="locator"/>
         <presentationArc
-          order="16"
+          order="17"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
           xlink:from="solar_ProductIdentifierLineItems"
           xlink:to="solar_ProductIdentifierTrackerAbstract"
@@ -2134,21 +2144,31 @@
           xlink:to="solar_TrackerStyle"
           xlink:type="arc"/>
         <loc
-          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_OrientationTrackerRotationLimit"
-          xlink:label="solar_OrientationTrackerRotationLimit"
+          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_OrientationMaximumTrackerRotationLimit"
+          xlink:label="solar_OrientationMaximumTrackerRotationLimit"
           xlink:type="locator"/>
         <presentationArc
           order="4"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
           xlink:from="solar_ProductIdentifierTrackerAbstract"
-          xlink:to="solar_OrientationTrackerRotationLimit"
+          xlink:to="solar_OrientationMaximumTrackerRotationLimit"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_OrientationMinimumTrackerRotationLimit"
+          xlink:label="solar_OrientationMinimumTrackerRotationLimit"
+          xlink:type="locator"/>
+        <presentationArc
+          order="5"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_ProductIdentifierTrackerAbstract"
+          xlink:to="solar_OrientationMinimumTrackerRotationLimit"
           xlink:type="arc"/>
         <loc
           xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_ProductIdentifierTransformerAbstract"
           xlink:label="solar_ProductIdentifierTransformerAbstract"
           xlink:type="locator"/>
         <presentationArc
-          order="17"
+          order="18"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
           xlink:from="solar_ProductIdentifierLineItems"
           xlink:to="solar_ProductIdentifierTransformerAbstract"
@@ -2178,7 +2198,7 @@
           xlink:label="solar_ProductIdentifierBatteryAbstract"
           xlink:type="locator"/>
         <presentationArc
-          order="18"
+          order="19"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
           xlink:from="solar_ProductIdentifierLineItems"
           xlink:to="solar_ProductIdentifierBatteryAbstract"
@@ -2208,7 +2228,7 @@
           xlink:label="solar_ProductIdentifierBatteryManagementAbstract"
           xlink:type="locator"/>
         <presentationArc
-          order="19"
+          order="20"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
           xlink:from="solar_ProductIdentifierLineItems"
           xlink:to="solar_ProductIdentifierBatteryManagementAbstract"
@@ -2228,7 +2248,7 @@
           xlink:label="solar_ProductIdentifierMetStationAbstract"
           xlink:type="locator"/>
         <presentationArc
-          order="20"
+          order="21"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
           xlink:from="solar_ProductIdentifierLineItems"
           xlink:to="solar_ProductIdentifierMetStationAbstract"

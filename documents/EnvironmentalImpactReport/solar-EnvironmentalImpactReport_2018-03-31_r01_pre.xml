@@ -18,13 +18,43 @@
           xlink:label="solar_EnvironmentalImpactReportAbstract"
           xlink:type="locator"/>
         <loc
+          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_SiteIdentifierTable"
+          xlink:label="solar_SiteIdentifierTable"
+          xlink:type="locator"/>
+        <presentationArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_EnvironmentalImpactReportAbstract"
+          xlink:to="solar_SiteIdentifierTable"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_SiteIdentifierAxis"
+          xlink:label="solar_SiteIdentifierAxis"
+          xlink:type="locator"/>
+        <presentationArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_SiteIdentifierTable"
+          xlink:to="solar_SiteIdentifierAxis"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_EnvironmentalImpactReportLineItems"
+          xlink:label="solar_EnvironmentalImpactReportLineItems"
+          xlink:type="locator"/>
+        <presentationArc
+          order="2"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_SiteIdentifierTable"
+          xlink:to="solar_EnvironmentalImpactReportLineItems"
+          xlink:type="arc"/>
+        <loc
           xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_EnvironmentalBiologicalResources"
           xlink:label="solar_EnvironmentalBiologicalResources"
           xlink:type="locator"/>
         <presentationArc
           order="1"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_EnvironmentalImpactReportAbstract"
+          xlink:from="solar_EnvironmentalImpactReportLineItems"
           xlink:to="solar_EnvironmentalBiologicalResources"
           xlink:type="arc"/>
         <loc
@@ -34,7 +64,7 @@
         <presentationArc
           order="2"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_EnvironmentalImpactReportAbstract"
+          xlink:from="solar_EnvironmentalImpactReportLineItems"
           xlink:to="solar_EnvironmentalGeneralEnvironmentalImpact"
           xlink:type="arc"/>
         <loc
@@ -44,7 +74,7 @@
         <presentationArc
           order="3"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_EnvironmentalImpactReportAbstract"
+          xlink:from="solar_EnvironmentalImpactReportLineItems"
           xlink:to="solar_EnvironmentalSiteAssessment"
           xlink:type="arc"/>
         <loc
@@ -54,7 +84,7 @@
         <presentationArc
           order="4"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_EnvironmentalImpactReportAbstract"
+          xlink:from="solar_EnvironmentalImpactReportLineItems"
           xlink:to="solar_EnvironmentalImpactReportAvailabilityOfDocument"
           xlink:type="arc"/>
         <loc
@@ -64,7 +94,7 @@
         <presentationArc
           order="5"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_EnvironmentalImpactReportAbstract"
+          xlink:from="solar_EnvironmentalImpactReportLineItems"
           xlink:to="solar_EnvironmentalImpactReportAvailabilityOfFinalDocument"
           xlink:type="arc"/>
         <loc
@@ -74,7 +104,7 @@
         <presentationArc
           order="6"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_EnvironmentalImpactReportAbstract"
+          xlink:from="solar_EnvironmentalImpactReportLineItems"
           xlink:to="solar_EnvironmentalImpactReportAvailabilityOfDocumentExceptions"
           xlink:type="arc"/>
         <loc
@@ -84,7 +114,7 @@
         <presentationArc
           order="7"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_EnvironmentalImpactReportAbstract"
+          xlink:from="solar_EnvironmentalImpactReportLineItems"
           xlink:to="solar_EnvironmentalImpactReportExceptionDescription"
           xlink:type="arc"/>
         <loc
@@ -94,7 +124,7 @@
         <presentationArc
           order="8"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_EnvironmentalImpactReportAbstract"
+          xlink:from="solar_EnvironmentalImpactReportLineItems"
           xlink:to="solar_EnvironmentalImpactReportCounterparties"
           xlink:type="arc"/>
         <loc
@@ -104,7 +134,7 @@
         <presentationArc
           order="9"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_EnvironmentalImpactReportAbstract"
+          xlink:from="solar_EnvironmentalImpactReportLineItems"
           xlink:to="solar_EnvironmentalImpactReportEffectiveDate"
           xlink:type="arc"/>
         <loc
@@ -114,7 +144,7 @@
         <presentationArc
           order="10"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_EnvironmentalImpactReportAbstract"
+          xlink:from="solar_EnvironmentalImpactReportLineItems"
           xlink:to="solar_EnvironmentalImpactReportExpirationDate"
           xlink:type="arc"/>
         <loc
@@ -124,7 +154,7 @@
         <presentationArc
           order="11"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_EnvironmentalImpactReportAbstract"
+          xlink:from="solar_EnvironmentalImpactReportLineItems"
           xlink:to="solar_EnvironmentalImpactReportDocumentLink"
           xlink:type="arc"/>
         <loc
@@ -134,7 +164,7 @@
         <presentationArc
           order="12"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_EnvironmentalImpactReportAbstract"
+          xlink:from="solar_EnvironmentalImpactReportLineItems"
           xlink:to="solar_PreparerOfEnvironmentalImpactReport"
           xlink:type="arc"/>
         <loc
@@ -144,7 +174,7 @@
         <presentationArc
           order="13"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_EnvironmentalImpactReportAbstract"
+          xlink:from="solar_EnvironmentalImpactReportLineItems"
           xlink:to="solar_DocumentIdentifierEnvironmentalImpactReport"
           xlink:type="arc"/>
     </presentationLink>

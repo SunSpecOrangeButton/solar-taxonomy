@@ -4,7 +4,6 @@
   attributeFormDefault="unqualified"
   elementFormDefault="qualified"
   targetNamespace="http://xbrl.us/Solar/v1.2/2018-03-31/solar-Participant"
-  xmlns:genlink="http://xbrl.org/2008/generic"
   xmlns:link="http://www.xbrl.org/2003/linkbase"
   xmlns:nonnum="http://www.xbrl.org/dtr/type/non-numeric"
   xmlns:solar="http://xbrl.us/Solar/v1.2/2018-03-31/solar"
@@ -22,7 +21,6 @@
                 <link:definition>100130 - Data - Participant</link:definition>
                 <link:usedOn>link:presentationLink</link:usedOn>
                 <link:usedOn>link:definitionLink</link:usedOn>
-                <link:usedOn>genlink:link</link:usedOn>
             </link:roleType>
             <link:linkbaseRef
               xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"
