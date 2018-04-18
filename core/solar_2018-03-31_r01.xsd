@@ -1287,7 +1287,7 @@
       nillable="true"
       solar:periodIndependent="0"
       substitutionGroup="xbrli:item"
-      type="xbrli:stringItemType"
+      type="dei:legalEntityIdentifierItemType"
       xbrli:periodType="duration"/>
     <xs:element
       abstract="true"
@@ -1678,14 +1678,6 @@
       solar:periodIndependent="0"
       substitutionGroup="xbrli:item"
       type="xbrli:durationItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      id="solar_Azimuth"
-      name="Azimuth"
-      nillable="true"
-      solar:periodIndependent="0"
-      substitutionGroup="xbrli:item"
-      type="num-us:planeAngleItemType"
       xbrli:periodType="duration"/>
     <xs:element
       id="solar_BackUpOperationsAndMaintenanceMonthlyFee"
@@ -3576,15 +3568,6 @@
       type="xbrli:stringItemType"
       xbrli:periodType="duration"/>
     <xs:element
-      abstract="true"
-      id="solar_ContinuityOfOperationsAgreementAbstract"
-      name="ContinuityOfOperationsAgreementAbstract"
-      nillable="true"
-      solar:periodIndependent="0"
-      substitutionGroup="xbrli:item"
-      type="xbrli:stringItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
       id="solar_ContinuityOfOperationsAgreementAvailabilityOfDocument"
       name="ContinuityOfOperationsAgreementAvailabilityOfDocument"
       nillable="true"
@@ -4716,6 +4699,14 @@
       type="xbrli:stringItemType"
       xbrli:periodType="duration"/>
     <xs:element
+      id="solar_CulturalResourcePermitAction"
+      name="CulturalResourcePermitAction"
+      nillable="true"
+      solar:periodIndependent="0"
+      substitutionGroup="xbrli:item"
+      type="xbrli:stringItemType"
+      xbrli:periodType="duration"/>
+    <xs:element
       abstract="true"
       id="solar_CulturalResourcePermitActionAxis"
       name="CulturalResourcePermitActionAxis"
@@ -5507,7 +5498,7 @@
       nillable="true"
       solar:periodIndependent="0"
       substitutionGroup="xbrli:item"
-      type="xbrli:stringItemType"
+      type="dei:legalEntityIdentifierItemType"
       xbrli:periodType="duration"/>
     <xs:element
       abstract="true"
@@ -6116,14 +6107,6 @@
       type="xbrli:stringItemType"
       xbrli:periodType="duration"/>
     <xs:element
-      id="solar_DocumentIdentifierDeveloperPortfolioPerformanceGuaranteeAgreement"
-      name="DocumentIdentifierDeveloperPortfolioPerformanceGuaranteeAgreement"
-      nillable="true"
-      solar:periodIndependent="0"
-      substitutionGroup="xbrli:item"
-      type="xbrli:stringItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
       id="solar_DocumentIdentifierDeveloperProjectPerformanceGuaranteeAgreement"
       name="DocumentIdentifierDeveloperProjectPerformanceGuaranteeAgreement"
       nillable="true"
@@ -6155,14 +6138,6 @@
       type="xbrli:stringItemType"
       xbrli:periodType="duration"/>
     <xs:element
-      id="solar_DocumentIdentifierEngineeringProcurementAndConstructionAgreement"
-      name="DocumentIdentifierEngineeringProcurementAndConstructionAgreement"
-      nillable="true"
-      solar:periodIndependent="0"
-      substitutionGroup="xbrli:item"
-      type="xbrli:stringItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
       id="solar_DocumentIdentifierEngineeringProcurementAndConstructionContract"
       name="DocumentIdentifierEngineeringProcurementAndConstructionContract"
       nillable="true"
@@ -6173,6 +6148,14 @@
     <xs:element
       id="solar_DocumentIdentifierEngineeringProcurementandConstructionAgreement"
       name="DocumentIdentifierEngineeringProcurementandConstructionAgreement"
+      nillable="true"
+      solar:periodIndependent="0"
+      substitutionGroup="xbrli:item"
+      type="xbrli:stringItemType"
+      xbrli:periodType="duration"/>
+    <xs:element
+      id="solar_DocumentIdentifierEngineeringServicesChecklistReport"
+      name="DocumentIdentifierEngineeringServicesChecklistReport"
       nillable="true"
       solar:periodIndependent="0"
       substitutionGroup="xbrli:item"
@@ -8374,6 +8357,15 @@
       type="xbrli:dateItemType"
       xbrli:periodType="duration"/>
     <xs:element
+      abstract="true"
+      id="solar_EnvironmentalImpactReportLineItems"
+      name="EnvironmentalImpactReportLineItems"
+      nillable="true"
+      solar:periodIndependent="0"
+      substitutionGroup="xbrli:item"
+      type="xbrli:stringItemType"
+      xbrli:periodType="duration"/>
+    <xs:element
       id="solar_EnvironmentalSiteAssessment"
       name="EnvironmentalSiteAssessment"
       nillable="true"
@@ -8563,6 +8555,15 @@
       type="xbrli:dateItemType"
       xbrli:periodType="duration"/>
     <xs:element
+      abstract="true"
+      id="solar_EnvironmentalSiteAssessmentIILineItems"
+      name="EnvironmentalSiteAssessmentIILineItems"
+      nillable="true"
+      solar:periodIndependent="0"
+      substitutionGroup="xbrli:item"
+      type="xbrli:stringItemType"
+      xbrli:periodType="duration"/>
+    <xs:element
       id="solar_EnvironmentalSiteAssessmentIIRecognizedEnvironmentalCondition"
       name="EnvironmentalSiteAssessmentIIRecognizedEnvironmentalCondition"
       nillable="true"
@@ -8573,6 +8574,15 @@
     <xs:element
       id="solar_EnvironmentalSiteAssessmentIIReportAuthor"
       name="EnvironmentalSiteAssessmentIIReportAuthor"
+      nillable="true"
+      solar:periodIndependent="0"
+      substitutionGroup="xbrli:item"
+      type="xbrli:stringItemType"
+      xbrli:periodType="duration"/>
+    <xs:element
+      abstract="true"
+      id="solar_EnvironmentalSiteAssessmentILineItems"
+      name="EnvironmentalSiteAssessmentILineItems"
       nillable="true"
       solar:periodIndependent="0"
       substitutionGroup="xbrli:item"
@@ -9114,46 +9124,6 @@
       type="xbrli:stringItemType"
       xbrli:periodType="duration"/>
     <xs:element
-      id="solar_EstimatedEnergyAtP50"
-      name="EstimatedEnergyAtP50"
-      nillable="true"
-      solar:periodIndependent="0"
-      substitutionGroup="xbrli:item"
-      type="num:energyItemType"
-      xbrli:periodType="instant"/>
-    <xs:element
-      id="solar_EstimatedEnergyAtP75"
-      name="EstimatedEnergyAtP75"
-      nillable="true"
-      solar:periodIndependent="0"
-      substitutionGroup="xbrli:item"
-      type="num:energyItemType"
-      xbrli:periodType="instant"/>
-    <xs:element
-      id="solar_EstimatedEnergyAtP90"
-      name="EstimatedEnergyAtP90"
-      nillable="true"
-      solar:periodIndependent="0"
-      substitutionGroup="xbrli:item"
-      type="num:energyItemType"
-      xbrli:periodType="instant"/>
-    <xs:element
-      id="solar_EstimatedEnergyAtP95"
-      name="EstimatedEnergyAtP95"
-      nillable="true"
-      solar:periodIndependent="0"
-      substitutionGroup="xbrli:item"
-      type="num:energyItemType"
-      xbrli:periodType="instant"/>
-    <xs:element
-      id="solar_EstimatedEnergyAtP99"
-      name="EstimatedEnergyAtP99"
-      nillable="true"
-      solar:periodIndependent="0"
-      substitutionGroup="xbrli:item"
-      type="num:energyItemType"
-      xbrli:periodType="instant"/>
-    <xs:element
       id="solar_EstimatedSystemDegradationRate"
       name="EstimatedSystemDegradationRate"
       nillable="true"
@@ -9309,6 +9279,46 @@
       type="num:energyItemType"
       xbrli:periodType="instant"/>
     <xs:element
+      id="solar_ExpectedEnergyAtP50"
+      name="ExpectedEnergyAtP50"
+      nillable="true"
+      solar:periodIndependent="0"
+      substitutionGroup="xbrli:item"
+      type="num:energyItemType"
+      xbrli:periodType="instant"/>
+    <xs:element
+      id="solar_ExpectedEnergyAtP75"
+      name="ExpectedEnergyAtP75"
+      nillable="true"
+      solar:periodIndependent="0"
+      substitutionGroup="xbrli:item"
+      type="num:energyItemType"
+      xbrli:periodType="instant"/>
+    <xs:element
+      id="solar_ExpectedEnergyAtP90"
+      name="ExpectedEnergyAtP90"
+      nillable="true"
+      solar:periodIndependent="0"
+      substitutionGroup="xbrli:item"
+      type="num:energyItemType"
+      xbrli:periodType="instant"/>
+    <xs:element
+      id="solar_ExpectedEnergyAtP95"
+      name="ExpectedEnergyAtP95"
+      nillable="true"
+      solar:periodIndependent="0"
+      substitutionGroup="xbrli:item"
+      type="num:energyItemType"
+      xbrli:periodType="instant"/>
+    <xs:element
+      id="solar_ExpectedEnergyAtP99"
+      name="ExpectedEnergyAtP99"
+      nillable="true"
+      solar:periodIndependent="0"
+      substitutionGroup="xbrli:item"
+      type="num:energyItemType"
+      xbrli:periodType="instant"/>
+    <xs:element
       id="solar_ExpectedEnergyAtRevenueMeterInceptionToDate"
       name="ExpectedEnergyAtRevenueMeterInceptionToDate"
       nillable="true"
@@ -9317,21 +9327,13 @@
       type="num:energyItemType"
       xbrli:periodType="instant"/>
     <xs:element
-      id="solar_ExpectedEnergyAtTheRevenueMeterDuration"
-      name="ExpectedEnergyAtTheRevenueMeterDuration"
+      id="solar_ExpectedEnergyAtTheRevenueMeter"
+      name="ExpectedEnergyAtTheRevenueMeter"
       nillable="true"
       solar:periodIndependent="0"
       substitutionGroup="xbrli:item"
       type="num:energyItemType"
       xbrli:periodType="duration"/>
-    <xs:element
-      id="solar_ExpectedEnergyAtTheRevenueMeterInstant"
-      name="ExpectedEnergyAtTheRevenueMeterInstant"
-      nillable="true"
-      solar:periodIndependent="0"
-      substitutionGroup="xbrli:item"
-      type="num:energyItemType"
-      xbrli:periodType="instant"/>
     <xs:element
       id="solar_ExpectedEnergyAtUnavailableTimes"
       name="ExpectedEnergyAtUnavailableTimes"
@@ -10563,8 +10565,7 @@
     <xs:element
       id="solar_FundIdentifier"
       name="FundIdentifier"
-      nillable="true"
-      solar:periodIndependent="0"
+      solar:periodIndependent="true"
       substitutionGroup="xbrli:item"
       type="xbrli:stringItemType"
       xbrli:periodType="duration"/>
@@ -12567,6 +12568,14 @@
       type="xbrli:stringItemType"
       xbrli:periodType="duration"/>
     <xs:element
+      abstract="true"
+      id="solar_InsuranceAbstract"
+      name="InsuranceAbstract"
+      nillable="true"
+      substitutionGroup="xbrli:item"
+      type="xbrli:stringItemType"
+      xbrli:periodType="duration"/>
+    <xs:element
       id="solar_InsuranceAmountOfCoverage"
       name="InsuranceAmountOfCoverage"
       nillable="true"
@@ -12719,7 +12728,7 @@
       id="solar_InsuranceDomain"
       name="InsuranceDomain"
       nillable="true"
-      type="solar-types:insuranceItemType"
+      type="xs:token"
       xbrli:periodType="duration"/>
     <xs:element
       id="solar_InsuranceEffectiveDate"
@@ -12943,6 +12952,13 @@
       solar:periodIndependent="0"
       substitutionGroup="xbrli:item"
       type="xbrli:stringItemType"
+      xbrli:periodType="duration"/>
+    <xs:element
+      id="solar_InsuranceType"
+      name="InsuranceType"
+      nillable="true"
+      substitutionGroup="xbrli:item"
+      type="solar-types:insuranceItemType"
       xbrli:periodType="duration"/>
     <xs:element
       abstract="true"
@@ -17344,8 +17360,8 @@
       type="xbrli:stringItemType"
       xbrli:periodType="duration"/>
     <xs:element
-      id="solar_ModuleFrontMaterialDesciption"
-      name="ModuleFrontMaterialDesciption"
+      id="solar_ModuleFrontMaterialDescription"
+      name="ModuleFrontMaterialDescription"
       nillable="true"
       solar:periodIndependent="true"
       substitutionGroup="xbrli:item"
@@ -19997,7 +20013,7 @@
       nillable="true"
       solar:periodIndependent="0"
       substitutionGroup="xbrli:item"
-      type="xbrli:stringItemType"
+      type="dei:legalEntityIdentifierItemType"
       xbrli:periodType="duration"/>
     <xs:element
       abstract="true"
@@ -20571,6 +20587,22 @@
       type="num:percentItemType"
       xbrli:periodType="instant"/>
     <xs:element
+      id="solar_OrientationMaximumTrackerRotationLimit"
+      name="OrientationMaximumTrackerRotationLimit"
+      nillable="true"
+      solar:periodIndependent="true"
+      substitutionGroup="xbrli:item"
+      type="num-us:planeAngleItemType"
+      xbrli:periodType="duration"/>
+    <xs:element
+      id="solar_OrientationMinimumTrackerRotationLimit"
+      name="OrientationMinimumTrackerRotationLimit"
+      nillable="true"
+      solar:periodIndependent="true"
+      substitutionGroup="xbrli:item"
+      type="num-us:planeAngleItemType"
+      xbrli:periodType="duration"/>
+    <xs:element
       id="solar_OrientationTilt"
       name="OrientationTilt"
       nillable="true"
@@ -20578,14 +20610,6 @@
       substitutionGroup="xbrli:item"
       type="num-us:planeAngleItemType"
       xbrli:periodType="instant"/>
-    <xs:element
-      id="solar_OrientationTrackerRotationLimit"
-      name="OrientationTrackerRotationLimit"
-      nillable="true"
-      solar:periodIndependent="true"
-      substitutionGroup="xbrli:item"
-      type="num-us:planeAngleItemType"
-      xbrli:periodType="duration"/>
     <xs:element
       id="solar_OtherAdministrativeFeesPerWatt"
       name="OtherAdministrativeFeesPerWatt"
@@ -20803,8 +20827,7 @@
     <xs:element
       id="solar_PVSystemIdentifier"
       name="PVSystemIdentifier"
-      nillable="true"
-      solar:periodIndependent="0"
+      solar:periodIndependent="true"
       substitutionGroup="xbrli:item"
       type="xbrli:stringItemType"
       xbrli:periodType="duration"/>
@@ -21162,7 +21185,7 @@
       name="ParticipantIdentificationDomain"
       nillable="true"
       solar:periodIndependent="0"
-      type="solar-types:participantItemType"
+      type="xs:token"
       xbrli:periodType="duration"/>
     <xs:element
       abstract="true"
@@ -21270,14 +21293,6 @@
       type="xbrli:stringItemType"
       xbrli:periodType="duration"/>
     <xs:element
-      id="solar_ParticipantLegalEntityIdentifier"
-      name="ParticipantLegalEntityIdentifier"
-      nillable="true"
-      solar:periodIndependent="0"
-      substitutionGroup="xbrli:item"
-      type="xbrli:stringItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
       abstract="true"
       id="solar_ParticipantLineItems"
       name="ParticipantLineItems"
@@ -21348,7 +21363,7 @@
       nillable="true"
       solar:periodIndependent="0"
       substitutionGroup="xbrli:item"
-      type="xbrli:stringItemType"
+      type="dei:legalEntityIdentifierItemType"
       xbrli:periodType="duration"/>
     <xs:element
       id="solar_ParticipantPhoneNumber"
@@ -21506,13 +21521,21 @@
       type="xbrli:dateItemType"
       xbrli:periodType="duration"/>
     <xs:element
+      id="solar_PartnershipFlipP50FlipDate"
+      name="PartnershipFlipP50FlipDate"
+      nillable="true"
+      solar:periodIndependent="0"
+      substitutionGroup="xbrli:item"
+      type="xbrli:dateItemType"
+      xbrli:periodType="duration"/>
+    <xs:element
       id="solar_PartnershipFlipP50FlipPeriod"
       name="PartnershipFlipP50FlipPeriod"
       nillable="true"
       solar:periodIndependent="0"
       substitutionGroup="xbrli:item"
       type="xbrli:durationItemType"
-      xbrli:periodType="duration"/>
+      xbrli:periodType="instant"/>
     <xs:element
       id="solar_PartnershipFlipP75FlipDate"
       name="PartnershipFlipP75FlipDate"
@@ -21527,7 +21550,7 @@
       nillable="true"
       solar:periodIndependent="0"
       substitutionGroup="xbrli:item"
-      type="xbrli:integerItemType"
+      type="xbrli:durationItemType"
       xbrli:periodType="instant"/>
     <xs:element
       id="solar_PartnershipFlipP90FlipDate"
@@ -21543,7 +21566,7 @@
       nillable="true"
       solar:periodIndependent="0"
       substitutionGroup="xbrli:item"
-      type="xbrli:integerItemType"
+      type="xbrli:durationItemType"
       xbrli:periodType="instant"/>
     <xs:element
       id="solar_PartnershipFlipP95FlipDate"
@@ -21559,7 +21582,7 @@
       nillable="true"
       solar:periodIndependent="0"
       substitutionGroup="xbrli:item"
-      type="xbrli:integerItemType"
+      type="xbrli:durationItemType"
       xbrli:periodType="instant"/>
     <xs:element
       id="solar_PartnershipFlipP99FlipDate"
@@ -21575,7 +21598,7 @@
       nillable="true"
       solar:periodIndependent="0"
       substitutionGroup="xbrli:item"
-      type="xbrli:integerItemType"
+      type="xbrli:durationItemType"
       xbrli:periodType="instant"/>
     <xs:element
       id="solar_PartnershipFlipTermOfContract"
@@ -23189,21 +23212,13 @@
       type="xbrli:stringItemType"
       xbrli:periodType="duration"/>
     <xs:element
-      id="solar_PredictedEnergyAtTheRevenueMeterDuration"
-      name="PredictedEnergyAtTheRevenueMeterDuration"
+      id="solar_PredictedEnergyAtTheRevenueMeter"
+      name="PredictedEnergyAtTheRevenueMeter"
       nillable="true"
       solar:periodIndependent="0"
       substitutionGroup="xbrli:item"
       type="num:energyItemType"
       xbrli:periodType="duration"/>
-    <xs:element
-      id="solar_PredictedEnergyAtTheRevenueMeterInstant"
-      name="PredictedEnergyAtTheRevenueMeterInstant"
-      nillable="true"
-      solar:periodIndependent="0"
-      substitutionGroup="xbrli:item"
-      type="num:energyItemType"
-      xbrli:periodType="instant"/>
     <xs:element
       id="solar_PredictedEnergyAvailabilityEstimateRatio"
       name="PredictedEnergyAvailabilityEstimateRatio"
@@ -23220,6 +23235,14 @@
       substitutionGroup="xbrli:item"
       type="num:energyItemType"
       xbrli:periodType="instant"/>
+    <xs:element
+      id="solar_PreparerOFEngineeringServicesChecklistReport"
+      name="PreparerOFEngineeringServicesChecklistReport"
+      nillable="true"
+      solar:periodIndependent="0"
+      substitutionGroup="xbrli:item"
+      type="xbrli:stringItemType"
+      xbrli:periodType="duration"/>
     <xs:element
       id="solar_PreparerOfAdvisorInvoices"
       name="PreparerOfAdvisorInvoices"
@@ -24807,6 +24830,13 @@
       type="xbrli:dateItemType"
       xbrli:periodType="duration"/>
     <xs:element
+      id="solar_ProductIdentifier"
+      name="ProductIdentifier"
+      solar:periodIndependent="true"
+      substitutionGroup="xbrli:item"
+      type="xbrli:stringItemType"
+      xbrli:periodType="duration"/>
+    <xs:element
       abstract="true"
       id="solar_ProductIdentifierAbstract"
       name="ProductIdentifierAbstract"
@@ -25443,8 +25473,7 @@
     <xs:element
       id="solar_ProjectIdentifier"
       name="ProjectIdentifier"
-      nillable="true"
-      solar:periodIndependent="0"
+      solar:periodIndependent="true"
       substitutionGroup="xbrli:item"
       type="xbrli:stringItemType"
       xbrli:periodType="duration"/>
@@ -25907,22 +25936,6 @@
       nillable="true"
       substitutionGroup="xbrli:item"
       type="us-types:perUnitItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      id="solar_RackAzimuth"
-      name="RackAzimuth"
-      nillable="true"
-      solar:periodIndependent="0"
-      substitutionGroup="xbrli:item"
-      type="num-us:planeAngleItemType"
-      xbrli:periodType="duration"/>
-    <xs:element
-      id="solar_RackTilt"
-      name="RackTilt"
-      nillable="true"
-      solar:periodIndependent="0"
-      substitutionGroup="xbrli:item"
-      type="num-us:planeAngleItemType"
       xbrli:periodType="duration"/>
     <xs:element
       id="solar_RatedPowerPeakAC"
@@ -27161,6 +27174,14 @@
       type="xbrli:stringItemType"
       xbrli:periodType="duration"/>
     <xs:element
+      abstract="true"
+      id="solar_SCADASystemMember"
+      name="SCADASystemMember"
+      nillable="true"
+      substitutionGroup="xbrli:item"
+      type="nonnum:domainItemType"
+      xbrli:periodType="duration"/>
+    <xs:element
       id="solar_SCADASystemModelNumber"
       name="SCADASystemModelNumber"
       nillable="true"
@@ -27901,6 +27922,14 @@
       type="xbrli:stringItemType"
       xbrli:periodType="duration"/>
     <xs:element
+      id="solar_SiteBarometricPressure"
+      name="SiteBarometricPressure"
+      nillable="true"
+      solar:periodIndependent="0"
+      substitutionGroup="xbrli:item"
+      type="num-us:pressureItemType"
+      xbrli:periodType="instant"/>
+    <xs:element
       abstract="true"
       id="solar_SiteClimateClassificationAbstract"
       name="SiteClimateClassificationAbstract"
@@ -28001,6 +28030,15 @@
     <xs:element
       id="solar_SiteControlLessor"
       name="SiteControlLessor"
+      nillable="true"
+      solar:periodIndependent="0"
+      substitutionGroup="xbrli:item"
+      type="xbrli:stringItemType"
+      xbrli:periodType="duration"/>
+    <xs:element
+      abstract="true"
+      id="solar_SiteControlLineItems"
+      name="SiteControlLineItems"
       nillable="true"
       solar:periodIndependent="0"
       substitutionGroup="xbrli:item"
@@ -28228,8 +28266,7 @@
     <xs:element
       id="solar_SiteIdentifier"
       name="SiteIdentifier"
-      nillable="true"
-      solar:periodIndependent="0"
+      solar:periodIndependent="true"
       substitutionGroup="xbrli:item"
       type="xbrli:stringItemType"
       xbrli:periodType="duration"/>
@@ -28499,6 +28536,15 @@
       type="xbrli:dateItemType"
       xbrli:periodType="duration"/>
     <xs:element
+      abstract="true"
+      id="solar_SiteLeaseAssignmentLineItems"
+      name="SiteLeaseAssignmentLineItems"
+      nillable="true"
+      solar:periodIndependent="0"
+      substitutionGroup="xbrli:item"
+      type="xbrli:stringItemType"
+      xbrli:periodType="duration"/>
+    <xs:element
       id="solar_SiteLeaseDetails"
       name="SiteLeaseDetails"
       nillable="true"
@@ -28580,6 +28626,15 @@
       type="xbrli:dateItemType"
       xbrli:periodType="duration"/>
     <xs:element
+      abstract="true"
+      id="solar_SiteLeaseMemoLineItems"
+      name="SiteLeaseMemoLineItems"
+      nillable="true"
+      solar:periodIndependent="0"
+      substitutionGroup="xbrli:item"
+      type="xbrli:stringItemType"
+      xbrli:periodType="duration"/>
+    <xs:element
       id="solar_SiteLeasePaymentPerWatt"
       name="SiteLeasePaymentPerWatt"
       nillable="true"
@@ -28650,6 +28705,15 @@
       solar:periodIndependent="0"
       substitutionGroup="xbrli:item"
       type="xbrli:dateItemType"
+      xbrli:periodType="duration"/>
+    <xs:element
+      abstract="true"
+      id="solar_SiteLicenseAgreementLineItems"
+      name="SiteLicenseAgreementLineItems"
+      nillable="true"
+      solar:periodIndependent="0"
+      substitutionGroup="xbrli:item"
+      type="xbrli:stringItemType"
       xbrli:periodType="duration"/>
     <xs:element
       id="solar_SiteLicenseAgreementLink"
@@ -30419,14 +30483,6 @@
       type="xbrli:stringItemType"
       xbrli:periodType="duration"/>
     <xs:element
-      id="solar_SystemPerformanceBarometricPressure"
-      name="SystemPerformanceBarometricPressure"
-      nillable="true"
-      solar:periodIndependent="0"
-      substitutionGroup="xbrli:item"
-      type="num-us:pressureItemType"
-      xbrli:periodType="instant"/>
-    <xs:element
       id="solar_SystemPerformanceCombinerBoxTemperature"
       name="SystemPerformanceCombinerBoxTemperature"
       nillable="true"
@@ -30469,8 +30525,8 @@
       xbrli:periodType="duration"/>
     <xs:element
       abstract="true"
-      id="solar_SystemPerformanceEstimatesAbstract"
-      name="SystemPerformanceEstimatesAbstract"
+      id="solar_SystemPerformanceExpectedEnergyAbstract"
+      name="SystemPerformanceExpectedEnergyAbstract"
       nillable="true"
       solar:periodIndependent="0"
       substitutionGroup="xbrli:item"
@@ -31214,6 +31270,14 @@
       type="xbrli:stringItemType"
       xbrli:periodType="duration"/>
     <xs:element
+      id="solar_TitlePolicyIdentifier"
+      name="TitlePolicyIdentifier"
+      nillable="true"
+      solar:periodIndependent="0"
+      substitutionGroup="xbrli:item"
+      type="xbrli:stringItemType"
+      xbrli:periodType="duration"/>
+    <xs:element
       id="solar_TitlePolicyInsuranceAmount"
       name="TitlePolicyInsuranceAmount"
       nillable="true"
@@ -31333,6 +31397,15 @@
       solar:periodIndependent="0"
       substitutionGroup="xbrli:item"
       type="xbrli:dateItemType"
+      xbrli:periodType="duration"/>
+    <xs:element
+      abstract="true"
+      id="solar_TitleSurveyLineItems"
+      name="TitleSurveyLineItems"
+      nillable="true"
+      solar:periodIndependent="0"
+      substitutionGroup="xbrli:item"
+      type="xbrli:stringItemType"
       xbrli:periodType="duration"/>
     <xs:element
       id="solar_TotalExpectedEnergyAtRevenueMeter"
@@ -32119,7 +32192,7 @@
       nillable="true"
       solar:periodIndependent="0"
       substitutionGroup="xbrli:item"
-      type="xbrli:stringItemType"
+      type="dei:legalEntityIdentifierItemType"
       xbrli:periodType="duration"/>
     <xs:element
       abstract="true"
@@ -32239,6 +32312,14 @@
       xbrli:periodType="duration"/>
     <xs:element
       abstract="true"
+      id="solar_VegetationManagementLineItems"
+      name="VegetationManagementLineItems"
+      nillable="true"
+      substitutionGroup="xbrli:item"
+      type="xbrli:stringItemType"
+      xbrli:periodType="duration"/>
+    <xs:element
+      abstract="true"
       id="solar_WarrantiesReviewCommunicationInfrastructureMember"
       name="WarrantiesReviewCommunicationInfrastructureMember"
       nillable="true"
@@ -32333,6 +32414,14 @@
       name="WashingAndWasteAbstract"
       nillable="true"
       solar:periodIndependent="0"
+      substitutionGroup="xbrli:item"
+      type="xbrli:stringItemType"
+      xbrli:periodType="duration"/>
+    <xs:element
+      abstract="true"
+      id="solar_WashingAndWasteAgreementLineItems"
+      name="WashingAndWasteAgreementLineItems"
+      nillable="true"
       substitutionGroup="xbrli:item"
       type="xbrli:stringItemType"
       xbrli:periodType="duration"/>

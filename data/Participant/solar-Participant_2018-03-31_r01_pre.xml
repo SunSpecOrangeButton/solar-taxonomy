@@ -58,14 +58,14 @@
           xlink:to="solar_ParticipantName"
           xlink:type="arc"/>
         <loc
-          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_ParticipantLegalEntityIdentifier"
-          xlink:label="solar_ParticipantLegalEntityIdentifier"
+          xlink:href="http://xbrl.sec.gov/dei/2014/dei-2014-01-31.xsd#dei_LegalEntityIdentifier"
+          xlink:label="dei_LegalEntityIdentifier"
           xlink:type="locator"/>
         <presentationArc
           order="2"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
           xlink:from="solar_ParticipantLineItems"
-          xlink:to="solar_ParticipantLegalEntityIdentifier"
+          xlink:to="dei_LegalEntityIdentifier"
           xlink:type="arc"/>
         <loc
           xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_ParticipantParentCompanyLegalEntityIdentifier"

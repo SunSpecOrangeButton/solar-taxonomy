@@ -22,7 +22,6 @@
                 <link:definition>100110 - Data - System</link:definition>
                 <link:usedOn>link:presentationLink</link:usedOn>
                 <link:usedOn>link:definitionLink</link:usedOn>
-                <link:usedOn>genlink:link</link:usedOn>
             </link:roleType>
             <link:roleType
               id="roleType_SystemDeviceListing"

@@ -8,22 +8,44 @@
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd
                       http://xbrl.org/2008/generic http://www.xbrl.org/2008/generic-link.xsd">
-    <arcroleRef
-      arcroleURI="http://xbrl.us/arcrole/Composition"
-      xlink:href="../../core/solar-gen-roles-2018-03-31.xsd#composition"
-      xlink:type="simple"/>
-    <arcroleRef
-      arcroleURI="http://xbrl.us/arcrole/Property"
-      xlink:href="../../core/solar-gen-roles-2018-03-31.xsd#property"
-      xlink:type="simple"/>
     <roleRef
       roleURI="http://xbrl.us/Solar/v1.2/2018-03-31/roles/CutSheet"
       xlink:href="solar-cutsheet_2018-03-31_r01.xsd#roleType_CutSheet"
       xlink:type="simple"/>
     <arcroleRef
+      arcroleURI="http://xbrl.us/arcrole/Property"
+      xlink:href="../../core/solar-gen-roles-2018-03-31.xsd#property"
+      xlink:type="simple"/>
+    <arcroleRef
       arcroleURI="http://xbrl.us/arcrole/Inheritance"
       xlink:href="../../core/solar-gen-roles-2018-03-31.xsd#inheritance"
       xlink:type="simple"/>
+    <arcroleRef
+      arcroleURI="http://xbrl.us/arcrole/Composition"
+      xlink:href="../../core/solar-gen-roles-2018-03-31.xsd#composition"
+      xlink:type="simple"/>
+    <arcroleRef
+      arcroleURI="http://xbrl.us/arcrole/Identification"
+      xlink:href="../../core/solar-gen-roles-2018-03-31.xsd#identification"
+      xlink:type="simple"/>
+    <generic:link
+      xlink:role="http://xbrl.us/Solar/v1.2/2018-03-31/roles/CutSheet"
+      xlink:type="extended">
+        <loc
+          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_ProductIdentifierAxis"
+          xlink:label="solar_ProductIdentifierAxis"
+          xlink:type="locator"/>
+        <loc
+          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_ProductIdentifier"
+          xlink:label="solar_ProductIdentifier"
+          xlink:type="locator"/>
+        <generic:arc
+          order="1"
+          xlink:arcrole="http://xbrl.us/arcrole/Identification"
+          xlink:from="solar_ProductIdentifierAxis"
+          xlink:to="solar_ProductIdentifier"
+          xlink:type="arc"/>
+    </generic:link>
     <generic:link
       xlink:role="http://xbrl.us/Solar/v1.2/2018-03-31/roles/CutSheet"
       xlink:type="extended">
@@ -646,14 +668,14 @@
           xlink:to="solar_ModuleFrameMaterial"
           xlink:type="arc"/>
         <loc
-          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_ModuleFrontMaterialDesciption"
-          xlink:label="solar_ModuleFrontMaterialDesciption"
+          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_ModuleFrontMaterialDescription"
+          xlink:label="solar_ModuleFrontMaterialDescription"
           xlink:type="locator"/>
         <generic:arc
           order="1"
           xlink:arcrole="http://xbrl.us/arcrole/Property"
           xlink:from="solar_ModuleNameplateAbstract"
-          xlink:to="solar_ModuleFrontMaterialDesciption"
+          xlink:to="solar_ModuleFrontMaterialDescription"
           xlink:type="arc"/>
         <loc
           xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_ModuleJunctionBoxRating"
@@ -2080,14 +2102,24 @@
           xlink:to="solar_TrackerStyle"
           xlink:type="arc"/>
         <loc
-          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_OrientationTrackerRotationLimit"
-          xlink:label="solar_OrientationTrackerRotationLimit"
+          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_OrientationMaximumTrackerRotationLimit"
+          xlink:label="solar_OrientationMaximumTrackerRotationLimit"
           xlink:type="locator"/>
         <generic:arc
           order="1"
           xlink:arcrole="http://xbrl.us/arcrole/Property"
           xlink:from="solar_TrackerMember"
-          xlink:to="solar_OrientationTrackerRotationLimit"
+          xlink:to="solar_OrientationMaximumTrackerRotationLimit"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_OrientationMinimumTrackerRotationLimit"
+          xlink:label="solar_OrientationMinimumTrackerRotationLimit"
+          xlink:type="locator"/>
+        <generic:arc
+          order="1"
+          xlink:arcrole="http://xbrl.us/arcrole/Property"
+          xlink:from="solar_TrackerMember"
+          xlink:to="solar_OrientationMinimumTrackerRotationLimit"
           xlink:type="arc"/>
         <loc
           xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_BatteryManagementSystemMember"

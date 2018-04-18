@@ -78,11 +78,31 @@
           xlink:to="solar_ComponentToBeReplaced"
           xlink:type="arc"/>
         <loc
+          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_PreparerOfComponentStatusReport"
+          xlink:label="solar_PreparerOfComponentStatusReport"
+          xlink:type="locator"/>
+        <presentationArc
+          order="7"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_ComponentStatusAbstract"
+          xlink:to="solar_PreparerOfComponentStatusReport"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_DocumentIdentifierComponentStatusReport"
+          xlink:label="solar_DocumentIdentifierComponentStatusReport"
+          xlink:type="locator"/>
+        <presentationArc
+          order="8"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_ComponentStatusAbstract"
+          xlink:to="solar_DocumentIdentifierComponentStatusReport"
+          xlink:type="arc"/>
+        <loc
           xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_ComponentMaintenanceCostNoWarrantyAbstract"
           xlink:label="solar_ComponentMaintenanceCostNoWarrantyAbstract"
           xlink:type="locator"/>
         <presentationArc
-          order="7"
+          order="9"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
           xlink:from="solar_ComponentStatusAbstract"
           xlink:to="solar_ComponentMaintenanceCostNoWarrantyAbstract"
@@ -242,7 +262,7 @@
           xlink:label="solar_ComponentMaintenanceCostUnderWarrantyAbstract"
           xlink:type="locator"/>
         <presentationArc
-          order="8"
+          order="10"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
           xlink:from="solar_ComponentStatusAbstract"
           xlink:to="solar_ComponentMaintenanceCostUnderWarrantyAbstract"
@@ -406,26 +426,6 @@
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
           xlink:from="solar_ComponentMaintenanceCostUnderWarrantyAbstract"
           xlink:to="solar_FinancialPerformanceDataMonitoringHostingExpense"
-          xlink:type="arc"/>
-        <loc
-          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_PreparerOfComponentStatusReport"
-          xlink:label="solar_PreparerOfComponentStatusReport"
-          xlink:type="locator"/>
-        <presentationArc
-          order="17"
-          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_ComponentMaintenanceCostUnderWarrantyAbstract"
-          xlink:to="solar_PreparerOfComponentStatusReport"
-          xlink:type="arc"/>
-        <loc
-          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_DocumentIdentifierComponentStatusReport"
-          xlink:label="solar_DocumentIdentifierComponentStatusReport"
-          xlink:type="locator"/>
-        <presentationArc
-          order="18"
-          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_ComponentMaintenanceCostUnderWarrantyAbstract"
-          xlink:to="solar_DocumentIdentifierComponentStatusReport"
           xlink:type="arc"/>
     </presentationLink>
 </linkbase>

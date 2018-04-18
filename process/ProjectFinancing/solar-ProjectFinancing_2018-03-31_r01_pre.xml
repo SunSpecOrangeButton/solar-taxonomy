@@ -1000,16 +1000,6 @@
           xlink:to="solar_FundIdentifierAxis"
           xlink:type="arc"/>
         <loc
-          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_FundIdentifier"
-          xlink:label="solar_FundIdentifier"
-          xlink:type="locator"/>
-        <presentationArc
-          order="1"
-          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_FundIdentifierAxis"
-          xlink:to="solar_FundIdentifier"
-          xlink:type="arc"/>
-        <loc
           xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_FundDetailsLineItems"
           xlink:label="solar_FundDetailsLineItems"
           xlink:type="locator"/>
@@ -1219,6 +1209,10 @@
           xlink:from="solar_PortfolioTable"
           xlink:to="solar_PortfolioLineItems"
           xlink:type="arc"/>
+        <loc
+          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_FundIdentifier"
+          xlink:label="solar_FundIdentifier"
+          xlink:type="locator"/>
         <presentationArc
           order="1"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
@@ -2812,6 +2806,16 @@
           xlink:to="solar_TitleReportLink"
           xlink:type="arc"/>
         <loc
+          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_TitlePolicyIdentifier"
+          xlink:label="solar_TitlePolicyIdentifier"
+          xlink:type="locator"/>
+        <presentationArc
+          order="8"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_TitlePolicyAbstract"
+          xlink:to="solar_TitlePolicyIdentifier"
+          xlink:type="arc"/>
+        <loc
           xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_AmericanLandTitleAssociationSurveyAbstract"
           xlink:label="solar_AmericanLandTitleAssociationSurveyAbstract"
           xlink:type="locator"/>
@@ -3278,11 +3282,21 @@
           xlink:to="solar_SiteIdentifier"
           xlink:type="arc"/>
         <loc
+          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_CulturalResourcePermitAction"
+          xlink:label="solar_CulturalResourcePermitAction"
+          xlink:type="locator"/>
+        <presentationArc
+          order="3"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_CulturalResourcePermitActionLineItems"
+          xlink:to="solar_CulturalResourcePermitAction"
+          xlink:type="arc"/>
+        <loc
           xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_CulturalResourcePermitActionDescription"
           xlink:label="solar_CulturalResourcePermitActionDescription"
           xlink:type="locator"/>
         <presentationArc
-          order="3"
+          order="4"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
           xlink:from="solar_CulturalResourcePermitActionLineItems"
           xlink:to="solar_CulturalResourcePermitActionDescription"
@@ -3695,12 +3709,18 @@
           xlink:from="solar_TitlePolicyExceptionTable"
           xlink:to="solar_TitlePolicyExceptionDetailsLineItems"
           xlink:type="arc"/>
+        <presentationArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_TitlePolicyExceptionDetailsLineItems"
+          xlink:to="solar_TitlePolicyIdentifier"
+          xlink:type="arc"/>
         <loc
           xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_TitlePolicyExceptionDescription"
           xlink:label="solar_TitlePolicyExceptionDescription"
           xlink:type="locator"/>
         <presentationArc
-          order="1"
+          order="2"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
           xlink:from="solar_TitlePolicyExceptionDetailsLineItems"
           xlink:to="solar_TitlePolicyExceptionDescription"
@@ -3751,12 +3771,18 @@
           xlink:from="solar_TitlePolicyExclusionTable"
           xlink:to="solar_TitlePolicyExclusionDetailsLineItems"
           xlink:type="arc"/>
+        <presentationArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_TitlePolicyExclusionDetailsLineItems"
+          xlink:to="solar_TitlePolicyIdentifier"
+          xlink:type="arc"/>
         <loc
           xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_TitlePolicyExclusionDescription"
           xlink:label="solar_TitlePolicyExclusionDescription"
           xlink:type="locator"/>
         <presentationArc
-          order="1"
+          order="2"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
           xlink:from="solar_TitlePolicyExclusionDetailsLineItems"
           xlink:to="solar_TitlePolicyExclusionDescription"
@@ -4563,15 +4589,11 @@
           xlink:from="solar_ParticipantLineItems"
           xlink:to="solar_ParticipantName"
           xlink:type="arc"/>
-        <loc
-          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_ParticipantLegalEntityIdentifier"
-          xlink:label="solar_ParticipantLegalEntityIdentifier"
-          xlink:type="locator"/>
         <presentationArc
           order="2"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
           xlink:from="solar_ParticipantLineItems"
-          xlink:to="solar_ParticipantLegalEntityIdentifier"
+          xlink:to="dei_LegalEntityIdentifier"
           xlink:type="arc"/>
         <loc
           xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_ParticipantParentCompanyLegalEntityIdentifier"

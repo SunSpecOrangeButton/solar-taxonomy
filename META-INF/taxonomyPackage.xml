@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><!--
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
         **********************
         Copyright (c) 2018 XBRL US Inc.
         **********************
@@ -15,847 +16,867 @@
 	<tp:publicationDate>2018-03-31</tp:publicationDate>
 	<tp:entryPoints>
 		<tp:entryPoint>
-			<tp:name>Full Solar Entry Point including documentation labels.</tp:name>
-			<tp:description>This is the  entry point for viewing the entire Orange Button Taxonomy. Documentation labels are included.</tp:description>
-			<tp:entryPointDocument href="../core/solar_all_2018-03-31_r01.xsd"/>
-		</tp:entryPoint>
+      		<tp:name>Full Solar Entry Point</tp:name>
+      		<tp:description>This is the  entry point for viewing the entire Orange Button Taxonomy. Documentation labels are included.</tp:description>
+      		<tp:entryPointDocument href="../core/solar_all_2018-03-31_r01.xsd"/>
+    	</tp:entryPoint>	
 		<tp:entryPoint>
-			<tp:name>Solar Cut Sheet (DataSheet).</tp:name>
-			<tp:description>This is the  entry point for creating a cutsheet. It includes the elements for a product vendor to define their products.</tp:description>
+			<tp:name>100395 - Documents - Cut Sheet</tp:name>
+			<tp:description>This schema contains the entry point for the cut sheet.</tp:description>
 			<tp:entryPointDocument href="../documents/CutSheet/solar-cutsheet_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-Site.</tp:name>
+			<tp:name>100100 - Data - Site</tp:name>
 			<tp:description>This schema contains the entry point for the Site</tp:description>
 			<tp:entryPointDocument href="../data/Site/solar-Site_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-System.</tp:name>
+			<tp:name>100110 - Data - System</tp:name>
 			<tp:description>This schema contains the entry point for the System</tp:description>
 			<tp:entryPointDocument href="../data/System/solar-System_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-Utility.</tp:name>
+			<tp:name>100111 - Data - System Device Listing</tp:name>
+			<tp:description>This schema contains the entry point for the SystemDeviceListing</tp:description>
+			<tp:entryPointDocument href="../data/SystemDeviceListing/solar-SystemDeviceListing_2018-03-31_r01.xsd"/>
+		</tp:entryPoint>
+		<tp:entryPoint>
+			<tp:name>100120 - Data - Utility</tp:name>
 			<tp:description>This schema contains the entry point for the Utility</tp:description>
 			<tp:entryPointDocument href="../data/Utility/solar-Utility_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-Participant.</tp:name>
+			<tp:name>100130 - Data - Participant</tp:name>
 			<tp:description>This schema contains the entry point for the Participant</tp:description>
 			<tp:entryPointDocument href="../data/Participant/solar-Participant_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-Project.</tp:name>
+			<tp:name>100140 - Data - Project</tp:name>
 			<tp:description>This schema contains the entry point for the Project</tp:description>
 			<tp:entryPointDocument href="../data/Project/solar-Project_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-Fund.</tp:name>
+			<tp:name>100150 - Data - Fund</tp:name>
 			<tp:description>This schema contains the entry point for the Fund</tp:description>
 			<tp:entryPointDocument href="../data/Fund/solar-Fund_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-Developer.</tp:name>
+			<tp:name>100160 - Data - Developer</tp:name>
 			<tp:description>This schema contains the entry point for the Developer</tp:description>
 			<tp:entryPointDocument href="../data/Developer/solar-Developer_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-OperationsManager.</tp:name>
+			<tp:name>100170 - Data - Operations Manager</tp:name>
 			<tp:description>This schema contains the entry point for the OperationsManager</tp:description>
 			<tp:entryPointDocument href="../data/OperationsManager/solar-OperationsManager_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-AssetManager.</tp:name>
+			<tp:name>100180 - Data - Asset Manager</tp:name>
 			<tp:description>This schema contains the entry point for the AssetManager</tp:description>
 			<tp:entryPointDocument href="../data/AssetManager/solar-AssetManager_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-Portfolio.</tp:name>
+			<tp:name>100185 - Data - Portfolio</tp:name>
 			<tp:description>This schema contains the entry point for the Portfolio</tp:description>
 			<tp:entryPointDocument href="../data/Portfolio/solar-Portfolio_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-Sponsor.</tp:name>
+			<tp:name>100188 - Data - Sponsor</tp:name>
 			<tp:description>This schema contains the entry point for the Sponsor</tp:description>
 			<tp:entryPointDocument href="../data/Sponsor/solar-Sponsor_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-FinancialPerformance.</tp:name>
+			<tp:name>100190 - Data - Financial Performance</tp:name>
 			<tp:description>This schema contains the entry point for the FinancialPerformance</tp:description>
 			<tp:entryPointDocument href="../data/FinancialPerformance/solar-FinancialPerformance_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-OperationalPerformance.</tp:name>
+			<tp:name>100195 - Data - Operational Performance</tp:name>
 			<tp:description>This schema contains the entry point for the OperationalPerformance</tp:description>
 			<tp:entryPointDocument href="../data/OperationalPerformance/solar-OperationalPerformance_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-AdvisorInvoices.</tp:name>
+			<tp:name>100198 - Data - Insurance</tp:name>
+			<tp:description>This schema contains the entry point for the Insurance</tp:description>
+			<tp:entryPointDocument href="../data/Insurance/solar-Insurance_2018-03-31_r01.xsd"/>
+		</tp:entryPoint>
+		<tp:entryPoint>
+			<tp:name>100200 - Documents - Advisor Invoices</tp:name>
 			<tp:description>This schema contains the entry point for the AdvisorInvoices</tp:description>
 			<tp:entryPointDocument href="../documents/AdvisorInvoices/solar-AdvisorInvoices_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-Appraisal.</tp:name>
+			<tp:name>100210 - Documents - Appraisal</tp:name>
 			<tp:description>This schema contains the entry point for the Appraisal</tp:description>
 			<tp:entryPointDocument href="../documents/Appraisal/solar-Appraisal_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-ApprovalNotice.</tp:name>
+			<tp:name>100230 - Documents - Approval Notice</tp:name>
 			<tp:description>This schema contains the entry point for the ApprovalNotice</tp:description>
 			<tp:entryPointDocument href="../documents/ApprovalNotice/solar-ApprovalNotice_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-AssetManagementContract.</tp:name>
+			<tp:name>100240 - Documents - Asset Management Contract</tp:name>
 			<tp:description>This schema contains the entry point for the AssetManagementContract</tp:description>
 			<tp:entryPointDocument href="../documents/AssetManagementContract/solar-AssetManagementContract_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-AssignmentOfInterest.</tp:name>
+			<tp:name>100255 - Documents - Assignment Of Interest</tp:name>
 			<tp:description>This schema contains the entry point for the AssignmentOfInterest</tp:description>
 			<tp:entryPointDocument href="../documents/AssignmentOfInterest/solar-AssignmentOfInterest_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-AssignmentandAssumptionAgreement.</tp:name>
+			<tp:name>100250 - Documents - Assignment And Assumption Agreement</tp:name>
 			<tp:description>This schema contains the entry point for the AssignmentandAssumptionAgreement</tp:description>
 			<tp:entryPointDocument href="../documents/AssignmentandAssumptionAgreement/solar-AssignmentandAssumptionAgreement_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-BillOfSale.</tp:name>
+			<tp:name>100260 - Documents - Bill Of Sale</tp:name>
 			<tp:description>This schema contains the entry point for the BillOfSale</tp:description>
 			<tp:entryPointDocument href="../documents/BillOfSale/solar-BillOfSale_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-BoardResolutionforMasterLesseeLesseeandOperator.</tp:name>
+			<tp:name>100270 - Documents - Board Resolution for Master Lessee, Lessee and Operator</tp:name>
 			<tp:description>This schema contains the entry point for the BoardResolutionforMasterLesseeLesseeandOperator</tp:description>
 			<tp:entryPointDocument href="../documents/BoardResolutionforMasterLesseeLesseeandOperator/solar-BoardResolutionforMasterLesseeLesseeandOperator_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-BreakageFeeSideLetter.</tp:name>
+			<tp:name>100280 - Documents - Breakage Fee Side Letter</tp:name>
 			<tp:description>This schema contains the entry point for the BreakageFeeSideLetter</tp:description>
 			<tp:entryPointDocument href="../documents/BreakageFeeSideLetter/solar-BreakageFeeSideLetter_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-BuildingInspection.</tp:name>
+			<tp:name>100290 - Documents - Building Inspection</tp:name>
 			<tp:description>This schema contains the entry point for the BuildingInspection</tp:description>
 			<tp:entryPointDocument href="../documents/BuildingInspection/solar-BuildingInspection_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-BusinessInterruptionInsurancePolicy.</tp:name>
+			<tp:name>100295 - Documents - Business Interruption Insurance Policy</tp:name>
 			<tp:description>This schema contains the entry point for the BusinessInterruptionInsurancePolicy</tp:description>
 			<tp:entryPointDocument href="../documents/BusinessInterruptionInsurancePolicy/solar-BusinessInterruptionInsurancePolicy_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-CasualtyInsurancePolicy.</tp:name>
+			<tp:name>100297 - Documents - Casualty Insurance Policy</tp:name>
 			<tp:description>This schema contains the entry point for the CasualtyInsurancePolicy</tp:description>
 			<tp:entryPointDocument href="../documents/CasualtyInsurancePolicy/solar-CasualtyInsurancePolicy_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-CertificateOfAcceptanceReport.</tp:name>
+			<tp:name>100300 - Documents - Certificate Of Acceptance Report</tp:name>
 			<tp:description>This schema contains the entry point for the CertificateOfAcceptanceReport</tp:description>
 			<tp:entryPointDocument href="../documents/CertificateOfAcceptanceReport/solar-CertificateOfAcceptanceReport_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-CertificateOfCompletion.</tp:name>
+			<tp:name>100310 - Documents - Certificate Of Completion</tp:name>
 			<tp:description>This schema contains the entry point for the CertificateOfCompletion</tp:description>
 			<tp:entryPointDocument href="../documents/CertificateOfCompletion/solar-CertificateOfCompletion_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-CertificateOfFinalCompletion.</tp:name>
+			<tp:name>100320 - Documents - Certificate Of Final Completion</tp:name>
 			<tp:description>This schema contains the entry point for the CertificateOfFinalCompletion</tp:description>
 			<tp:entryPointDocument href="../documents/CertificateOfFinalCompletion/solar-CertificateOfFinalCompletion_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-CertificateOfFormationForMasterLesseeLesseeAndOperator.</tp:name>
+			<tp:name>100330 - Documents - Certificate Of Formation For Master Lessee, Lessee And Operator</tp:name>
 			<tp:description>This schema contains the entry point for the CertificateOfFormationForMasterLesseeLesseeAndOperator</tp:description>
 			<tp:entryPointDocument href="../documents/CertificateOfFormationForMasterLesseeLesseeAndOperator/solar-CertificateOfFormationForMasterLesseeLesseeAndOperator_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-CertificatesofInsurance.</tp:name>
+			<tp:name>100340 - Documents - Certificates Of Insurance</tp:name>
 			<tp:description>This schema contains the entry point for the CertificatesofInsurance</tp:description>
 			<tp:entryPointDocument href="../documents/CertificatesofInsurance/solar-CertificatesofInsurance_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-ClosingCertificate.</tp:name>
+			<tp:name>100350 - Documents - Closing Certificate</tp:name>
 			<tp:description>This schema contains the entry point for the ClosingCertificate</tp:description>
 			<tp:entryPointDocument href="../documents/ClosingCertificate/solar-ClosingCertificate_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-ClosingIndemnityAgreement.</tp:name>
+			<tp:name>100352 - Documents - Closing Indemnity Agreement</tp:name>
 			<tp:description>This schema contains the entry point for the ClosingIndemnityAgreement</tp:description>
 			<tp:entryPointDocument href="../documents/ClosingIndemnityAgreement/solar-ClosingIndemnityAgreement_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-CommercialGeneralInsurancePolicy.</tp:name>
+			<tp:name>100355 - Documents - Commercial General Insurance Policy</tp:name>
 			<tp:description>This schema contains the entry point for the CommercialGeneralInsurancePolicy</tp:description>
 			<tp:entryPointDocument href="../documents/CommercialGeneralInsurancePolicy/solar-CommercialGeneralInsurancePolicy_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-CommitmentAgreement.</tp:name>
+			<tp:name>100360 - Documents - Commitment Agreement</tp:name>
 			<tp:description>This schema contains the entry point for the CommitmentAgreement</tp:description>
 			<tp:entryPointDocument href="../documents/CommitmentAgreement/solar-CommitmentAgreement_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-ComponentStatusReport.</tp:name>
+			<tp:name>100365 - Documents - Component Status Report</tp:name>
 			<tp:description>This schema contains the entry point for the ComponentStatusReport</tp:description>
 			<tp:entryPointDocument href="../documents/ComponentStatusReport/solar-ComponentStatusReport_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-ConstructionContractorNoticeofCertification.</tp:name>
+			<tp:name>100370 - Documents - Construction Contractor Notice Of Certification</tp:name>
 			<tp:description>This schema contains the entry point for the ConstructionContractorNoticeofCertification</tp:description>
 			<tp:entryPointDocument href="../documents/ConstructionContractorNoticeofCertification/solar-ConstructionContractorNoticeofCertification_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-ConstructionIssuesReport.</tp:name>
+			<tp:name>100373 - Documents - Construction Issues Report</tp:name>
 			<tp:description>This schema contains the entry point for the ConstructionIssuesReport</tp:description>
 			<tp:entryPointDocument href="../documents/ConstructionIssuesReport/solar-ConstructionIssuesReport_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-ConstructionLoanAgreement.</tp:name>
+			<tp:name>100375 - Documents - Construction Loan Agreement</tp:name>
 			<tp:description>This schema contains the entry point for the ConstructionLoanAgreement</tp:description>
 			<tp:entryPointDocument href="../documents/ConstructionLoanAgreement/solar-ConstructionLoanAgreement_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-ConstructionMonitoringReport.</tp:name>
+			<tp:name>100380 - Documents - Construction Monitoring Report</tp:name>
 			<tp:description>This schema contains the entry point for the ConstructionMonitoringReport</tp:description>
 			<tp:entryPointDocument href="../documents/ConstructionMonitoringReport/solar-ConstructionMonitoringReport_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-ContinuityofOperationsAgreement.</tp:name>
+			<tp:name>100390 - Documents - Continuity of Operations Agreement</tp:name>
 			<tp:description>This schema contains the entry point for the ContinuityofOperationsAgreement</tp:description>
 			<tp:entryPointDocument href="../documents/ContinuityofOperationsAgreement/solar-ContinuityofOperationsAgreement_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-CoTenancyAgreement.</tp:name>
+			<tp:name>100355 - Documents - Co Tenancy Agreement</tp:name>
 			<tp:description>This schema contains the entry point for the CoTenancyAgreement</tp:description>
 			<tp:entryPointDocument href="../documents/CoTenancyAgreement/solar-CoTenancyAgreement_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-CreditReport.</tp:name>
-			<tp:description>This schema contains the entry point for the CreditReport</tp:description>
-			<tp:entryPointDocument href="../documents/CreditReport/solar-CreditReport_2018-03-31_r01.xsd"/>
-		</tp:entryPoint>
-		<tp:entryPoint>
-			<tp:name>solar-DesignandConstructionDocuments.</tp:name>
+			<tp:name>100400 - Documents - Design And Construction Documents</tp:name>
 			<tp:description>This schema contains the entry point for the DesignandConstructionDocuments</tp:description>
 			<tp:entryPointDocument href="../documents/DesignandConstructionDocuments/solar-DesignandConstructionDocuments_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-DeveloperPerformanceGuarantee.</tp:name>
+			<tp:name>100410 - Documents - Developer Performance Guarantee</tp:name>
 			<tp:description>This schema contains the entry point for the DeveloperPerformanceGuarantee</tp:description>
 			<tp:entryPointDocument href="../documents/DeveloperPerformanceGuarantee/solar-DeveloperPerformanceGuarantee_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-EasementReport.</tp:name>
+			<tp:name>100420 - Documents - Easement Report</tp:name>
 			<tp:description>This schema contains the entry point for the EasementReport</tp:description>
 			<tp:entryPointDocument href="../documents/EasementReport/solar-EasementReport_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-ElectricalInspection.</tp:name>
+			<tp:name>100430 - Documents - Electrical Inspection</tp:name>
 			<tp:description>This schema contains the entry point for the ElectricalInspection</tp:description>
 			<tp:entryPointDocument href="../documents/ElectricalInspection/solar-ElectricalInspection_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-EnergyProductionInsurancePolicy.</tp:name>
+			<tp:name>100433 - Documents - Energy Production Insurance Policy</tp:name>
 			<tp:description>This schema contains the entry point for the EnergyProductionInsurancePolicy</tp:description>
 			<tp:entryPointDocument href="../documents/EnergyProductionInsurancePolicy/solar-EnergyProductionInsurancePolicy_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-EngineeringProcurementAndConstructionContract.</tp:name>
+			<tp:name>100435 - Documents - Engineering Procurement And Construction Contract</tp:name>
 			<tp:description>This schema contains the entry point for the EngineeringProcurementAndConstructionContract</tp:description>
 			<tp:entryPointDocument href="../documents/EngineeringProcurementAndConstructionContract/solar-EngineeringProcurementAndConstructionContract_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-EnvironmentalAssessmentI.</tp:name>
+			<tp:name>100440 - Documents - Environmental Assessment I</tp:name>
 			<tp:description>This schema contains the entry point for the EnvironmentalAssessmentI</tp:description>
 			<tp:entryPointDocument href="../documents/EnvironmentalAssessmentI/solar-EnvironmentalAssessmentI_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-EnvironmentalAssessmentII.</tp:name>
+			<tp:name>100450 - Documents - Environmental Assessment II</tp:name>
 			<tp:description>This schema contains the entry point for the EnvironmentalAssessmentII</tp:description>
 			<tp:entryPointDocument href="../documents/EnvironmentalAssessmentII/solar-EnvironmentalAssessmentII_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-EnvironmentalImpactReport.</tp:name>
+			<tp:name>100460 - Documents - Environmental Impact Report</tp:name>
 			<tp:description>This schema contains the entry point for the EnvironmentalImpactReport</tp:description>
 			<tp:entryPointDocument href="../documents/EnvironmentalImpactReport/solar-EnvironmentalImpactReport_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-EquipmentSpecSheets.</tp:name>
+			<tp:name>100470 - Documents - Equipment Spec Sheets</tp:name>
 			<tp:description>This schema contains the entry point for the EquipmentSpecSheets</tp:description>
 			<tp:entryPointDocument href="../documents/EquipmentSpecSheets/solar-EquipmentSpecSheets_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-EquipmentWarranties.</tp:name>
+			<tp:name>100480 - Documents - Equipment Warranties</tp:name>
 			<tp:description>This schema contains the entry point for the EquipmentWarranties</tp:description>
 			<tp:entryPointDocument href="../documents/EquipmentWarranties/solar-EquipmentWarranties_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-EquityContributionAgreement.</tp:name>
-			<tp:description>This schema contains the entry point for the EquityContributionAgreement</tp:description>
-			<tp:entryPointDocument href="../documents/EquityContributionAgreement/solar-EquityContributionAgreement_2018-03-31_r01.xsd"/>
+			<tp:name>100410 - Documents - Developer Performance Guarantee</tp:name>
+			<tp:description>This schema contains the entry point for the DeveloperPerformanceGuarantee</tp:description>
+			<tp:entryPointDocument href="../documents/DeveloperPerformanceGuarantee/solar-DeveloperPerformanceGuarantee_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-EasementReport.</tp:name>
+			<tp:name>100420 - Documents - Easement Report</tp:name>
 			<tp:description>This schema contains the entry point for the EasementReport</tp:description>
 			<tp:entryPointDocument href="../documents/EasementReport/solar-EasementReport_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-ElectricalInspection.</tp:name>
+			<tp:name>100430 - Documents - Electrical Inspection</tp:name>
 			<tp:description>This schema contains the entry point for the ElectricalInspection</tp:description>
 			<tp:entryPointDocument href="../documents/ElectricalInspection/solar-ElectricalInspection_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-EnergyProductionInsurancePolicy.</tp:name>
+			<tp:name>100433 - Documents - Energy Production Insurance Policy</tp:name>
 			<tp:description>This schema contains the entry point for the EnergyProductionInsurancePolicy</tp:description>
 			<tp:entryPointDocument href="../documents/EnergyProductionInsurancePolicy/solar-EnergyProductionInsurancePolicy_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-EngineeringProcurementAndConstructionContract.</tp:name>
+			<tp:name>100435 - Documents - Engineering Procurement And Construction Contract</tp:name>
 			<tp:description>This schema contains the entry point for the EngineeringProcurementAndConstructionContract</tp:description>
 			<tp:entryPointDocument href="../documents/EngineeringProcurementAndConstructionContract/solar-EngineeringProcurementAndConstructionContract_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-EnvironmentalAssessmentI.</tp:name>
+			<tp:name>100440 - Documents - Environmental Assessment I</tp:name>
 			<tp:description>This schema contains the entry point for the EnvironmentalAssessmentI</tp:description>
 			<tp:entryPointDocument href="../documents/EnvironmentalAssessmentI/solar-EnvironmentalAssessmentI_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-EnvironmentalAssessmentII.</tp:name>
+			<tp:name>100450 - Documents - Environmental Assessment II</tp:name>
 			<tp:description>This schema contains the entry point for the EnvironmentalAssessmentII</tp:description>
 			<tp:entryPointDocument href="../documents/EnvironmentalAssessmentII/solar-EnvironmentalAssessmentII_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-EnvironmentalImpactReport.</tp:name>
+			<tp:name>100460 - Documents - Environmental Impact Report</tp:name>
 			<tp:description>This schema contains the entry point for the EnvironmentalImpactReport</tp:description>
 			<tp:entryPointDocument href="../documents/EnvironmentalImpactReport/solar-EnvironmentalImpactReport_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-EquipmentSpecSheets.</tp:name>
+			<tp:name>100470 - Documents - Equipment Spec Sheets</tp:name>
 			<tp:description>This schema contains the entry point for the EquipmentSpecSheets</tp:description>
 			<tp:entryPointDocument href="../documents/EquipmentSpecSheets/solar-EquipmentSpecSheets_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-EquipmentWarranties.</tp:name>
+			<tp:name>100480 - Documents - Equipment Warranties</tp:name>
 			<tp:description>This schema contains the entry point for the EquipmentWarranties</tp:description>
 			<tp:entryPointDocument href="../documents/EquipmentWarranties/solar-EquipmentWarranties_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-EquityContributionAgreement.</tp:name>
+			<tp:name>100482 - Documents - Equity Contribution Agreement</tp:name>
 			<tp:description>This schema contains the entry point for the EquityContributionAgreement</tp:description>
 			<tp:entryPointDocument href="../documents/EquityContributionAgreement/solar-EquityContributionAgreement_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-EquityContributionGuarantee.</tp:name>
+			<tp:name>100485 - Documents - Equity Contribution Guarantee</tp:name>
 			<tp:description>This schema contains the entry point for the EquityContributionGuarantee</tp:description>
 			<tp:entryPointDocument href="../documents/EquityContributionGuarantee/solar-EquityContributionGuarantee_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-EstoppelCertificatePowerPurchaseAgreement.</tp:name>
+			<tp:name>100485 - Documents - Estoppel Certificate Power Purchase Agreement</tp:name>
 			<tp:description>This schema contains the entry point for the EstoppelCertificatePowerPurchaseAgreement</tp:description>
 			<tp:entryPointDocument href="../documents/EstoppelCertificatePowerPurchaseAgreement/solar-EstoppelCertificatePowerPurchaseAgreement_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-ExposureReport.</tp:name>
+			<tp:name>100490 - Documents - Exposure Report</tp:name>
 			<tp:description>This schema contains the entry point for the ExposureReport</tp:description>
 			<tp:entryPointDocument href="../documents/ExposureReport/solar-ExposureReport_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-FinancialLeaseSchedule.</tp:name>
+			<tp:name>100495 - Documents - Financial Lease Schedule</tp:name>
 			<tp:description>This schema contains the entry point for the FinancialLeaseSchedule</tp:description>
 			<tp:entryPointDocument href="../documents/FinancialLeaseSchedule/solar-FinancialLeaseSchedule_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-FundingMemo.</tp:name>
+			<tp:name>100500 - Documents - Funding Memo</tp:name>
 			<tp:description>This schema contains the entry point for the FundingMemo</tp:description>
 			<tp:entryPointDocument href="../documents/FundingMemo/solar-FundingMemo_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-Guarantees.</tp:name>
+			<tp:name>100510 - Documents - Guarantee and Pledge Agreement</tp:name>
+			<tp:description>This schema contains the entry point for the GuaranteeandPledgementAgreement</tp:description>
+			<tp:entryPointDocument href="../documents/GuaranteeandPledgementAgreement/solar-GuaranteeandPledgementAgreement_2018-03-31_r01.xsd"/>
+		</tp:entryPoint>
+		<tp:entryPoint>
+			<tp:name>100520 - Documents - Guarantees</tp:name>
 			<tp:description>This schema contains the entry point for the Guarantees</tp:description>
 			<tp:entryPointDocument href="../documents/Guarantees/solar-Guarantees_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-HedgeAgreement.</tp:name>
+			<tp:name>100525 - Documents - Hedge Agreement</tp:name>
 			<tp:description>This schema contains the entry point for the HedgeAgreement</tp:description>
 			<tp:entryPointDocument href="../documents/HedgeAgreement/solar-HedgeAgreement_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-HostAcknowledgement.</tp:name>
+			<tp:name>100530 - Documents - Host Acknowledgement</tp:name>
 			<tp:description>This schema contains the entry point for the HostAcknowledgement</tp:description>
 			<tp:entryPointDocument href="../documents/HostAcknowledgement/solar-HostAcknowledgement_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-IECRECertificate.</tp:name>
+			<tp:name>100535 - Documents - IECRE Certificate</tp:name>
 			<tp:description>This schema contains the entry point for the IECRECertificate</tp:description>
 			<tp:entryPointDocument href="../documents/IECRECertificate/solar-IECRECertificate_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-IncentiveAssignment.</tp:name>
+			<tp:name>100540 - Documents - Incentive Assignment</tp:name>
 			<tp:description>This schema contains the entry point for the IncentiveAssignment</tp:description>
 			<tp:entryPointDocument href="../documents/IncentiveAssignment/solar-IncentiveAssignment_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-IncumbencyCertificate.</tp:name>
+			<tp:name>100550 - Documents - Incumbency Certificate</tp:name>
 			<tp:description>This schema contains the entry point for the IncumbencyCertificate</tp:description>
 			<tp:entryPointDocument href="../documents/IncumbencyCertificate/solar-IncumbencyCertificate_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-IndependentEngineeringOpinionReport.</tp:name>
+			<tp:name>100560 - Documents - Independent Engineering Opinion Report</tp:name>
 			<tp:description>This schema contains the entry point for the IndependentEngineeringOpinionReport</tp:description>
 			<tp:entryPointDocument href="../documents/IndependentEngineeringOpinionReport/solar-IndependentEngineeringOpinionReport_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-IndependentEngineeringReport.</tp:name>
+			<tp:name>100570 - Documents - Independent Engineering Report</tp:name>
 			<tp:description>This schema contains the entry point for the IndependentEngineeringReport</tp:description>
 			<tp:entryPointDocument href="../documents/IndependentEngineeringReport/solar-IndependentEngineeringReport_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-IndependentEngineeringServicesCheckList.</tp:name>
+			<tp:name>100575 - Documents - Independent Engineering Services CheckList</tp:name>
 			<tp:description>This schema contains the entry point for the IndependentEngineeringServicesCheckList</tp:description>
 			<tp:entryPointDocument href="../documents/IndependentEngineeringServicesCheckList/solar-IndependentEngineeringServicesCheckList_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-InstallationAgreement.</tp:name>
+			<tp:name>100580 - Documents - Installation Agreement</tp:name>
 			<tp:description>This schema contains the entry point for the InstallationAgreement</tp:description>
 			<tp:entryPointDocument href="../documents/InstallationAgreement/solar-InstallationAgreement_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-InsuranceConsultantReport.</tp:name>
+			<tp:name>100590 - Documents - Insurance Consultant Report</tp:name>
 			<tp:description>This schema contains the entry point for the InsuranceConsultantReport</tp:description>
 			<tp:entryPointDocument href="../documents/InsuranceConsultantReport/solar-InsuranceConsultantReport_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-InterconnectionAgreement.</tp:name>
+			<tp:name>100595 - Documents - Interconnection Agreement</tp:name>
 			<tp:description>This schema contains the entry point for the InterconnectionAgreement</tp:description>
 			<tp:entryPointDocument href="../documents/InterconnectionAgreement/solar-InterconnectionAgreement_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-InterconnectionApproval.</tp:name>
+			<tp:name>100600 - Documents - Interconnection Approval</tp:name>
 			<tp:description>This schema contains the entry point for the InterconnectionApproval</tp:description>
 			<tp:entryPointDocument href="../documents/InterconnectionApproval/solar-InterconnectionApproval_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-InvestmentMemo.</tp:name>
+			<tp:name>100610 - Documents - Investment Memo</tp:name>
 			<tp:description>This schema contains the entry point for the InvestmentMemo</tp:description>
 			<tp:entryPointDocument href="../documents/InvestmentMemo/solar-InvestmentMemo_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-InvoiceIncludingWiringInstructions.</tp:name>
+			<tp:name>100620 - Documents - Invoice Including Wiring Instructions</tp:name>
 			<tp:description>This schema contains the entry point for the InvoiceIncludingWiringInstructions</tp:description>
 			<tp:entryPointDocument href="../documents/InvoiceIncludingWiringInstructions/solar-InvoiceIncludingWiringInstructions_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-LCCRegistration.</tp:name>
+			<tp:name>100630 - Documents - LCC Registration</tp:name>
 			<tp:description>This schema contains the entry point for the LCCRegistration</tp:description>
 			<tp:entryPointDocument href="../documents/LCCRegistration/solar-LCCRegistration_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-LeaseContractForProject.</tp:name>
+			<tp:name>100635 - Documents - Lease Contract For Project</tp:name>
 			<tp:description>This schema contains the entry point for the LeaseContractForProject</tp:description>
 			<tp:entryPointDocument href="../documents/LeaseContractForProject/solar-LeaseContractForProject_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-LesseeClaimDocuments.</tp:name>
+			<tp:name>100640 - Documents - Lessee Claim Documents</tp:name>
 			<tp:description>This schema contains the entry point for the LesseeClaimDocuments</tp:description>
 			<tp:entryPointDocument href="../documents/LesseeClaimDocuments/solar-LesseeClaimDocuments_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-LesseeCollateralAgencyAgreement.</tp:name>
+			<tp:name>100650 - Documents - Lessee Collateral Agency Agreement</tp:name>
 			<tp:description>This schema contains the entry point for the LesseeCollateralAgencyAgreement</tp:description>
 			<tp:entryPointDocument href="../documents/LesseeCollateralAgencyAgreement/solar-LesseeCollateralAgencyAgreement_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-LesseeSecurityAgreement.</tp:name>
+			<tp:name>100660 - Documents - Lessee Security Agreement</tp:name>
 			<tp:description>This schema contains the entry point for the LesseeSecurityAgreement</tp:description>
 			<tp:entryPointDocument href="../documents/LesseeSecurityAgreement/solar-LesseeSecurityAgreement_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-LetterofCredit.</tp:name>
+			<tp:name>100670 - Documents - Letter of Credit</tp:name>
 			<tp:description>This schema contains the entry point for the LetterofCredit</tp:description>
 			<tp:entryPointDocument href="../documents/LetterofCredit/solar-LetterofCredit_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-LiabilityInsuranceCertificate.</tp:name>
+			<tp:name>100680 - Documents - Liability Insurance Certificate</tp:name>
 			<tp:description>This schema contains the entry point for the LiabilityInsuranceCertificate</tp:description>
 			<tp:entryPointDocument href="../documents/LiabilityInsuranceCertificate/solar-LiabilityInsuranceCertificate_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-LienWaiver.</tp:name>
+			<tp:name>100690 - Documents - Lien Waiver</tp:name>
 			<tp:description>This schema contains the entry point for the LienWaiver</tp:description>
 			<tp:entryPointDocument href="../documents/LienWaiver/solar-LienWaiver_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-LimitedLiabilityCompanyAgreement.</tp:name>
+			<tp:name>100700 - Documents - Limited Liability Company Agreement</tp:name>
 			<tp:description>This schema contains the entry point for the LimitedLiabilityCompanyAgreement</tp:description>
 			<tp:entryPointDocument href="../documents/LimitedLiabilityCompanyAgreement/solar-LimitedLiabilityCompanyAgreement_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-LLCFormationDocuments.</tp:name>
+			<tp:name>100710 - Documents - LLC Formation Documents</tp:name>
 			<tp:description>This schema contains the entry point for the LLCFormationDocuments</tp:description>
 			<tp:entryPointDocument href="../documents/LLCFormationDocuments/solar-LLCFormationDocuments_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-LocalIncentiveContract.</tp:name>
+			<tp:name>100720 - Documents - Local Incentive Contract</tp:name>
 			<tp:description>This schema contains the entry point for the LocalIncentiveContract</tp:description>
 			<tp:entryPointDocument href="../documents/LocalIncentiveContract/solar-LocalIncentiveContract_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-MasterLease.</tp:name>
+			<tp:name>100730 - Documents - Master Lease</tp:name>
 			<tp:description>This schema contains the entry point for the MasterLease</tp:description>
 			<tp:entryPointDocument href="../documents/MasterLease/solar-MasterLease_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-MasterLesseeSecurityAgreement.</tp:name>
+			<tp:name>100740 - Documents - Master Lessee Collateral Agency Agreement</tp:name>
+			<tp:description>This schema contains the entry point for the MasterLesseeCollateralAgencyAgreement</tp:description>
+			<tp:entryPointDocument href="../documents/MasterLesseeCollateralAgencyAgreement/solar-MasterLesseeCollateralAgencyAgreement_2018-03-31_r01.xsd"/>
+		</tp:entryPoint>
+		<tp:entryPoint>
+			<tp:name>100750 - Documents - Master Lessee Security Agreement</tp:name>
 			<tp:description>This schema contains the entry point for the MasterLesseeSecurityAgreement</tp:description>
 			<tp:entryPointDocument href="../documents/MasterLesseeSecurityAgreement/solar-MasterLesseeSecurityAgreement_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-MasterPurchaseAgreement.</tp:name>
+			<tp:name>100760 - Documents - Master Purchase Agreement</tp:name>
 			<tp:description>This schema contains the entry point for the MasterPurchaseAgreement</tp:description>
 			<tp:entryPointDocument href="../documents/MasterPurchaseAgreement/solar-MasterPurchaseAgreement_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-MasterServicesAgreement.</tp:name>
+			<tp:name>100770 - Documents - Master Services Agreement</tp:name>
 			<tp:description>This schema contains the entry point for the MasterServicesAgreement</tp:description>
 			<tp:entryPointDocument href="../documents/MasterServicesAgreement/solar-MasterServicesAgreement_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-MechanicalCompletionCertificate.</tp:name>
+			<tp:name>100780 - Documents - Mechanical Completion Certificate</tp:name>
 			<tp:description>This schema contains the entry point for the MechanicalCompletionCertificate</tp:description>
 			<tp:entryPointDocument href="../documents/MechanicalCompletionCertificate/solar-MechanicalCompletionCertificate_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-MembershipCertificateofLessee.</tp:name>
+			<tp:name>100790 - Documents - Membership Certificate Of Lessee</tp:name>
 			<tp:description>This schema contains the entry point for the MembershipCertificateofLessee</tp:description>
 			<tp:entryPointDocument href="../documents/MembershipCertificateofLessee/solar-MembershipCertificateofLessee_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-MembershipCertificateofMasterLessee.</tp:name>
+			<tp:name>100800 - Documents - Membership Certificate Of Master Lessee</tp:name>
 			<tp:description>This schema contains the entry point for the MembershipCertificateofMasterLessee</tp:description>
 			<tp:entryPointDocument href="../documents/MembershipCertificateofMasterLessee/solar-MembershipCertificateofMasterLessee_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-MembershipInterestPurchaseAgreement.</tp:name>
+			<tp:name>100805 - Documents - Membership Interest Purchase Agreement</tp:name>
 			<tp:description>This schema contains the entry point for the MembershipInterestPurchaseAgreement</tp:description>
 			<tp:entryPointDocument href="../documents/MembershipInterestPurchaseAgreement/solar-MembershipInterestPurchaseAgreement_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-ModuleAcceleratedAgeTestReport.</tp:name>
+			<tp:name>100810 - Documents - Module Accelerated Age Test Report</tp:name>
 			<tp:description>This schema contains the entry point for the ModuleAcceleratedAgeTestReport</tp:description>
 			<tp:entryPointDocument href="../documents/ModuleAcceleratedAgeTestReport/solar-ModuleAcceleratedAgeTestReport_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-ModuleFactoryAuditReport.</tp:name>
+			<tp:name>100820 - Documents - Module Factory Audit Report</tp:name>
 			<tp:description>This schema contains the entry point for the ModuleFactoryAuditReport</tp:description>
 			<tp:entryPointDocument href="../documents/ModuleFactoryAuditReport/solar-ModuleFactoryAuditReport_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-MonthlyOperatingReport.</tp:name>
+			<tp:name>100825 - Documents - Monthly Operating Report</tp:name>
 			<tp:description>This schema contains the entry point for the MonthlyOperatingReport</tp:description>
 			<tp:entryPointDocument href="../documents/MonthlyOperatingReport/solar-MonthlyOperatingReport_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-MonitoringContract.</tp:name>
+			<tp:name>100830 - Documents - Monitoring Contract</tp:name>
 			<tp:description>This schema contains the entry point for the MonitoringContract</tp:description>
 			<tp:entryPointDocument href="../documents/MonitoringContract/solar-MonitoringContract_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-NoticeandPaymentInstructions.</tp:name>
+			<tp:name>100840 - Documents - Notice and Payment Instructions</tp:name>
 			<tp:description>This schema contains the entry point for the NoticeandPaymentInstructions</tp:description>
 			<tp:entryPointDocument href="../documents/NoticeandPaymentInstructions/solar-NoticeandPaymentInstructions_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-NoticeofApproval.</tp:name>
+			<tp:name>100850 - Documents - Notice Of Approval</tp:name>
 			<tp:description>This schema contains the entry point for the NoticeofApproval</tp:description>
 			<tp:entryPointDocument href="../documents/NoticeofApproval/solar-NoticeofApproval_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-NoticeOfCommercialOperation.</tp:name>
+			<tp:name>100860 - Documents - Notice Of Commercial Operation</tp:name>
 			<tp:description>This schema contains the entry point for the NoticeOfCommercialOperation</tp:description>
 			<tp:entryPointDocument href="../documents/NoticeOfCommercialOperation/solar-NoticeOfCommercialOperation_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-NoticeofCommercialOperationsDate.</tp:name>
+			<tp:name>100870 - Documents - Notice Of Commercial Operations Date</tp:name>
 			<tp:description>This schema contains the entry point for the NoticeofCommercialOperationsDate</tp:description>
 			<tp:entryPointDocument href="../documents/NoticeofCommercialOperationsDate/solar-NoticeofCommercialOperationsDate_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-OperatingAgreementsForMasterLesseeLesseeandOperator.</tp:name>
+			<tp:name>100880 - Documents - Operating Agreements For Master Lessee, Lessee And Operator</tp:name>
 			<tp:description>This schema contains the entry point for the OperatingAgreementsForMasterLesseeLesseeandOperator</tp:description>
 			<tp:entryPointDocument href="../documents/OperatingAgreementsForMasterLesseeLesseeandOperator/solar-OperatingAgreementsForMasterLesseeLesseeandOperator_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-OperationalEventReport.</tp:name>
+			<tp:name>100885 - Documents - Operational Event Report</tp:name>
 			<tp:description>This schema contains the entry point for the OperationalEventReport</tp:description>
 			<tp:entryPointDocument href="../documents/OperationalEventReport/solar-OperationalEventReport_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-OperationalIssuesReport.</tp:name>
+			<tp:name>100887 - Documents - Operational Issues Report</tp:name>
 			<tp:description>This schema contains the entry point for the OperationalIssuesReport</tp:description>
 			<tp:entryPointDocument href="../documents/OperationalIssuesReport/solar-OperationalIssuesReport_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-OperationsandMaintenanceContract.</tp:name>
+			<tp:name>100890 - Documents - Operations And Maintenance Contract</tp:name>
 			<tp:description>This schema contains the entry point for the OperationsandMaintenanceContract</tp:description>
 			<tp:entryPointDocument href="../documents/OperationsandMaintenanceContract/solar-OperationsandMaintenanceContract_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-OperationsandMaintenanceManual.</tp:name>
+			<tp:name>100900 - Documents - Operations And Maintenance Manual</tp:name>
 			<tp:description>This schema contains the entry point for the OperationsandMaintenanceManual</tp:description>
 			<tp:entryPointDocument href="../documents/OperationsandMaintenanceManual/solar-OperationsandMaintenanceManual_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-OperationsAndMaintenanceSubcontractorContract.</tp:name>
+			<tp:name>100905 - Documents - Operations and Maintenance Subcontractor Contract</tp:name>
 			<tp:description>This schema contains the entry point for the OperationsAndMaintenanceSubcontractorContract</tp:description>
 			<tp:entryPointDocument href="../documents/OperationsAndMaintenanceSubcontractorContract/solar-OperationsAndMaintenanceSubcontractorContract_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-OperationsManual.</tp:name>
+			<tp:name>100910 - Documents - Operations Manual</tp:name>
 			<tp:description>This schema contains the entry point for the OperationsManual</tp:description>
 			<tp:entryPointDocument href="../documents/OperationsManual/solar-OperationsManual_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-OperatorGuarantee.</tp:name>
+			<tp:name>100920 - Documents - Operator Guarantee</tp:name>
 			<tp:description>This schema contains the entry point for the OperatorGuarantee</tp:description>
 			<tp:entryPointDocument href="../documents/OperatorGuarantee/solar-OperatorGuarantee_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-OperatorPerformanceSponsorGuaranteeContract.</tp:name>
+			<tp:name>100925 - Documents - Operator Performance Sponsor Guarantee Contract</tp:name>
 			<tp:description>This schema contains the entry point for the OperatorPerformanceSponsorGuaranteeContract</tp:description>
 			<tp:entryPointDocument href="../documents/OperatorPerformanceSponsorGuaranteeContract/solar-OperatorPerformanceSponsorGuaranteeContract_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-OriginationRequest.</tp:name>
+			<tp:name>100930 - Documents - Origination Request</tp:name>
 			<tp:description>This schema contains the entry point for the OriginationRequest</tp:description>
 			<tp:entryPointDocument href="../documents/OriginationRequest/solar-OriginationRequest_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-OtherEquipmentDueDiligenceReports.</tp:name>
+			<tp:name>100940 - Documents - Other Equipment Due Diligence Reports</tp:name>
 			<tp:description>This schema contains the entry point for the OtherEquipmentDueDiligenceReports</tp:description>
 			<tp:entryPointDocument href="../documents/OtherEquipmentDueDiligenceReports/solar-OtherEquipmentDueDiligenceReports_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-ParentGuarantee.</tp:name>
+			<tp:name>100950 - Documents - Parent Guarantee</tp:name>
 			<tp:description>This schema contains the entry point for the ParentGuarantee</tp:description>
 			<tp:entryPointDocument href="../documents/ParentGuarantee/solar-ParentGuarantee_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-PartnershipFlipContractForProject.</tp:name>
+			<tp:name>100953 - Documents - Partnership Flip Contract For Project</tp:name>
 			<tp:description>This schema contains the entry point for the PartnershipFlipContractForProject</tp:description>
 			<tp:entryPointDocument href="../documents/PartnershipFlipContractForProject/solar-PartnershipFlipContractForProject_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-PerformanceGuarantee.</tp:name>
+			<tp:name>100960 - Documents - Performance Guarantee</tp:name>
 			<tp:description>This schema contains the entry point for the PerformanceGuarantee</tp:description>
 			<tp:entryPointDocument href="../documents/PerformanceGuarantee/solar-PerformanceGuarantee_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-PermissionToOperateInterconnectionApproval.</tp:name>
+			<tp:name>100970 - Documents - Permission To Operate Interconnection Approval</tp:name>
 			<tp:description>This schema contains the entry point for the PermissionToOperateInterconnectionApproval</tp:description>
 			<tp:entryPointDocument href="../documents/PermissionToOperateInterconnectionApproval/solar-PermissionToOperateInterconnectionApproval_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-PledgeAgreement.</tp:name>
+			<tp:name>100980 - Documents - Pledge Agreement</tp:name>
 			<tp:description>This schema contains the entry point for the PledgeAgreement</tp:description>
 			<tp:entryPointDocument href="../documents/PledgeAgreement/solar-PledgeAgreement_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-PowerPurchaseAgreement.</tp:name>
+			<tp:name>100990 - Documents - Power Purchase Agreement</tp:name>
 			<tp:description>This schema contains the entry point for the PowerPurchaseAgreement</tp:description>
 			<tp:entryPointDocument href="../documents/PowerPurchaseAgreement/solar-PowerPurchaseAgreement_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-PricingFile.</tp:name>
+			<tp:name>101000 - Documents - Pricing File</tp:name>
 			<tp:description>This schema contains the entry point for the PricingFile</tp:description>
 			<tp:entryPointDocument href="../documents/PricingFile/solar-PricingFile_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-PricingModelReport.</tp:name>
+			<tp:name>101005 - Documents - Pricing Model Report</tp:name>
 			<tp:description>This schema contains the entry point for the PricingModelReport</tp:description>
 			<tp:entryPointDocument href="../documents/PricingModelReport/solar-PricingModelReport_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-ProjectAdministrationAgreement.</tp:name>
+			<tp:name>101005 - Documents - Project Administration Agreement</tp:name>
 			<tp:description>This schema contains the entry point for the ProjectAdministrationAgreement</tp:description>
 			<tp:entryPointDocument href="../documents/ProjectAdministrationAgreement/solar-ProjectAdministrationAgreement_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-PropertyInsuranceCertificate.</tp:name>
+			<tp:name>101010 - Documents - Property Insurance Certificate</tp:name>
 			<tp:description>This schema contains the entry point for the PropertyInsuranceCertificate</tp:description>
 			<tp:entryPointDocument href="../documents/PropertyInsuranceCertificate/solar-PropertyInsuranceCertificate_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-PropertyInsurancePolicy.</tp:name>
+			<tp:name>101015 - Documents - Property Insurance Policy</tp:name>
 			<tp:description>This schema contains the entry point for the PropertyInsurancePolicy</tp:description>
 			<tp:entryPointDocument href="../documents/PropertyInsurancePolicy/solar-PropertyInsurancePolicy_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-PropertyTaxExemptionOpinion.</tp:name>
+			<tp:name>101020 - Documents - Property Tax Exemption Opinion</tp:name>
 			<tp:description>This schema contains the entry point for the PropertyTaxExemptionOpinion</tp:description>
 			<tp:entryPointDocument href="../documents/PropertyTaxExemptionOpinion/solar-PropertyTaxExemptionOpinion_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-PunchList.</tp:name>
+			<tp:name>101030 - Documents - Punch List</tp:name>
 			<tp:description>This schema contains the entry point for the PunchList</tp:description>
 			<tp:entryPointDocument href="../documents/PunchList/solar-PunchList_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-QualifyingFacilitiesSelfCertification.</tp:name>
+			<tp:name>101035 - Documents - Qualifying Facilities Self Certification</tp:name>
 			<tp:description>This schema contains the entry point for the QualifyingFacilitiesSelfCertification</tp:description>
 			<tp:entryPointDocument href="../documents/QualifyingFacilitiesSelfCertification/solar-QualifyingFacilitiesSelfCertification_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-RECBuyerAcknowledgement.</tp:name>
+			<tp:name>101040 - Documents - Renewable Energy Credit Buyer Acknowledgement</tp:name>
 			<tp:description>This schema contains the entry point for the RECBuyerAcknowledgement</tp:description>
 			<tp:entryPointDocument href="../documents/RECBuyerAcknowledgement/solar-RECBuyerAcknowledgement_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-RenewableEnergyCreditOfftakeAgreement.</tp:name>
+			<tp:name>101045 - Documents - Renewable Energy Credit Offtaker Agreement</tp:name>
 			<tp:description>This schema contains the entry point for the RenewableEnergyCreditOfftakeAgreement</tp:description>
 			<tp:entryPointDocument href="../documents/RenewableEnergyCreditOfftakeAgreement/solar-RenewableEnergyCreditOfftakeAgreement_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-RenewableEnergyCreditPerformanceAgreement.</tp:name>
+			<tp:name>101047 - Documents - Renewable Energy Credit Performance Agreement</tp:name>
 			<tp:description>This schema contains the entry point for the RenewableEnergyCreditPerformanceAgreement</tp:description>
 			<tp:entryPointDocument href="../documents/RenewableEnergyCreditPerformanceAgreement/solar-RenewableEnergyCreditPerformanceAgreement_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-SalesLeasebackContractForProject.</tp:name>
+			<tp:name>101050 - Documents - Rent Reserve Letter Of Credit</tp:name>
+			<tp:description>This schema contains the entry point for the RentReserveLetterofCredit</tp:description>
+			<tp:entryPointDocument href="../documents/RentReserveLetterofCredit/solar-RentReserveLetterofCredit_2018-03-31_r01.xsd"/>
+		</tp:entryPoint>
+		<tp:entryPoint>
+			<tp:name>101055 - Documents - Sales Leaseback Contract For Project</tp:name>
 			<tp:description>This schema contains the entry point for the SalesLeasebackContractForProject</tp:description>
 			<tp:entryPointDocument href="../documents/SalesLeasebackContractForProject/solar-SalesLeasebackContractForProject_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-SecurityAgreementSupplement.</tp:name>
+			<tp:name>101060 - Documents - Security Agreement Supplement</tp:name>
 			<tp:description>This schema contains the entry point for the SecurityAgreementSupplement</tp:description>
 			<tp:entryPointDocument href="../documents/SecurityAgreementSupplement/solar-SecurityAgreementSupplement_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-SecurityContract.</tp:name>
+			<tp:name>101063 - Documents - Security Contract</tp:name>
 			<tp:description>This schema contains the entry point for the SecurityContract</tp:description>
 			<tp:entryPointDocument href="../documents/SecurityContract/solar-SecurityContract_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-SharedFacilityAgreement.</tp:name>
+			<tp:name>101065 - Documents - Shared Facility Agreement</tp:name>
 			<tp:description>This schema contains the entry point for the SharedFacilityAgreement</tp:description>
 			<tp:entryPointDocument href="../documents/SharedFacilityAgreement/solar-SharedFacilityAgreement_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-SiteControlContract.</tp:name>
+			<tp:name>101068 - Documents - Site Control Contract</tp:name>
 			<tp:description>This schema contains the entry point for the SiteControlContract</tp:description>
 			<tp:entryPointDocument href="../documents/SiteControlContract/solar-SiteControlContract_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-SiteLease.</tp:name>
+			<tp:name>101070 - Documents - Site Lease</tp:name>
 			<tp:description>This schema contains the entry point for the SiteLease</tp:description>
 			<tp:entryPointDocument href="../documents/SiteLease/solar-SiteLease_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-SiteLeaseAssignment.</tp:name>
+			<tp:name>101080 - Documents - Site Lease Assignment</tp:name>
 			<tp:description>This schema contains the entry point for the SiteLeaseAssignment</tp:description>
 			<tp:entryPointDocument href="../documents/SiteLeaseAssignment/solar-SiteLeaseAssignment_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-SiteLeaseMemo.</tp:name>
+			<tp:name>101090 - Documents - Site Lease Memo</tp:name>
 			<tp:description>This schema contains the entry point for the SiteLeaseMemo</tp:description>
 			<tp:entryPointDocument href="../documents/SiteLeaseMemo/solar-SiteLeaseMemo_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-SiteLicenseAgreement.</tp:name>
+			<tp:name>101100 - Documents - Site License Agreement</tp:name>
 			<tp:description>This schema contains the entry point for the SiteLicenseAgreement</tp:description>
 			<tp:entryPointDocument href="../documents/SiteLicenseAgreement/solar-SiteLicenseAgreement_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-SubstantialCompletionCertificate.</tp:name>
+			<tp:name>101110 - Documents - Substantial Completion Certificate</tp:name>
 			<tp:description>This schema contains the entry point for the SubstantialCompletionCertificate</tp:description>
 			<tp:entryPointDocument href="../documents/SubstantialCompletionCertificate/solar-SubstantialCompletionCertificate_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-SupplementalReportReviewOfLocalTaxReview.</tp:name>
+			<tp:name>101115 - Documents - Supplemental Report Review Of Local Tax Review</tp:name>
 			<tp:description>This schema contains the entry point for the SupplementalReportReviewOfLocalTaxReview</tp:description>
 			<tp:entryPointDocument href="../documents/SupplementalReportReviewOfLocalTaxReview/solar-SupplementalReportReviewOfLocalTaxReview_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-SupplyAgreements.</tp:name>
+			<tp:name>101120 - Documents - Supply Agreements</tp:name>
 			<tp:description>This schema contains the entry point for the SupplyAgreements</tp:description>
 			<tp:entryPointDocument href="../documents/SupplyAgreements/solar-SupplyAgreements_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-SuretyBondPolicy.</tp:name>
+			<tp:name>101125 - Documents - Surety Bond Policy</tp:name>
 			<tp:description>This schema contains the entry point for the SuretyBondPolicy</tp:description>
 			<tp:entryPointDocument href="../documents/SuretyBondPolicy/solar-SuretyBondPolicy_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-TaxIndemnityAgreement.</tp:name>
+			<tp:name>101130 - Documents - Tax Indemnity Agreement</tp:name>
 			<tp:description>This schema contains the entry point for the TaxIndemnityAgreement</tp:description>
 			<tp:entryPointDocument href="../documents/TaxIndemnityAgreement/solar-TaxIndemnityAgreement_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-TaxOpinion.</tp:name>
+			<tp:name>101140 - Documents - Tax Opinion</tp:name>
 			<tp:description>This schema contains the entry point for the TaxOpinion</tp:description>
 			<tp:entryPointDocument href="../documents/TaxOpinion/solar-TaxOpinion_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-TermLoan.</tp:name>
+			<tp:name>101145 - Documents - Term Loan</tp:name>
 			<tp:description>This schema contains the entry point for the TermLoan</tp:description>
 			<tp:entryPointDocument href="../documents/TermLoan/solar-TermLoan_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-TermSheet.</tp:name>
+			<tp:name>101150 - Documents - Term Sheet</tp:name>
 			<tp:description>This schema contains the entry point for the TermSheet</tp:description>
 			<tp:entryPointDocument href="../documents/TermSheet/solar-TermSheet_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-TitleSurvey.</tp:name>
+			<tp:name>101160 - Documents - Title Survey</tp:name>
 			<tp:description>This schema contains the entry point for the TitleSurvey</tp:description>
 			<tp:entryPointDocument href="../documents/TitleSurvey/solar-TitleSurvey_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-TransmissionReportandCurtailmentEstimate.</tp:name>
+			<tp:name>101170 - Documents - Transmission Report and Curtailment Estimate</tp:name>
 			<tp:description>This schema contains the entry point for the TransmissionReportandCurtailmentEstimate</tp:description>
 			<tp:entryPointDocument href="../documents/TransmissionReportandCurtailmentEstimate/solar-TransmissionReportandCurtailmentEstimate_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-UCCPrecautionaryLeaseFiling.</tp:name>
+			<tp:name>101180 - Documents - UCC Precautionary Lease Filing</tp:name>
 			<tp:description>This schema contains the entry point for the UCCPrecautionaryLeaseFiling</tp:description>
 			<tp:entryPointDocument href="../documents/UCCPrecautionaryLeaseFiling/solar-UCCPrecautionaryLeaseFiling_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-UCCSecurityAgreement.</tp:name>
+			<tp:name>101190 - Documents - UCC Security Agreement</tp:name>
 			<tp:description>This schema contains the entry point for the UCCSecurityAgreement</tp:description>
 			<tp:entryPointDocument href="../documents/UCCSecurityAgreement/solar-UCCSecurityAgreement_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-UCCTaxLienandJudgmentLienSearches.</tp:name>
+			<tp:name>101210 - Documents - UCC Tax, Lien and Judgment Lien Searches</tp:name>
 			<tp:description>This schema contains the entry point for the UCCTaxLienandJudgmentLienSearches</tp:description>
 			<tp:entryPointDocument href="../documents/UCCTaxLienandJudgmentLienSearches/solar-UCCTaxLienandJudgmentLienSearches_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-UniversalInsurancePolicy.</tp:name>
+			<tp:name>101213 - Documents - Universal Insurance Policy</tp:name>
 			<tp:description>This schema contains the entry point for the UniversalInsurancePolicy</tp:description>
 			<tp:entryPointDocument href="../documents/UniversalInsurancePolicy/solar-UniversalInsurancePolicy_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-VegetationManagementAgreement.</tp:name>
+			<tp:name>101215 - Documents - Vegetation Management Agreement</tp:name>
 			<tp:description>This schema contains the entry point for the VegetationManagementAgreement</tp:description>
 			<tp:entryPointDocument href="../documents/VegetationManagementAgreement/solar-VegetationManagementAgreement_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-WashingAndWasteAgreement.</tp:name>
+			<tp:name>101216 - Documents - Washing And Waste Agreement</tp:name>
 			<tp:description>This schema contains the entry point for the WashingAndWasteAgreement</tp:description>
 			<tp:entryPointDocument href="../documents/WashingAndWasteAgreement/solar-WashingAndWasteAgreement_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-WiringInstructions.</tp:name>
+			<tp:name>101220 - Documents - Wiring Instructions</tp:name>
 			<tp:description>This schema contains the entry point for the WiringInstructions</tp:description>
 			<tp:entryPointDocument href="../documents/WiringInstructions/solar-WiringInstructions_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-WorkersCompensationInsurancePolicy.</tp:name>
+			<tp:name>101230 - Documents - Workers Compensation Insurance Policy</tp:name>
 			<tp:description>This schema contains the entry point for the WorkersCompensationInsurancePolicy</tp:description>
 			<tp:entryPointDocument href="../documents/WorkersCompensationInsurancePolicy/solar-WorkersCompensationInsurancePolicy_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>solar-ProjectFinancing.</tp:name>
+			<tp:name>101830 - Process - Project Financing</tp:name>
 			<tp:description>This schema contains the entry point for the ProjectFinancing</tp:description>
 			<tp:entryPointDocument href="../process/ProjectFinancing/solar-ProjectFinancing_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>

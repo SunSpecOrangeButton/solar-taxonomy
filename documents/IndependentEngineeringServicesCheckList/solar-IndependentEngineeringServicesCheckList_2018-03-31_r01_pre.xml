@@ -1597,5 +1597,25 @@
           xlink:from="solar_IndependentEngineeringServicesChecklistLineItems"
           xlink:to="solar_IndependentEngineeringServicesAdvisorOpinionDate"
           xlink:type="arc"/>
+        <loc
+          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_PreparerOFEngineeringServicesChecklistReport"
+          xlink:label="solar_PreparerOFEngineeringServicesChecklistReport"
+          xlink:type="locator"/>
+        <presentationArc
+          order="10"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_IndependentEngineeringServicesChecklistLineItems"
+          xlink:to="solar_PreparerOFEngineeringServicesChecklistReport"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_DocumentIdentifierEngineeringServicesChecklistReport"
+          xlink:label="solar_DocumentIdentifierEngineeringServicesChecklistReport"
+          xlink:type="locator"/>
+        <presentationArc
+          order="11"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_IndependentEngineeringServicesChecklistLineItems"
+          xlink:to="solar_DocumentIdentifierEngineeringServicesChecklistReport"
+          xlink:type="arc"/>
     </presentationLink>
 </linkbase>

@@ -21,6 +21,10 @@
             <link:definition>Generic UML property arc</link:definition>
             <link:usedOn>generic:arc</link:usedOn>
          </link:arcroleType>
-  </xs:appinfo>
+    <link:arcroleType arcroleURI="http://xbrl.us/arcrole/Identification" cyclesAllowed="any" id="identification">
+            <link:definition>Generic UML property arc</link:definition>
+            <link:usedOn>generic:arc</link:usedOn>
+        </link:arcroleType>
+        </xs:appinfo>
    </xs:annotation>
 </xs:schema>
