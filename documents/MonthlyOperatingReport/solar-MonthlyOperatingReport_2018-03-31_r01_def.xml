@@ -11,25 +11,25 @@
       arcroleURI="http://xbrl.org/int/dim/arcrole/dimension-domain"
       xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#dimension-domain"
       xlink:type="simple"/>
-    <arcroleRef
-      arcroleURI="http://xbrl.org/int/dim/arcrole/all"
-      xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#all"
-      xlink:type="simple"/>
     <roleRef
       roleURI="http://xbrl.us/Solar/v1.2/2018-03-31/roles/MonthlyOperatingReport"
       xlink:href="solar-MonthlyOperatingReport_2018-03-31_r01.xsd#roleType_MonthlyOperatingReport"
+      xlink:type="simple"/>
+    <arcroleRef
+      arcroleURI="http://xbrl.org/int/dim/arcrole/all"
+      xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#all"
       xlink:type="simple"/>
     <arcroleRef
       arcroleURI="http://xbrl.org/int/dim/arcrole/domain-member"
       xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#domain-member"
       xlink:type="simple"/>
     <arcroleRef
-      arcroleURI="http://xbrl.org/int/dim/arcrole/dimension-default"
-      xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#dimension-default"
-      xlink:type="simple"/>
-    <arcroleRef
       arcroleURI="http://xbrl.org/int/dim/arcrole/hypercube-dimension"
       xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#hypercube-dimension"
+      xlink:type="simple"/>
+    <arcroleRef
+      arcroleURI="http://xbrl.org/int/dim/arcrole/dimension-default"
+      xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#dimension-default"
       xlink:type="simple"/>
     <definitionLink
       xlink:role="http://xbrl.us/Solar/v1.2/2018-03-31/roles/MonthlyOperatingReport"
@@ -249,11 +249,21 @@
           xlink:to="solar_ExpectedEnergyAtTheRevenueMeter"
           xlink:type="arc"/>
         <loc
+          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_RatioMeasuredEnergyToExpectedEnergyAtTheRevenue"
+          xlink:label="solar_RatioMeasuredEnergyToExpectedEnergyAtTheRevenue"
+          xlink:type="locator"/>
+        <definitionArc
+          order="6"
+          xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
+          xlink:from="solar_MonthlyOperatingReportSummaryAbstract"
+          xlink:to="solar_RatioMeasuredEnergyToExpectedEnergyAtTheRevenue"
+          xlink:type="arc"/>
+        <loc
           xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_PerformanceRatioNonWeatherCorrected"
           xlink:label="solar_PerformanceRatioNonWeatherCorrected"
           xlink:type="locator"/>
         <definitionArc
-          order="6"
+          order="7"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
           xlink:from="solar_MonthlyOperatingReportSummaryAbstract"
           xlink:to="solar_PerformanceRatioNonWeatherCorrected"
@@ -263,7 +273,7 @@
           xlink:label="solar_PerformanceRatioWeatherCorrected"
           xlink:type="locator"/>
         <definitionArc
-          order="7"
+          order="8"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
           xlink:from="solar_MonthlyOperatingReportSummaryAbstract"
           xlink:to="solar_PerformanceRatioWeatherCorrected"
@@ -273,7 +283,7 @@
           xlink:label="solar_Curtailment"
           xlink:type="locator"/>
         <definitionArc
-          order="8"
+          order="9"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
           xlink:from="solar_MonthlyOperatingReportSummaryAbstract"
           xlink:to="solar_Curtailment"
@@ -283,7 +293,7 @@
           xlink:label="solar_CurtailmentMeasurementPeriod"
           xlink:type="locator"/>
         <definitionArc
-          order="9"
+          order="10"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
           xlink:from="solar_MonthlyOperatingReportSummaryAbstract"
           xlink:to="solar_CurtailmentMeasurementPeriod"
@@ -293,7 +303,7 @@
           xlink:label="solar_PerformanceRatioMethodology"
           xlink:type="locator"/>
         <definitionArc
-          order="10"
+          order="11"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
           xlink:from="solar_MonthlyOperatingReportSummaryAbstract"
           xlink:to="solar_PerformanceRatioMethodology"
@@ -303,7 +313,7 @@
           xlink:label="solar_MeasuredEnergyAvailabilityPercent"
           xlink:type="locator"/>
         <definitionArc
-          order="11"
+          order="12"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
           xlink:from="solar_MonthlyOperatingReportSummaryAbstract"
           xlink:to="solar_MeasuredEnergyAvailabilityPercent"
@@ -313,7 +323,7 @@
           xlink:label="solar_AvailabilityCalculationMethod"
           xlink:type="locator"/>
         <definitionArc
-          order="12"
+          order="13"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
           xlink:from="solar_MonthlyOperatingReportSummaryAbstract"
           xlink:to="solar_AvailabilityCalculationMethod"
@@ -323,7 +333,7 @@
           xlink:label="solar_MonthlyOperatingReportOverview"
           xlink:type="locator"/>
         <definitionArc
-          order="13"
+          order="14"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
           xlink:from="solar_MonthlyOperatingReportSummaryAbstract"
           xlink:to="solar_MonthlyOperatingReportOverview"
@@ -333,7 +343,7 @@
           xlink:label="solar_MonthlyOperatingReportRoutinePreventativeMaintenance"
           xlink:type="locator"/>
         <definitionArc
-          order="14"
+          order="15"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
           xlink:from="solar_MonthlyOperatingReportSummaryAbstract"
           xlink:to="solar_MonthlyOperatingReportRoutinePreventativeMaintenance"
@@ -343,7 +353,7 @@
           xlink:label="solar_MonthlyOperatingReportMaterialNonRoutineMaintenance"
           xlink:type="locator"/>
         <definitionArc
-          order="15"
+          order="16"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
           xlink:from="solar_MonthlyOperatingReportSummaryAbstract"
           xlink:to="solar_MonthlyOperatingReportMaterialNonRoutineMaintenance"
@@ -353,7 +363,7 @@
           xlink:label="solar_MonthlyOperatingReportWarrantyManagement"
           xlink:type="locator"/>
         <definitionArc
-          order="16"
+          order="17"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
           xlink:from="solar_MonthlyOperatingReportSummaryAbstract"
           xlink:to="solar_MonthlyOperatingReportWarrantyManagement"
@@ -363,7 +373,7 @@
           xlink:label="solar_MonthlyOperatingReportRegulatoryMattersCurtailmentandTransmissionIssues"
           xlink:type="locator"/>
         <definitionArc
-          order="17"
+          order="18"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
           xlink:from="solar_MonthlyOperatingReportSummaryAbstract"
           xlink:to="solar_MonthlyOperatingReportRegulatoryMattersCurtailmentandTransmissionIssues"
@@ -373,7 +383,7 @@
           xlink:label="solar_MeasuredEnergyWeatherAdjusted"
           xlink:type="locator"/>
         <definitionArc
-          order="18"
+          order="19"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
           xlink:from="solar_MonthlyOperatingReportSummaryAbstract"
           xlink:to="solar_MeasuredEnergyWeatherAdjusted"
@@ -383,7 +393,7 @@
           xlink:label="solar_MeasuredEnergyToWeatherAdjusted"
           xlink:type="locator"/>
         <definitionArc
-          order="19"
+          order="20"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
           xlink:from="solar_MonthlyOperatingReportSummaryAbstract"
           xlink:to="solar_MeasuredEnergyToWeatherAdjusted"
@@ -393,7 +403,7 @@
           xlink:label="solar_WeatherAdjustedEnergyMethodOfAdjustment"
           xlink:type="locator"/>
         <definitionArc
-          order="20"
+          order="21"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
           xlink:from="solar_MonthlyOperatingReportSummaryAbstract"
           xlink:to="solar_WeatherAdjustedEnergyMethodOfAdjustment"

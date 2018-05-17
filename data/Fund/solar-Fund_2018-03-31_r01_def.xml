@@ -7,10 +7,6 @@
   xmlns:xlink="http://www.w3.org/1999/xlink"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
-    <roleRef
-      roleURI="http://xbrl.us/Solar/v1.2/2018-03-31/roles/Fund"
-      xlink:href="solar-Fund_2018-03-31_r01.xsd#roleType_Fund"
-      xlink:type="simple"/>
     <arcroleRef
       arcroleURI="http://xbrl.org/int/dim/arcrole/dimension-domain"
       xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#dimension-domain"
@@ -24,12 +20,16 @@
       xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#domain-member"
       xlink:type="simple"/>
     <arcroleRef
-      arcroleURI="http://xbrl.org/int/dim/arcrole/dimension-default"
-      xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#dimension-default"
-      xlink:type="simple"/>
-    <arcroleRef
       arcroleURI="http://xbrl.org/int/dim/arcrole/hypercube-dimension"
       xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#hypercube-dimension"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/Solar/v1.2/2018-03-31/roles/Fund"
+      xlink:href="solar-Fund_2018-03-31_r01.xsd#roleType_Fund"
+      xlink:type="simple"/>
+    <arcroleRef
+      arcroleURI="http://xbrl.org/int/dim/arcrole/dimension-default"
+      xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#dimension-default"
       xlink:type="simple"/>
     <definitionLink
       xlink:role="http://xbrl.us/Solar/v1.2/2018-03-31/roles/Fund"
@@ -1291,21 +1291,11 @@
           xlink:to="solar_FundDescriptionEarliestCommercialOperationsDate"
           xlink:type="arc"/>
         <loc
-          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_SystemCommercialOperationsDate"
-          xlink:label="solar_SystemCommercialOperationsDate"
-          xlink:type="locator"/>
-        <definitionArc
-          order="22"
-          xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
-          xlink:from="solar_FundDescriptionAbstract"
-          xlink:to="solar_SystemCommercialOperationsDate"
-          xlink:type="arc"/>
-        <loc
           xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_FundDescriptionNumberOneStrength"
           xlink:label="solar_FundDescriptionNumberOneStrength"
           xlink:type="locator"/>
         <definitionArc
-          order="23"
+          order="22"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
           xlink:from="solar_FundDescriptionAbstract"
           xlink:to="solar_FundDescriptionNumberOneStrength"
@@ -1315,7 +1305,7 @@
           xlink:label="solar_FundDescriptionNumberOneWeakness"
           xlink:type="locator"/>
         <definitionArc
-          order="24"
+          order="23"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
           xlink:from="solar_FundDescriptionAbstract"
           xlink:to="solar_FundDescriptionNumberOneWeakness"
@@ -1325,7 +1315,7 @@
           xlink:label="solar_FundDescriptionAnalyst"
           xlink:type="locator"/>
         <definitionArc
-          order="25"
+          order="24"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
           xlink:from="solar_FundDescriptionAbstract"
           xlink:to="solar_FundDescriptionAnalyst"
@@ -1335,7 +1325,7 @@
           xlink:label="solar_FundName"
           xlink:type="locator"/>
         <definitionArc
-          order="26"
+          order="25"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
           xlink:from="solar_FundDescriptionAbstract"
           xlink:to="solar_FundName"
@@ -1345,7 +1335,7 @@
           xlink:label="solar_FundDescriptionSector"
           xlink:type="locator"/>
         <definitionArc
-          order="27"
+          order="26"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
           xlink:from="solar_FundDescriptionAbstract"
           xlink:to="solar_FundDescriptionSector"
@@ -1355,7 +1345,7 @@
           xlink:label="us-gaap_PropertyPlantAndEquipmentUsefulLife"
           xlink:type="locator"/>
         <definitionArc
-          order="28"
+          order="27"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
           xlink:from="solar_FundDescriptionAbstract"
           xlink:to="us-gaap_PropertyPlantAndEquipmentUsefulLife"
@@ -1365,7 +1355,7 @@
           xlink:label="solar_FundDescriptionFundNameplateCapacityInverterskWac"
           xlink:type="locator"/>
         <definitionArc
-          order="29"
+          order="28"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
           xlink:from="solar_FundDescriptionAbstract"
           xlink:to="solar_FundDescriptionFundNameplateCapacityInverterskWac"
@@ -1375,7 +1365,7 @@
           xlink:label="solar_FundDescriptionFundNameplateCapacityPVArraykWdc"
           xlink:type="locator"/>
         <definitionArc
-          order="30"
+          order="29"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
           xlink:from="solar_FundDescriptionAbstract"
           xlink:to="solar_FundDescriptionFundNameplateCapacityPVArraykWdc"
@@ -1385,7 +1375,7 @@
           xlink:label="solar_FundDescriptionFundCrossCollateralized"
           xlink:type="locator"/>
         <definitionArc
-          order="31"
+          order="30"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
           xlink:from="solar_FundDescriptionAbstract"
           xlink:to="solar_FundDescriptionFundCrossCollateralized"
@@ -1395,7 +1385,7 @@
           xlink:label="solar_FundDescriptionFundType"
           xlink:type="locator"/>
         <definitionArc
-          order="32"
+          order="31"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
           xlink:from="solar_FundDescriptionAbstract"
           xlink:to="solar_FundDescriptionFundType"
@@ -1405,7 +1395,7 @@
           xlink:label="solar_FundDescriptionFundInitialFundingDate"
           xlink:type="locator"/>
         <definitionArc
-          order="33"
+          order="32"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
           xlink:from="solar_FundDescriptionAbstract"
           xlink:to="solar_FundDescriptionFundInitialFundingDate"
@@ -1415,7 +1405,7 @@
           xlink:label="solar_FundDescriptionShortestPowerPurchaseAgreementTerm"
           xlink:type="locator"/>
         <definitionArc
-          order="34"
+          order="33"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
           xlink:from="solar_FundDescriptionAbstract"
           xlink:to="solar_FundDescriptionShortestPowerPurchaseAgreementTerm"
@@ -1425,7 +1415,7 @@
           xlink:label="solar_FundDescriptionAvailabilityOfExpenseSinkingFund"
           xlink:type="locator"/>
         <definitionArc
-          order="35"
+          order="34"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
           xlink:from="solar_FundDescriptionAbstract"
           xlink:to="solar_FundDescriptionAvailabilityOfExpenseSinkingFund"
@@ -1435,7 +1425,7 @@
           xlink:label="solar_FundDescriptionTaxEquityProviderContribution"
           xlink:type="locator"/>
         <definitionArc
-          order="36"
+          order="35"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
           xlink:from="solar_FundDescriptionAbstract"
           xlink:to="solar_FundDescriptionTaxEquityProviderContribution"
@@ -1445,7 +1435,7 @@
           xlink:label="solar_FundDescriptionNameOfTaxEquityProvider"
           xlink:type="locator"/>
         <definitionArc
-          order="37"
+          order="36"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
           xlink:from="solar_FundDescriptionAbstract"
           xlink:to="solar_FundDescriptionNameOfTaxEquityProvider"
@@ -1455,7 +1445,7 @@
           xlink:label="solar_FundDescriptionPricingAdvisor"
           xlink:type="locator"/>
         <definitionArc
-          order="38"
+          order="37"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
           xlink:from="solar_FundDescriptionAbstract"
           xlink:to="solar_FundDescriptionPricingAdvisor"
@@ -1465,7 +1455,7 @@
           xlink:label="solar_FundDescriptionProFormaGrossIncomeBalance"
           xlink:type="locator"/>
         <definitionArc
-          order="39"
+          order="38"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
           xlink:from="solar_FundDescriptionAbstract"
           xlink:to="solar_FundDescriptionProFormaGrossIncomeBalance"
@@ -1475,7 +1465,7 @@
           xlink:label="solar_FundDescriptionProFormaNetIncomeBalance"
           xlink:type="locator"/>
         <definitionArc
-          order="40"
+          order="39"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
           xlink:from="solar_FundDescriptionAbstract"
           xlink:to="solar_FundDescriptionProFormaNetIncomeBalance"
@@ -1485,7 +1475,7 @@
           xlink:label="solar_FundDescriptionPropertyInsuranceHurricaneWindRequirement"
           xlink:type="locator"/>
         <definitionArc
-          order="41"
+          order="40"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
           xlink:from="solar_FundDescriptionAbstract"
           xlink:to="solar_FundDescriptionPropertyInsuranceHurricaneWindRequirement"
@@ -1495,7 +1485,7 @@
           xlink:label="solar_FundDescriptionPropertyInsurancePollutionRequirement"
           xlink:type="locator"/>
         <definitionArc
-          order="42"
+          order="41"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
           xlink:from="solar_FundDescriptionAbstract"
           xlink:to="solar_FundDescriptionPropertyInsurancePollutionRequirement"
@@ -1505,7 +1495,7 @@
           xlink:label="solar_SiteIdentifier"
           xlink:type="locator"/>
         <definitionArc
-          order="43"
+          order="42"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
           xlink:from="solar_FundDescriptionAbstract"
           xlink:to="solar_SiteIdentifier"
@@ -1515,7 +1505,7 @@
           xlink:label="solar_FundDescriptionSponsorCompanyName_1"
           xlink:type="locator"/>
         <definitionArc
-          order="44"
+          order="43"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
           xlink:from="solar_FundDescriptionAbstract"
           xlink:to="solar_FundDescriptionSponsorCompanyName_1"

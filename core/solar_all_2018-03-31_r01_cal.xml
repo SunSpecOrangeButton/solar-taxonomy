@@ -40,17 +40,6 @@
           xlink:to="solar_PerformanceBasedIncentiveRevenue"
           xlink:type="arc"/>
         <loc
-          xlink:href="solar_2018-03-31_r01.xsd#solar_RenewableEnergyCreditRevenue"
-          xlink:label="solar_RenewableEnergyCreditRevenue"
-          xlink:type="locator"/>
-        <calculationArc
-          order="1"
-          weight="1"
-          xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item"
-          xlink:from="us-gaap_Revenues"
-          xlink:to="solar_RenewableEnergyCreditRevenue"
-          xlink:type="arc"/>
-        <loc
           xlink:href="solar_2018-03-31_r01.xsd#solar_RebateRevenue"
           xlink:label="solar_RebateRevenue"
           xlink:type="locator"/>

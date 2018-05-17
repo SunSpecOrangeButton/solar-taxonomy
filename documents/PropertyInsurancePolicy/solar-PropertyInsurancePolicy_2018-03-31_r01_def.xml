@@ -7,10 +7,6 @@
   xmlns:xlink="http://www.w3.org/1999/xlink"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
-    <roleRef
-      roleURI="http://xbrl.us/Solar/v1.2/2018-03-31/roles/PropertyInsurancePolicy"
-      xlink:href="solar-PropertyInsurancePolicy_2018-03-31_r01.xsd#roleType_PropertyInsurancePolicy"
-      xlink:type="simple"/>
     <arcroleRef
       arcroleURI="http://xbrl.org/int/dim/arcrole/dimension-domain"
       xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#dimension-domain"
@@ -24,41 +20,45 @@
       xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#domain-member"
       xlink:type="simple"/>
     <arcroleRef
-      arcroleURI="http://xbrl.org/int/dim/arcrole/dimension-default"
-      xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#dimension-default"
-      xlink:type="simple"/>
-    <arcroleRef
       arcroleURI="http://xbrl.org/int/dim/arcrole/hypercube-dimension"
       xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#hypercube-dimension"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/Solar/v1.2/2018-03-31/roles/PropertyInsurancePolicy"
+      xlink:href="solar-PropertyInsurancePolicy_2018-03-31_r01.xsd#roleType_PropertyInsurancePolicy"
+      xlink:type="simple"/>
+    <arcroleRef
+      arcroleURI="http://xbrl.org/int/dim/arcrole/dimension-default"
+      xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#dimension-default"
       xlink:type="simple"/>
     <definitionLink
       xlink:role="http://xbrl.us/Solar/v1.2/2018-03-31/roles/PropertyInsurancePolicy"
       xlink:type="extended">
         <loc
-          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_InsurancePropertyAbstract"
-          xlink:label="solar_InsurancePropertyAbstract"
+          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_PropertyInsuranceAbstract"
+          xlink:label="solar_PropertyInsuranceAbstract"
           xlink:type="locator"/>
         <loc
-          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_InsuranceLineItems"
-          xlink:label="solar_InsuranceLineItems"
+          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_PropertyInsuranceLineItems"
+          xlink:label="solar_PropertyInsuranceLineItems"
           xlink:type="locator"/>
         <definitionArc
           order="1"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
-          xlink:from="solar_InsurancePropertyAbstract"
-          xlink:to="solar_InsuranceLineItems"
+          xlink:from="solar_PropertyInsuranceAbstract"
+          xlink:to="solar_PropertyInsuranceLineItems"
           xlink:type="arc"/>
         <loc
-          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_InsuranceTable"
-          xlink:label="solar_InsuranceTable"
+          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_PropertyInsuranceTable"
+          xlink:label="solar_PropertyInsuranceTable"
           xlink:type="locator"/>
         <definitionArc
           order="1"
           xbrldt:closed="true"
           xbrldt:contextElement="segment"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/all"
-          xlink:from="solar_InsuranceLineItems"
-          xlink:to="solar_InsuranceTable"
+          xlink:from="solar_PropertyInsuranceLineItems"
+          xlink:to="solar_PropertyInsuranceTable"
           xlink:type="arc"/>
         <loc
           xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_InsuranceAxis"
@@ -67,7 +67,7 @@
         <definitionArc
           order="1"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension"
-          xlink:from="solar_InsuranceTable"
+          xlink:from="solar_PropertyInsuranceTable"
           xlink:to="solar_InsuranceAxis"
           xlink:type="arc"/>
         <loc
@@ -77,7 +77,7 @@
         <definitionArc
           order="2"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
-          xlink:from="solar_InsuranceLineItems"
+          xlink:from="solar_PropertyInsuranceLineItems"
           xlink:to="solar_InsuranceCarrier"
           xlink:type="arc"/>
         <loc
@@ -87,7 +87,7 @@
         <definitionArc
           order="3"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
-          xlink:from="solar_InsuranceLineItems"
+          xlink:from="solar_PropertyInsuranceLineItems"
           xlink:to="solar_InsuranceNAICNumber"
           xlink:type="arc"/>
         <loc
@@ -97,7 +97,7 @@
         <definitionArc
           order="4"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
-          xlink:from="solar_InsuranceLineItems"
+          xlink:from="solar_PropertyInsuranceLineItems"
           xlink:to="solar_InsuranceRequirement"
           xlink:type="arc"/>
         <loc
@@ -107,7 +107,7 @@
         <definitionArc
           order="5"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
-          xlink:from="solar_InsuranceLineItems"
+          xlink:from="solar_PropertyInsuranceLineItems"
           xlink:to="solar_InsuranceEffectiveDate"
           xlink:type="arc"/>
         <loc
@@ -117,7 +117,7 @@
         <definitionArc
           order="6"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
-          xlink:from="solar_InsuranceLineItems"
+          xlink:from="solar_PropertyInsuranceLineItems"
           xlink:to="solar_InsuranceExpirationDate"
           xlink:type="arc"/>
         <loc
@@ -127,7 +127,7 @@
         <definitionArc
           order="7"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
-          xlink:from="solar_InsuranceLineItems"
+          xlink:from="solar_PropertyInsuranceLineItems"
           xlink:to="solar_InsuranceAvailability"
           xlink:type="arc"/>
         <loc
@@ -137,7 +137,7 @@
         <definitionArc
           order="8"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
-          xlink:from="solar_InsuranceLineItems"
+          xlink:from="solar_PropertyInsuranceLineItems"
           xlink:to="solar_InsuranceMinimumCoverage"
           xlink:type="arc"/>
         <loc
@@ -147,7 +147,7 @@
         <definitionArc
           order="9"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
-          xlink:from="solar_InsuranceLineItems"
+          xlink:from="solar_PropertyInsuranceLineItems"
           xlink:to="solar_InsuranceAmountOfCoverage"
           xlink:type="arc"/>
         <loc
@@ -157,7 +157,7 @@
         <definitionArc
           order="10"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
-          xlink:from="solar_InsuranceLineItems"
+          xlink:from="solar_PropertyInsuranceLineItems"
           xlink:to="solar_InsuranceBeneficiary"
           xlink:type="arc"/>
         <loc
@@ -167,7 +167,7 @@
         <definitionArc
           order="11"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
-          xlink:from="solar_InsuranceLineItems"
+          xlink:from="solar_PropertyInsuranceLineItems"
           xlink:to="solar_InsurancePolicyOwner"
           xlink:type="arc"/>
         <loc
@@ -177,7 +177,7 @@
         <definitionArc
           order="12"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
-          xlink:from="solar_InsuranceLineItems"
+          xlink:from="solar_PropertyInsuranceLineItems"
           xlink:to="solar_InsurancePerOccurrenceRequirement"
           xlink:type="arc"/>
         <loc
@@ -187,7 +187,7 @@
         <definitionArc
           order="13"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
-          xlink:from="solar_InsuranceLineItems"
+          xlink:from="solar_PropertyInsuranceLineItems"
           xlink:to="solar_InsuranceRebateDescription"
           xlink:type="arc"/>
         <loc
@@ -197,7 +197,7 @@
         <definitionArc
           order="14"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
-          xlink:from="solar_InsuranceLineItems"
+          xlink:from="solar_PropertyInsuranceLineItems"
           xlink:to="solar_InsurancePropertyInsuranceRequirement"
           xlink:type="arc"/>
         <loc
@@ -207,7 +207,7 @@
         <definitionArc
           order="15"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
-          xlink:from="solar_InsuranceLineItems"
+          xlink:from="solar_PropertyInsuranceLineItems"
           xlink:to="solar_ProjectPropertyInsuranceFloodRequirement"
           xlink:type="arc"/>
         <loc
@@ -217,7 +217,7 @@
         <definitionArc
           order="16"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
-          xlink:from="solar_InsuranceLineItems"
+          xlink:from="solar_PropertyInsuranceLineItems"
           xlink:to="solar_ProjectPropertyInsuranceEarthquakeRequirement"
           xlink:type="arc"/>
         <loc
@@ -227,7 +227,7 @@
         <definitionArc
           order="17"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
-          xlink:from="solar_InsuranceLineItems"
+          xlink:from="solar_PropertyInsuranceLineItems"
           xlink:to="solar_PreparerOfPropertyInsurancePolicy"
           xlink:type="arc"/>
         <loc
@@ -237,7 +237,7 @@
         <definitionArc
           order="18"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
-          xlink:from="solar_InsuranceLineItems"
+          xlink:from="solar_PropertyInsuranceLineItems"
           xlink:to="solar_DocumentIdentifierPropertyInsurancePolicy"
           xlink:type="arc"/>
     </definitionLink>

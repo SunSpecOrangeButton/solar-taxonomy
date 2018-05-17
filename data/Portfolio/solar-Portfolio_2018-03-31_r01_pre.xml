@@ -48,14 +48,14 @@
           xlink:to="solar_PortfolioLineItems"
           xlink:type="arc"/>
         <loc
-          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_FundIdentifier"
-          xlink:label="solar_FundIdentifier"
+          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_ProjectIdentifier"
+          xlink:label="solar_ProjectIdentifier"
           xlink:type="locator"/>
         <presentationArc
           order="1"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
           xlink:from="solar_PortfolioLineItems"
-          xlink:to="solar_FundIdentifier"
+          xlink:to="solar_ProjectIdentifier"
           xlink:type="arc"/>
         <loc
           xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_PortfolioUsedInFund"
