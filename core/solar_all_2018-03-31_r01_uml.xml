@@ -10,16 +10,20 @@
   xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd
                       http://xbrl.org/2008/generic http://www.xbrl.org/2008/generic-link.xsd">
     <arcroleRef
-      arcroleURI="http://xbrl.us/arcrole/Property"
-      xlink:href="solar-gen-roles-2018-03-31.xsd#property"
-      xlink:type="simple"/>
-    <arcroleRef
       arcroleURI="http://xbrl.us/arcrole/Composition"
       xlink:href="solar-gen-roles-2018-03-31.xsd#composition"
       xlink:type="simple"/>
     <roleRef
       roleURI="http://xbrl.us/Solar/v1.2/2018-03-31/roles/CutSheet"
       xlink:href="solar_all_2018-03-31_r01.xsd#roleType_CutSheet"
+      xlink:type="simple"/>
+    <arcroleRef
+      arcroleURI="http://xbrl.us/arcrole/Property"
+      xlink:href="solar-gen-roles-2018-03-31.xsd#property"
+      xlink:type="simple"/>
+    <arcroleRef
+      arcroleURI="http://xbrl.us/arcrole/Inheritance"
+      xlink:href="solar-gen-roles-2018-03-31.xsd#inheritance"
       xlink:type="simple"/>
     <roleRef
       roleURI="http://xbrl.us/Solar/v1.2/2018-03-31/roles/UML"
@@ -32,10 +36,6 @@
     <roleRef
       roleURI="http://xbrl.us/Solar/v1.2/2018-03-31/roles/SystemDeviceListing"
       xlink:href="solar_all_2018-03-31_r01.xsd#roleType_SystemDeviceListing"
-      xlink:type="simple"/>
-    <arcroleRef
-      arcroleURI="http://xbrl.us/arcrole/Inheritance"
-      xlink:href="solar-gen-roles-2018-03-31.xsd#inheritance"
       xlink:type="simple"/>
     <generic:link
       xlink:role="http://xbrl.us/Solar/v1.2/2018-03-31/roles/CutSheet"

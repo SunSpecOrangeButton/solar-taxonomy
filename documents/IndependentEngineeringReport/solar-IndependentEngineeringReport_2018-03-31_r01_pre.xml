@@ -128,21 +128,11 @@
           xlink:to="solar_IndependentEngineeringReportDocumentLink"
           xlink:type="arc"/>
         <loc
-          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_IndependentEngineeringProductionEstimateAbstract"
-          xlink:label="solar_IndependentEngineeringProductionEstimateAbstract"
-          xlink:type="locator"/>
-        <presentationArc
-          order="12"
-          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_IndependentEngineeringReportAbstract"
-          xlink:to="solar_IndependentEngineeringProductionEstimateAbstract"
-          xlink:type="arc"/>
-        <loc
           xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_PreparerOfIndependentEngineeringReport"
           xlink:label="solar_PreparerOfIndependentEngineeringReport"
           xlink:type="locator"/>
         <presentationArc
-          order="13"
+          order="12"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
           xlink:from="solar_IndependentEngineeringReportAbstract"
           xlink:to="solar_PreparerOfIndependentEngineeringReport"
@@ -152,10 +142,20 @@
           xlink:label="solar_DocumentIdentifierIndependentEngineeringReport"
           xlink:type="locator"/>
         <presentationArc
-          order="14"
+          order="13"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
           xlink:from="solar_IndependentEngineeringReportAbstract"
           xlink:to="solar_DocumentIdentifierIndependentEngineeringReport"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_IndependentEngineeringProductionEstimateAbstract"
+          xlink:label="solar_IndependentEngineeringProductionEstimateAbstract"
+          xlink:type="locator"/>
+        <presentationArc
+          order="14"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_IndependentEngineeringReportAbstract"
+          xlink:to="solar_IndependentEngineeringProductionEstimateAbstract"
           xlink:type="arc"/>
         <loc
           xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_IndependentEngineeringProductionEstimateAvailabilityOfDocument"
@@ -164,7 +164,7 @@
         <presentationArc
           order="1"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_DocumentIdentifierIndependentEngineeringReport"
+          xlink:from="solar_IndependentEngineeringProductionEstimateAbstract"
           xlink:to="solar_IndependentEngineeringProductionEstimateAvailabilityOfDocument"
           xlink:type="arc"/>
         <loc
@@ -174,7 +174,7 @@
         <presentationArc
           order="2"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_DocumentIdentifierIndependentEngineeringReport"
+          xlink:from="solar_IndependentEngineeringProductionEstimateAbstract"
           xlink:to="solar_IndependentEngineeringProductionEstimateAvailabilityOfFinalDocument"
           xlink:type="arc"/>
         <loc
@@ -184,7 +184,7 @@
         <presentationArc
           order="3"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_DocumentIdentifierIndependentEngineeringReport"
+          xlink:from="solar_IndependentEngineeringProductionEstimateAbstract"
           xlink:to="solar_IndependentEngineeringProductionEstimateReceiverOfReport"
           xlink:type="arc"/>
         <loc
@@ -194,7 +194,7 @@
         <presentationArc
           order="4"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_DocumentIdentifierIndependentEngineeringReport"
+          xlink:from="solar_IndependentEngineeringProductionEstimateAbstract"
           xlink:to="solar_IndependentEngineeringProductionEstimateAuthorOfReport"
           xlink:type="arc"/>
         <loc
@@ -204,7 +204,7 @@
         <presentationArc
           order="5"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_DocumentIdentifierIndependentEngineeringReport"
+          xlink:from="solar_IndependentEngineeringProductionEstimateAbstract"
           xlink:to="solar_IndependentEngineeringProductionEstimateAvailabilityOfDocumentExceptions"
           xlink:type="arc"/>
         <loc
@@ -214,7 +214,7 @@
         <presentationArc
           order="6"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_DocumentIdentifierIndependentEngineeringReport"
+          xlink:from="solar_IndependentEngineeringProductionEstimateAbstract"
           xlink:to="solar_IndependentEngineeringProductionEstimateExceptionDescription"
           xlink:type="arc"/>
         <loc
@@ -224,28 +224,8 @@
         <presentationArc
           order="7"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_DocumentIdentifierIndependentEngineeringReport"
+          xlink:from="solar_IndependentEngineeringProductionEstimateAbstract"
           xlink:to="solar_IndependentEngineeringProductionEstimateEffectiveDate"
-          xlink:type="arc"/>
-        <loc
-          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_PreparerOfIndependentEngineeringOpinionReport"
-          xlink:label="solar_PreparerOfIndependentEngineeringOpinionReport"
-          xlink:type="locator"/>
-        <presentationArc
-          order="8"
-          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_DocumentIdentifierIndependentEngineeringReport"
-          xlink:to="solar_PreparerOfIndependentEngineeringOpinionReport"
-          xlink:type="arc"/>
-        <loc
-          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_DocumentIdentifierIndependentEngineeringOpinionReport"
-          xlink:label="solar_DocumentIdentifierIndependentEngineeringOpinionReport"
-          xlink:type="locator"/>
-        <presentationArc
-          order="9"
-          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_DocumentIdentifierIndependentEngineeringReport"
-          xlink:to="solar_DocumentIdentifierIndependentEngineeringOpinionReport"
           xlink:type="arc"/>
     </presentationLink>
 </linkbase>

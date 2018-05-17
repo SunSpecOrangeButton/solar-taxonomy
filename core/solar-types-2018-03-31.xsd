@@ -14,6 +14,16 @@
       </restriction>
     </simpleContent>
   </complexType>
+    <complexType xmlns="http://www.w3.org/2001/XMLSchema" abstract="false" mixed="false" name="moduleTechnologyItemType">
+    <simpleContent>
+      <restriction base="xbrli:stringItemType">
+        <xs:enumeration value="Mono-C-Si"/>
+        <xs:enumeration value="Multi-C-Si"/> 
+        <xs:enumeration value="Thin Film"/> 
+        <xs:enumeration value="Other"/>
+      </restriction>
+    </simpleContent>
+  </complexType>
   <complexType xmlns="http://www.w3.org/2001/XMLSchema" abstract="false" mixed="false" name="moduleItemType">
     <simpleContent>
       <restriction base="xbrli:stringItemType">

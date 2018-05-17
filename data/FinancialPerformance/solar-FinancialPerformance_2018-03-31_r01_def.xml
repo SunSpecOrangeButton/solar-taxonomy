@@ -11,6 +11,10 @@
       arcroleURI="http://xbrl.org/int/dim/arcrole/dimension-domain"
       xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#dimension-domain"
       xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/Solar/v1.2/2018-03-31/roles/FinancialPerformance"
+      xlink:href="solar-FinancialPerformance_2018-03-31_r01.xsd#roleType_FinancialPerformance"
+      xlink:type="simple"/>
     <arcroleRef
       arcroleURI="http://xbrl.org/int/dim/arcrole/all"
       xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#all"
@@ -20,16 +24,12 @@
       xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#domain-member"
       xlink:type="simple"/>
     <arcroleRef
-      arcroleURI="http://xbrl.org/int/dim/arcrole/dimension-default"
-      xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#dimension-default"
-      xlink:type="simple"/>
-    <arcroleRef
       arcroleURI="http://xbrl.org/int/dim/arcrole/hypercube-dimension"
       xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#hypercube-dimension"
       xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/Solar/v1.2/2018-03-31/roles/FinancialPerformance"
-      xlink:href="solar-FinancialPerformance_2018-03-31_r01.xsd#roleType_FinancialPerformance"
+    <arcroleRef
+      arcroleURI="http://xbrl.org/int/dim/arcrole/dimension-default"
+      xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#dimension-default"
       xlink:type="simple"/>
     <definitionLink
       xlink:role="http://xbrl.us/Solar/v1.2/2018-03-31/roles/FinancialPerformance"
@@ -39,26 +39,26 @@
           xlink:label="solar_FinancialPerformanceAbstract"
           xlink:type="locator"/>
         <loc
-          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_ProjectLineItems"
-          xlink:label="solar_ProjectLineItems"
+          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_ProjectPerformanceLineItems"
+          xlink:label="solar_ProjectPerformanceLineItems"
           xlink:type="locator"/>
         <definitionArc
           order="1"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
           xlink:from="solar_FinancialPerformanceAbstract"
-          xlink:to="solar_ProjectLineItems"
+          xlink:to="solar_ProjectPerformanceLineItems"
           xlink:type="arc"/>
         <loc
-          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_ProjectIdentifierTable"
-          xlink:label="solar_ProjectIdentifierTable"
+          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_ProjectPerformanceTable"
+          xlink:label="solar_ProjectPerformanceTable"
           xlink:type="locator"/>
         <definitionArc
           order="1"
           xbrldt:closed="true"
           xbrldt:contextElement="segment"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/all"
-          xlink:from="solar_ProjectLineItems"
-          xlink:to="solar_ProjectIdentifierTable"
+          xlink:from="solar_ProjectPerformanceLineItems"
+          xlink:to="solar_ProjectPerformanceTable"
           xlink:type="arc"/>
         <loc
           xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_ProjectIdentifierAxis"
@@ -67,7 +67,7 @@
         <definitionArc
           order="1"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension"
-          xlink:from="solar_ProjectIdentifierTable"
+          xlink:from="solar_ProjectPerformanceTable"
           xlink:to="solar_ProjectIdentifierAxis"
           xlink:type="arc"/>
         <loc
@@ -77,7 +77,7 @@
         <definitionArc
           order="2"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension"
-          xlink:from="solar_ProjectIdentifierTable"
+          xlink:from="solar_ProjectPerformanceTable"
           xlink:to="us-gaap_StatementScenarioAxis"
           xlink:type="arc"/>
         <loc
@@ -107,7 +107,7 @@
         <definitionArc
           order="2"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
-          xlink:from="solar_ProjectLineItems"
+          xlink:from="solar_ProjectPerformanceLineItems"
           xlink:to="solar_FinancialPerformanceCollateralAccountBalance"
           xlink:type="arc"/>
         <loc
@@ -117,7 +117,7 @@
         <definitionArc
           order="3"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
-          xlink:from="solar_ProjectLineItems"
+          xlink:from="solar_ProjectPerformanceLineItems"
           xlink:to="solar_FinancialPerformanceFutureSurplusCashToDeveloper"
           xlink:type="arc"/>
         <loc
@@ -127,7 +127,7 @@
         <definitionArc
           order="4"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
-          xlink:from="solar_ProjectLineItems"
+          xlink:from="solar_ProjectPerformanceLineItems"
           xlink:to="solar_FinancialPerformanceLeaseRentPaymentsNetOfCollateralAccount"
           xlink:type="arc"/>
         <loc
@@ -137,7 +137,7 @@
         <definitionArc
           order="5"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
-          xlink:from="solar_ProjectLineItems"
+          xlink:from="solar_ProjectPerformanceLineItems"
           xlink:to="solar_FinancialPerformanceStateTaxCredits"
           xlink:type="arc"/>
         <loc
@@ -147,7 +147,7 @@
         <definitionArc
           order="6"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
-          xlink:from="solar_ProjectLineItems"
+          xlink:from="solar_ProjectPerformanceLineItems"
           xlink:to="solar_MerchantPowerSalesPercent"
           xlink:type="arc"/>
         <loc
@@ -157,7 +157,7 @@
         <definitionArc
           order="7"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
-          xlink:from="solar_ProjectLineItems"
+          xlink:from="solar_ProjectPerformanceLineItems"
           xlink:to="solar_FinancialPerformanceSurplusCashAppliedToCollateralAccount"
           xlink:type="arc"/>
         <loc
@@ -167,7 +167,7 @@
         <definitionArc
           order="8"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
-          xlink:from="solar_ProjectLineItems"
+          xlink:from="solar_ProjectPerformanceLineItems"
           xlink:to="solar_AllProjectAccountBalances"
           xlink:type="arc"/>
         <loc
@@ -177,7 +177,7 @@
         <definitionArc
           order="9"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
-          xlink:from="solar_ProjectLineItems"
+          xlink:from="solar_ProjectPerformanceLineItems"
           xlink:to="solar_UnleveredInternalRateOfReturn"
           xlink:type="arc"/>
         <loc
@@ -187,7 +187,7 @@
         <definitionArc
           order="10"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
-          xlink:from="solar_ProjectLineItems"
+          xlink:from="solar_ProjectPerformanceLineItems"
           xlink:to="us-gaap_PropertyPlantAndEquipmentUsefulLife"
           xlink:type="arc"/>
         <loc
@@ -197,7 +197,7 @@
         <definitionArc
           order="11"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
-          xlink:from="solar_ProjectLineItems"
+          xlink:from="solar_ProjectPerformanceLineItems"
           xlink:to="us-gaap_PropertyPlantAndEquipmentSalvageValue"
           xlink:type="arc"/>
         <loc
@@ -207,7 +207,7 @@
         <definitionArc
           order="12"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
-          xlink:from="solar_ProjectLineItems"
+          xlink:from="solar_ProjectPerformanceLineItems"
           xlink:to="solar_TaxEquityCashDistributions"
           xlink:type="arc"/>
         <loc
@@ -217,7 +217,7 @@
         <definitionArc
           order="13"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
-          xlink:from="solar_ProjectLineItems"
+          xlink:from="solar_ProjectPerformanceLineItems"
           xlink:to="solar_OtherPaymentsToFinanciers"
           xlink:type="arc"/>
         <loc
@@ -227,7 +227,7 @@
         <definitionArc
           order="14"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
-          xlink:from="solar_ProjectLineItems"
+          xlink:from="solar_ProjectPerformanceLineItems"
           xlink:to="solar_HypotheticalLiquidationAtBookValueBalance"
           xlink:type="arc"/>
         <loc
@@ -237,7 +237,7 @@
         <definitionArc
           order="15"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
-          xlink:from="solar_ProjectLineItems"
+          xlink:from="solar_ProjectPerformanceLineItems"
           xlink:to="solar_PartnershipFlipDate"
           xlink:type="arc"/>
         <loc
@@ -247,7 +247,7 @@
         <definitionArc
           order="16"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
-          xlink:from="solar_ProjectLineItems"
+          xlink:from="solar_ProjectPerformanceLineItems"
           xlink:to="solar_PartnershipFlipYield"
           xlink:type="arc"/>
         <loc
@@ -257,7 +257,7 @@
         <definitionArc
           order="17"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
-          xlink:from="solar_ProjectLineItems"
+          xlink:from="solar_ProjectPerformanceLineItems"
           xlink:to="us-gaap_DebtInstrumentPeriodicPaymentPrincipal"
           xlink:type="arc"/>
         <loc
@@ -267,7 +267,7 @@
         <definitionArc
           order="18"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
-          xlink:from="solar_ProjectLineItems"
+          xlink:from="solar_ProjectPerformanceLineItems"
           xlink:to="us-gaap_DebtInstrumentPeriodicPaymentInterest"
           xlink:type="arc"/>
         <loc
@@ -277,7 +277,7 @@
         <definitionArc
           order="19"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
-          xlink:from="solar_ProjectLineItems"
+          xlink:from="solar_ProjectPerformanceLineItems"
           xlink:to="solar_DeficitRestorationObligation"
           xlink:type="arc"/>
         <loc
@@ -287,7 +287,7 @@
         <definitionArc
           order="20"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
-          xlink:from="solar_ProjectLineItems"
+          xlink:from="solar_ProjectPerformanceLineItems"
           xlink:to="solar_DeficitRestorationObligationLimit"
           xlink:type="arc"/>
         <loc
@@ -297,7 +297,7 @@
         <definitionArc
           order="21"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
-          xlink:from="solar_ProjectLineItems"
+          xlink:from="solar_ProjectPerformanceLineItems"
           xlink:to="us-gaap_IncomeTaxExpenseBenefitIntraperiodTaxAllocation"
           xlink:type="arc"/>
         <loc
@@ -307,7 +307,7 @@
         <definitionArc
           order="22"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
-          xlink:from="solar_ProjectLineItems"
+          xlink:from="solar_ProjectPerformanceLineItems"
           xlink:to="us-gaap_LimitedLiabilityCompanyLLCOrLimitedPartnershipLPManagingMemberOrGeneralPartnerOwnershipInterest"
           xlink:type="arc"/>
         <loc
@@ -317,7 +317,7 @@
         <definitionArc
           order="23"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
-          xlink:from="solar_ProjectLineItems"
+          xlink:from="solar_ProjectPerformanceLineItems"
           xlink:to="us-gaap_EquityMethodInvestmentOwnershipPercentage"
           xlink:type="arc"/>
         <loc
@@ -327,7 +327,7 @@
         <definitionArc
           order="24"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
-          xlink:from="solar_ProjectLineItems"
+          xlink:from="solar_ProjectPerformanceLineItems"
           xlink:to="solar_FinancialPerformanceEstimatesAbstract"
           xlink:type="arc"/>
         <loc
@@ -397,7 +397,7 @@
         <definitionArc
           order="25"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
-          xlink:from="solar_ProjectLineItems"
+          xlink:from="solar_ProjectPerformanceLineItems"
           xlink:to="solar_OperatingCompanyFinancialDataAbstract"
           xlink:type="arc"/>
         <loc
@@ -441,14 +441,14 @@
           xlink:to="solar_PerformanceBasedIncentiveRevenue"
           xlink:type="arc"/>
         <loc
-          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_RenewableEnergyCreditRevenue"
-          xlink:label="solar_RenewableEnergyCreditRevenue"
+          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_RenewableEnergyCreditActualAmount"
+          xlink:label="solar_RenewableEnergyCreditActualAmount"
           xlink:type="locator"/>
         <definitionArc
           order="3"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
           xlink:from="us-gaap_RevenuesAbstract"
-          xlink:to="solar_RenewableEnergyCreditRevenue"
+          xlink:to="solar_RenewableEnergyCreditActualAmount"
           xlink:type="arc"/>
         <loc
           xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_RebateRevenue"
@@ -705,9 +705,9 @@
           xlink:label="us-gaap_IncomeTaxExpenseBenefit"
           xlink:type="locator"/>
         <definitionArc
-          order="3"
+          order="22"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
-          xlink:from="us-gaap_IncomeStatementAbstract"
+          xlink:from="us-gaap_CostsAndExpensesAbstract"
           xlink:to="us-gaap_IncomeTaxExpenseBenefit"
           xlink:type="arc"/>
         <loc
@@ -715,9 +715,9 @@
           xlink:label="us-gaap_NetIncomeLoss"
           xlink:type="locator"/>
         <definitionArc
-          order="4"
+          order="23"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
-          xlink:from="us-gaap_IncomeStatementAbstract"
+          xlink:from="us-gaap_CostsAndExpensesAbstract"
           xlink:to="us-gaap_NetIncomeLoss"
           xlink:type="arc"/>
         <loc
@@ -725,9 +725,9 @@
           xlink:label="solar_FinancialPerformanceEarningsBeforeIncomeTaxDepreciationAndAmortization"
           xlink:type="locator"/>
         <definitionArc
-          order="5"
+          order="24"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
-          xlink:from="us-gaap_IncomeStatementAbstract"
+          xlink:from="us-gaap_CostsAndExpensesAbstract"
           xlink:to="solar_FinancialPerformanceEarningsBeforeIncomeTaxDepreciationAndAmortization"
           xlink:type="arc"/>
         <loc
@@ -1297,7 +1297,7 @@
         <definitionArc
           order="26"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
-          xlink:from="solar_ProjectLineItems"
+          xlink:from="solar_ProjectPerformanceLineItems"
           xlink:to="solar_FinancialPerformanceRatiosAbstract"
           xlink:type="arc"/>
         <loc
@@ -1397,7 +1397,7 @@
         <definitionArc
           order="27"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
-          xlink:from="solar_ProjectLineItems"
+          xlink:from="solar_ProjectPerformanceLineItems"
           xlink:to="solar_IncentivePerformanceAbstract"
           xlink:type="arc"/>
         <loc

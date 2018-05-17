@@ -16,10 +16,10 @@
 	<tp:publicationDate>2018-03-31</tp:publicationDate>
 	<tp:entryPoints>
 		<tp:entryPoint>
-      		<tp:name>Full Solar Entry Point</tp:name>
-      		<tp:description>This is the  entry point for viewing the entire Orange Button Taxonomy. Documentation labels are included.</tp:description>
-      		<tp:entryPointDocument href="../core/solar_all_2018-03-31_r01.xsd"/>
-    	</tp:entryPoint>	
+			<tp:name>Full Solar Entry Point</tp:name>
+			<tp:description>This is the  entry point for viewing the entire Orange Button Taxonomy. Documentation labels are included.</tp:description>
+			<tp:entryPointDocument href="../core/solar_all_2018-03-31_r01.xsd"/>
+		</tp:entryPoint>
 		<tp:entryPoint>
 			<tp:name>100395 - Documents - Cut Sheet</tp:name>
 			<tp:description>This schema contains the entry point for the cut sheet.</tp:description>
@@ -286,11 +286,6 @@
 			<tp:entryPointDocument href="../documents/EnvironmentalImpactReport/solar-EnvironmentalImpactReport_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>100470 - Documents - Equipment Spec Sheets</tp:name>
-			<tp:description>This schema contains the entry point for the EquipmentSpecSheets</tp:description>
-			<tp:entryPointDocument href="../documents/EquipmentSpecSheets/solar-EquipmentSpecSheets_2018-03-31_r01.xsd"/>
-		</tp:entryPoint>
-		<tp:entryPoint>
 			<tp:name>100480 - Documents - Equipment Warranties</tp:name>
 			<tp:description>This schema contains the entry point for the EquipmentWarranties</tp:description>
 			<tp:entryPointDocument href="../documents/EquipmentWarranties/solar-EquipmentWarranties_2018-03-31_r01.xsd"/>
@@ -336,11 +331,6 @@
 			<tp:entryPointDocument href="../documents/EnvironmentalImpactReport/solar-EnvironmentalImpactReport_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
-			<tp:name>100470 - Documents - Equipment Spec Sheets</tp:name>
-			<tp:description>This schema contains the entry point for the EquipmentSpecSheets</tp:description>
-			<tp:entryPointDocument href="../documents/EquipmentSpecSheets/solar-EquipmentSpecSheets_2018-03-31_r01.xsd"/>
-		</tp:entryPoint>
-		<tp:entryPoint>
 			<tp:name>100480 - Documents - Equipment Warranties</tp:name>
 			<tp:description>This schema contains the entry point for the EquipmentWarranties</tp:description>
 			<tp:entryPointDocument href="../documents/EquipmentWarranties/solar-EquipmentWarranties_2018-03-31_r01.xsd"/>
@@ -374,11 +364,6 @@
 			<tp:name>100500 - Documents - Funding Memo</tp:name>
 			<tp:description>This schema contains the entry point for the FundingMemo</tp:description>
 			<tp:entryPointDocument href="../documents/FundingMemo/solar-FundingMemo_2018-03-31_r01.xsd"/>
-		</tp:entryPoint>
-		<tp:entryPoint>
-			<tp:name>100510 - Documents - Guarantee and Pledge Agreement</tp:name>
-			<tp:description>This schema contains the entry point for the GuaranteeandPledgementAgreement</tp:description>
-			<tp:entryPointDocument href="../documents/GuaranteeandPledgementAgreement/solar-GuaranteeandPledgementAgreement_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
 			<tp:name>100520 - Documents - Guarantees</tp:name>
@@ -514,11 +499,6 @@
 			<tp:name>100730 - Documents - Master Lease</tp:name>
 			<tp:description>This schema contains the entry point for the MasterLease</tp:description>
 			<tp:entryPointDocument href="../documents/MasterLease/solar-MasterLease_2018-03-31_r01.xsd"/>
-		</tp:entryPoint>
-		<tp:entryPoint>
-			<tp:name>100740 - Documents - Master Lessee Collateral Agency Agreement</tp:name>
-			<tp:description>This schema contains the entry point for the MasterLesseeCollateralAgencyAgreement</tp:description>
-			<tp:entryPointDocument href="../documents/MasterLesseeCollateralAgencyAgreement/solar-MasterLesseeCollateralAgencyAgreement_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
 			<tp:name>100750 - Documents - Master Lessee Security Agreement</tp:name>
@@ -734,11 +714,6 @@
 			<tp:name>101047 - Documents - Renewable Energy Credit Performance Agreement</tp:name>
 			<tp:description>This schema contains the entry point for the RenewableEnergyCreditPerformanceAgreement</tp:description>
 			<tp:entryPointDocument href="../documents/RenewableEnergyCreditPerformanceAgreement/solar-RenewableEnergyCreditPerformanceAgreement_2018-03-31_r01.xsd"/>
-		</tp:entryPoint>
-		<tp:entryPoint>
-			<tp:name>101050 - Documents - Rent Reserve Letter Of Credit</tp:name>
-			<tp:description>This schema contains the entry point for the RentReserveLetterofCredit</tp:description>
-			<tp:entryPointDocument href="../documents/RentReserveLetterofCredit/solar-RentReserveLetterofCredit_2018-03-31_r01.xsd"/>
 		</tp:entryPoint>
 		<tp:entryPoint>
 			<tp:name>101055 - Documents - Sales Leaseback Contract For Project</tp:name>

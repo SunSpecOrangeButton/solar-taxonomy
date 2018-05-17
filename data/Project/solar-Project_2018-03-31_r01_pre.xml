@@ -88,11 +88,21 @@
           xlink:to="solar_ProjectCompanySPVFederalTaxIdentifier"
           xlink:type="arc"/>
         <loc
+          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_PVSystemIdentifier"
+          xlink:label="solar_PVSystemIdentifier"
+          xlink:type="locator"/>
+        <presentationArc
+          order="5"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_ProjectLineItems"
+          xlink:to="solar_PVSystemIdentifier"
+          xlink:type="arc"/>
+        <loc
           xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_ProjectAssetType"
           xlink:label="solar_ProjectAssetType"
           xlink:type="locator"/>
         <presentationArc
-          order="5"
+          order="6"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
           xlink:from="solar_ProjectLineItems"
           xlink:to="solar_ProjectAssetType"
@@ -102,7 +112,7 @@
           xlink:label="solar_ProjectClassType"
           xlink:type="locator"/>
         <presentationArc
-          order="6"
+          order="7"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
           xlink:from="solar_ProjectLineItems"
           xlink:to="solar_ProjectClassType"
@@ -112,7 +122,7 @@
           xlink:label="solar_ProjectInterconnectionType"
           xlink:type="locator"/>
         <presentationArc
-          order="7"
+          order="8"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
           xlink:from="solar_ProjectLineItems"
           xlink:to="solar_ProjectInterconnectionType"
@@ -122,77 +132,27 @@
           xlink:label="solar_ProjectWindStatus"
           xlink:type="locator"/>
         <presentationArc
-          order="8"
-          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_ProjectLineItems"
-          xlink:to="solar_ProjectWindStatus"
-          xlink:type="arc"/>
-        <loc
-          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_FundIdentifier"
-          xlink:label="solar_FundIdentifier"
-          xlink:type="locator"/>
-        <presentationArc
           order="9"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
           xlink:from="solar_ProjectLineItems"
-          xlink:to="solar_FundIdentifier"
-          xlink:type="arc"/>
-        <loc
-          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_PortfolioIdentifier"
-          xlink:label="solar_PortfolioIdentifier"
-          xlink:type="locator"/>
-        <presentationArc
-          order="10"
-          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_ProjectLineItems"
-          xlink:to="solar_PortfolioIdentifier"
+          xlink:to="solar_ProjectWindStatus"
           xlink:type="arc"/>
         <loc
           xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_ProjectStage"
           xlink:label="solar_ProjectStage"
           xlink:type="locator"/>
         <presentationArc
-          order="11"
+          order="10"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
           xlink:from="solar_ProjectLineItems"
           xlink:to="solar_ProjectStage"
-          xlink:type="arc"/>
-        <loc
-          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_DeveloperIdentifier"
-          xlink:label="solar_DeveloperIdentifier"
-          xlink:type="locator"/>
-        <presentationArc
-          order="12"
-          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_ProjectLineItems"
-          xlink:to="solar_DeveloperIdentifier"
-          xlink:type="arc"/>
-        <loc
-          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_AssetManagerIdentifier"
-          xlink:label="solar_AssetManagerIdentifier"
-          xlink:type="locator"/>
-        <presentationArc
-          order="13"
-          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_ProjectLineItems"
-          xlink:to="solar_AssetManagerIdentifier"
-          xlink:type="arc"/>
-        <loc
-          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_OperationsManagerIdentifier"
-          xlink:label="solar_OperationsManagerIdentifier"
-          xlink:type="locator"/>
-        <presentationArc
-          order="14"
-          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_ProjectLineItems"
-          xlink:to="solar_OperationsManagerIdentifier"
           xlink:type="arc"/>
         <loc
           xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_ProjectInvestmentStatus"
           xlink:label="solar_ProjectInvestmentStatus"
           xlink:type="locator"/>
         <presentationArc
-          order="15"
+          order="11"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
           xlink:from="solar_ProjectLineItems"
           xlink:to="solar_ProjectInvestmentStatus"
@@ -202,7 +162,7 @@
           xlink:label="solar_ProjectCounty"
           xlink:type="locator"/>
         <presentationArc
-          order="16"
+          order="12"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
           xlink:from="solar_ProjectLineItems"
           xlink:to="solar_ProjectCounty"
@@ -212,7 +172,7 @@
           xlink:label="solar_SystemDateMechanicalCompletion"
           xlink:type="locator"/>
         <presentationArc
-          order="17"
+          order="13"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
           xlink:from="solar_ProjectLineItems"
           xlink:to="solar_SystemDateMechanicalCompletion"
@@ -222,7 +182,7 @@
           xlink:label="solar_SystemDateSubstantialCompletion"
           xlink:type="locator"/>
         <presentationArc
-          order="18"
+          order="14"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
           xlink:from="solar_ProjectLineItems"
           xlink:to="solar_SystemDateSubstantialCompletion"
@@ -232,7 +192,7 @@
           xlink:label="solar_ProjectHedgeAgreementType"
           xlink:type="locator"/>
         <presentationArc
-          order="19"
+          order="15"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
           xlink:from="solar_ProjectLineItems"
           xlink:to="solar_ProjectHedgeAgreementType"
@@ -242,7 +202,7 @@
           xlink:label="solar_ProjectStateTaxCreditFlag"
           xlink:type="locator"/>
         <presentationArc
-          order="20"
+          order="16"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
           xlink:from="solar_ProjectLineItems"
           xlink:to="solar_ProjectStateTaxCreditFlag"
@@ -252,7 +212,7 @@
           xlink:label="solar_ProjectRebateFlag"
           xlink:type="locator"/>
         <presentationArc
-          order="21"
+          order="17"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
           xlink:from="solar_ProjectLineItems"
           xlink:to="solar_ProjectRebateFlag"
@@ -262,7 +222,7 @@
           xlink:label="solar_ProjectProductionBasedIncentiveFlag"
           xlink:type="locator"/>
         <presentationArc
-          order="22"
+          order="18"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
           xlink:from="solar_ProjectLineItems"
           xlink:to="solar_ProjectProductionBasedIncentiveFlag"
@@ -272,7 +232,7 @@
           xlink:label="solar_ProjectRenewableEnergyCertificatesFlag"
           xlink:type="locator"/>
         <presentationArc
-          order="23"
+          order="19"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
           xlink:from="solar_ProjectLineItems"
           xlink:to="solar_ProjectRenewableEnergyCertificatesFlag"
@@ -282,7 +242,7 @@
           xlink:label="solar_ProjectRenewableEnergyCreditOfftakeAgreementFlag"
           xlink:type="locator"/>
         <presentationArc
-          order="24"
+          order="20"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
           xlink:from="solar_ProjectLineItems"
           xlink:to="solar_ProjectRenewableEnergyCreditOfftakeAgreementFlag"
@@ -292,7 +252,7 @@
           xlink:label="solar_SizeMegawatts"
           xlink:type="locator"/>
         <presentationArc
-          order="25"
+          order="21"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
           xlink:from="solar_ProjectLineItems"
           xlink:to="solar_SizeMegawatts"
@@ -302,7 +262,7 @@
           xlink:label="solar_SizeValue"
           xlink:type="locator"/>
         <presentationArc
-          order="26"
+          order="22"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
           xlink:from="solar_ProjectLineItems"
           xlink:to="solar_SizeValue"
@@ -312,7 +272,7 @@
           xlink:label="solar_ProjectDescription"
           xlink:type="locator"/>
         <presentationArc
-          order="27"
+          order="23"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
           xlink:from="solar_ProjectLineItems"
           xlink:to="solar_ProjectDescription"
@@ -322,7 +282,7 @@
           xlink:label="solar_ProjectRoofObligations"
           xlink:type="locator"/>
         <presentationArc
-          order="28"
+          order="24"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
           xlink:from="solar_ProjectLineItems"
           xlink:to="solar_ProjectRoofObligations"
@@ -332,7 +292,7 @@
           xlink:label="solar_ProjectFullyContractedPowerSales"
           xlink:type="locator"/>
         <presentationArc
-          order="29"
+          order="25"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
           xlink:from="solar_ProjectLineItems"
           xlink:to="solar_ProjectFullyContractedPowerSales"
@@ -342,7 +302,7 @@
           xlink:label="solar_ProjectFundLatestCOD"
           xlink:type="locator"/>
         <presentationArc
-          order="30"
+          order="26"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
           xlink:from="solar_ProjectLineItems"
           xlink:to="solar_ProjectFundLatestCOD"
@@ -352,7 +312,7 @@
           xlink:label="solar_ProjectResidualValueAssumption"
           xlink:type="locator"/>
         <presentationArc
-          order="31"
+          order="27"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
           xlink:from="solar_ProjectLineItems"
           xlink:to="solar_ProjectResidualValueAssumption"
@@ -362,7 +322,7 @@
           xlink:label="solar_ProjectCommentOnResidualValueReview"
           xlink:type="locator"/>
         <presentationArc
-          order="32"
+          order="28"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
           xlink:from="solar_ProjectLineItems"
           xlink:to="solar_ProjectCommentOnResidualValueReview"
@@ -372,7 +332,7 @@
           xlink:label="solar_ProjectDateOfLastResidualValueReview"
           xlink:type="locator"/>
         <presentationArc
-          order="33"
+          order="29"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
           xlink:from="solar_ProjectLineItems"
           xlink:to="solar_ProjectDateOfLastResidualValueReview"
@@ -382,7 +342,7 @@
           xlink:label="solar_ProjectRecentEventAboutTheProject"
           xlink:type="locator"/>
         <presentationArc
-          order="34"
+          order="30"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
           xlink:from="solar_ProjectLineItems"
           xlink:to="solar_ProjectRecentEventAboutTheProject"
@@ -392,7 +352,7 @@
           xlink:label="solar_ProjectRecentEventSeverityOfEvent"
           xlink:type="locator"/>
         <presentationArc
-          order="35"
+          order="31"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
           xlink:from="solar_ProjectLineItems"
           xlink:to="solar_ProjectRecentEventSeverityOfEvent"
@@ -402,7 +362,7 @@
           xlink:label="solar_ProjectLevered"
           xlink:type="locator"/>
         <presentationArc
-          order="36"
+          order="32"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
           xlink:from="solar_ProjectLineItems"
           xlink:to="solar_ProjectLevered"
@@ -412,7 +372,7 @@
           xlink:label="solar_ProjectFederalTaxIncentiveType"
           xlink:type="locator"/>
         <presentationArc
-          order="37"
+          order="33"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
           xlink:from="solar_ProjectLineItems"
           xlink:to="solar_ProjectFederalTaxIncentiveType"
@@ -422,7 +382,7 @@
           xlink:label="solar_ProjectFinancingStructure"
           xlink:type="locator"/>
         <presentationArc
-          order="38"
+          order="34"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
           xlink:from="solar_ProjectLineItems"
           xlink:to="solar_ProjectFinancingStructure"
@@ -432,7 +392,7 @@
           xlink:label="solar_ProjectInitialFundingYear"
           xlink:type="locator"/>
         <presentationArc
-          order="39"
+          order="35"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
           xlink:from="solar_ProjectLineItems"
           xlink:to="solar_ProjectInitialFundingYear"
@@ -442,7 +402,7 @@
           xlink:label="solar_ProjectIndemnifiedAmount"
           xlink:type="locator"/>
         <presentationArc
-          order="40"
+          order="36"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
           xlink:from="solar_ProjectLineItems"
           xlink:to="solar_ProjectIndemnifiedAmount"
@@ -452,7 +412,7 @@
           xlink:label="solar_ProjectTaxEquityProviderContribution"
           xlink:type="locator"/>
         <presentationArc
-          order="41"
+          order="37"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
           xlink:from="solar_ProjectLineItems"
           xlink:to="solar_ProjectTaxEquityProviderContribution"
@@ -462,7 +422,7 @@
           xlink:label="solar_ProjectRegulatoryInformationAbstract"
           xlink:type="locator"/>
         <presentationArc
-          order="42"
+          order="38"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
           xlink:from="solar_ProjectLineItems"
           xlink:to="solar_ProjectRegulatoryInformationAbstract"
@@ -662,7 +622,7 @@
           xlink:label="solar_ProjectAddressAbstract"
           xlink:type="locator"/>
         <presentationArc
-          order="43"
+          order="39"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
           xlink:from="solar_ProjectLineItems"
           xlink:to="solar_ProjectAddressAbstract"
@@ -732,7 +692,7 @@
           xlink:label="solar_ProjectFinancingAbstract"
           xlink:type="locator"/>
         <presentationArc
-          order="44"
+          order="40"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
           xlink:from="solar_ProjectLineItems"
           xlink:to="solar_ProjectFinancingAbstract"
