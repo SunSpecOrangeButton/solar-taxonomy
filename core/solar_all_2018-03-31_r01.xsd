@@ -411,12 +411,6 @@
                 <link:usedOn>link:definitionLink</link:usedOn>
             </link:roleType>
             <link:roleType
-              id="roleType_EquipmentSpecSheets"
-              roleURI="http://xbrl.us/Solar/v1.2/2018-03-31/roles/EquipmentSpecSheets">
-                <link:definition>100470 - Documents - Equipment Spec Sheets</link:definition>
-                <link:usedOn>link:presentationLink</link:usedOn>
-            </link:roleType>
-            <link:roleType
               id="roleType_EquipmentWarranties"
               roleURI="http://xbrl.us/Solar/v1.2/2018-03-31/roles/EquipmentWarranties">
                 <link:definition>100480 - Documents - Equipment Warranties</link:definition>

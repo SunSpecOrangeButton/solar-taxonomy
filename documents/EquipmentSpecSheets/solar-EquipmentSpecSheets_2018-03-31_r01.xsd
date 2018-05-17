@@ -19,7 +19,6 @@
               id="roleType_EquipmentSpecSheets"
               roleURI="http://xbrl.us/Solar/v1.2/2018-03-31/roles/EquipmentSpecSheets">
                 <link:definition>100470 - Documents - Equipment Spec Sheets</link:definition>
-                <link:usedOn>link:presentationLink</link:usedOn>
             </link:roleType>
             <link:linkbaseRef
               xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"

@@ -873,6 +873,26 @@
             <solar-part:Sample>60000</solar-part:Sample>
         </reference>
         <loc
+          xlink:href="solar_2018-03-31_r01.xsd#solar_PredictedEnergyAtTheRevenueMeterForPeriod"
+          xlink:label="solar_PredictedEnergyAtTheRevenueMeterForPeriod"
+          xlink:type="locator"/>
+        <referenceArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
+          xlink:from="solar_PredictedEnergyAtTheRevenueMeterForPeriod"
+          xlink:to="label_solar_PredictedEnergyAtTheRevenueMeterForPeriod"
+          xlink:type="arc"/>
+        <reference
+          xlink:label="label_solar_PredictedEnergyAtTheRevenueMeterForPeriod"
+          xlink:role="http://xbrl.us/solar/v1.2/2018-03-31/roles/reference/standard"
+          xlink:type="resource">
+            <ref:Publisher>IECRE</ref:Publisher>
+            <solar-part:Document>61724-3</solar-part:Document>
+            <solar-part:Element>Predicted_energy_revenue _meter</solar-part:Element>
+            <solar-part:Dimension>PeriodAxis</solar-part:Dimension>
+            <solar-part:Sample>60000</solar-part:Sample>
+        </reference>
+        <loc
           xlink:href="solar_2018-03-31_r01.xsd#solar_PredictedEnergyAvailabilityEstimateRatio"
           xlink:label="solar_PredictedEnergyAvailabilityEstimateRatio"
           xlink:type="locator"/>
@@ -908,6 +928,26 @@
             <ref:Publisher>IECRE</ref:Publisher>
             <solar-part:Document>61724-3 Section 6.6.7</solar-part:Document>
             <solar-part:Element>Expected_energy_revenue _meter</solar-part:Element>
+            <solar-part:Sample>60000</solar-part:Sample>
+        </reference>
+        <loc
+          xlink:href="solar_2018-03-31_r01.xsd#solar_ExpectedEnergyAtTheRevenueMeterForPeriod"
+          xlink:label="solar_ExpectedEnergyAtTheRevenueMeterForPeriod"
+          xlink:type="locator"/>
+        <referenceArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
+          xlink:from="solar_ExpectedEnergyAtTheRevenueMeterForPeriod"
+          xlink:to="label_solar_ExpectedEnergyAtTheRevenueMeterForPeriod"
+          xlink:type="arc"/>
+        <reference
+          xlink:label="label_solar_ExpectedEnergyAtTheRevenueMeterForPeriod"
+          xlink:role="http://xbrl.us/solar/v1.2/2018-03-31/roles/reference/standard"
+          xlink:type="resource">
+            <ref:Publisher>IECRE</ref:Publisher>
+            <solar-part:Document>61724-3 Section 6.6.6</solar-part:Document>
+            <solar-part:Element>Expected_energy_revenue _meter</solar-part:Element>
+            <solar-part:Dimension>PeriodAxis</solar-part:Dimension>
             <solar-part:Sample>60000</solar-part:Sample>
         </reference>
         <loc
@@ -1628,6 +1668,42 @@
             <solar-part:Document>71724</solar-part:Document>
         </reference>
         <loc
+          xlink:href="solar_2018-03-31_r01.xsd#solar_ParasiticLossMeasuredInTest"
+          xlink:label="solar_ParasiticLossMeasuredInTest"
+          xlink:type="locator"/>
+        <referenceArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
+          xlink:from="solar_ParasiticLossMeasuredInTest"
+          xlink:to="label_solar_ParasiticLossMeasuredInTest"
+          xlink:type="arc"/>
+        <reference
+          xlink:label="label_solar_ParasiticLossMeasuredInTest"
+          xlink:role="http://xbrl.us/solar/v1.2/2018-03-31/roles/reference/standard"
+          xlink:type="resource">
+            <ref:Publisher>IECRE</ref:Publisher>
+            <solar-part:Element>Parasitic_Loss_Measured</solar-part:Element>
+            <solar-part:Sample>Yes</solar-part:Sample>
+        </reference>
+        <loc
+          xlink:href="solar_2018-03-31_r01.xsd#solar_DeviationsFromMeasurementProcedures"
+          xlink:label="solar_DeviationsFromMeasurementProcedures"
+          xlink:type="locator"/>
+        <referenceArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
+          xlink:from="solar_DeviationsFromMeasurementProcedures"
+          xlink:to="label_solar_DeviationsFromMeasurementProcedures"
+          xlink:type="arc"/>
+        <reference
+          xlink:label="label_solar_DeviationsFromMeasurementProcedures"
+          xlink:role="http://xbrl.us/solar/v1.2/2018-03-31/roles/reference/standard"
+          xlink:type="resource">
+            <ref:Publisher>IECRE</ref:Publisher>
+            <solar-part:Document>61724-3</solar-part:Document>
+            <solar-part:Element>Measurement_Procedure_Deviations</solar-part:Element>
+        </reference>
+        <loc
           xlink:href="solar_2018-03-31_r01.xsd#solar_PortfolioNumberOfSystems"
           xlink:label="solar_PortfolioNumberOfSystems"
           xlink:type="locator"/>
@@ -1718,6 +1794,40 @@
             <ref:Publisher>IECRE</ref:Publisher>
             <solar-part:Element>Authorized_viewer n</solar-part:Element>
             <solar-part:Sample>a6233578fd</solar-part:Sample>
+        </reference>
+        <loc
+          xlink:href="solar_2018-03-31_r01.xsd#solar_RiskPriorityNumber"
+          xlink:label="solar_RiskPriorityNumber"
+          xlink:type="locator"/>
+        <referenceArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
+          xlink:from="solar_RiskPriorityNumber"
+          xlink:to="label_solar_RiskPriorityNumber"
+          xlink:type="arc"/>
+        <reference
+          xlink:label="label_solar_RiskPriorityNumber"
+          xlink:role="http://xbrl.us/solar/v1.2/2018-03-31/roles/reference/standard"
+          xlink:type="resource">
+            <ref:Publisher>IECRE</ref:Publisher>
+            <solar-part:Element>RPN</solar-part:Element>
+        </reference>
+        <loc
+          xlink:href="solar_2018-03-31_r01.xsd#solar_SystemQualityLevelDescription"
+          xlink:label="solar_SystemQualityLevelDescription"
+          xlink:type="locator"/>
+        <referenceArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
+          xlink:from="solar_SystemQualityLevelDescription"
+          xlink:to="label_solar_SystemQualityLevelDescription"
+          xlink:type="arc"/>
+        <reference
+          xlink:label="label_solar_SystemQualityLevelDescription"
+          xlink:role="http://xbrl.us/solar/v1.2/2018-03-31/roles/reference/standard"
+          xlink:type="resource">
+            <ref:Publisher>IECRE</ref:Publisher>
+            <solar-part:Element>PQL</solar-part:Element>
         </reference>
         <loc
           xlink:href="solar_2018-03-31_r01.xsd#solar_SiteClimateClassificationIECRE"
@@ -2582,23 +2692,22 @@
             <solar-part:Document>61724.3 Section 6.8.1</solar-part:Document>
         </reference>
         <loc
-          xlink:href="solar_2018-03-31_r01.xsd#solar_ExpectedEnergyAvailabilityEstimateRatio"
-          xlink:label="solar_ExpectedEnergyAvailabilityEstimateRatio"
+          xlink:href="solar_2018-03-31_r01.xsd#solar_ExpectedEnergyAtUnavailableTimesExcludingExternalOrOtherOutages"
+          xlink:label="solar_ExpectedEnergyAtUnavailableTimesExcludingExternalOrOtherOutages"
           xlink:type="locator"/>
         <referenceArc
           order="1"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
-          xlink:from="solar_ExpectedEnergyAvailabilityEstimateRatio"
-          xlink:to="label_solar_ExpectedEnergyAvailabilityEstimateRatio"
+          xlink:from="solar_ExpectedEnergyAtUnavailableTimesExcludingExternalOrOtherOutages"
+          xlink:to="label_solar_ExpectedEnergyAtUnavailableTimesExcludingExternalOrOtherOutages"
           xlink:type="arc"/>
         <reference
-          xlink:label="label_solar_ExpectedEnergyAvailabilityEstimateRatio"
+          xlink:label="label_solar_ExpectedEnergyAtUnavailableTimesExcludingExternalOrOtherOutages"
           xlink:role="http://xbrl.us/solar/v1.2/2018-03-31/roles/reference/standard"
           xlink:type="resource">
             <ref:Publisher>IECRE</ref:Publisher>
-            <solar-part:Element>Expected_Energy_Availability</solar-part:Element>
-            <solar-part:Dimension>PeriodAxis</solar-part:Dimension>
-            <solar-part:Sample>1</solar-part:Sample>
+            <solar-part:Document>61724-3</solar-part:Document>
+            <solar-part:Element>Expected_Energy_Unavailable_Times_External</solar-part:Element>
         </reference>
         <loc
           xlink:href="solar_2018-03-31_r01.xsd#solar_MeasuredEnergyAvailabilityDifference"
@@ -2619,75 +2728,22 @@
             <solar-part:Element>Energy Availability</solar-part:Element>
         </reference>
         <loc
-          xlink:href="solar_2018-03-31_r01.xsd#solar_ExpectedEnergyAtUnavailableTimesExcludingExternalOrOtherOutages"
-          xlink:label="solar_ExpectedEnergyAtUnavailableTimesExcludingExternalOrOtherOutages"
+          xlink:href="solar_2018-03-31_r01.xsd#solar_ExpectedEnergyAvailabilityEstimateRatio"
+          xlink:label="solar_ExpectedEnergyAvailabilityEstimateRatio"
           xlink:type="locator"/>
         <referenceArc
           order="1"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
-          xlink:from="solar_ExpectedEnergyAtUnavailableTimesExcludingExternalOrOtherOutages"
-          xlink:to="label_solar_ExpectedEnergyAtUnavailableTimesExcludingExternalOrOtherOutages"
+          xlink:from="solar_ExpectedEnergyAvailabilityEstimateRatio"
+          xlink:to="label_solar_ExpectedEnergyAvailabilityEstimateRatio"
           xlink:type="arc"/>
         <reference
-          xlink:label="label_solar_ExpectedEnergyAtUnavailableTimesExcludingExternalOrOtherOutages"
+          xlink:label="label_solar_ExpectedEnergyAvailabilityEstimateRatio"
           xlink:role="http://xbrl.us/solar/v1.2/2018-03-31/roles/reference/standard"
           xlink:type="resource">
             <ref:Publisher>IECRE</ref:Publisher>
-            <solar-part:Document>61724-3</solar-part:Document>
-            <solar-part:Element>Expected_Energy_Unavailable_Times_External</solar-part:Element>
-        </reference>
-        <loc
-          xlink:href="solar_2018-03-31_r01.xsd#solar_ParasiticLossMeasuredInTest"
-          xlink:label="solar_ParasiticLossMeasuredInTest"
-          xlink:type="locator"/>
-        <referenceArc
-          order="1"
-          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
-          xlink:from="solar_ParasiticLossMeasuredInTest"
-          xlink:to="label_solar_ParasiticLossMeasuredInTest"
-          xlink:type="arc"/>
-        <reference
-          xlink:label="label_solar_ParasiticLossMeasuredInTest"
-          xlink:role="http://xbrl.us/solar/v1.2/2018-03-31/roles/reference/standard"
-          xlink:type="resource">
-            <ref:Publisher>IECRE</ref:Publisher>
-            <solar-part:Element>Parasitic_Loss_Measured</solar-part:Element>
-            <solar-part:Sample>Yes</solar-part:Sample>
-        </reference>
-        <loc
-          xlink:href="solar_2018-03-31_r01.xsd#solar_DeviationsFromMeasurementProcedures"
-          xlink:label="solar_DeviationsFromMeasurementProcedures"
-          xlink:type="locator"/>
-        <referenceArc
-          order="1"
-          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
-          xlink:from="solar_DeviationsFromMeasurementProcedures"
-          xlink:to="label_solar_DeviationsFromMeasurementProcedures"
-          xlink:type="arc"/>
-        <reference
-          xlink:label="label_solar_DeviationsFromMeasurementProcedures"
-          xlink:role="http://xbrl.us/solar/v1.2/2018-03-31/roles/reference/standard"
-          xlink:type="resource">
-            <ref:Publisher>IECRE</ref:Publisher>
-            <solar-part:Document>61724-3</solar-part:Document>
-            <solar-part:Element>Measurement_Procedure_Deviations</solar-part:Element>
-        </reference>
-        <loc
-          xlink:href="solar_2018-03-31_r01.xsd#solar_ExpectedOperationsAndMaintenanceCostPerWatt"
-          xlink:label="solar_ExpectedOperationsAndMaintenanceCostPerWatt"
-          xlink:type="locator"/>
-        <referenceArc
-          order="1"
-          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
-          xlink:from="solar_ExpectedOperationsAndMaintenanceCostPerWatt"
-          xlink:to="label_solar_ExpectedOperationsAndMaintenanceCostPerWatt"
-          xlink:type="arc"/>
-        <reference
-          xlink:label="label_solar_ExpectedOperationsAndMaintenanceCostPerWatt"
-          xlink:role="http://xbrl.us/solar/v1.2/2018-03-31/roles/reference/standard"
-          xlink:type="resource">
-            <ref:Publisher>IECRE</ref:Publisher>
-            <solar-part:Element>Predicted_O&amp;M_Cost</solar-part:Element>
+            <solar-part:Element>Expected_Energy_Availability</solar-part:Element>
+            <solar-part:Dimension>PeriodAxis</solar-part:Dimension>
             <solar-part:Sample>1</solar-part:Sample>
         </reference>
         <loc
@@ -2761,40 +2817,6 @@
             <ref:Publisher>IECRE</ref:Publisher>
             <solar-part:Element>Actual_Cost_penalties_perf_lost energy</solar-part:Element>
             <solar-part:Sample>1</solar-part:Sample>
-        </reference>
-        <loc
-          xlink:href="solar_2018-03-31_r01.xsd#solar_RiskPriorityNumber"
-          xlink:label="solar_RiskPriorityNumber"
-          xlink:type="locator"/>
-        <referenceArc
-          order="1"
-          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
-          xlink:from="solar_RiskPriorityNumber"
-          xlink:to="label_solar_RiskPriorityNumber"
-          xlink:type="arc"/>
-        <reference
-          xlink:label="label_solar_RiskPriorityNumber"
-          xlink:role="http://xbrl.us/solar/v1.2/2018-03-31/roles/reference/standard"
-          xlink:type="resource">
-            <ref:Publisher>IECRE</ref:Publisher>
-            <solar-part:Element>RPN</solar-part:Element>
-        </reference>
-        <loc
-          xlink:href="solar_2018-03-31_r01.xsd#solar_SystemQualityLevelDescription"
-          xlink:label="solar_SystemQualityLevelDescription"
-          xlink:type="locator"/>
-        <referenceArc
-          order="1"
-          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference"
-          xlink:from="solar_SystemQualityLevelDescription"
-          xlink:to="label_solar_SystemQualityLevelDescription"
-          xlink:type="arc"/>
-        <reference
-          xlink:label="label_solar_SystemQualityLevelDescription"
-          xlink:role="http://xbrl.us/solar/v1.2/2018-03-31/roles/reference/standard"
-          xlink:type="resource">
-            <ref:Publisher>IECRE</ref:Publisher>
-            <solar-part:Element>PQL</solar-part:Element>
         </reference>
         <loc
           xlink:href="solar_2018-03-31_r01.xsd#solar_SuppliersContractReviewConsidered"

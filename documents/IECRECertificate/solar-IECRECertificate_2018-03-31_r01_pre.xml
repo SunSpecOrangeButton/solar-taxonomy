@@ -148,6 +148,26 @@
           xlink:to="solar_MeasurementClass"
           xlink:type="arc"/>
         <loc
+          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_ParasiticLossMeasuredInTest"
+          xlink:label="solar_ParasiticLossMeasuredInTest"
+          xlink:type="locator"/>
+        <presentationArc
+          order="13"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_IECRECertificateDetailsAbstract"
+          xlink:to="solar_ParasiticLossMeasuredInTest"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_DeviationsFromMeasurementProcedures"
+          xlink:label="solar_DeviationsFromMeasurementProcedures"
+          xlink:type="locator"/>
+        <presentationArc
+          order="14"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_IECRECertificateDetailsAbstract"
+          xlink:to="solar_DeviationsFromMeasurementProcedures"
+          xlink:type="arc"/>
+        <loc
           xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_IECRESystemInformationAbstract"
           xlink:label="solar_IECRESystemInformationAbstract"
           xlink:type="locator"/>
@@ -416,6 +436,106 @@
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
           xlink:from="solar_IECRESystemInformationAbstract"
           xlink:to="solar_EngineeringProcurementAndConstructionContractor"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_BatteryManagementSystemNumberOfSystems"
+          xlink:label="solar_BatteryManagementSystemNumberOfSystems"
+          xlink:type="locator"/>
+        <presentationArc
+          order="27"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_IECRESystemInformationAbstract"
+          xlink:to="solar_BatteryManagementSystemNumberOfSystems"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_BatteryManagementSystemRating"
+          xlink:label="solar_BatteryManagementSystemRating"
+          xlink:type="locator"/>
+        <presentationArc
+          order="28"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_IECRESystemInformationAbstract"
+          xlink:to="solar_BatteryManagementSystemRating"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_BatteryRating"
+          xlink:label="solar_BatteryRating"
+          xlink:type="locator"/>
+        <presentationArc
+          order="29"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_IECRESystemInformationAbstract"
+          xlink:to="solar_BatteryRating"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_BatteryInverterACPowerRating"
+          xlink:label="solar_BatteryInverterACPowerRating"
+          xlink:type="locator"/>
+        <presentationArc
+          order="30"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_IECRESystemInformationAbstract"
+          xlink:to="solar_BatteryInverterACPowerRating"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_BatteryInverterNumber"
+          xlink:label="solar_BatteryInverterNumber"
+          xlink:type="locator"/>
+        <presentationArc
+          order="31"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_IECRESystemInformationAbstract"
+          xlink:to="solar_BatteryInverterNumber"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_RiskPriorityNumber"
+          xlink:label="solar_RiskPriorityNumber"
+          xlink:type="locator"/>
+        <presentationArc
+          order="32"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_IECRESystemInformationAbstract"
+          xlink:to="solar_RiskPriorityNumber"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_SystemQualityLevelDescription"
+          xlink:label="solar_SystemQualityLevelDescription"
+          xlink:type="locator"/>
+        <presentationArc
+          order="33"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_IECRESystemInformationAbstract"
+          xlink:to="solar_SystemQualityLevelDescription"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_RatedPowerPeakAC"
+          xlink:label="solar_RatedPowerPeakAC"
+          xlink:type="locator"/>
+        <presentationArc
+          order="34"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_IECRESystemInformationAbstract"
+          xlink:to="solar_RatedPowerPeakAC"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_PVSystemPerformanceSamplingInterval"
+          xlink:label="solar_PVSystemPerformanceSamplingInterval"
+          xlink:type="locator"/>
+        <presentationArc
+          order="35"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_IECRESystemInformationAbstract"
+          xlink:to="solar_PVSystemPerformanceSamplingInterval"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_SystemCapacityPeakDC"
+          xlink:label="solar_SystemCapacityPeakDC"
+          xlink:type="locator"/>
+        <presentationArc
+          order="36"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_IECRESystemInformationAbstract"
+          xlink:to="solar_SystemCapacityPeakDC"
           xlink:type="arc"/>
         <loc
           xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_IECRESiteInformationAbstract"
@@ -898,83 +1018,43 @@
           xlink:to="solar_MajorDesignModel"
           xlink:type="arc"/>
         <loc
-          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_BatteryManagementSystemNumberOfSystems"
-          xlink:label="solar_BatteryManagementSystemNumberOfSystems"
+          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_PerformanceModelModifiedFlag"
+          xlink:label="solar_PerformanceModelModifiedFlag"
           xlink:type="locator"/>
         <presentationArc
           order="5"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
           xlink:from="solar_IECREModelAndDesignAbstract"
-          xlink:to="solar_BatteryManagementSystemNumberOfSystems"
-          xlink:type="arc"/>
-        <loc
-          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_BatteryManagementSystemRating"
-          xlink:label="solar_BatteryManagementSystemRating"
-          xlink:type="locator"/>
-        <presentationArc
-          order="6"
-          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_IECREModelAndDesignAbstract"
-          xlink:to="solar_BatteryManagementSystemRating"
-          xlink:type="arc"/>
-        <loc
-          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_BatteryRating"
-          xlink:label="solar_BatteryRating"
-          xlink:type="locator"/>
-        <presentationArc
-          order="7"
-          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_IECREModelAndDesignAbstract"
-          xlink:to="solar_BatteryRating"
-          xlink:type="arc"/>
-        <loc
-          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_BatteryInverterACPowerRating"
-          xlink:label="solar_BatteryInverterACPowerRating"
-          xlink:type="locator"/>
-        <presentationArc
-          order="8"
-          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_IECREModelAndDesignAbstract"
-          xlink:to="solar_BatteryInverterACPowerRating"
-          xlink:type="arc"/>
-        <loc
-          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_BatteryInverterNumber"
-          xlink:label="solar_BatteryInverterNumber"
-          xlink:type="locator"/>
-        <presentationArc
-          order="9"
-          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_IECREModelAndDesignAbstract"
-          xlink:to="solar_BatteryInverterNumber"
+          xlink:to="solar_PerformanceModelModifiedFlag"
           xlink:type="arc"/>
         <loc
           xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_AssumedIrradiationModelAmount"
           xlink:label="solar_AssumedIrradiationModelAmount"
           xlink:type="locator"/>
         <presentationArc
-          order="10"
+          order="6"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
           xlink:from="solar_IECREModelAndDesignAbstract"
           xlink:to="solar_AssumedIrradiationModelAmount"
           xlink:type="arc"/>
         <loc
-          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_PerformanceModelModifiedFlag"
-          xlink:label="solar_PerformanceModelModifiedFlag"
+          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_IECREModelFactorAbstract"
+          xlink:label="solar_IECREModelFactorAbstract"
           xlink:type="locator"/>
         <presentationArc
-          order="11"
+          order="7"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
           xlink:from="solar_IECREModelAndDesignAbstract"
-          xlink:to="solar_PerformanceModelModifiedFlag"
+          xlink:to="solar_IECREModelFactorAbstract"
           xlink:type="arc"/>
         <loc
           xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_ShadingModelFactorTMYPercent"
           xlink:label="solar_ShadingModelFactorTMYPercent"
           xlink:type="locator"/>
         <presentationArc
-          order="12"
+          order="1"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_IECREModelAndDesignAbstract"
+          xlink:from="solar_IECREModelFactorAbstract"
           xlink:to="solar_ShadingModelFactorTMYPercent"
           xlink:type="arc"/>
         <loc
@@ -982,9 +1062,9 @@
           xlink:label="solar_ShadingModelFactorTMMPercent"
           xlink:type="locator"/>
         <presentationArc
-          order="13"
+          order="2"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_IECREModelAndDesignAbstract"
+          xlink:from="solar_IECREModelFactorAbstract"
           xlink:to="solar_ShadingModelFactorTMMPercent"
           xlink:type="arc"/>
         <loc
@@ -992,9 +1072,9 @@
           xlink:label="solar_AerosolModelFactorTMYPercent"
           xlink:type="locator"/>
         <presentationArc
-          order="14"
+          order="3"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_IECREModelAndDesignAbstract"
+          xlink:from="solar_IECREModelFactorAbstract"
           xlink:to="solar_AerosolModelFactorTMYPercent"
           xlink:type="arc"/>
         <loc
@@ -1002,9 +1082,9 @@
           xlink:label="solar_AerosolModelFactorTMMPercent"
           xlink:type="locator"/>
         <presentationArc
-          order="15"
+          order="4"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_IECREModelAndDesignAbstract"
+          xlink:from="solar_IECREModelFactorAbstract"
           xlink:to="solar_AerosolModelFactorTMMPercent"
           xlink:type="arc"/>
         <loc
@@ -1012,9 +1092,9 @@
           xlink:label="solar_SoilingModelFactorTMYPercent"
           xlink:type="locator"/>
         <presentationArc
-          order="16"
+          order="5"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_IECREModelAndDesignAbstract"
+          xlink:from="solar_IECREModelFactorAbstract"
           xlink:to="solar_SoilingModelFactorTMYPercent"
           xlink:type="arc"/>
         <loc
@@ -1022,9 +1102,9 @@
           xlink:label="solar_SoilingModelFactorTMMPercent"
           xlink:type="locator"/>
         <presentationArc
-          order="17"
+          order="6"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_IECREModelAndDesignAbstract"
+          xlink:from="solar_IECREModelFactorAbstract"
           xlink:to="solar_SoilingModelFactorTMMPercent"
           xlink:type="arc"/>
         <loc
@@ -1032,9 +1112,9 @@
           xlink:label="solar_SnowModelFactorTMYPercent"
           xlink:type="locator"/>
         <presentationArc
-          order="18"
+          order="7"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_IECREModelAndDesignAbstract"
+          xlink:from="solar_IECREModelFactorAbstract"
           xlink:to="solar_SnowModelFactorTMYPercent"
           xlink:type="arc"/>
         <loc
@@ -1042,9 +1122,9 @@
           xlink:label="solar_SnowModelFactorTMMPercent"
           xlink:type="locator"/>
         <presentationArc
-          order="19"
+          order="8"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_IECREModelAndDesignAbstract"
+          xlink:from="solar_IECREModelFactorAbstract"
           xlink:to="solar_SnowModelFactorTMMPercent"
           xlink:type="arc"/>
         <loc
@@ -1052,9 +1132,9 @@
           xlink:label="solar_SeriesResistanceModelFactorTMYPercent"
           xlink:type="locator"/>
         <presentationArc
-          order="20"
+          order="9"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_IECREModelAndDesignAbstract"
+          xlink:from="solar_IECREModelFactorAbstract"
           xlink:to="solar_SeriesResistanceModelFactorTMYPercent"
           xlink:type="arc"/>
         <loc
@@ -1062,9 +1142,9 @@
           xlink:label="solar_SeriesResistanceModelFactorTMMPercent"
           xlink:type="locator"/>
         <presentationArc
-          order="21"
+          order="10"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_IECREModelAndDesignAbstract"
+          xlink:from="solar_IECREModelFactorAbstract"
           xlink:to="solar_SeriesResistanceModelFactorTMMPercent"
           xlink:type="arc"/>
         <loc
@@ -1072,9 +1152,9 @@
           xlink:label="solar_MismatchModelFactorTMYPercent"
           xlink:type="locator"/>
         <presentationArc
-          order="22"
+          order="11"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_IECREModelAndDesignAbstract"
+          xlink:from="solar_IECREModelFactorAbstract"
           xlink:to="solar_MismatchModelFactorTMYPercent"
           xlink:type="arc"/>
         <loc
@@ -1082,9 +1162,9 @@
           xlink:label="solar_MismatchModelFactorTMMPercent"
           xlink:type="locator"/>
         <presentationArc
-          order="23"
+          order="12"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_IECREModelAndDesignAbstract"
+          xlink:from="solar_IECREModelFactorAbstract"
           xlink:to="solar_MismatchModelFactorTMMPercent"
           xlink:type="arc"/>
         <loc
@@ -1092,9 +1172,9 @@
           xlink:label="solar_ParasiticLossModelFactorTMYPercent"
           xlink:type="locator"/>
         <presentationArc
-          order="24"
+          order="13"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_IECREModelAndDesignAbstract"
+          xlink:from="solar_IECREModelFactorAbstract"
           xlink:to="solar_ParasiticLossModelFactorTMYPercent"
           xlink:type="arc"/>
         <loc
@@ -1102,9 +1182,9 @@
           xlink:label="solar_ParasiticLossModelFactorTMMPercent"
           xlink:type="locator"/>
         <presentationArc
-          order="25"
+          order="14"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_IECREModelAndDesignAbstract"
+          xlink:from="solar_IECREModelFactorAbstract"
           xlink:to="solar_ParasiticLossModelFactorTMMPercent"
           xlink:type="arc"/>
         <loc
@@ -1112,9 +1192,9 @@
           xlink:label="solar_NonUnityPowerModelFactorTMYPercent"
           xlink:type="locator"/>
         <presentationArc
-          order="26"
+          order="15"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_IECREModelAndDesignAbstract"
+          xlink:from="solar_IECREModelFactorAbstract"
           xlink:to="solar_NonUnityPowerModelFactorTMYPercent"
           xlink:type="arc"/>
         <loc
@@ -1122,19 +1202,29 @@
           xlink:label="solar_NonUnityPowerModelFactorTMMPercent"
           xlink:type="locator"/>
         <presentationArc
-          order="27"
+          order="16"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_IECREModelFactorAbstract"
+          xlink:to="solar_NonUnityPowerModelFactorTMMPercent"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_IECREModelFactorFlagsAbstract"
+          xlink:label="solar_IECREModelFactorFlagsAbstract"
+          xlink:type="locator"/>
+        <presentationArc
+          order="8"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
           xlink:from="solar_IECREModelAndDesignAbstract"
-          xlink:to="solar_NonUnityPowerModelFactorTMMPercent"
+          xlink:to="solar_IECREModelFactorFlagsAbstract"
           xlink:type="arc"/>
         <loc
           xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_ModelFactorsSoilingFlag"
           xlink:label="solar_ModelFactorsSoilingFlag"
           xlink:type="locator"/>
         <presentationArc
-          order="28"
+          order="1"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_IECREModelAndDesignAbstract"
+          xlink:from="solar_IECREModelFactorFlagsAbstract"
           xlink:to="solar_ModelFactorsSoilingFlag"
           xlink:type="arc"/>
         <loc
@@ -1142,9 +1232,9 @@
           xlink:label="solar_ModelFactorsSnowFlag"
           xlink:type="locator"/>
         <presentationArc
-          order="29"
+          order="2"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_IECREModelAndDesignAbstract"
+          xlink:from="solar_IECREModelFactorFlagsAbstract"
           xlink:to="solar_ModelFactorsSnowFlag"
           xlink:type="arc"/>
         <loc
@@ -1152,9 +1242,9 @@
           xlink:label="solar_ModelFactorsParasiticLossFlag"
           xlink:type="locator"/>
         <presentationArc
-          order="30"
+          order="3"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_IECREModelAndDesignAbstract"
+          xlink:from="solar_IECREModelFactorFlagsAbstract"
           xlink:to="solar_ModelFactorsParasiticLossFlag"
           xlink:type="arc"/>
         <loc
@@ -1162,9 +1252,9 @@
           xlink:label="solar_ModelFactorsExternalCurtailmentFlag"
           xlink:type="locator"/>
         <presentationArc
-          order="31"
+          order="4"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_IECREModelAndDesignAbstract"
+          xlink:from="solar_IECREModelFactorFlagsAbstract"
           xlink:to="solar_ModelFactorsExternalCurtailmentFlag"
           xlink:type="arc"/>
         <loc
@@ -1172,9 +1262,9 @@
           xlink:label="solar_ModelFactorsNonUnityPowerFactorFlag"
           xlink:type="locator"/>
         <presentationArc
-          order="32"
+          order="5"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_IECREModelAndDesignAbstract"
+          xlink:from="solar_IECREModelFactorFlagsAbstract"
           xlink:to="solar_ModelFactorsNonUnityPowerFactorFlag"
           xlink:type="arc"/>
         <loc
@@ -1238,41 +1328,11 @@
           xlink:to="solar_IECREPerformanceDataAbstract"
           xlink:type="arc"/>
         <loc
-          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_PowerTargetCapMeasurement"
-          xlink:label="solar_PowerTargetCapMeasurement"
-          xlink:type="locator"/>
-        <presentationArc
-          order="1"
-          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_IECREPerformanceDataAbstract"
-          xlink:to="solar_PowerTargetCapMeasurement"
-          xlink:type="arc"/>
-        <loc
-          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_MeasuredCapacityAtTargetConditions"
-          xlink:label="solar_MeasuredCapacityAtTargetConditions"
-          xlink:type="locator"/>
-        <presentationArc
-          order="2"
-          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_IECREPerformanceDataAbstract"
-          xlink:to="solar_MeasuredCapacityAtTargetConditions"
-          xlink:type="arc"/>
-        <loc
-          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_PowerPerformanceIndex"
-          xlink:label="solar_PowerPerformanceIndex"
-          xlink:type="locator"/>
-        <presentationArc
-          order="3"
-          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_IECREPerformanceDataAbstract"
-          xlink:to="solar_PowerPerformanceIndex"
-          xlink:type="arc"/>
-        <loc
           xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_IrradianceForPowerTargetCapMeasurement"
           xlink:label="solar_IrradianceForPowerTargetCapMeasurement"
           xlink:type="locator"/>
         <presentationArc
-          order="4"
+          order="1"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
           xlink:from="solar_IECREPerformanceDataAbstract"
           xlink:to="solar_IrradianceForPowerTargetCapMeasurement"
@@ -1282,29 +1342,29 @@
           xlink:label="solar_AmbientTemperatureForPowerTargetCapMeasurement"
           xlink:type="locator"/>
         <presentationArc
-          order="5"
+          order="2"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
           xlink:from="solar_IECREPerformanceDataAbstract"
           xlink:to="solar_AmbientTemperatureForPowerTargetCapMeasurement"
           xlink:type="arc"/>
         <loc
-          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_CommentsForPowerTargetCapMeasurement"
-          xlink:label="solar_CommentsForPowerTargetCapMeasurement"
+          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_IECREExpectedPerformanceDataAbstract"
+          xlink:label="solar_IECREExpectedPerformanceDataAbstract"
           xlink:type="locator"/>
         <presentationArc
-          order="6"
+          order="3"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
           xlink:from="solar_IECREPerformanceDataAbstract"
-          xlink:to="solar_CommentsForPowerTargetCapMeasurement"
+          xlink:to="solar_IECREExpectedPerformanceDataAbstract"
           xlink:type="arc"/>
         <loc
           xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_ExpectedEnergyAvailableExcludingExternalOrOtherOutages"
           xlink:label="solar_ExpectedEnergyAvailableExcludingExternalOrOtherOutages"
           xlink:type="locator"/>
         <presentationArc
-          order="7"
+          order="1"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_IECREPerformanceDataAbstract"
+          xlink:from="solar_IECREExpectedPerformanceDataAbstract"
           xlink:to="solar_ExpectedEnergyAvailableExcludingExternalOrOtherOutages"
           xlink:type="arc"/>
         <loc
@@ -1312,59 +1372,19 @@
           xlink:label="solar_ExpectedEnergyAtRevenueMeterInceptionToDate"
           xlink:type="locator"/>
         <presentationArc
-          order="8"
+          order="2"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_IECREPerformanceDataAbstract"
+          xlink:from="solar_IECREExpectedPerformanceDataAbstract"
           xlink:to="solar_ExpectedEnergyAtRevenueMeterInceptionToDate"
-          xlink:type="arc"/>
-        <loc
-          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_PredictedEnergyAtTheRevenueMeter"
-          xlink:label="solar_PredictedEnergyAtTheRevenueMeter"
-          xlink:type="locator"/>
-        <presentationArc
-          order="9"
-          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_IECREPerformanceDataAbstract"
-          xlink:to="solar_PredictedEnergyAtTheRevenueMeter"
-          xlink:type="arc"/>
-        <loc
-          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_PredictedEnergyAvailable"
-          xlink:label="solar_PredictedEnergyAvailable"
-          xlink:type="locator"/>
-        <presentationArc
-          order="10"
-          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_IECREPerformanceDataAbstract"
-          xlink:to="solar_PredictedEnergyAvailable"
-          xlink:type="arc"/>
-        <loc
-          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_ExpectedEnergyAvailabilityEstimateRatio"
-          xlink:label="solar_ExpectedEnergyAvailabilityEstimateRatio"
-          xlink:type="locator"/>
-        <presentationArc
-          order="11"
-          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_IECREPerformanceDataAbstract"
-          xlink:to="solar_ExpectedEnergyAvailabilityEstimateRatio"
-          xlink:type="arc"/>
-        <loc
-          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_PredictedEnergyAvailabilityEstimateRatio"
-          xlink:label="solar_PredictedEnergyAvailabilityEstimateRatio"
-          xlink:type="locator"/>
-        <presentationArc
-          order="12"
-          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_IECREPerformanceDataAbstract"
-          xlink:to="solar_PredictedEnergyAvailabilityEstimateRatio"
           xlink:type="arc"/>
         <loc
           xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_ExpectedEnergyAtTheRevenueMeter"
           xlink:label="solar_ExpectedEnergyAtTheRevenueMeter"
           xlink:type="locator"/>
         <presentationArc
-          order="13"
+          order="3"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_IECREPerformanceDataAbstract"
+          xlink:from="solar_IECREExpectedPerformanceDataAbstract"
           xlink:to="solar_ExpectedEnergyAtTheRevenueMeter"
           xlink:type="arc"/>
         <loc
@@ -1372,9 +1392,9 @@
           xlink:label="solar_ExpectedEnergyAtUnavailableTimes"
           xlink:type="locator"/>
         <presentationArc
-          order="14"
+          order="4"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_IECREPerformanceDataAbstract"
+          xlink:from="solar_IECREExpectedPerformanceDataAbstract"
           xlink:to="solar_ExpectedEnergyAtUnavailableTimes"
           xlink:type="arc"/>
         <loc
@@ -1382,19 +1402,89 @@
           xlink:label="solar_TotalExpectedEnergyAtRevenueMeter"
           xlink:type="locator"/>
         <presentationArc
-          order="15"
+          order="5"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_IECREExpectedPerformanceDataAbstract"
+          xlink:to="solar_TotalExpectedEnergyAtRevenueMeter"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_PowerTargetCapMeasurement"
+          xlink:label="solar_PowerTargetCapMeasurement"
+          xlink:type="locator"/>
+        <presentationArc
+          order="6"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_IECREExpectedPerformanceDataAbstract"
+          xlink:to="solar_PowerTargetCapMeasurement"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_CommentsForPowerTargetCapMeasurement"
+          xlink:label="solar_CommentsForPowerTargetCapMeasurement"
+          xlink:type="locator"/>
+        <presentationArc
+          order="7"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_IECREExpectedPerformanceDataAbstract"
+          xlink:to="solar_CommentsForPowerTargetCapMeasurement"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_ExpectedEnergyAtUnavailableTimesExcludingExternalOrOtherOutages"
+          xlink:label="solar_ExpectedEnergyAtUnavailableTimesExcludingExternalOrOtherOutages"
+          xlink:type="locator"/>
+        <presentationArc
+          order="8"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_IECREExpectedPerformanceDataAbstract"
+          xlink:to="solar_ExpectedEnergyAtUnavailableTimesExcludingExternalOrOtherOutages"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_IECREPredictedPerformanceDataAbstract"
+          xlink:label="solar_IECREPredictedPerformanceDataAbstract"
+          xlink:type="locator"/>
+        <presentationArc
+          order="4"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
           xlink:from="solar_IECREPerformanceDataAbstract"
-          xlink:to="solar_TotalExpectedEnergyAtRevenueMeter"
+          xlink:to="solar_IECREPredictedPerformanceDataAbstract"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_PredictedEnergyAtTheRevenueMeter"
+          xlink:label="solar_PredictedEnergyAtTheRevenueMeter"
+          xlink:type="locator"/>
+        <presentationArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_IECREPredictedPerformanceDataAbstract"
+          xlink:to="solar_PredictedEnergyAtTheRevenueMeter"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_PredictedEnergyAvailable"
+          xlink:label="solar_PredictedEnergyAvailable"
+          xlink:type="locator"/>
+        <presentationArc
+          order="2"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_IECREPredictedPerformanceDataAbstract"
+          xlink:to="solar_PredictedEnergyAvailable"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_IECREMeasuredPerformanceDataAbstract"
+          xlink:label="solar_IECREMeasuredPerformanceDataAbstract"
+          xlink:type="locator"/>
+        <presentationArc
+          order="5"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_IECREPerformanceDataAbstract"
+          xlink:to="solar_IECREMeasuredPerformanceDataAbstract"
           xlink:type="arc"/>
         <loc
           xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_MeasuredEnergy"
           xlink:label="solar_MeasuredEnergy"
           xlink:type="locator"/>
         <presentationArc
-          order="16"
+          order="1"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_IECREPerformanceDataAbstract"
+          xlink:from="solar_IECREMeasuredPerformanceDataAbstract"
           xlink:to="solar_MeasuredEnergy"
           xlink:type="arc"/>
         <loc
@@ -1402,9 +1492,9 @@
           xlink:label="solar_MeasuredEnergyAvailabilityPercent"
           xlink:type="locator"/>
         <presentationArc
-          order="17"
+          order="2"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_IECREPerformanceDataAbstract"
+          xlink:from="solar_IECREMeasuredPerformanceDataAbstract"
           xlink:to="solar_MeasuredEnergyAvailabilityPercent"
           xlink:type="arc"/>
         <loc
@@ -1412,39 +1502,79 @@
           xlink:label="solar_MeasuredEnergyAvailabilityDifference"
           xlink:type="locator"/>
         <presentationArc
-          order="18"
+          order="3"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_IECREPerformanceDataAbstract"
+          xlink:from="solar_IECREMeasuredPerformanceDataAbstract"
           xlink:to="solar_MeasuredEnergyAvailabilityDifference"
-          xlink:type="arc"/>
-        <loc
-          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_ExpectedEnergyAtUnavailableTimesExcludingExternalOrOtherOutages"
-          xlink:label="solar_ExpectedEnergyAtUnavailableTimesExcludingExternalOrOtherOutages"
-          xlink:type="locator"/>
-        <presentationArc
-          order="19"
-          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_IECREPerformanceDataAbstract"
-          xlink:to="solar_ExpectedEnergyAtUnavailableTimesExcludingExternalOrOtherOutages"
           xlink:type="arc"/>
         <loc
           xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_MeasuredEnergyAvailableExcludingExternalOrOtherOutages"
           xlink:label="solar_MeasuredEnergyAvailableExcludingExternalOrOtherOutages"
           xlink:type="locator"/>
         <presentationArc
-          order="20"
+          order="4"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_IECREMeasuredPerformanceDataAbstract"
+          xlink:to="solar_MeasuredEnergyAvailableExcludingExternalOrOtherOutages"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_MeasuredCapacityAtTargetConditions"
+          xlink:label="solar_MeasuredCapacityAtTargetConditions"
+          xlink:type="locator"/>
+        <presentationArc
+          order="5"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_IECREMeasuredPerformanceDataAbstract"
+          xlink:to="solar_MeasuredCapacityAtTargetConditions"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_OneYearInPlaneMeasuredIrradiation"
+          xlink:label="solar_OneYearInPlaneMeasuredIrradiation"
+          xlink:type="locator"/>
+        <presentationArc
+          order="6"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_IECREMeasuredPerformanceDataAbstract"
+          xlink:to="solar_OneYearInPlaneMeasuredIrradiation"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_IECREPerformanceRatiosAbstract"
+          xlink:label="solar_IECREPerformanceRatiosAbstract"
+          xlink:type="locator"/>
+        <presentationArc
+          order="6"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
           xlink:from="solar_IECREPerformanceDataAbstract"
-          xlink:to="solar_MeasuredEnergyAvailableExcludingExternalOrOtherOutages"
+          xlink:to="solar_IECREPerformanceRatiosAbstract"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_ExpectedEnergyAvailabilityEstimateRatio"
+          xlink:label="solar_ExpectedEnergyAvailabilityEstimateRatio"
+          xlink:type="locator"/>
+        <presentationArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_IECREPerformanceRatiosAbstract"
+          xlink:to="solar_ExpectedEnergyAvailabilityEstimateRatio"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_PredictedEnergyAvailabilityEstimateRatio"
+          xlink:label="solar_PredictedEnergyAvailabilityEstimateRatio"
+          xlink:type="locator"/>
+        <presentationArc
+          order="2"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_IECREPerformanceRatiosAbstract"
+          xlink:to="solar_PredictedEnergyAvailabilityEstimateRatio"
           xlink:type="arc"/>
         <loc
           xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_AllInEnergyPerformanceIndex"
           xlink:label="solar_AllInEnergyPerformanceIndex"
           xlink:type="locator"/>
         <presentationArc
-          order="21"
+          order="3"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_IECREPerformanceDataAbstract"
+          xlink:from="solar_IECREPerformanceRatiosAbstract"
           xlink:to="solar_AllInEnergyPerformanceIndex"
           xlink:type="arc"/>
         <loc
@@ -1452,279 +1582,49 @@
           xlink:label="solar_ActiveEnergyPerformanceIndex"
           xlink:type="locator"/>
         <presentationArc
-          order="22"
+          order="4"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_IECREPerformanceDataAbstract"
+          xlink:from="solar_IECREPerformanceRatiosAbstract"
           xlink:to="solar_ActiveEnergyPerformanceIndex"
-          xlink:type="arc"/>
-        <loc
-          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_EnergyUnavailabilityComparison"
-          xlink:label="solar_EnergyUnavailabilityComparison"
-          xlink:type="locator"/>
-        <presentationArc
-          order="23"
-          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_IECREPerformanceDataAbstract"
-          xlink:to="solar_EnergyUnavailabilityComparison"
-          xlink:type="arc"/>
-        <loc
-          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_EnergyUnavailabilityExcludingExternalOrOtherOutagesComparison"
-          xlink:label="solar_EnergyUnavailabilityExcludingExternalOrOtherOutagesComparison"
-          xlink:type="locator"/>
-        <presentationArc
-          order="24"
-          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_IECREPerformanceDataAbstract"
-          xlink:to="solar_EnergyUnavailabilityExcludingExternalOrOtherOutagesComparison"
-          xlink:type="arc"/>
-        <loc
-          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_EnergyAvailabilityComparison"
-          xlink:label="solar_EnergyAvailabilityComparison"
-          xlink:type="locator"/>
-        <presentationArc
-          order="25"
-          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_IECREPerformanceDataAbstract"
-          xlink:to="solar_EnergyAvailabilityComparison"
-          xlink:type="arc"/>
-        <loc
-          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_ParasiticLossMeasuredInTest"
-          xlink:label="solar_ParasiticLossMeasuredInTest"
-          xlink:type="locator"/>
-        <presentationArc
-          order="26"
-          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_IECREPerformanceDataAbstract"
-          xlink:to="solar_ParasiticLossMeasuredInTest"
-          xlink:type="arc"/>
-        <loc
-          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_DeviationsFromMeasurementProcedures"
-          xlink:label="solar_DeviationsFromMeasurementProcedures"
-          xlink:type="locator"/>
-        <presentationArc
-          order="27"
-          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_IECREPerformanceDataAbstract"
-          xlink:to="solar_DeviationsFromMeasurementProcedures"
           xlink:type="arc"/>
         <loc
           xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_CapacityFactorRatio"
           xlink:label="solar_CapacityFactorRatio"
           xlink:type="locator"/>
         <presentationArc
-          order="28"
+          order="5"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_IECREPerformanceDataAbstract"
+          xlink:from="solar_IECREPerformanceRatiosAbstract"
           xlink:to="solar_CapacityFactorRatio"
           xlink:type="arc"/>
         <loc
-          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_ExpectedOperationsAndMaintenanceCostPerWatt"
-          xlink:label="solar_ExpectedOperationsAndMaintenanceCostPerWatt"
+          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_PowerPerformanceIndex"
+          xlink:label="solar_PowerPerformanceIndex"
           xlink:type="locator"/>
         <presentationArc
-          order="29"
+          order="6"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_IECREPerformanceDataAbstract"
-          xlink:to="solar_ExpectedOperationsAndMaintenanceCostPerWatt"
-          xlink:type="arc"/>
-        <loc
-          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_MeasuredOperationsAndMaintenanceCostPerWatt"
-          xlink:label="solar_MeasuredOperationsAndMaintenanceCostPerWatt"
-          xlink:type="locator"/>
-        <presentationArc
-          order="30"
-          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_IECREPerformanceDataAbstract"
-          xlink:to="solar_MeasuredOperationsAndMaintenanceCostPerWatt"
-          xlink:type="arc"/>
-        <loc
-          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_ActualCostPenaltiesFromUnAvailabilityCostPerkWdc"
-          xlink:label="solar_ActualCostPenaltiesFromUnAvailabilityCostPerkWdc"
-          xlink:type="locator"/>
-        <presentationArc
-          order="31"
-          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_IECREPerformanceDataAbstract"
-          xlink:to="solar_ActualCostPenaltiesFromUnAvailabilityCostPerkWdc"
-          xlink:type="arc"/>
-        <loc
-          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_ActualCostUnavailabilityFromLostEnergyCostPerkWh"
-          xlink:label="solar_ActualCostUnavailabilityFromLostEnergyCostPerkWh"
-          xlink:type="locator"/>
-        <presentationArc
-          order="32"
-          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_IECREPerformanceDataAbstract"
-          xlink:to="solar_ActualCostUnavailabilityFromLostEnergyCostPerkWh"
-          xlink:type="arc"/>
-        <loc
-          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_ActualCostPenaltiesFromLostEnergyCostPerkWdc"
-          xlink:label="solar_ActualCostPenaltiesFromLostEnergyCostPerkWdc"
-          xlink:type="locator"/>
-        <presentationArc
-          order="33"
-          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_IECREPerformanceDataAbstract"
-          xlink:to="solar_ActualCostPenaltiesFromLostEnergyCostPerkWdc"
-          xlink:type="arc"/>
-        <loc
-          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_ActualCostLowPerformanceFromLostEnergyCostPerkWdc"
-          xlink:label="solar_ActualCostLowPerformanceFromLostEnergyCostPerkWdc"
-          xlink:type="locator"/>
-        <presentationArc
-          order="34"
-          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_IECREPerformanceDataAbstract"
-          xlink:to="solar_ActualCostLowPerformanceFromLostEnergyCostPerkWdc"
-          xlink:type="arc"/>
-        <loc
-          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_ActualCostPenaltiesAndLowPerformanceCostPerkWdc"
-          xlink:label="solar_ActualCostPenaltiesAndLowPerformanceCostPerkWdc"
-          xlink:type="locator"/>
-        <presentationArc
-          order="35"
-          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_IECREPerformanceDataAbstract"
-          xlink:to="solar_ActualCostPenaltiesAndLowPerformanceCostPerkWdc"
-          xlink:type="arc"/>
-        <loc
-          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_RiskPriorityNumber"
-          xlink:label="solar_RiskPriorityNumber"
-          xlink:type="locator"/>
-        <presentationArc
-          order="36"
-          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_IECREPerformanceDataAbstract"
-          xlink:to="solar_RiskPriorityNumber"
-          xlink:type="arc"/>
-        <loc
-          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_SystemQualityLevelDescription"
-          xlink:label="solar_SystemQualityLevelDescription"
-          xlink:type="locator"/>
-        <presentationArc
-          order="37"
-          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_IECREPerformanceDataAbstract"
-          xlink:to="solar_SystemQualityLevelDescription"
-          xlink:type="arc"/>
-        <loc
-          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_RatedPowerPeakAC"
-          xlink:label="solar_RatedPowerPeakAC"
-          xlink:type="locator"/>
-        <presentationArc
-          order="38"
-          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_IECREPerformanceDataAbstract"
-          xlink:to="solar_RatedPowerPeakAC"
+          xlink:from="solar_IECREPerformanceRatiosAbstract"
+          xlink:to="solar_PowerPerformanceIndex"
           xlink:type="arc"/>
         <loc
           xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_RatioArrayCapacityAsMeasuredToArrayCapacityAsRatedDC"
           xlink:label="solar_RatioArrayCapacityAsMeasuredToArrayCapacityAsRatedDC"
           xlink:type="locator"/>
         <presentationArc
-          order="39"
+          order="7"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_IECREPerformanceDataAbstract"
+          xlink:from="solar_IECREPerformanceRatiosAbstract"
           xlink:to="solar_RatioArrayCapacityAsMeasuredToArrayCapacityAsRatedDC"
-          xlink:type="arc"/>
-        <loc
-          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_OneYearInPlaneMeasuredIrradiation"
-          xlink:label="solar_OneYearInPlaneMeasuredIrradiation"
-          xlink:type="locator"/>
-        <presentationArc
-          order="40"
-          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_IECREPerformanceDataAbstract"
-          xlink:to="solar_OneYearInPlaneMeasuredIrradiation"
-          xlink:type="arc"/>
-        <loc
-          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_MeasurementUncertaintyBasisDescription"
-          xlink:label="solar_MeasurementUncertaintyBasisDescription"
-          xlink:type="locator"/>
-        <presentationArc
-          order="41"
-          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_IECREPerformanceDataAbstract"
-          xlink:to="solar_MeasurementUncertaintyBasisDescription"
-          xlink:type="arc"/>
-        <loc
-          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_StatedUncertaintyOfExpectedEnergyBasedOnWeatherPercent"
-          xlink:label="solar_StatedUncertaintyOfExpectedEnergyBasedOnWeatherPercent"
-          xlink:type="locator"/>
-        <presentationArc
-          order="42"
-          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_IECREPerformanceDataAbstract"
-          xlink:to="solar_StatedUncertaintyOfExpectedEnergyBasedOnWeatherPercent"
-          xlink:type="arc"/>
-        <loc
-          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_StatedUncertaintyOfExpectedEnergyBasedOnAllFactorsPercent"
-          xlink:label="solar_StatedUncertaintyOfExpectedEnergyBasedOnAllFactorsPercent"
-          xlink:type="locator"/>
-        <presentationArc
-          order="43"
-          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_IECREPerformanceDataAbstract"
-          xlink:to="solar_StatedUncertaintyOfExpectedEnergyBasedOnAllFactorsPercent"
-          xlink:type="arc"/>
-        <loc
-          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_SystemAvailabilityActualPercentUptime"
-          xlink:label="solar_SystemAvailabilityActualPercentUptime"
-          xlink:type="locator"/>
-        <presentationArc
-          order="44"
-          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_IECREPerformanceDataAbstract"
-          xlink:to="solar_SystemAvailabilityActualPercentUptime"
-          xlink:type="arc"/>
-        <loc
-          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_SystemAvailabilityActualPercentUptimeInceptionToDate"
-          xlink:label="solar_SystemAvailabilityActualPercentUptimeInceptionToDate"
-          xlink:type="locator"/>
-        <presentationArc
-          order="45"
-          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_IECREPerformanceDataAbstract"
-          xlink:to="solar_SystemAvailabilityActualPercentUptimeInceptionToDate"
-          xlink:type="arc"/>
-        <loc
-          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_SystemCapacityPeakDC"
-          xlink:label="solar_SystemCapacityPeakDC"
-          xlink:type="locator"/>
-        <presentationArc
-          order="46"
-          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_IECREPerformanceDataAbstract"
-          xlink:to="solar_SystemCapacityPeakDC"
-          xlink:type="arc"/>
-        <loc
-          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_SystemAvailabilityExpectedPercentUptime"
-          xlink:label="solar_SystemAvailabilityExpectedPercentUptime"
-          xlink:type="locator"/>
-        <presentationArc
-          order="47"
-          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_IECREPerformanceDataAbstract"
-          xlink:to="solar_SystemAvailabilityExpectedPercentUptime"
-          xlink:type="arc"/>
-        <loc
-          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_SystemAvailabilityExpectedPercentUptimeInceptionToDate"
-          xlink:label="solar_SystemAvailabilityExpectedPercentUptimeInceptionToDate"
-          xlink:type="locator"/>
-        <presentationArc
-          order="48"
-          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_IECREPerformanceDataAbstract"
-          xlink:to="solar_SystemAvailabilityExpectedPercentUptimeInceptionToDate"
           xlink:type="arc"/>
         <loc
           xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_RatioMeasuredEnergyToExpectedEnergyAtTheRevenue"
           xlink:label="solar_RatioMeasuredEnergyToExpectedEnergyAtTheRevenue"
           xlink:type="locator"/>
         <presentationArc
-          order="49"
+          order="8"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_IECREPerformanceDataAbstract"
+          xlink:from="solar_IECREPerformanceRatiosAbstract"
           xlink:to="solar_RatioMeasuredEnergyToExpectedEnergyAtTheRevenue"
           xlink:type="arc"/>
         <loc
@@ -1732,9 +1632,9 @@
           xlink:label="solar_RatioMeasuredEnergyToExpectedEnergyAtTheRevenueMeterInceptionToDate"
           xlink:type="locator"/>
         <presentationArc
-          order="50"
+          order="9"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_IECREPerformanceDataAbstract"
+          xlink:from="solar_IECREPerformanceRatiosAbstract"
           xlink:to="solar_RatioMeasuredEnergyToExpectedEnergyAtTheRevenueMeterInceptionToDate"
           xlink:type="arc"/>
         <loc
@@ -1742,9 +1642,9 @@
           xlink:label="solar_PerformanceRatioNonWeatherCorrected"
           xlink:type="locator"/>
         <presentationArc
-          order="51"
+          order="10"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_IECREPerformanceDataAbstract"
+          xlink:from="solar_IECREPerformanceRatiosAbstract"
           xlink:to="solar_PerformanceRatioNonWeatherCorrected"
           xlink:type="arc"/>
         <loc
@@ -1752,27 +1652,197 @@
           xlink:label="solar_PerformanceRatioWeatherCorrected"
           xlink:type="locator"/>
         <presentationArc
-          order="52"
+          order="11"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_IECREPerformanceDataAbstract"
+          xlink:from="solar_IECREPerformanceRatiosAbstract"
           xlink:to="solar_PerformanceRatioWeatherCorrected"
           xlink:type="arc"/>
         <loc
-          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_PVSystemPerformanceSamplingInterval"
-          xlink:label="solar_PVSystemPerformanceSamplingInterval"
+          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_IECRESystemAvailabilityAbstract"
+          xlink:label="solar_IECRESystemAvailabilityAbstract"
           xlink:type="locator"/>
         <presentationArc
-          order="53"
+          order="9"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_IECREPerformanceDataAbstract"
-          xlink:to="solar_PVSystemPerformanceSamplingInterval"
+          xlink:from="solar_IECRECertificateAbstract"
+          xlink:to="solar_IECRESystemAvailabilityAbstract"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_EnergyUnavailabilityComparison"
+          xlink:label="solar_EnergyUnavailabilityComparison"
+          xlink:type="locator"/>
+        <presentationArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_IECRESystemAvailabilityAbstract"
+          xlink:to="solar_EnergyUnavailabilityComparison"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_EnergyUnavailabilityExcludingExternalOrOtherOutagesComparison"
+          xlink:label="solar_EnergyUnavailabilityExcludingExternalOrOtherOutagesComparison"
+          xlink:type="locator"/>
+        <presentationArc
+          order="2"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_IECRESystemAvailabilityAbstract"
+          xlink:to="solar_EnergyUnavailabilityExcludingExternalOrOtherOutagesComparison"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_EnergyAvailabilityComparison"
+          xlink:label="solar_EnergyAvailabilityComparison"
+          xlink:type="locator"/>
+        <presentationArc
+          order="3"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_IECRESystemAvailabilityAbstract"
+          xlink:to="solar_EnergyAvailabilityComparison"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_SystemAvailabilityActualPercentUptime"
+          xlink:label="solar_SystemAvailabilityActualPercentUptime"
+          xlink:type="locator"/>
+        <presentationArc
+          order="4"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_IECRESystemAvailabilityAbstract"
+          xlink:to="solar_SystemAvailabilityActualPercentUptime"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_SystemAvailabilityActualPercentUptimeInceptionToDate"
+          xlink:label="solar_SystemAvailabilityActualPercentUptimeInceptionToDate"
+          xlink:type="locator"/>
+        <presentationArc
+          order="5"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_IECRESystemAvailabilityAbstract"
+          xlink:to="solar_SystemAvailabilityActualPercentUptimeInceptionToDate"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_SystemAvailabilityExpectedPercentUptime"
+          xlink:label="solar_SystemAvailabilityExpectedPercentUptime"
+          xlink:type="locator"/>
+        <presentationArc
+          order="6"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_IECRESystemAvailabilityAbstract"
+          xlink:to="solar_SystemAvailabilityExpectedPercentUptime"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_SystemAvailabilityExpectedPercentUptimeInceptionToDate"
+          xlink:label="solar_SystemAvailabilityExpectedPercentUptimeInceptionToDate"
+          xlink:type="locator"/>
+        <presentationArc
+          order="7"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_IECRESystemAvailabilityAbstract"
+          xlink:to="solar_SystemAvailabilityExpectedPercentUptimeInceptionToDate"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_IECREUncertaintyMeasuresAbstract"
+          xlink:label="solar_IECREUncertaintyMeasuresAbstract"
+          xlink:type="locator"/>
+        <presentationArc
+          order="10"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_IECRECertificateAbstract"
+          xlink:to="solar_IECREUncertaintyMeasuresAbstract"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_MeasurementUncertaintyBasisDescription"
+          xlink:label="solar_MeasurementUncertaintyBasisDescription"
+          xlink:type="locator"/>
+        <presentationArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_IECREUncertaintyMeasuresAbstract"
+          xlink:to="solar_MeasurementUncertaintyBasisDescription"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_StatedUncertaintyOfExpectedEnergyBasedOnWeatherPercent"
+          xlink:label="solar_StatedUncertaintyOfExpectedEnergyBasedOnWeatherPercent"
+          xlink:type="locator"/>
+        <presentationArc
+          order="2"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_IECREUncertaintyMeasuresAbstract"
+          xlink:to="solar_StatedUncertaintyOfExpectedEnergyBasedOnWeatherPercent"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_StatedUncertaintyOfExpectedEnergyBasedOnAllFactorsPercent"
+          xlink:label="solar_StatedUncertaintyOfExpectedEnergyBasedOnAllFactorsPercent"
+          xlink:type="locator"/>
+        <presentationArc
+          order="3"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_IECREUncertaintyMeasuresAbstract"
+          xlink:to="solar_StatedUncertaintyOfExpectedEnergyBasedOnAllFactorsPercent"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_IECREUnavailabilityAndPenaltyCostMeasuresAbstract"
+          xlink:label="solar_IECREUnavailabilityAndPenaltyCostMeasuresAbstract"
+          xlink:type="locator"/>
+        <presentationArc
+          order="11"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_IECRECertificateAbstract"
+          xlink:to="solar_IECREUnavailabilityAndPenaltyCostMeasuresAbstract"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_ActualCostPenaltiesFromUnAvailabilityCostPerkWdc"
+          xlink:label="solar_ActualCostPenaltiesFromUnAvailabilityCostPerkWdc"
+          xlink:type="locator"/>
+        <presentationArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_IECREUnavailabilityAndPenaltyCostMeasuresAbstract"
+          xlink:to="solar_ActualCostPenaltiesFromUnAvailabilityCostPerkWdc"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_ActualCostUnavailabilityFromLostEnergyCostPerkWh"
+          xlink:label="solar_ActualCostUnavailabilityFromLostEnergyCostPerkWh"
+          xlink:type="locator"/>
+        <presentationArc
+          order="2"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_IECREUnavailabilityAndPenaltyCostMeasuresAbstract"
+          xlink:to="solar_ActualCostUnavailabilityFromLostEnergyCostPerkWh"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_ActualCostPenaltiesFromLostEnergyCostPerkWdc"
+          xlink:label="solar_ActualCostPenaltiesFromLostEnergyCostPerkWdc"
+          xlink:type="locator"/>
+        <presentationArc
+          order="3"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_IECREUnavailabilityAndPenaltyCostMeasuresAbstract"
+          xlink:to="solar_ActualCostPenaltiesFromLostEnergyCostPerkWdc"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_ActualCostLowPerformanceFromLostEnergyCostPerkWdc"
+          xlink:label="solar_ActualCostLowPerformanceFromLostEnergyCostPerkWdc"
+          xlink:type="locator"/>
+        <presentationArc
+          order="4"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_IECREUnavailabilityAndPenaltyCostMeasuresAbstract"
+          xlink:to="solar_ActualCostLowPerformanceFromLostEnergyCostPerkWdc"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_ActualCostPenaltiesAndLowPerformanceCostPerkWdc"
+          xlink:label="solar_ActualCostPenaltiesAndLowPerformanceCostPerkWdc"
+          xlink:type="locator"/>
+        <presentationArc
+          order="5"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_IECREUnavailabilityAndPenaltyCostMeasuresAbstract"
+          xlink:to="solar_ActualCostPenaltiesAndLowPerformanceCostPerkWdc"
           xlink:type="arc"/>
         <loc
           xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_IECREReportReviewAbstract"
           xlink:label="solar_IECREReportReviewAbstract"
           xlink:type="locator"/>
         <presentationArc
-          order="9"
+          order="12"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
           xlink:from="solar_IECRECertificateAbstract"
           xlink:to="solar_IECREReportReviewAbstract"
@@ -1922,7 +1992,7 @@
           xlink:label="solar_IECREChargeAbstract"
           xlink:type="locator"/>
         <presentationArc
-          order="10"
+          order="13"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
           xlink:from="solar_IECRECertificateAbstract"
           xlink:to="solar_IECREChargeAbstract"
@@ -2038,24 +2108,24 @@
           xlink:to="solar_EnergyCharge"
           xlink:type="arc"/>
         <loc
-          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_IECREPerformanceDataAbstract"
-          xlink:label="solar_IECREPerformanceDataAbstract_1"
+          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_IECREPerformanceComparisonAbstract"
+          xlink:label="solar_IECREPerformanceComparisonAbstract"
           xlink:type="locator"/>
         <presentationArc
-          order="11"
+          order="14"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
           xlink:from="solar_IECRECertificateAbstract"
-          xlink:to="solar_IECREPerformanceDataAbstract_1"
+          xlink:to="solar_IECREPerformanceComparisonAbstract"
           xlink:type="arc"/>
         <loc
-          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_IECREPerformanceDataTable"
-          xlink:label="solar_IECREPerformanceDataTable"
+          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_IECREPerformanceComparisonTable"
+          xlink:label="solar_IECREPerformanceComparisonTable"
           xlink:type="locator"/>
         <presentationArc
           order="1"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_IECREPerformanceDataAbstract"
-          xlink:to="solar_IECREPerformanceDataTable"
+          xlink:from="solar_IECREPerformanceComparisonAbstract"
+          xlink:to="solar_IECREPerformanceComparisonTable"
           xlink:type="arc"/>
         <loc
           xlink:href="http://xbrl.fasb.org/us-gaap/2017/elts/us-gaap-2017-01-31.xsd#us-gaap_StatementScenarioAxis"
@@ -2064,7 +2134,7 @@
         <presentationArc
           order="1"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_IECREPerformanceDataTable"
+          xlink:from="solar_IECREPerformanceComparisonTable"
           xlink:to="us-gaap_StatementScenarioAxis"
           xlink:type="arc"/>
         <loc
@@ -2088,23 +2158,33 @@
           xlink:to="us-gaap_ScenarioPlanMember"
           xlink:type="arc"/>
         <loc
-          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_IECREPerformanceDataLineItems"
-          xlink:label="solar_IECREPerformanceDataLineItems"
+          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_IECREPerformanceComparisonLineItems"
+          xlink:label="solar_IECREPerformanceComparisonLineItems"
           xlink:type="locator"/>
         <presentationArc
           order="2"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_IECREPerformanceDataTable"
-          xlink:to="solar_IECREPerformanceDataLineItems"
+          xlink:from="solar_IECREPerformanceComparisonTable"
+          xlink:to="solar_IECREPerformanceComparisonLineItems"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_OperationsAndMaintenanceCostPerWatt"
+          xlink:label="solar_OperationsAndMaintenanceCostPerWatt"
+          xlink:type="locator"/>
+        <presentationArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_IECREPerformanceComparisonLineItems"
+          xlink:to="solar_OperationsAndMaintenanceCostPerWatt"
           xlink:type="arc"/>
         <loc
           xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_OperatingExpensesCostPerWatt"
           xlink:label="solar_OperatingExpensesCostPerWatt"
           xlink:type="locator"/>
         <presentationArc
-          order="1"
+          order="2"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_IECREPerformanceDataLineItems"
+          xlink:from="solar_IECREPerformanceComparisonLineItems"
           xlink:to="solar_OperatingExpensesCostPerWatt"
           xlink:type="arc"/>
         <loc
@@ -2112,9 +2192,9 @@
           xlink:label="solar_AssetManagementCostPerWatt"
           xlink:type="locator"/>
         <presentationArc
-          order="2"
+          order="3"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_IECREPerformanceDataLineItems"
+          xlink:from="solar_IECREPerformanceComparisonLineItems"
           xlink:to="solar_AssetManagementCostPerWatt"
           xlink:type="arc"/>
         <loc
@@ -2122,9 +2202,9 @@
           xlink:label="solar_GeneralInsuranceExpensePerWatt"
           xlink:type="locator"/>
         <presentationArc
-          order="3"
+          order="4"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_IECREPerformanceDataLineItems"
+          xlink:from="solar_IECREPerformanceComparisonLineItems"
           xlink:to="solar_GeneralInsuranceExpensePerWatt"
           xlink:type="arc"/>
         <loc
@@ -2132,9 +2212,9 @@
           xlink:label="solar_ExciseAndSalesTaxPerWatt"
           xlink:type="locator"/>
         <presentationArc
-          order="4"
+          order="5"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_IECREPerformanceDataLineItems"
+          xlink:from="solar_IECREPerformanceComparisonLineItems"
           xlink:to="solar_ExciseAndSalesTaxPerWatt"
           xlink:type="arc"/>
         <loc
@@ -2142,9 +2222,9 @@
           xlink:label="solar_RealEstateTaxExpensePerWatt"
           xlink:type="locator"/>
         <presentationArc
-          order="5"
+          order="6"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_IECREPerformanceDataLineItems"
+          xlink:from="solar_IECREPerformanceComparisonLineItems"
           xlink:to="solar_RealEstateTaxExpensePerWatt"
           xlink:type="arc"/>
         <loc
@@ -2152,9 +2232,9 @@
           xlink:label="solar_UtilitiesCostsPerWatt"
           xlink:type="locator"/>
         <presentationArc
-          order="6"
+          order="7"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_IECREPerformanceDataLineItems"
+          xlink:from="solar_IECREPerformanceComparisonLineItems"
           xlink:to="solar_UtilitiesCostsPerWatt"
           xlink:type="arc"/>
         <loc
@@ -2162,9 +2242,9 @@
           xlink:label="solar_OtherExpensesPerWatt"
           xlink:type="locator"/>
         <presentationArc
-          order="7"
+          order="8"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_IECREPerformanceDataLineItems"
+          xlink:from="solar_IECREPerformanceComparisonLineItems"
           xlink:to="solar_OtherExpensesPerWatt"
           xlink:type="arc"/>
         <loc
@@ -2172,9 +2252,9 @@
           xlink:label="solar_AuditingFeePerWatt"
           xlink:type="locator"/>
         <presentationArc
-          order="8"
+          order="9"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_IECREPerformanceDataLineItems"
+          xlink:from="solar_IECREPerformanceComparisonLineItems"
           xlink:to="solar_AuditingFeePerWatt"
           xlink:type="arc"/>
         <loc
@@ -2182,9 +2262,9 @@
           xlink:label="solar_TaxPreparationFeePerWatt"
           xlink:type="locator"/>
         <presentationArc
-          order="9"
+          order="10"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_IECREPerformanceDataLineItems"
+          xlink:from="solar_IECREPerformanceComparisonLineItems"
           xlink:to="solar_TaxPreparationFeePerWatt"
           xlink:type="arc"/>
         <loc
@@ -2192,9 +2272,9 @@
           xlink:label="solar_OtherAdministrativeFeesPerWatt"
           xlink:type="locator"/>
         <presentationArc
-          order="10"
+          order="11"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_IECREPerformanceDataLineItems"
+          xlink:from="solar_IECREPerformanceComparisonLineItems"
           xlink:to="solar_OtherAdministrativeFeesPerWatt"
           xlink:type="arc"/>
         <loc
@@ -2202,9 +2282,9 @@
           xlink:label="solar_SiteLeasePaymentPerWatt"
           xlink:type="locator"/>
         <presentationArc
-          order="11"
+          order="12"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_IECREPerformanceDataLineItems"
+          xlink:from="solar_IECREPerformanceComparisonLineItems"
           xlink:to="solar_SiteLeasePaymentPerWatt"
           xlink:type="arc"/>
         <loc
@@ -2212,9 +2292,9 @@
           xlink:label="solar_CurrentFederalTaxExpenseBenefitPerWatt"
           xlink:type="locator"/>
         <presentationArc
-          order="12"
+          order="13"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_IECREPerformanceDataLineItems"
+          xlink:from="solar_IECREPerformanceComparisonLineItems"
           xlink:to="solar_CurrentFederalTaxExpenseBenefitPerWatt"
           xlink:type="arc"/>
         <loc
@@ -2222,9 +2302,9 @@
           xlink:label="solar_CurrentStateAndLocalTaxExpenseBenefitPerWatt"
           xlink:type="locator"/>
         <presentationArc
-          order="13"
+          order="14"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_IECREPerformanceDataLineItems"
+          xlink:from="solar_IECREPerformanceComparisonLineItems"
           xlink:to="solar_CurrentStateAndLocalTaxExpenseBenefitPerWatt"
           xlink:type="arc"/>
         <loc
@@ -2232,9 +2312,9 @@
           xlink:label="solar_OtherTaxExpenseBenefitPerWatt"
           xlink:type="locator"/>
         <presentationArc
-          order="14"
+          order="15"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_IECREPerformanceDataLineItems"
+          xlink:from="solar_IECREPerformanceComparisonLineItems"
           xlink:to="solar_OtherTaxExpenseBenefitPerWatt"
           xlink:type="arc"/>
         <loc
@@ -2242,9 +2322,9 @@
           xlink:label="solar_CostsAndExpensesPerWatt"
           xlink:type="locator"/>
         <presentationArc
-          order="15"
+          order="16"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_IECREPerformanceDataLineItems"
+          xlink:from="solar_IECREPerformanceComparisonLineItems"
           xlink:to="solar_CostsAndExpensesPerWatt"
           xlink:type="arc"/>
         <loc
@@ -2252,9 +2332,9 @@
           xlink:label="solar_PaymentsForRentPerWatt"
           xlink:type="locator"/>
         <presentationArc
-          order="16"
+          order="17"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_IECREPerformanceDataLineItems"
+          xlink:from="solar_IECREPerformanceComparisonLineItems"
           xlink:to="solar_PaymentsForRentPerWatt"
           xlink:type="arc"/>
         <loc
@@ -2262,9 +2342,9 @@
           xlink:label="solar_ElectricalGenerationRevenuePerWatt"
           xlink:type="locator"/>
         <presentationArc
-          order="17"
+          order="18"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_IECREPerformanceDataLineItems"
+          xlink:from="solar_IECREPerformanceComparisonLineItems"
           xlink:to="solar_ElectricalGenerationRevenuePerWatt"
           xlink:type="arc"/>
         <loc
@@ -2272,9 +2352,9 @@
           xlink:label="solar_PBIRevenuePerWatt"
           xlink:type="locator"/>
         <presentationArc
-          order="18"
+          order="19"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_IECREPerformanceDataLineItems"
+          xlink:from="solar_IECREPerformanceComparisonLineItems"
           xlink:to="solar_PBIRevenuePerWatt"
           xlink:type="arc"/>
         <loc
@@ -2282,9 +2362,9 @@
           xlink:label="solar_RECRevenuePerWatt"
           xlink:type="locator"/>
         <presentationArc
-          order="19"
+          order="20"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_IECREPerformanceDataLineItems"
+          xlink:from="solar_IECREPerformanceComparisonLineItems"
           xlink:to="solar_RECRevenuePerWatt"
           xlink:type="arc"/>
         <loc
@@ -2292,9 +2372,9 @@
           xlink:label="solar_RebateRevenuePerWatt"
           xlink:type="locator"/>
         <presentationArc
-          order="20"
+          order="21"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_IECREPerformanceDataLineItems"
+          xlink:from="solar_IECREPerformanceComparisonLineItems"
           xlink:to="solar_RebateRevenuePerWatt"
           xlink:type="arc"/>
         <loc
@@ -2302,9 +2382,9 @@
           xlink:label="solar_OtherIncomePerWatt"
           xlink:type="locator"/>
         <presentationArc
-          order="21"
+          order="22"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_IECREPerformanceDataLineItems"
+          xlink:from="solar_IECREPerformanceComparisonLineItems"
           xlink:to="solar_OtherIncomePerWatt"
           xlink:type="arc"/>
         <loc
@@ -2312,9 +2392,9 @@
           xlink:label="solar_RevenuesPerWatt"
           xlink:type="locator"/>
         <presentationArc
-          order="22"
+          order="23"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_IECREPerformanceDataLineItems"
+          xlink:from="solar_IECREPerformanceComparisonLineItems"
           xlink:to="solar_RevenuesPerWatt"
           xlink:type="arc"/>
         <loc
@@ -2322,9 +2402,9 @@
           xlink:label="solar_CostOfServicesDepreciationAndAmortizationPerWatt"
           xlink:type="locator"/>
         <presentationArc
-          order="23"
+          order="24"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_IECREPerformanceDataLineItems"
+          xlink:from="solar_IECREPerformanceComparisonLineItems"
           xlink:to="solar_CostOfServicesDepreciationAndAmortizationPerWatt"
           xlink:type="arc"/>
         <loc
@@ -2332,9 +2412,9 @@
           xlink:label="solar_PrincipalAmountOutstandingOnLoansManagedAndSecuritizedPerWatt"
           xlink:type="locator"/>
         <presentationArc
-          order="24"
+          order="25"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_IECREPerformanceDataLineItems"
+          xlink:from="solar_IECREPerformanceComparisonLineItems"
           xlink:to="solar_PrincipalAmountOutstandingOnLoansManagedAndSecuritizedPerWatt"
           xlink:type="arc"/>
         <loc
@@ -2342,9 +2422,9 @@
           xlink:label="solar_InvestedCapitalPerWatt"
           xlink:type="locator"/>
         <presentationArc
-          order="25"
+          order="26"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_IECREPerformanceDataLineItems"
+          xlink:from="solar_IECREPerformanceComparisonLineItems"
           xlink:to="solar_InvestedCapitalPerWatt"
           xlink:type="arc"/>
         <loc
@@ -2352,9 +2432,9 @@
           xlink:label="solar_TotalOfAllProjectAccountBalancesPerWatt"
           xlink:type="locator"/>
         <presentationArc
-          order="26"
+          order="27"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_IECREPerformanceDataLineItems"
+          xlink:from="solar_IECREPerformanceComparisonLineItems"
           xlink:to="solar_TotalOfAllProjectAccountBalancesPerWatt"
           xlink:type="arc"/>
         <loc
@@ -2362,9 +2442,9 @@
           xlink:label="solar_UnleveredInternalRateOfReturn"
           xlink:type="locator"/>
         <presentationArc
-          order="27"
+          order="28"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_IECREPerformanceDataLineItems"
+          xlink:from="solar_IECREPerformanceComparisonLineItems"
           xlink:to="solar_UnleveredInternalRateOfReturn"
           xlink:type="arc"/>
         <loc
@@ -2372,9 +2452,9 @@
           xlink:label="solar_TaxEquityCashDistributionsPerWatt"
           xlink:type="locator"/>
         <presentationArc
-          order="28"
+          order="29"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_IECREPerformanceDataLineItems"
+          xlink:from="solar_IECREPerformanceComparisonLineItems"
           xlink:to="solar_TaxEquityCashDistributionsPerWatt"
           xlink:type="arc"/>
         <loc
@@ -2382,9 +2462,9 @@
           xlink:label="solar_OtherPaymentsToFinanciersPerWatt"
           xlink:type="locator"/>
         <presentationArc
-          order="29"
+          order="30"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_IECREPerformanceDataLineItems"
+          xlink:from="solar_IECREPerformanceComparisonLineItems"
           xlink:to="solar_OtherPaymentsToFinanciersPerWatt"
           xlink:type="arc"/>
         <loc
@@ -2392,9 +2472,9 @@
           xlink:label="solar_HypotheticalLiquidationAtBookValueBalancePerWatt"
           xlink:type="locator"/>
         <presentationArc
-          order="30"
+          order="31"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_IECREPerformanceDataLineItems"
+          xlink:from="solar_IECREPerformanceComparisonLineItems"
           xlink:to="solar_HypotheticalLiquidationAtBookValueBalancePerWatt"
           xlink:type="arc"/>
         <loc
@@ -2402,9 +2482,9 @@
           xlink:label="solar_DebtInstrumentPeriodicPaymentPrincipalPerWatt"
           xlink:type="locator"/>
         <presentationArc
-          order="31"
+          order="32"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_IECREPerformanceDataLineItems"
+          xlink:from="solar_IECREPerformanceComparisonLineItems"
           xlink:to="solar_DebtInstrumentPeriodicPaymentPrincipalPerWatt"
           xlink:type="arc"/>
         <loc
@@ -2412,9 +2492,9 @@
           xlink:label="solar_DebtInstrumentPeriodicPaymentInterestPerWatt"
           xlink:type="locator"/>
         <presentationArc
-          order="32"
+          order="33"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_IECREPerformanceDataLineItems"
+          xlink:from="solar_IECREPerformanceComparisonLineItems"
           xlink:to="solar_DebtInstrumentPeriodicPaymentInterestPerWatt"
           xlink:type="arc"/>
         <loc
@@ -2422,9 +2502,9 @@
           xlink:label="solar_DeficitRestorationObligationPerWatt"
           xlink:type="locator"/>
         <presentationArc
-          order="33"
+          order="34"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_IECREPerformanceDataLineItems"
+          xlink:from="solar_IECREPerformanceComparisonLineItems"
           xlink:to="solar_DeficitRestorationObligationPerWatt"
           xlink:type="arc"/>
         <loc
@@ -2432,9 +2512,9 @@
           xlink:label="solar_DeficitRestorationObligationLimitPerWatt"
           xlink:type="locator"/>
         <presentationArc
-          order="34"
+          order="35"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_IECREPerformanceDataLineItems"
+          xlink:from="solar_IECREPerformanceComparisonLineItems"
           xlink:to="solar_DeficitRestorationObligationLimitPerWatt"
           xlink:type="arc"/>
         <loc
@@ -2442,9 +2522,9 @@
           xlink:label="solar_AllInYield"
           xlink:type="locator"/>
         <presentationArc
-          order="35"
+          order="36"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_IECREPerformanceDataLineItems"
+          xlink:from="solar_IECREPerformanceComparisonLineItems"
           xlink:to="solar_AllInYield"
           xlink:type="arc"/>
         <loc
@@ -2452,9 +2532,9 @@
           xlink:label="us-gaap_PropertyPlantAndEquipmentUsefulLife"
           xlink:type="locator"/>
         <presentationArc
-          order="36"
+          order="37"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_IECREPerformanceDataLineItems"
+          xlink:from="solar_IECREPerformanceComparisonLineItems"
           xlink:to="us-gaap_PropertyPlantAndEquipmentUsefulLife"
           xlink:type="arc"/>
         <loc
@@ -2462,9 +2542,9 @@
           xlink:label="solar_PropertyPlantAndEquipmentSalvageValuePerWatt"
           xlink:type="locator"/>
         <presentationArc
-          order="37"
+          order="38"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_IECREPerformanceDataLineItems"
+          xlink:from="solar_IECREPerformanceComparisonLineItems"
           xlink:to="solar_PropertyPlantAndEquipmentSalvageValuePerWatt"
           xlink:type="arc"/>
         <loc
@@ -2472,7 +2552,7 @@
           xlink:label="solar_IECREFinancingDetailsAbstract"
           xlink:type="locator"/>
         <presentationArc
-          order="12"
+          order="15"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
           xlink:from="solar_IECRECertificateAbstract"
           xlink:to="solar_IECREFinancingDetailsAbstract"
@@ -2602,7 +2682,7 @@
           xlink:label="solar_IECRELetterOfCreditDetailsAbstract"
           xlink:type="locator"/>
         <presentationArc
-          order="13"
+          order="16"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
           xlink:from="solar_IECRECertificateAbstract"
           xlink:to="solar_IECRELetterOfCreditDetailsAbstract"
@@ -2692,7 +2772,7 @@
           xlink:label="solar_IECREFinancingEventAbstract"
           xlink:type="locator"/>
         <presentationArc
-          order="14"
+          order="17"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
           xlink:from="solar_IECRECertificateAbstract"
           xlink:to="solar_IECREFinancingEventAbstract"

@@ -14,18 +14,18 @@
       xlink:role="http://xbrl.us/Solar/v1.2/2018-03-31/roles/EnergyProductionInsurancePolicy"
       xlink:type="extended">
         <loc
-          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_InsuranceEnergyProductionAbstract"
-          xlink:label="solar_InsuranceEnergyProductionAbstract"
+          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_EnergyProductionInsuranceAbstract"
+          xlink:label="solar_EnergyProductionInsuranceAbstract"
           xlink:type="locator"/>
         <loc
-          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_InsuranceTable"
-          xlink:label="solar_InsuranceTable"
+          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_EnergyProductionInsuranceTable"
+          xlink:label="solar_EnergyProductionInsuranceTable"
           xlink:type="locator"/>
         <presentationArc
           order="1"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_InsuranceEnergyProductionAbstract"
-          xlink:to="solar_InsuranceTable"
+          xlink:from="solar_EnergyProductionInsuranceAbstract"
+          xlink:to="solar_EnergyProductionInsuranceTable"
           xlink:type="arc"/>
         <loc
           xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_InsuranceAxis"
@@ -34,18 +34,18 @@
         <presentationArc
           order="1"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_InsuranceTable"
+          xlink:from="solar_EnergyProductionInsuranceTable"
           xlink:to="solar_InsuranceAxis"
           xlink:type="arc"/>
         <loc
-          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_InsuranceLineItems"
-          xlink:label="solar_InsuranceLineItems"
+          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_EnergyProductionInsuranceLineItems"
+          xlink:label="solar_EnergyProductionInsuranceLineItems"
           xlink:type="locator"/>
         <presentationArc
           order="2"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_InsuranceTable"
-          xlink:to="solar_InsuranceLineItems"
+          xlink:from="solar_EnergyProductionInsuranceTable"
+          xlink:to="solar_EnergyProductionInsuranceLineItems"
           xlink:type="arc"/>
         <loc
           xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_InsuranceCarrier"
@@ -54,7 +54,7 @@
         <presentationArc
           order="1"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_InsuranceLineItems"
+          xlink:from="solar_EnergyProductionInsuranceLineItems"
           xlink:to="solar_InsuranceCarrier"
           xlink:type="arc"/>
         <loc
@@ -64,7 +64,7 @@
         <presentationArc
           order="2"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_InsuranceLineItems"
+          xlink:from="solar_EnergyProductionInsuranceLineItems"
           xlink:to="solar_InsuranceNAICNumber"
           xlink:type="arc"/>
         <loc
@@ -74,7 +74,7 @@
         <presentationArc
           order="3"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_InsuranceLineItems"
+          xlink:from="solar_EnergyProductionInsuranceLineItems"
           xlink:to="solar_InsuranceRequirement"
           xlink:type="arc"/>
         <loc
@@ -84,7 +84,7 @@
         <presentationArc
           order="4"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_InsuranceLineItems"
+          xlink:from="solar_EnergyProductionInsuranceLineItems"
           xlink:to="solar_InsuranceEffectiveDate"
           xlink:type="arc"/>
         <loc
@@ -94,7 +94,7 @@
         <presentationArc
           order="5"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_InsuranceLineItems"
+          xlink:from="solar_EnergyProductionInsuranceLineItems"
           xlink:to="solar_InsuranceExpirationDate"
           xlink:type="arc"/>
         <loc
@@ -104,7 +104,7 @@
         <presentationArc
           order="6"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_InsuranceLineItems"
+          xlink:from="solar_EnergyProductionInsuranceLineItems"
           xlink:to="solar_InsuranceAvailability"
           xlink:type="arc"/>
         <loc
@@ -114,7 +114,7 @@
         <presentationArc
           order="7"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_InsuranceLineItems"
+          xlink:from="solar_EnergyProductionInsuranceLineItems"
           xlink:to="solar_InsuranceMinimumCoverage"
           xlink:type="arc"/>
         <loc
@@ -124,7 +124,7 @@
         <presentationArc
           order="8"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_InsuranceLineItems"
+          xlink:from="solar_EnergyProductionInsuranceLineItems"
           xlink:to="solar_InsuranceAmountOfCoverage"
           xlink:type="arc"/>
         <loc
@@ -134,7 +134,7 @@
         <presentationArc
           order="9"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_InsuranceLineItems"
+          xlink:from="solar_EnergyProductionInsuranceLineItems"
           xlink:to="solar_InsuranceBeneficiary"
           xlink:type="arc"/>
         <loc
@@ -144,7 +144,7 @@
         <presentationArc
           order="10"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_InsuranceLineItems"
+          xlink:from="solar_EnergyProductionInsuranceLineItems"
           xlink:to="solar_InsurancePolicyOwner"
           xlink:type="arc"/>
         <loc
@@ -154,7 +154,7 @@
         <presentationArc
           order="11"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_InsuranceLineItems"
+          xlink:from="solar_EnergyProductionInsuranceLineItems"
           xlink:to="solar_InsurancePerOccurrenceRequirement"
           xlink:type="arc"/>
         <loc
@@ -164,7 +164,7 @@
         <presentationArc
           order="12"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_InsuranceLineItems"
+          xlink:from="solar_EnergyProductionInsuranceLineItems"
           xlink:to="solar_PreparerOfEnergyProductionInsurancePolicy"
           xlink:type="arc"/>
         <loc
@@ -174,7 +174,7 @@
         <presentationArc
           order="13"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_InsuranceLineItems"
+          xlink:from="solar_EnergyProductionInsuranceLineItems"
           xlink:to="solar_DocumentIdentifierEnergyProductionInsurancePolicy"
           xlink:type="arc"/>
     </presentationLink>

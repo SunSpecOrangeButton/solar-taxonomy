@@ -7,10 +7,6 @@
   xmlns:xlink="http://www.w3.org/1999/xlink"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
-    <roleRef
-      roleURI="http://xbrl.us/Solar/v1.2/2018-03-31/roles/ComponentMaintenanceActions"
-      xlink:href="solar-OperationalPerformance_2018-03-31_r01.xsd#roleType_ComponentMaintenanceActions"
-      xlink:type="simple"/>
     <arcroleRef
       arcroleURI="http://xbrl.org/int/dim/arcrole/dimension-domain"
       xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#dimension-domain"
@@ -20,24 +16,28 @@
       xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#all"
       xlink:type="simple"/>
     <roleRef
-      roleURI="http://xbrl.us/Solar/v1.2/2018-03-31/roles/ComponentMaintenance"
-      xlink:href="solar-OperationalPerformance_2018-03-31_r01.xsd#roleType_ComponentMaintenance"
+      roleURI="http://xbrl.us/Solar/v1.2/2018-03-31/roles/OperationalPerformance"
+      xlink:href="solar-OperationalPerformance_2018-03-31_r01.xsd#roleType_OperationalPerformance"
       xlink:type="simple"/>
     <arcroleRef
       arcroleURI="http://xbrl.org/int/dim/arcrole/domain-member"
       xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#domain-member"
       xlink:type="simple"/>
     <arcroleRef
-      arcroleURI="http://xbrl.org/int/dim/arcrole/dimension-default"
-      xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#dimension-default"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/Solar/v1.2/2018-03-31/roles/OperationalPerformance"
-      xlink:href="solar-OperationalPerformance_2018-03-31_r01.xsd#roleType_OperationalPerformance"
-      xlink:type="simple"/>
-    <arcroleRef
       arcroleURI="http://xbrl.org/int/dim/arcrole/hypercube-dimension"
       xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#hypercube-dimension"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/Solar/v1.2/2018-03-31/roles/ComponentMaintenanceActions"
+      xlink:href="solar-OperationalPerformance_2018-03-31_r01.xsd#roleType_ComponentMaintenanceActions"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/Solar/v1.2/2018-03-31/roles/ComponentMaintenance"
+      xlink:href="solar-OperationalPerformance_2018-03-31_r01.xsd#roleType_ComponentMaintenance"
+      xlink:type="simple"/>
+    <arcroleRef
+      arcroleURI="http://xbrl.org/int/dim/arcrole/dimension-default"
+      xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#dimension-default"
       xlink:type="simple"/>
     <definitionLink
       xlink:role="http://xbrl.us/Solar/v1.2/2018-03-31/roles/OperationalPerformance"
@@ -179,31 +179,31 @@
           xlink:to="solar_OperationalEarthquakeInsurance"
           xlink:type="arc"/>
         <loc
-          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_OperationalEventReportingLineItems"
-          xlink:label="solar_OperationalEventReportingLineItems"
+          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_OperationalEventAndIssuesReportingLineItems"
+          xlink:label="solar_OperationalEventAndIssuesReportingLineItems"
           xlink:type="locator"/>
         <definitionArc
           order="2"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
           xlink:from="solar_OperationalPerformanceAbstract"
-          xlink:to="solar_OperationalEventReportingLineItems"
+          xlink:to="solar_OperationalEventAndIssuesReportingLineItems"
           xlink:type="arc"/>
         <loc
-          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_OperationalEventReportingTable"
-          xlink:label="solar_OperationalEventReportingTable"
+          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_OperationalEventAndIssuesReportingTable"
+          xlink:label="solar_OperationalEventAndIssuesReportingTable"
           xlink:type="locator"/>
         <definitionArc
           order="1"
           xbrldt:closed="true"
           xbrldt:contextElement="segment"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/all"
-          xlink:from="solar_OperationalEventReportingLineItems"
-          xlink:to="solar_OperationalEventReportingTable"
+          xlink:from="solar_OperationalEventAndIssuesReportingLineItems"
+          xlink:to="solar_OperationalEventAndIssuesReportingTable"
           xlink:type="arc"/>
         <definitionArc
           order="1"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension"
-          xlink:from="solar_OperationalEventReportingTable"
+          xlink:from="solar_OperationalEventAndIssuesReportingTable"
           xlink:to="solar_PVSystemIdentifierAxis"
           xlink:type="arc"/>
         <loc
@@ -213,7 +213,7 @@
         <definitionArc
           order="2"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension"
-          xlink:from="solar_OperationalEventReportingTable"
+          xlink:from="solar_OperationalEventAndIssuesReportingTable"
           xlink:to="solar_OperationalEventIdentifierAxis"
           xlink:type="arc"/>
         <loc
@@ -223,7 +223,7 @@
         <definitionArc
           order="2"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
-          xlink:from="solar_OperationalEventReportingLineItems"
+          xlink:from="solar_OperationalEventAndIssuesReportingLineItems"
           xlink:to="solar_OperationalReportingMajorEvent"
           xlink:type="arc"/>
         <loc
@@ -233,7 +233,7 @@
         <definitionArc
           order="3"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
-          xlink:from="solar_OperationalEventReportingLineItems"
+          xlink:from="solar_OperationalEventAndIssuesReportingLineItems"
           xlink:to="solar_OperationalReportingDescriptionOfMajorEvent"
           xlink:type="arc"/>
         <loc
@@ -243,7 +243,7 @@
         <definitionArc
           order="4"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
-          xlink:from="solar_OperationalEventReportingLineItems"
+          xlink:from="solar_OperationalEventAndIssuesReportingLineItems"
           xlink:to="solar_OperationalReportingDateOfMajorEvent"
           xlink:type="arc"/>
         <loc
@@ -253,7 +253,7 @@
         <definitionArc
           order="5"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
-          xlink:from="solar_OperationalEventReportingLineItems"
+          xlink:from="solar_OperationalEventAndIssuesReportingLineItems"
           xlink:to="solar_OperationalEventEstimatedEnergyLost"
           xlink:type="arc"/>
         <loc
@@ -263,7 +263,7 @@
         <definitionArc
           order="6"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
-          xlink:from="solar_OperationalEventReportingLineItems"
+          xlink:from="solar_OperationalEventAndIssuesReportingLineItems"
           xlink:to="solar_OperationalReportingSeverityOfMajorEvent"
           xlink:type="arc"/>
         <loc
@@ -273,7 +273,7 @@
         <definitionArc
           order="7"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
-          xlink:from="solar_OperationalEventReportingLineItems"
+          xlink:from="solar_OperationalEventAndIssuesReportingLineItems"
           xlink:to="solar_OperationalReportingResponseTimeToMajorEvent"
           xlink:type="arc"/>
         <loc
@@ -283,7 +283,7 @@
         <definitionArc
           order="8"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
-          xlink:from="solar_OperationalEventReportingLineItems"
+          xlink:from="solar_OperationalEventAndIssuesReportingLineItems"
           xlink:to="solar_OperationalReportingCommentAboutMajorEvent"
           xlink:type="arc"/>
         <loc
@@ -293,7 +293,7 @@
         <definitionArc
           order="9"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
-          xlink:from="solar_OperationalEventReportingLineItems"
+          xlink:from="solar_OperationalEventAndIssuesReportingLineItems"
           xlink:to="solar_OperationalReportingAgreementRelatedToMajorEvent"
           xlink:type="arc"/>
         <loc
@@ -303,7 +303,7 @@
         <definitionArc
           order="10"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
-          xlink:from="solar_OperationalEventReportingLineItems"
+          xlink:from="solar_OperationalEventAndIssuesReportingLineItems"
           xlink:to="solar_OperationalReportingAgreementVarianceRelatedToMajorEvent"
           xlink:type="arc"/>
         <loc
@@ -313,7 +313,7 @@
         <definitionArc
           order="11"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
-          xlink:from="solar_OperationalEventReportingLineItems"
+          xlink:from="solar_OperationalEventAndIssuesReportingLineItems"
           xlink:to="solar_OperationalReportingAgreementSectionRelatedToMajorEvent"
           xlink:type="arc"/>
         <loc
@@ -323,7 +323,7 @@
         <definitionArc
           order="12"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
-          xlink:from="solar_OperationalEventReportingLineItems"
+          xlink:from="solar_OperationalEventAndIssuesReportingLineItems"
           xlink:to="solar_PriorityOfCorrectiveAction"
           xlink:type="arc"/>
         <loc
@@ -333,7 +333,7 @@
         <definitionArc
           order="13"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
-          xlink:from="solar_OperationalEventReportingLineItems"
+          xlink:from="solar_OperationalEventAndIssuesReportingLineItems"
           xlink:to="solar_PriorityOfAnyOtherAction"
           xlink:type="arc"/>
         <loc
@@ -343,7 +343,7 @@
         <definitionArc
           order="14"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
-          xlink:from="solar_OperationalEventReportingLineItems"
+          xlink:from="solar_OperationalEventAndIssuesReportingLineItems"
           xlink:to="solar_OperationalIssuesAbstract"
           xlink:type="arc"/>
         <loc
@@ -657,31 +657,31 @@
           xlink:to="solar_ComponentMaintenanceTable"
           xlink:type="arc"/>
         <loc
-          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_DeviceIdentifierAxis"
-          xlink:label="solar_DeviceIdentifierAxis"
+          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_ComponentMaintenanceEventAxis"
+          xlink:label="solar_ComponentMaintenanceEventAxis"
           xlink:type="locator"/>
         <definitionArc
           order="1"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension"
           xlink:from="solar_ComponentMaintenanceTable"
-          xlink:to="solar_DeviceIdentifierAxis"
+          xlink:to="solar_ComponentMaintenanceEventAxis"
           xlink:type="arc"/>
         <loc
-          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_PVSystemIdentifierAxis"
-          xlink:label="solar_PVSystemIdentifierAxis"
+          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_DeviceIdentifier"
+          xlink:label="solar_DeviceIdentifier"
           xlink:type="locator"/>
         <definitionArc
           order="2"
-          xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension"
-          xlink:from="solar_ComponentMaintenanceTable"
-          xlink:to="solar_PVSystemIdentifierAxis"
+          xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
+          xlink:from="solar_ComponentMaintenanceLineItems"
+          xlink:to="solar_DeviceIdentifier"
           xlink:type="arc"/>
         <loc
           xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_ComponentFailure"
           xlink:label="solar_ComponentFailure"
           xlink:type="locator"/>
         <definitionArc
-          order="2"
+          order="3"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
           xlink:from="solar_ComponentMaintenanceLineItems"
           xlink:to="solar_ComponentFailure"
@@ -691,7 +691,7 @@
           xlink:label="solar_ComponentMaintenanceStatus"
           xlink:type="locator"/>
         <definitionArc
-          order="3"
+          order="4"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
           xlink:from="solar_ComponentMaintenanceLineItems"
           xlink:to="solar_ComponentMaintenanceStatus"
@@ -701,7 +701,7 @@
           xlink:label="solar_ComponentMaintenanceCostTimePeriod"
           xlink:type="locator"/>
         <definitionArc
-          order="4"
+          order="5"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
           xlink:from="solar_ComponentMaintenanceLineItems"
           xlink:to="solar_ComponentMaintenanceCostTimePeriod"
@@ -711,7 +711,7 @@
           xlink:label="solar_ComponentMaintenanceStatusPercentCompleted"
           xlink:type="locator"/>
         <definitionArc
-          order="5"
+          order="6"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
           xlink:from="solar_ComponentMaintenanceLineItems"
           xlink:to="solar_ComponentMaintenanceStatusPercentCompleted"
@@ -721,7 +721,7 @@
           xlink:label="solar_ComponentMaintenanceStatusPercentRemaining"
           xlink:type="locator"/>
         <definitionArc
-          order="6"
+          order="7"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
           xlink:from="solar_ComponentMaintenanceLineItems"
           xlink:to="solar_ComponentMaintenanceStatusPercentRemaining"
@@ -731,7 +731,7 @@
           xlink:label="solar_ComponentMaintenanceCostForEquipmentWithNoWarranty"
           xlink:type="locator"/>
         <definitionArc
-          order="7"
+          order="8"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
           xlink:from="solar_ComponentMaintenanceLineItems"
           xlink:to="solar_ComponentMaintenanceCostForEquipmentWithNoWarranty"
@@ -741,7 +741,7 @@
           xlink:label="solar_ComponentMaintenanceCostForEquipmentWithWarranty"
           xlink:type="locator"/>
         <definitionArc
-          order="8"
+          order="9"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
           xlink:from="solar_ComponentMaintenanceLineItems"
           xlink:to="solar_ComponentMaintenanceCostForEquipmentWithWarranty"
@@ -787,31 +787,31 @@
           xlink:to="solar_ComponentMaintenanceActionsAxis"
           xlink:type="arc"/>
         <loc
-          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_DeviceIdentifierAxis"
-          xlink:label="solar_DeviceIdentifierAxis"
+          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_ComponentMaintenanceEventAxis"
+          xlink:label="solar_ComponentMaintenanceEventAxis"
           xlink:type="locator"/>
         <definitionArc
           order="2"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension"
           xlink:from="solar_ComponentMaintenanceActionsTable"
-          xlink:to="solar_DeviceIdentifierAxis"
+          xlink:to="solar_ComponentMaintenanceEventAxis"
           xlink:type="arc"/>
         <loc
-          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_PVSystemIdentifierAxis"
-          xlink:label="solar_PVSystemIdentifierAxis"
+          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_DeviceIdentifier"
+          xlink:label="solar_DeviceIdentifier"
           xlink:type="locator"/>
         <definitionArc
-          order="3"
-          xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension"
-          xlink:from="solar_ComponentMaintenanceActionsTable"
-          xlink:to="solar_PVSystemIdentifierAxis"
+          order="2"
+          xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
+          xlink:from="solar_ComponentMaintenanceActionsLineItems"
+          xlink:to="solar_DeviceIdentifier"
           xlink:type="arc"/>
         <loc
           xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_ReasonForComponentMaintenanceTicket"
           xlink:label="solar_ReasonForComponentMaintenanceTicket"
           xlink:type="locator"/>
         <definitionArc
-          order="2"
+          order="3"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
           xlink:from="solar_ComponentMaintenanceActionsLineItems"
           xlink:to="solar_ReasonForComponentMaintenanceTicket"
@@ -821,7 +821,7 @@
           xlink:label="solar_ComponentMaintenanceSeverityOfEvent"
           xlink:type="locator"/>
         <definitionArc
-          order="3"
+          order="4"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
           xlink:from="solar_ComponentMaintenanceActionsLineItems"
           xlink:to="solar_ComponentMaintenanceSeverityOfEvent"
@@ -831,7 +831,7 @@
           xlink:label="solar_SubReasonForComponentMaintenanceTicket"
           xlink:type="locator"/>
         <definitionArc
-          order="4"
+          order="5"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
           xlink:from="solar_ComponentMaintenanceActionsLineItems"
           xlink:to="solar_SubReasonForComponentMaintenanceTicket"
@@ -841,7 +841,7 @@
           xlink:label="solar_ComponentMaintenanceNumberOfComponentsAffected"
           xlink:type="locator"/>
         <definitionArc
-          order="5"
+          order="6"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
           xlink:from="solar_ComponentMaintenanceActionsLineItems"
           xlink:to="solar_ComponentMaintenanceNumberOfComponentsAffected"
@@ -851,7 +851,7 @@
           xlink:label="solar_ComponentMaintenanceTicketComments"
           xlink:type="locator"/>
         <definitionArc
-          order="6"
+          order="7"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
           xlink:from="solar_ComponentMaintenanceActionsLineItems"
           xlink:to="solar_ComponentMaintenanceTicketComments"
@@ -861,7 +861,7 @@
           xlink:label="solar_OperationsAndMaintenanceProviderCaseIdentifier"
           xlink:type="locator"/>
         <definitionArc
-          order="7"
+          order="8"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
           xlink:from="solar_ComponentMaintenanceActionsLineItems"
           xlink:to="solar_OperationsAndMaintenanceProviderCaseIdentifier"
@@ -871,7 +871,7 @@
           xlink:label="solar_ComponentMaintenanceTicketDateOpen"
           xlink:type="locator"/>
         <definitionArc
-          order="8"
+          order="9"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
           xlink:from="solar_ComponentMaintenanceActionsLineItems"
           xlink:to="solar_ComponentMaintenanceTicketDateOpen"
@@ -881,7 +881,7 @@
           xlink:label="solar_ComponentMaintenanceTicketDateClosed"
           xlink:type="locator"/>
         <definitionArc
-          order="9"
+          order="10"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
           xlink:from="solar_ComponentMaintenanceActionsLineItems"
           xlink:to="solar_ComponentMaintenanceTicketDateClosed"
@@ -891,7 +891,7 @@
           xlink:label="solar_ComponentMaintenanceAction"
           xlink:type="locator"/>
         <definitionArc
-          order="10"
+          order="11"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
           xlink:from="solar_ComponentMaintenanceActionsLineItems"
           xlink:to="solar_ComponentMaintenanceAction"
@@ -901,7 +901,7 @@
           xlink:label="solar_ComponentMaintenanceCostForEquipmentWithNoWarranty"
           xlink:type="locator"/>
         <definitionArc
-          order="11"
+          order="12"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
           xlink:from="solar_ComponentMaintenanceActionsLineItems"
           xlink:to="solar_ComponentMaintenanceCostForEquipmentWithNoWarranty"
@@ -911,7 +911,7 @@
           xlink:label="solar_ComponentMaintenanceCostForEquipmentWithWarranty"
           xlink:type="locator"/>
         <definitionArc
-          order="12"
+          order="13"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
           xlink:from="solar_ComponentMaintenanceActionsLineItems"
           xlink:to="solar_ComponentMaintenanceCostForEquipmentWithWarranty"
@@ -921,7 +921,7 @@
           xlink:label="solar_OperationalPerformancePreventativeMaintenancePercentCompleted"
           xlink:type="locator"/>
         <definitionArc
-          order="13"
+          order="14"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
           xlink:from="solar_ComponentMaintenanceActionsLineItems"
           xlink:to="solar_OperationalPerformancePreventativeMaintenancePercentCompleted"
@@ -931,7 +931,7 @@
           xlink:label="solar_OperationalPerformancePreventativeMaintenancePercentRemaining"
           xlink:type="locator"/>
         <definitionArc
-          order="14"
+          order="15"
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
           xlink:from="solar_ComponentMaintenanceActionsLineItems"
           xlink:to="solar_OperationalPerformancePreventativeMaintenancePercentRemaining"

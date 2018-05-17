@@ -3817,28 +3817,28 @@
           xlink:from="solar_PVSystemTable"
           xlink:to="solar_PVSystemIdentifierAxis"
           xlink:type="arc"/>
-        <presentationArc
-          order="2"
-          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_PVSystemTable"
-          xlink:to="solar_SiteIdentifierAxis"
-          xlink:type="arc"/>
         <loc
           xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_SystemDetailsLineItems"
           xlink:label="solar_SystemDetailsLineItems"
           xlink:type="locator"/>
         <presentationArc
-          order="3"
+          order="2"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
           xlink:from="solar_PVSystemTable"
           xlink:to="solar_SystemDetailsLineItems"
+          xlink:type="arc"/>
+        <presentationArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_SystemDetailsLineItems"
+          xlink:to="solar_SiteIdentifier"
           xlink:type="arc"/>
         <loc
           xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_SystemDERType"
           xlink:label="solar_SystemDERType"
           xlink:type="locator"/>
         <presentationArc
-          order="1"
+          order="2"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
           xlink:from="solar_SystemDetailsLineItems"
           xlink:to="solar_SystemDERType"
@@ -3848,7 +3848,7 @@
           xlink:label="solar_EntitySizeDCPower"
           xlink:type="locator"/>
         <presentationArc
-          order="2"
+          order="3"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
           xlink:from="solar_SystemDetailsLineItems"
           xlink:to="solar_EntitySizeDCPower"
@@ -3858,7 +3858,7 @@
           xlink:label="solar_EntitySizeACPower"
           xlink:type="locator"/>
         <presentationArc
-          order="3"
+          order="4"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
           xlink:from="solar_SystemDetailsLineItems"
           xlink:to="solar_EntitySizeACPower"
@@ -3868,7 +3868,7 @@
           xlink:label="solar_EntitySizeStorageEnergy"
           xlink:type="locator"/>
         <presentationArc
-          order="4"
+          order="5"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
           xlink:from="solar_SystemDetailsLineItems"
           xlink:to="solar_EntitySizeStorageEnergy"
@@ -3878,7 +3878,7 @@
           xlink:label="solar_EntitySizeStoragePower"
           xlink:type="locator"/>
         <presentationArc
-          order="5"
+          order="6"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
           xlink:from="solar_SystemDetailsLineItems"
           xlink:to="solar_EntitySizeStoragePower"
@@ -3888,7 +3888,7 @@
           xlink:label="solar_SystemStructure"
           xlink:type="locator"/>
         <presentationArc
-          order="6"
+          order="7"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
           xlink:from="solar_SystemDetailsLineItems"
           xlink:to="solar_SystemStructure"
@@ -3898,7 +3898,7 @@
           xlink:label="solar_TrackerStyle"
           xlink:type="locator"/>
         <presentationArc
-          order="7"
+          order="8"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
           xlink:from="solar_SystemDetailsLineItems"
           xlink:to="solar_TrackerStyle"
@@ -3908,7 +3908,7 @@
           xlink:label="solar_SystemBatteryConnection"
           xlink:type="locator"/>
         <presentationArc
-          order="8"
+          order="9"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
           xlink:from="solar_SystemDetailsLineItems"
           xlink:to="solar_SystemBatteryConnection"
@@ -3918,7 +3918,7 @@
           xlink:label="solar_SystemGridChargingCapability"
           xlink:type="locator"/>
         <presentationArc
-          order="9"
+          order="10"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
           xlink:from="solar_SystemDetailsLineItems"
           xlink:to="solar_SystemGridChargingCapability"
@@ -3928,7 +3928,7 @@
           xlink:label="solar_FinancialContractForSystemAbstract"
           xlink:type="locator"/>
         <presentationArc
-          order="10"
+          order="11"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
           xlink:from="solar_SystemDetailsLineItems"
           xlink:to="solar_FinancialContractForSystemAbstract"
@@ -4004,24 +4004,24 @@
           xlink:to="solar_FinancialContractForSystemOfftakerName"
           xlink:type="arc"/>
         <loc
-          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_EquipmentAbstract"
-          xlink:label="solar_EquipmentAbstract"
+          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_EquipmentOnboardingAbstract"
+          xlink:label="solar_EquipmentOnboardingAbstract"
           xlink:type="locator"/>
         <presentationArc
           order="23"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
           xlink:from="solar_ProjectFinancingAbstract"
-          xlink:to="solar_EquipmentAbstract"
+          xlink:to="solar_EquipmentOnboardingAbstract"
           xlink:type="arc"/>
         <loc
-          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_ProductIdentifierTable"
-          xlink:label="solar_ProductIdentifierTable"
+          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_EquipmentOnboardingTable"
+          xlink:label="solar_EquipmentOnboardingTable"
           xlink:type="locator"/>
         <presentationArc
           order="1"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_EquipmentAbstract"
-          xlink:to="solar_ProductIdentifierTable"
+          xlink:from="solar_EquipmentOnboardingAbstract"
+          xlink:to="solar_EquipmentOnboardingTable"
           xlink:type="arc"/>
         <loc
           xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_ProductIdentifierAxis"
@@ -4030,18 +4030,18 @@
         <presentationArc
           order="1"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_ProductIdentifierTable"
+          xlink:from="solar_EquipmentOnboardingTable"
           xlink:to="solar_ProductIdentifierAxis"
           xlink:type="arc"/>
         <loc
-          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_ProductIdentifierLineItems"
-          xlink:label="solar_ProductIdentifierLineItems"
+          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_EquipmentOnboardingLineItems"
+          xlink:label="solar_EquipmentOnboardingLineItems"
           xlink:type="locator"/>
         <presentationArc
           order="2"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_ProductIdentifierTable"
-          xlink:to="solar_ProductIdentifierLineItems"
+          xlink:from="solar_EquipmentOnboardingTable"
+          xlink:to="solar_EquipmentOnboardingLineItems"
           xlink:type="arc"/>
         <loc
           xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_ProductName"
@@ -4050,7 +4050,7 @@
         <presentationArc
           order="1"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_ProductIdentifierLineItems"
+          xlink:from="solar_EquipmentOnboardingLineItems"
           xlink:to="solar_ProductName"
           xlink:type="arc"/>
         <loc
@@ -4060,7 +4060,7 @@
         <presentationArc
           order="2"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_ProductIdentifierLineItems"
+          xlink:from="solar_EquipmentOnboardingLineItems"
           xlink:to="solar_Model"
           xlink:type="arc"/>
         <loc
@@ -4070,7 +4070,7 @@
         <presentationArc
           order="3"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_ProductIdentifierLineItems"
+          xlink:from="solar_EquipmentOnboardingLineItems"
           xlink:to="solar_TypeOfDevice"
           xlink:type="arc"/>
         <loc
@@ -4080,7 +4080,7 @@
         <presentationArc
           order="4"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_ProductIdentifierLineItems"
+          xlink:from="solar_EquipmentOnboardingLineItems"
           xlink:to="solar_ProductManufacturer"
           xlink:type="arc"/>
         <loc
@@ -4090,7 +4090,7 @@
         <presentationArc
           order="5"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_ProductIdentifierLineItems"
+          xlink:from="solar_EquipmentOnboardingLineItems"
           xlink:to="solar_ArrayNumberOfSubArrays"
           xlink:type="arc"/>
         <loc
@@ -4100,7 +4100,7 @@
         <presentationArc
           order="6"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_ProductIdentifierLineItems"
+          xlink:from="solar_EquipmentOnboardingLineItems"
           xlink:to="solar_EquipmentProductModelComments"
           xlink:type="arc"/>
         <loc
@@ -4110,7 +4110,7 @@
         <presentationArc
           order="2"
           xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_EquipmentAbstract"
+          xlink:from="solar_EquipmentOnboardingAbstract"
           xlink:to="solar_EquipmentTypeWarrantyTable"
           xlink:type="arc"/>
         <presentationArc

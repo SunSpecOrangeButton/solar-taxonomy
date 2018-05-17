@@ -5,47 +5,4 @@
   xmlns:xbrli="http://www.xbrl.org/2003/instance"
   xmlns:xlink="http://www.w3.org/1999/xlink"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
-    <roleRef
-      roleURI="http://xbrl.us/Solar/v1.2/2018-03-31/roles/EquipmentSpecSheets"
-      xlink:href="solar-EquipmentSpecSheets_2018-03-31_r01.xsd#roleType_EquipmentSpecSheets"
-      xlink:type="simple"/>
-    <presentationLink
-      xlink:role="http://xbrl.us/Solar/v1.2/2018-03-31/roles/EquipmentSpecSheets"
-      xlink:type="extended">
-        <loc
-          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_EquipmentSpecSheetsAbstract"
-          xlink:label="solar_EquipmentSpecSheetsAbstract"
-          xlink:type="locator"/>
-        <loc
-          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_EquipmentSpecSheetsAvailabilityOfDocument"
-          xlink:label="solar_EquipmentSpecSheetsAvailabilityOfDocument"
-          xlink:type="locator"/>
-        <presentationArc
-          order="1"
-          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_EquipmentSpecSheetsAbstract"
-          xlink:to="solar_EquipmentSpecSheetsAvailabilityOfDocument"
-          xlink:type="arc"/>
-        <loc
-          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_PreparerOfEquipmentSpecSheets"
-          xlink:label="solar_PreparerOfEquipmentSpecSheets"
-          xlink:type="locator"/>
-        <presentationArc
-          order="2"
-          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_EquipmentSpecSheetsAbstract"
-          xlink:to="solar_PreparerOfEquipmentSpecSheets"
-          xlink:type="arc"/>
-        <loc
-          xlink:href="../../core/solar_2018-03-31_r01.xsd#solar_DocumentIdentifierEquipmentSpecSheets"
-          xlink:label="solar_DocumentIdentifierEquipmentSpecSheets"
-          xlink:type="locator"/>
-        <presentationArc
-          order="3"
-          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
-          xlink:from="solar_EquipmentSpecSheetsAbstract"
-          xlink:to="solar_DocumentIdentifierEquipmentSpecSheets"
-          xlink:type="arc"/>
-    </presentationLink>
-</linkbase>
+  xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd"/>
