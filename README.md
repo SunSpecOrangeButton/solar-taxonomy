@@ -6,8 +6,10 @@ This Taxonomy was developed as part of the U.S. Department of Energy Solar Energ
 
 See <a href="https://xbrl.us/solar-taxonomy" target="_blank">XBRL US</a> and [Authorized Use / Legal Notice](https://xbrl.us/solar_legal) for details.
 
-The folders and files in the master branch of this repository are [current release version](https://github.com/xbrlus/solar/releases) of the Solar Taxonomy.
+The folders and files in the master branch of this repository are [current release version](https://github.com/SunSpecOrangeButton/solar-taxonomy/releases) of the Solar Taxonomy.
 
 Browse to the schema file and use the "Raw" button to get a raw.githubusercontent URI to open the corresponding repository version of the taxonomy in XBRL-enabled software. Use the "Branch" toggle to navigate to current development versions of this taxonomy (as available). 
+
+The Orange Button Taxonomy Guide can be found <a href="https://xbrl.us/wp-content/uploads/2018/04/Orange-Button-Taxonomy-Guide-DRAFT-April-2018.pdf" target="_blank">here</a>
 
 Supporting documentation for this and other US reporting taxonomies can be found at [https://xbrl.us/us-taxonomies](https://xbrl.us/us-taxonomies)
