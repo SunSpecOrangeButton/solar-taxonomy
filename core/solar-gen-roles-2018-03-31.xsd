@@ -22,7 +22,7 @@
             <link:usedOn>generic:arc</link:usedOn>
          </link:arcroleType>
     <link:arcroleType arcroleURI="http://xbrl.us/arcrole/Identification" cyclesAllowed="any" id="identification">
-            <link:definition>Generic UML property arc</link:definition>
+            <link:definition>Generic UML identification arc</link:definition>
             <link:usedOn>generic:arc</link:usedOn>
         </link:arcroleType>
         </xs:appinfo>
