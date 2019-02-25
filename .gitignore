@@ -36,3 +36,7 @@
 ehthumbs.db
 Thumbs.db
 Icon?
+
+# IDE config files #
+####################
+.idea

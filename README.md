@@ -1,4 +1,4 @@
-# 2018 Solar Taxonomy Release Candidate
+# 2019 Solar Taxonomy Release Candidate
 
 This Taxonomy was developed as part of the U.S. Department of Energy Solar Energy Technologies Office-funded <a href="https://xbrl.us/solar" target="_blank">Orange Button <sup style="font-size: 60%;">SM</sup> program</a>, that aims to make it easier to aggregate and share solar data, facilitating more efficient and cost-effective financing of distributed energy projects.  
 
