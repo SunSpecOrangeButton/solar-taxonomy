@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+
+Copyright 2019 SunSpec Alliance and XBRL US Inc.
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+   http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
+-->
+
+<!--Orange Button Taxonomy - CoTenancyAgreement-->
+<linkbase
+  xmlns="http://www.xbrl.org/2003/linkbase"
+  xmlns:xbrli="http://www.xbrl.org/2003/instance"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+    <roleRef
+      roleURI="http://xbrl.us/Solar/v1.3/2019-02-27/roles/CoTenancyAgreement"
+      xlink:href="solar-CoTenancyAgreement_2019-02-27_r01.xsd#roleType_CoTenancyAgreement"
+      xlink:type="simple"/>
+    <presentationLink
+      xlink:role="http://xbrl.us/Solar/v1.3/2019-02-27/roles/CoTenancyAgreement"
+      xlink:type="extended">
+        <loc
+          xlink:href="../core/solar_2019-02-27_r01.xsd#solar_CoTenancyAgreement"
+          xlink:label="solar_CoTenancyAgreement"
+          xlink:type="locator"/>
+        <loc
+          xlink:href="../core/solar_2019-02-27_r01.xsd#solar_CoTenancyAgreementAvailabilityOfDocument"
+          xlink:label="solar_CoTenancyAgreementAvailabilityOfDocument"
+          xlink:type="locator"/>
+        <presentationArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_CoTenancyAgreement"
+          xlink:to="solar_CoTenancyAgreementAvailabilityOfDocument"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-02-27_r01.xsd#solar_CoTenancyAgreementAvailabilityOfFinalDocument"
+          xlink:label="solar_CoTenancyAgreementAvailabilityOfFinalDocument"
+          xlink:type="locator"/>
+        <presentationArc
+          order="2"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_CoTenancyAgreement"
+          xlink:to="solar_CoTenancyAgreementAvailabilityOfFinalDocument"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-02-27_r01.xsd#solar_CoTenancyAgreementAvailabilityOfDocumentExceptions"
+          xlink:label="solar_CoTenancyAgreementAvailabilityOfDocumentExceptions"
+          xlink:type="locator"/>
+        <presentationArc
+          order="3"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_CoTenancyAgreement"
+          xlink:to="solar_CoTenancyAgreementAvailabilityOfDocumentExceptions"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-02-27_r01.xsd#solar_CoTenancyAgreementExceptionDescription"
+          xlink:label="solar_CoTenancyAgreementExceptionDescription"
+          xlink:type="locator"/>
+        <presentationArc
+          order="4"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_CoTenancyAgreement"
+          xlink:to="solar_CoTenancyAgreementExceptionDescription"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-02-27_r01.xsd#solar_CoTenancyAgreementCounterparties"
+          xlink:label="solar_CoTenancyAgreementCounterparties"
+          xlink:type="locator"/>
+        <presentationArc
+          order="5"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_CoTenancyAgreement"
+          xlink:to="solar_CoTenancyAgreementCounterparties"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-02-27_r01.xsd#solar_CoTenancyAgreementEffectiveDate"
+          xlink:label="solar_CoTenancyAgreementEffectiveDate"
+          xlink:type="locator"/>
+        <presentationArc
+          order="6"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_CoTenancyAgreement"
+          xlink:to="solar_CoTenancyAgreementEffectiveDate"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-02-27_r01.xsd#solar_CoTenancyAgreementExpirationDate"
+          xlink:label="solar_CoTenancyAgreementExpirationDate"
+          xlink:type="locator"/>
+        <presentationArc
+          order="7"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_CoTenancyAgreement"
+          xlink:to="solar_CoTenancyAgreementExpirationDate"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-02-27_r01.xsd#solar_CoTenancyAgreementDocumentLink"
+          xlink:label="solar_CoTenancyAgreementDocumentLink"
+          xlink:type="locator"/>
+        <presentationArc
+          order="8"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_CoTenancyAgreement"
+          xlink:to="solar_CoTenancyAgreementDocumentLink"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-02-27_r01.xsd#solar_PreparerOfCoTenancyAgreement"
+          xlink:label="solar_PreparerOfCoTenancyAgreement"
+          xlink:type="locator"/>
+        <presentationArc
+          order="9"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_CoTenancyAgreement"
+          xlink:to="solar_PreparerOfCoTenancyAgreement"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-02-27_r01.xsd#solar_DocumentIdentifierCoTenancyAgreement"
+          xlink:label="solar_DocumentIdentifierCoTenancyAgreement"
+          xlink:type="locator"/>
+        <presentationArc
+          order="10"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_CoTenancyAgreement"
+          xlink:to="solar_DocumentIdentifierCoTenancyAgreement"
+          xlink:type="arc"/>
+    </presentationLink>
+</linkbase>
