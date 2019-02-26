@@ -8492,7 +8492,7 @@ limitations under the License.
       nillable="true"
       solar:periodIndependent="0"
       substitutionGroup="xbrli:item"
-      type="solar-types:uuidItemType"
+      type="solar-types:uuidXbrlItemType"
       xbrli:periodType="duration"/>
     <xs:element
       id="solar_EntityIdentifierDomain"
@@ -25656,7 +25656,7 @@ limitations under the License.
       name="ProductIdentifier"
       solar:periodIndependent="true"
       substitutionGroup="xbrli:item"
-      type="solar-types:uuidItemType"
+      type="solar-types:uuidXbrlItemType"
       xbrli:periodType="duration"/>
     <xs:element
       abstract="true"
