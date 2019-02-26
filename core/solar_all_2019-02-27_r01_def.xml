@@ -27,228 +27,228 @@ limitations under the License.
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
     <roleRef
-      roleURI="http://xbrl.us/Solar/v1.3/2019-02-27/roles/LeaseContractForProject"
-      xlink:href="solar_all_2019-02-27_r01.xsd#roleType_LeaseContractForProject"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/Solar/v1.3/2019-02-27/roles/ProjectFinancing"
-      xlink:href="solar_all_2019-02-27_r01.xsd#roleType_ProjectFinancing"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/Solar/v1.3/2019-02-27/roles/FinancialPerformance"
-      xlink:href="solar_all_2019-02-27_r01.xsd#roleType_FinancialPerformance"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/Solar/v1.3/2019-02-27/roles/SiteLicenseAgreement"
-      xlink:href="solar_all_2019-02-27_r01.xsd#roleType_SiteLicenseAgreement"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/Solar/v1.3/2019-02-27/roles/UniversalInsurancePolicy"
-      xlink:href="solar_all_2019-02-27_r01.xsd#roleType_UniversalInsurancePolicy"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/Solar/v1.3/2019-02-27/roles/EnergyProductionInsurancePolicy"
-      xlink:href="solar_all_2019-02-27_r01.xsd#roleType_EnergyProductionInsurancePolicy"
-      xlink:type="simple"/>
-    <arcroleRef
-      arcroleURI="http://xbrl.org/int/dim/arcrole/all"
-      xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#all"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/Solar/v1.3/2019-02-27/roles/SystemProduction"
-      xlink:href="solar_all_2019-02-27_r01.xsd#roleType_SystemProduction"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/Solar/v1.3/2019-02-27/roles/LetterofCredit"
-      xlink:href="solar_all_2019-02-27_r01.xsd#roleType_LetterofCredit"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/Solar/v1.3/2019-02-27/roles/TitleSurvey"
-      xlink:href="solar_all_2019-02-27_r01.xsd#roleType_TitleSurvey"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/Solar/v1.3/2019-02-27/roles/IECRECertificate"
-      xlink:href="solar_all_2019-02-27_r01.xsd#roleType_IECRECertificate"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/Solar/v1.3/2019-02-27/roles/OperationsManager"
-      xlink:href="solar_all_2019-02-27_r01.xsd#roleType_OperationsManager"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/Solar/v1.3/2019-02-27/roles/AssetManager"
-      xlink:href="solar_all_2019-02-27_r01.xsd#roleType_AssetManager"
-      xlink:type="simple"/>
-    <arcroleRef
-      arcroleURI="http://xbrl.org/int/dim/arcrole/dimension-domain"
-      xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#dimension-domain"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/Solar/v1.3/2019-02-27/roles/SystemDeviceListing"
-      xlink:href="solar_all_2019-02-27_r01.xsd#roleType_SystemDeviceListing"
-      xlink:type="simple"/>
-    <roleRef
       roleURI="http://xbrl.us/Solar/v1.3/2019-02-27/roles/SiteLeaseMemo"
       xlink:href="solar_all_2019-02-27_r01.xsd#roleType_SiteLeaseMemo"
       xlink:type="simple"/>
     <roleRef
-      roleURI="http://xbrl.us/Solar/v1.3/2019-02-27/roles/VegetationManagementAgreement"
-      xlink:href="solar_all_2019-02-27_r01.xsd#roleType_VegetationManagementAgreement"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/Solar/v1.3/2019-02-27/roles/Entity"
-      xlink:href="solar_all_2019-02-27_r01.xsd#roleType_Entity"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/Solar/v1.3/2019-02-27/roles/SiteLeaseAssignment"
-      xlink:href="solar_all_2019-02-27_r01.xsd#roleType_SiteLeaseAssignment"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/Solar/v1.3/2019-02-27/roles/Sponsor"
-      xlink:href="solar_all_2019-02-27_r01.xsd#roleType_Sponsor"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/Solar/v1.3/2019-02-27/roles/EnvironmentalImpactReport"
-      xlink:href="solar_all_2019-02-27_r01.xsd#roleType_EnvironmentalImpactReport"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/Solar/v1.3/2019-02-27/roles/WashingAndWasteAgreement"
-      xlink:href="solar_all_2019-02-27_r01.xsd#roleType_WashingAndWasteAgreement"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/Solar/v1.3/2019-02-27/roles/Fund"
-      xlink:href="solar_all_2019-02-27_r01.xsd#roleType_Fund"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/Solar/v1.3/2019-02-27/roles/PowerPurchaseAgreement"
-      xlink:href="solar_all_2019-02-27_r01.xsd#roleType_PowerPurchaseAgreement"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/Solar/v1.3/2019-02-27/roles/SiteLease"
-      xlink:href="solar_all_2019-02-27_r01.xsd#roleType_SiteLease"
-      xlink:type="simple"/>
-    <roleRef
       roleURI="http://xbrl.us/Solar/v1.3/2019-02-27/roles/OperationsandMaintenanceContract"
       xlink:href="solar_all_2019-02-27_r01.xsd#roleType_OperationsandMaintenanceContract"
-      xlink:type="simple"/>
-    <arcroleRef
-      arcroleURI="http://xbrl.org/int/dim/arcrole/domain-member"
-      xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#domain-member"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/Solar/v1.3/2019-02-27/roles/Insurance"
-      xlink:href="solar_all_2019-02-27_r01.xsd#roleType_Insurance"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/Solar/v1.3/2019-02-27/roles/EngineeringProcurementAndConstructionContract"
-      xlink:href="solar_all_2019-02-27_r01.xsd#roleType_EngineeringProcurementAndConstructionContract"
       xlink:type="simple"/>
     <roleRef
       roleURI="http://xbrl.us/Solar/v1.3/2019-02-27/roles/OperationalEventReport"
       xlink:href="solar_all_2019-02-27_r01.xsd#roleType_OperationalEventReport"
       xlink:type="simple"/>
     <roleRef
-      roleURI="http://xbrl.us/Solar/v1.3/2019-02-27/roles/MonthlyOperatingReport"
-      xlink:href="solar_all_2019-02-27_r01.xsd#roleType_MonthlyOperatingReport"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/Solar/v1.3/2019-02-27/roles/CasualtyInsurancePolicy"
-      xlink:href="solar_all_2019-02-27_r01.xsd#roleType_CasualtyInsurancePolicy"
+      roleURI="http://xbrl.us/Solar/v1.3/2019-02-27/roles/EnvironmentalAssessmentI"
+      xlink:href="solar_all_2019-02-27_r01.xsd#roleType_EnvironmentalAssessmentI"
       xlink:type="simple"/>
     <arcroleRef
       arcroleURI="http://xbrl.org/int/dim/arcrole/hypercube-dimension"
       xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#hypercube-dimension"
       xlink:type="simple"/>
     <roleRef
-      roleURI="http://xbrl.us/Solar/v1.3/2019-02-27/roles/Project"
-      xlink:href="solar_all_2019-02-27_r01.xsd#roleType_Project"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/Solar/v1.3/2019-02-27/roles/SiteControlContract"
-      xlink:href="solar_all_2019-02-27_r01.xsd#roleType_SiteControlContract"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/Solar/v1.3/2019-02-27/roles/ComponentMaintenanceActions"
-      xlink:href="solar_all_2019-02-27_r01.xsd#roleType_ComponentMaintenanceActions"
-      xlink:type="simple"/>
-    <arcroleRef
-      arcroleURI="http://xbrl.org/int/dim/arcrole/dimension-default"
-      xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#dimension-default"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/Solar/v1.3/2019-02-27/roles/Portfolio"
-      xlink:href="solar_all_2019-02-27_r01.xsd#roleType_Portfolio"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/Solar/v1.3/2019-02-27/roles/Developer"
-      xlink:href="solar_all_2019-02-27_r01.xsd#roleType_Developer"
-      xlink:type="simple"/>
-    <roleRef
       roleURI="http://xbrl.us/Solar/v1.3/2019-02-27/roles/System"
       xlink:href="solar_all_2019-02-27_r01.xsd#roleType_System"
       xlink:type="simple"/>
     <roleRef
-      roleURI="http://xbrl.us/Solar/v1.3/2019-02-27/roles/OperationalPerformance"
-      xlink:href="solar_all_2019-02-27_r01.xsd#roleType_OperationalPerformance"
+      roleURI="http://xbrl.us/Solar/v1.3/2019-02-27/roles/SiteLeaseAssignment"
+      xlink:href="solar_all_2019-02-27_r01.xsd#roleType_SiteLeaseAssignment"
       xlink:type="simple"/>
     <roleRef
-      roleURI="http://xbrl.us/Solar/v1.3/2019-02-27/roles/SupplyAgreements"
-      xlink:href="solar_all_2019-02-27_r01.xsd#roleType_SupplyAgreements"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/Solar/v1.3/2019-02-27/roles/CutSheet"
-      xlink:href="solar_all_2019-02-27_r01.xsd#roleType_CutSheet"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/Solar/v1.3/2019-02-27/roles/WorkersCompensationInsurancePolicy"
-      xlink:href="solar_all_2019-02-27_r01.xsd#roleType_WorkersCompensationInsurancePolicy"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/Solar/v1.3/2019-02-27/roles/IndependentEngineeringServicesCheckList"
-      xlink:href="solar_all_2019-02-27_r01.xsd#roleType_IndependentEngineeringServicesCheckList"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/Solar/v1.3/2019-02-27/roles/CommercialGeneralInsurancePolicy"
-      xlink:href="solar_all_2019-02-27_r01.xsd#roleType_CommercialGeneralInsurancePolicy"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/Solar/v1.3/2019-02-27/roles/SystemInstallationType"
-      xlink:href="solar_all_2019-02-27_r01.xsd#roleType_SystemInstallationType"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/Solar/v1.3/2019-02-27/roles/EnvironmentalAssessmentII"
-      xlink:href="solar_all_2019-02-27_r01.xsd#roleType_EnvironmentalAssessmentII"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/Solar/v1.3/2019-02-27/roles/BusinessInterruptionInsurancePolicy"
-      xlink:href="solar_all_2019-02-27_r01.xsd#roleType_BusinessInterruptionInsurancePolicy"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/Solar/v1.3/2019-02-27/roles/Utility"
-      xlink:href="solar_all_2019-02-27_r01.xsd#roleType_Utility"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/Solar/v1.3/2019-02-27/roles/EnvironmentalAssessmentI"
-      xlink:href="solar_all_2019-02-27_r01.xsd#roleType_EnvironmentalAssessmentI"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/Solar/v1.3/2019-02-27/roles/PropertyInsurancePolicy"
-      xlink:href="solar_all_2019-02-27_r01.xsd#roleType_PropertyInsurancePolicy"
+      roleURI="http://xbrl.us/Solar/v1.3/2019-02-27/roles/SiteLicenseAgreement"
+      xlink:href="solar_all_2019-02-27_r01.xsd#roleType_SiteLicenseAgreement"
       xlink:type="simple"/>
     <roleRef
       roleURI="http://xbrl.us/Solar/v1.3/2019-02-27/roles/SuretyBondPolicy"
       xlink:href="solar_all_2019-02-27_r01.xsd#roleType_SuretyBondPolicy"
       xlink:type="simple"/>
     <roleRef
-      roleURI="http://xbrl.us/Solar/v1.3/2019-02-27/roles/SystemInstallationCost"
-      xlink:href="solar_all_2019-02-27_r01.xsd#roleType_SystemInstallationCost"
+      roleURI="http://xbrl.us/Solar/v1.3/2019-02-27/roles/VegetationManagementAgreement"
+      xlink:href="solar_all_2019-02-27_r01.xsd#roleType_VegetationManagementAgreement"
       xlink:type="simple"/>
     <roleRef
       roleURI="http://xbrl.us/Solar/v1.3/2019-02-27/roles/Site"
       xlink:href="solar_all_2019-02-27_r01.xsd#roleType_Site"
       xlink:type="simple"/>
     <roleRef
+      roleURI="http://xbrl.us/Solar/v1.3/2019-02-27/roles/EnvironmentalAssessmentII"
+      xlink:href="solar_all_2019-02-27_r01.xsd#roleType_EnvironmentalAssessmentII"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/Solar/v1.3/2019-02-27/roles/WashingAndWasteAgreement"
+      xlink:href="solar_all_2019-02-27_r01.xsd#roleType_WashingAndWasteAgreement"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/Solar/v1.3/2019-02-27/roles/SiteLease"
+      xlink:href="solar_all_2019-02-27_r01.xsd#roleType_SiteLease"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/Solar/v1.3/2019-02-27/roles/FinancialPerformance"
+      xlink:href="solar_all_2019-02-27_r01.xsd#roleType_FinancialPerformance"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/Solar/v1.3/2019-02-27/roles/Sponsor"
+      xlink:href="solar_all_2019-02-27_r01.xsd#roleType_Sponsor"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/Solar/v1.3/2019-02-27/roles/Utility"
+      xlink:href="solar_all_2019-02-27_r01.xsd#roleType_Utility"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/Solar/v1.3/2019-02-27/roles/Fund"
+      xlink:href="solar_all_2019-02-27_r01.xsd#roleType_Fund"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/Solar/v1.3/2019-02-27/roles/SystemProduction"
+      xlink:href="solar_all_2019-02-27_r01.xsd#roleType_SystemProduction"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/Solar/v1.3/2019-02-27/roles/PropertyInsurancePolicy"
+      xlink:href="solar_all_2019-02-27_r01.xsd#roleType_PropertyInsurancePolicy"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/Solar/v1.3/2019-02-27/roles/TitleSurvey"
+      xlink:href="solar_all_2019-02-27_r01.xsd#roleType_TitleSurvey"
+      xlink:type="simple"/>
+    <arcroleRef
+      arcroleURI="http://xbrl.org/int/dim/arcrole/dimension-domain"
+      xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#dimension-domain"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/Solar/v1.3/2019-02-27/roles/CasualtyInsurancePolicy"
+      xlink:href="solar_all_2019-02-27_r01.xsd#roleType_CasualtyInsurancePolicy"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/Solar/v1.3/2019-02-27/roles/Insurance"
+      xlink:href="solar_all_2019-02-27_r01.xsd#roleType_Insurance"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/Solar/v1.3/2019-02-27/roles/MonthlyOperatingReport"
+      xlink:href="solar_all_2019-02-27_r01.xsd#roleType_MonthlyOperatingReport"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/Solar/v1.3/2019-02-27/roles/SiteControlContract"
+      xlink:href="solar_all_2019-02-27_r01.xsd#roleType_SiteControlContract"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/Solar/v1.3/2019-02-27/roles/EnergyProductionInsurancePolicy"
+      xlink:href="solar_all_2019-02-27_r01.xsd#roleType_EnergyProductionInsurancePolicy"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/Solar/v1.3/2019-02-27/roles/IECRECertificate"
+      xlink:href="solar_all_2019-02-27_r01.xsd#roleType_IECRECertificate"
+      xlink:type="simple"/>
+    <arcroleRef
+      arcroleURI="http://xbrl.org/int/dim/arcrole/domain-member"
+      xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#domain-member"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/Solar/v1.3/2019-02-27/roles/LetterofCredit"
+      xlink:href="solar_all_2019-02-27_r01.xsd#roleType_LetterofCredit"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/Solar/v1.3/2019-02-27/roles/SystemInstallationType"
+      xlink:href="solar_all_2019-02-27_r01.xsd#roleType_SystemInstallationType"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/Solar/v1.3/2019-02-27/roles/Portfolio"
+      xlink:href="solar_all_2019-02-27_r01.xsd#roleType_Portfolio"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/Solar/v1.3/2019-02-27/roles/PowerPurchaseAgreement"
+      xlink:href="solar_all_2019-02-27_r01.xsd#roleType_PowerPurchaseAgreement"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/Solar/v1.3/2019-02-27/roles/EnvironmentalImpactReport"
+      xlink:href="solar_all_2019-02-27_r01.xsd#roleType_EnvironmentalImpactReport"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/Solar/v1.3/2019-02-27/roles/EngineeringProcurementAndConstructionContract"
+      xlink:href="solar_all_2019-02-27_r01.xsd#roleType_EngineeringProcurementAndConstructionContract"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/Solar/v1.3/2019-02-27/roles/ProjectFinancing"
+      xlink:href="solar_all_2019-02-27_r01.xsd#roleType_ProjectFinancing"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/Solar/v1.3/2019-02-27/roles/CutSheet"
+      xlink:href="solar_all_2019-02-27_r01.xsd#roleType_CutSheet"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/Solar/v1.3/2019-02-27/roles/SystemInstallationCost"
+      xlink:href="solar_all_2019-02-27_r01.xsd#roleType_SystemInstallationCost"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/Solar/v1.3/2019-02-27/roles/Entity"
+      xlink:href="solar_all_2019-02-27_r01.xsd#roleType_Entity"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/Solar/v1.3/2019-02-27/roles/SystemDeviceListing"
+      xlink:href="solar_all_2019-02-27_r01.xsd#roleType_SystemDeviceListing"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/Solar/v1.3/2019-02-27/roles/UniversalInsurancePolicy"
+      xlink:href="solar_all_2019-02-27_r01.xsd#roleType_UniversalInsurancePolicy"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/Solar/v1.3/2019-02-27/roles/OperationsManager"
+      xlink:href="solar_all_2019-02-27_r01.xsd#roleType_OperationsManager"
+      xlink:type="simple"/>
+    <arcroleRef
+      arcroleURI="http://xbrl.org/int/dim/arcrole/dimension-default"
+      xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#dimension-default"
+      xlink:type="simple"/>
+    <arcroleRef
+      arcroleURI="http://xbrl.org/int/dim/arcrole/all"
+      xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#all"
+      xlink:type="simple"/>
+    <roleRef
       roleURI="http://xbrl.us/Solar/v1.3/2019-02-27/roles/ComponentMaintenance"
       xlink:href="solar_all_2019-02-27_r01.xsd#roleType_ComponentMaintenance"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/Solar/v1.3/2019-02-27/roles/ComponentMaintenanceActions"
+      xlink:href="solar_all_2019-02-27_r01.xsd#roleType_ComponentMaintenanceActions"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/Solar/v1.3/2019-02-27/roles/Developer"
+      xlink:href="solar_all_2019-02-27_r01.xsd#roleType_Developer"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/Solar/v1.3/2019-02-27/roles/BusinessInterruptionInsurancePolicy"
+      xlink:href="solar_all_2019-02-27_r01.xsd#roleType_BusinessInterruptionInsurancePolicy"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/Solar/v1.3/2019-02-27/roles/WorkersCompensationInsurancePolicy"
+      xlink:href="solar_all_2019-02-27_r01.xsd#roleType_WorkersCompensationInsurancePolicy"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/Solar/v1.3/2019-02-27/roles/OperationalPerformance"
+      xlink:href="solar_all_2019-02-27_r01.xsd#roleType_OperationalPerformance"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/Solar/v1.3/2019-02-27/roles/LeaseContractForProject"
+      xlink:href="solar_all_2019-02-27_r01.xsd#roleType_LeaseContractForProject"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/Solar/v1.3/2019-02-27/roles/SupplyAgreements"
+      xlink:href="solar_all_2019-02-27_r01.xsd#roleType_SupplyAgreements"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/Solar/v1.3/2019-02-27/roles/CommercialGeneralInsurancePolicy"
+      xlink:href="solar_all_2019-02-27_r01.xsd#roleType_CommercialGeneralInsurancePolicy"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/Solar/v1.3/2019-02-27/roles/Project"
+      xlink:href="solar_all_2019-02-27_r01.xsd#roleType_Project"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/Solar/v1.3/2019-02-27/roles/AssetManager"
+      xlink:href="solar_all_2019-02-27_r01.xsd#roleType_AssetManager"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/Solar/v1.3/2019-02-27/roles/IndependentEngineeringServicesCheckList"
+      xlink:href="solar_all_2019-02-27_r01.xsd#roleType_IndependentEngineeringServicesCheckList"
       xlink:type="simple"/>
     <definitionLink
       xlink:role="http://xbrl.us/Solar/v1.3/2019-02-27/roles/CutSheet"
@@ -42088,6 +42088,20 @@ limitations under the License.
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default"
           xlink:from="solar_TestConditionAxis"
           xlink:to="solar_TestConditionDomain"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="solar_2019-02-27_r01.xsd#solar_InverterPowerLevelPercentAxis"
+          xlink:label="solar_InverterPowerLevelPercentAxis"
+          xlink:type="locator"/>
+        <loc
+          xlink:href="solar_2019-02-27_r01.xsd#solar_InverterPowerLevelPercentDomain"
+          xlink:label="solar_InverterPowerLevelPercentDomain"
+          xlink:type="locator"/>
+        <definitionArc
+          order="1"
+          xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default"
+          xlink:from="solar_InverterPowerLevelPercentAxis"
+          xlink:to="solar_InverterPowerLevelPercentDomain"
           xlink:type="arc"/>
     </definitionLink>
     <definitionLink
