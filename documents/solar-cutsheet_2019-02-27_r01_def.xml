@@ -26,6 +26,14 @@ limitations under the License.
   xmlns:xlink="http://www.w3.org/1999/xlink"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+    <arcroleRef
+      arcroleURI="http://xbrl.org/int/dim/arcrole/hypercube-dimension"
+      xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#hypercube-dimension"
+      xlink:type="simple"/>
+    <arcroleRef
+      arcroleURI="http://xbrl.org/int/dim/arcrole/dimension-domain"
+      xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#dimension-domain"
+      xlink:type="simple"/>
     <roleRef
       roleURI="http://xbrl.us/Solar/v1.3/2019-02-27/roles/CutSheet"
       xlink:href="solar-cutsheet_2019-02-27_r01.xsd#roleType_CutSheet"
@@ -41,14 +49,6 @@ limitations under the License.
     <arcroleRef
       arcroleURI="http://xbrl.org/int/dim/arcrole/domain-member"
       xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#domain-member"
-      xlink:type="simple"/>
-    <arcroleRef
-      arcroleURI="http://xbrl.org/int/dim/arcrole/dimension-domain"
-      xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#dimension-domain"
-      xlink:type="simple"/>
-    <arcroleRef
-      arcroleURI="http://xbrl.org/int/dim/arcrole/hypercube-dimension"
-      xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#hypercube-dimension"
       xlink:type="simple"/>
     <definitionLink
       xlink:role="http://xbrl.us/Solar/v1.3/2019-02-27/roles/CutSheet"
@@ -3046,6 +3046,20 @@ limitations under the License.
           xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default"
           xlink:from="solar_TestConditionAxis"
           xlink:to="solar_TestConditionDomain"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-02-27_r01.xsd#solar_InverterPowerLevelPercentAxis"
+          xlink:label="solar_InverterPowerLevelPercentAxis"
+          xlink:type="locator"/>
+        <loc
+          xlink:href="../core/solar_2019-02-27_r01.xsd#solar_InverterPowerLevelPercentDomain"
+          xlink:label="solar_InverterPowerLevelPercentDomain"
+          xlink:type="locator"/>
+        <definitionArc
+          order="1"
+          xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default"
+          xlink:from="solar_InverterPowerLevelPercentAxis"
+          xlink:to="solar_InverterPowerLevelPercentDomain"
           xlink:type="arc"/>
     </definitionLink>
 </linkbase>
