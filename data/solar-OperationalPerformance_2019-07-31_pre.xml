@@ -22,16 +22,16 @@ Orange Button Taxonomy - OperationalPerformance-->
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
     <roleRef
-      roleURI="http://xbrl.us/Solar/2019-07-31/roles/ComponentMaintenanceActions"
-      xlink:href="../data\solar-OperationalPerformance_2019-07-31.xsd#roleType_ComponentMaintenanceActions"
+      roleURI="http://xbrl.us/Solar/2019-07-31/roles/OperationalPerformance"
+      xlink:href="../data\solar-OperationalPerformance_2019-07-31.xsd#roleType_OperationalPerformance"
       xlink:type="simple"/>
     <roleRef
       roleURI="http://xbrl.us/Solar/2019-07-31/roles/ComponentMaintenance"
       xlink:href="../data\solar-OperationalPerformance_2019-07-31.xsd#roleType_ComponentMaintenance"
       xlink:type="simple"/>
     <roleRef
-      roleURI="http://xbrl.us/Solar/2019-07-31/roles/OperationalPerformance"
-      xlink:href="../data\solar-OperationalPerformance_2019-07-31.xsd#roleType_OperationalPerformance"
+      roleURI="http://xbrl.us/Solar/2019-07-31/roles/ComponentMaintenanceActions"
+      xlink:href="../data\solar-OperationalPerformance_2019-07-31.xsd#roleType_ComponentMaintenanceActions"
       xlink:type="simple"/>
     <presentationLink
       xlink:role="http://xbrl.us/Solar/2019-07-31/roles/OperationalPerformance"

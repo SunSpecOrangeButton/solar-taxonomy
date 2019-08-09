@@ -24,12 +24,8 @@ Orange Button Taxonomy - Cut Sheet (Data Sheet)-->
   xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd
                       http://xbrl.org/2008/generic http://www.xbrl.org/2008/generic-link.xsd">
     <arcroleRef
-      arcroleURI="http://xbrl.us/arcrole/Composition"
-      xlink:href="../core\solar-gen-roles-2018-03-31.xsd#composition"
-      xlink:type="simple"/>
-    <arcroleRef
-      arcroleURI="http://xbrl.us/arcrole/Inheritance"
-      xlink:href="../core\solar-gen-roles-2018-03-31.xsd#inheritance"
+      arcroleURI="http://xbrl.us/arcrole/Property"
+      xlink:href="../core\solar-gen-roles-2018-03-31.xsd#property"
       xlink:type="simple"/>
     <arcroleRef
       arcroleURI="http://xbrl.us/arcrole/Identification"
@@ -40,8 +36,12 @@ Orange Button Taxonomy - Cut Sheet (Data Sheet)-->
       xlink:href="../documents\solar-CutSheet_2019-07-31.xsd#roleType_CutSheet"
       xlink:type="simple"/>
     <arcroleRef
-      arcroleURI="http://xbrl.us/arcrole/Property"
-      xlink:href="../core\solar-gen-roles-2018-03-31.xsd#property"
+      arcroleURI="http://xbrl.us/arcrole/Inheritance"
+      xlink:href="../core\solar-gen-roles-2018-03-31.xsd#inheritance"
+      xlink:type="simple"/>
+    <arcroleRef
+      arcroleURI="http://xbrl.us/arcrole/Composition"
+      xlink:href="../core\solar-gen-roles-2018-03-31.xsd#composition"
       xlink:type="simple"/>
     <generic:link
       xlink:role="http://xbrl.us/Solar/2019-07-31/roles/CutSheet"

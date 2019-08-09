@@ -22,20 +22,20 @@ Orange Button Taxonomy - System-->
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
     <roleRef
-      roleURI="http://xbrl.us/Solar/2019-07-31/roles/SystemInstallationCost"
-      xlink:href="../data\solar-System_2019-07-31.xsd#roleType_SystemInstallationCost"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/Solar/2019-07-31/roles/SystemProduction"
-      xlink:href="../data\solar-System_2019-07-31.xsd#roleType_SystemProduction"
-      xlink:type="simple"/>
-    <roleRef
       roleURI="http://xbrl.us/Solar/2019-07-31/roles/SystemInstallationType"
       xlink:href="../data\solar-System_2019-07-31.xsd#roleType_SystemInstallationType"
       xlink:type="simple"/>
     <roleRef
       roleURI="http://xbrl.us/Solar/2019-07-31/roles/SystemDeviceListing"
       xlink:href="../data\solar-System_2019-07-31.xsd#roleType_SystemDeviceListing"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/Solar/2019-07-31/roles/SystemProduction"
+      xlink:href="../data\solar-System_2019-07-31.xsd#roleType_SystemProduction"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/Solar/2019-07-31/roles/SystemInstallationCost"
+      xlink:href="../data\solar-System_2019-07-31.xsd#roleType_SystemInstallationCost"
       xlink:type="simple"/>
     <roleRef
       roleURI="http://xbrl.us/Solar/2019-07-31/roles/System"
