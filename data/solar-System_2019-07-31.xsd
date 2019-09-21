@@ -19,7 +19,6 @@ Orange Button Taxonomy - System-->
   attributeFormDefault="unqualified"
   elementFormDefault="qualified"
   targetNamespace="http://xbrl.us/Solar/2019-07-31/solar-System"
-  xmlns:genlink="http://xbrl.org/2008/generic"
   xmlns:link="http://www.xbrl.org/2003/linkbase"
   xmlns:nonnum="http://www.xbrl.org/dtr/type/non-numeric"
   xmlns:solar="http://xbrl.us/Solar/2019-07-31/solar"
@@ -38,35 +37,6 @@ Orange Button Taxonomy - System-->
                 <link:usedOn>link:presentationLink</link:usedOn>
                 <link:usedOn>link:definitionLink</link:usedOn>
             </link:roleType>
-            <link:roleType
-              id="roleType_SystemDeviceListing"
-              roleURI="http://xbrl.us/Solar/2019-07-31/roles/SystemDeviceListing">
-                <link:definition>100111 - Data - System Device Listing</link:definition>
-                <link:usedOn>link:presentationLink</link:usedOn>
-                <link:usedOn>link:definitionLink</link:usedOn>
-                <link:usedOn>genlink:link</link:usedOn>
-            </link:roleType>
-            <link:roleType
-              id="roleType_SystemInstallationType"
-              roleURI="http://xbrl.us/Solar/2019-07-31/roles/SystemInstallationType">
-                <link:definition>100112 - Data - System Installation Type</link:definition>
-                <link:usedOn>link:presentationLink</link:usedOn>
-                <link:usedOn>link:definitionLink</link:usedOn>
-            </link:roleType>
-            <link:roleType
-              id="roleType_SystemInstallationCost"
-              roleURI="http://xbrl.us/Solar/2019-07-31/roles/SystemInstallationCost">
-                <link:definition>100113 - Data - System Installation Cost</link:definition>
-                <link:usedOn>link:presentationLink</link:usedOn>
-                <link:usedOn>link:definitionLink</link:usedOn>
-            </link:roleType>
-            <link:roleType
-              id="roleType_SystemProduction"
-              roleURI="http://xbrl.us/Solar/2019-07-31/roles/SystemProduction">
-                <link:definition>100115 - Data - System Production</link:definition>
-                <link:usedOn>link:presentationLink</link:usedOn>
-                <link:usedOn>link:definitionLink</link:usedOn>
-            </link:roleType>
             <link:linkbaseRef
               xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"
               xlink:href="solar-System_2019-07-31_pre.xml"
@@ -79,7 +49,7 @@ Orange Button Taxonomy - System-->
               xlink:type="simple"/>
             <link:linkbaseRef
               xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"
-              xlink:href="solar-System_2019-07-31_uml.xml"
+              xlink:href="solar-Site_2019-07-31_uml.xml"
               xlink:type="simple"/>
         </xs:appinfo>
     </xs:annotation>

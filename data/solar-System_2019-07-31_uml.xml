@@ -14,7 +14,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 
 
-Orange Button Taxonomy - System-->
+Orange Button Taxonomy - SystemDeviceListing-->
 <linkbase
   xmlns="http://www.xbrl.org/2003/linkbase"
   xmlns:generic="http://xbrl.org/2008/generic"
@@ -24,24 +24,24 @@ Orange Button Taxonomy - System-->
   xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd
                       http://xbrl.org/2008/generic http://www.xbrl.org/2008/generic-link.xsd">
     <arcroleRef
-      arcroleURI="http://xbrl.us/arcrole/Property"
-      xlink:href="../core\solar-gen-roles-2018-03-31.xsd#property"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/Solar/2019-07-31/roles/SystemDeviceListing"
-      xlink:href="../data\solar-System_2019-07-31.xsd#roleType_SystemDeviceListing"
-      xlink:type="simple"/>
-    <arcroleRef
       arcroleURI="http://xbrl.us/arcrole/Identification"
       xlink:href="../core\solar-gen-roles-2018-03-31.xsd#identification"
       xlink:type="simple"/>
     <arcroleRef
-      arcroleURI="http://xbrl.us/arcrole/Inheritance"
-      xlink:href="../core\solar-gen-roles-2018-03-31.xsd#inheritance"
+      arcroleURI="http://xbrl.us/arcrole/Property"
+      xlink:href="../core\solar-gen-roles-2018-03-31.xsd#property"
       xlink:type="simple"/>
     <arcroleRef
       arcroleURI="http://xbrl.us/arcrole/Composition"
       xlink:href="../core\solar-gen-roles-2018-03-31.xsd#composition"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/Solar/2019-07-31/roles/SystemDeviceListing"
+      xlink:href="../data\solar-SystemDeviceListing_2019-07-31.xsd#roleType_SystemDeviceListing"
+      xlink:type="simple"/>
+    <arcroleRef
+      arcroleURI="http://xbrl.us/arcrole/Inheritance"
+      xlink:href="../core\solar-gen-roles-2018-03-31.xsd#inheritance"
       xlink:type="simple"/>
     <generic:link
       xlink:role="http://xbrl.us/Solar/2019-07-31/roles/SystemDeviceListing"

@@ -14,7 +14,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 
 
-Orange Button Taxonomy - Cut Sheet (Data Sheet)-->
+Orange Button Taxonomy - CutSheet-->
 <xs:schema
   attributeFormDefault="unqualified"
   elementFormDefault="qualified"
@@ -29,7 +29,7 @@ Orange Button Taxonomy - Cut Sheet (Data Sheet)-->
   xmlns:xlink="http://www.w3.org/1999/xlink"
   xmlns:xs="http://www.w3.org/2001/XMLSchema">
     <xs:annotation>
-        <xs:documentation>This schema contains the entry point for the cut sheet.</xs:documentation>
+        <xs:documentation>This schema contains the entry point for the CutSheet</xs:documentation>
         <xs:appinfo>
             <link:roleType
               id="roleType_CutSheet"
@@ -48,10 +48,6 @@ Orange Button Taxonomy - Cut Sheet (Data Sheet)-->
               xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"
               xlink:href="solar-CutSheet_2019-07-31_def.xml"
               xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef"
-              xlink:type="simple"/>
-            <link:linkbaseRef
-              xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"
-              xlink:href="solar-CutSheet_2019-07-31_uml.xml"
               xlink:type="simple"/>
         </xs:appinfo>
     </xs:annotation>
