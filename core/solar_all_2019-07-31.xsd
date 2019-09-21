@@ -1077,6 +1077,12 @@ Initial Solar taxonomy-->
                 <link:usedOn>link:presentationLink</link:usedOn>
                 <link:usedOn>link:definitionLink</link:usedOn>
             </link:roleType>
+            <link:roleType
+              id="roleType_Monitoring"
+              roleURI="http://xbrl.us/Solar/2019-07-31/roles/Monitoring">
+                <link:definition>101900 - Monitoring</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
             <link:linkbaseRef
               xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"
               xlink:href="solar_all_2019-07-31_pre.xml"

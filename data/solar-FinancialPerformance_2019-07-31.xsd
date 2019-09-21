@@ -18,11 +18,11 @@ Orange Button Taxonomy - FinancialPerformance-->
 <xs:schema
   attributeFormDefault="unqualified"
   elementFormDefault="qualified"
-  targetNamespace="http://xbrl.us/Solar/2019-07-31/solar-FinancialPerformance"
+  targetNamespace=" "
   xmlns:link="http://www.xbrl.org/2003/linkbase"
   xmlns:nonnum="http://www.xbrl.org/dtr/type/non-numeric"
   xmlns:solar="http://xbrl.us/Solar/2019-07-31/solar"
-  xmlns:solar-FinancialPerformance="http://xbrl.us/Solar/2019-07-31/solar-FinancialPerformance"
+  xmlns:solar-FinancialPerformance=" "
   xmlns:xbrldt="http://xbrl.org/2005/xbrldt"
   xmlns:xbrli="http://www.xbrl.org/2003/instance"
   xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -37,6 +37,20 @@ Orange Button Taxonomy - FinancialPerformance-->
                 <link:usedOn>link:presentationLink</link:usedOn>
                 <link:usedOn>link:definitionLink</link:usedOn>
                 <link:usedOn>link:calculationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_OperationalPerformance"
+              roleURI="http://xbrl.us/Solar/2019-07-31/roles/OperationalPerformance">
+                <link:definition>100195 - Data - Operational Performance</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_ComponentMaintenance"
+              roleURI="http://xbrl.us/Solar/2019-07-31/roles/ComponentMaintenance">
+                <link:definition>100196 - Data - Operational Performance - Component Maintenance</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
             </link:roleType>
             <link:linkbaseRef
               xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"
