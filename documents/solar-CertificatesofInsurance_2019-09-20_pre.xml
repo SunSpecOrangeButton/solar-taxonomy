@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Copyright 2019 SunSpec Alliance and XBRL US Inc. 
+
+Licensed under the Apache License, Version 2.0 (the "License"); 
+you may not use this file except in compliance with the License. 
+You may obtain a copy of the License at 
+
+    http://www.apache.org/licenses/LICENSE-2.0 
+
+Unless required by applicable law or agreed to in writing, software 
+distributed under the License is distributed on an "AS IS" BASIS, 
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+See the License for the specific language governing permissions and 
+limitations under the License.
+
+
+Orange Button Taxonomy - CertificatesofInsurance-->
+<linkbase
+  xmlns="http://www.xbrl.org/2003/linkbase"
+  xmlns:xbrli="http://www.xbrl.org/2003/instance"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+    <roleRef
+      roleURI="http://xbrl.us/Solar/2019-09-20/roles/CertificatesofInsurance"
+      xlink:href="../documents\solar-CertificatesofInsurance_2019-09-20.xsd#roleType_CertificatesofInsurance"
+      xlink:type="simple"/>
+    <presentationLink
+      xlink:role="http://xbrl.us/Solar/2019-09-20/roles/CertificatesofInsurance"
+      xlink:type="extended">
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_CertificatesOfInsuranceAbstract"
+          xlink:label="solar_CertificatesOfInsuranceAbstract"
+          xlink:type="locator"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_CertificatesOfInsuranceAvailabilityOfDocument"
+          xlink:label="solar_CertificatesOfInsuranceAvailabilityOfDocument"
+          xlink:type="locator"/>
+        <presentationArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_CertificatesOfInsuranceAbstract"
+          xlink:to="solar_CertificatesOfInsuranceAvailabilityOfDocument"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_CertificatesOfInsuranceAvailabilityOfFinalDocument"
+          xlink:label="solar_CertificatesOfInsuranceAvailabilityOfFinalDocument"
+          xlink:type="locator"/>
+        <presentationArc
+          order="2"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_CertificatesOfInsuranceAbstract"
+          xlink:to="solar_CertificatesOfInsuranceAvailabilityOfFinalDocument"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_CertificatesOfInsuranceAvailabilityOfDocumentExceptions"
+          xlink:label="solar_CertificatesOfInsuranceAvailabilityOfDocumentExceptions"
+          xlink:type="locator"/>
+        <presentationArc
+          order="3"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_CertificatesOfInsuranceAbstract"
+          xlink:to="solar_CertificatesOfInsuranceAvailabilityOfDocumentExceptions"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_CertificatesOfInsuranceExceptionDescription"
+          xlink:label="solar_CertificatesOfInsuranceExceptionDescription"
+          xlink:type="locator"/>
+        <presentationArc
+          order="4"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_CertificatesOfInsuranceAbstract"
+          xlink:to="solar_CertificatesOfInsuranceExceptionDescription"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_CertificatesOfInsuranceCounterparties"
+          xlink:label="solar_CertificatesOfInsuranceCounterparties"
+          xlink:type="locator"/>
+        <presentationArc
+          order="5"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_CertificatesOfInsuranceAbstract"
+          xlink:to="solar_CertificatesOfInsuranceCounterparties"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_CertificatesOfInsuranceEffectiveDate"
+          xlink:label="solar_CertificatesOfInsuranceEffectiveDate"
+          xlink:type="locator"/>
+        <presentationArc
+          order="6"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_CertificatesOfInsuranceAbstract"
+          xlink:to="solar_CertificatesOfInsuranceEffectiveDate"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_CertificatesOfInsuranceExpirationDate"
+          xlink:label="solar_CertificatesOfInsuranceExpirationDate"
+          xlink:type="locator"/>
+        <presentationArc
+          order="7"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_CertificatesOfInsuranceAbstract"
+          xlink:to="solar_CertificatesOfInsuranceExpirationDate"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_CertificatesOfInsuranceDocumentLink"
+          xlink:label="solar_CertificatesOfInsuranceDocumentLink"
+          xlink:type="locator"/>
+        <presentationArc
+          order="8"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_CertificatesOfInsuranceAbstract"
+          xlink:to="solar_CertificatesOfInsuranceDocumentLink"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_PreparerOfCertificatesOfInsurance"
+          xlink:label="solar_PreparerOfCertificatesOfInsurance"
+          xlink:type="locator"/>
+        <presentationArc
+          order="9"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_CertificatesOfInsuranceAbstract"
+          xlink:to="solar_PreparerOfCertificatesOfInsurance"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_DocumentIdentifierCertificatesOfInsurance"
+          xlink:label="solar_DocumentIdentifierCertificatesOfInsurance"
+          xlink:type="locator"/>
+        <presentationArc
+          order="10"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_CertificatesOfInsuranceAbstract"
+          xlink:to="solar_DocumentIdentifierCertificatesOfInsurance"
+          xlink:type="arc"/>
+    </presentationLink>
+</linkbase>

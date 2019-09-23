@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Copyright 2019 SunSpec Alliance and XBRL US Inc. 
+
+Licensed under the Apache License, Version 2.0 (the "License"); 
+you may not use this file except in compliance with the License. 
+You may obtain a copy of the License at 
+
+    http://www.apache.org/licenses/LICENSE-2.0 
+
+Unless required by applicable law or agreed to in writing, software 
+distributed under the License is distributed on an "AS IS" BASIS, 
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+See the License for the specific language governing permissions and 
+limitations under the License.
+
+
+Orange Button Taxonomy - AdvisorInvoices-->
+<linkbase
+  xmlns="http://www.xbrl.org/2003/linkbase"
+  xmlns:xbrli="http://www.xbrl.org/2003/instance"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+    <roleRef
+      roleURI="http://xbrl.us/Solar/2019-09-20/roles/AdvisorInvoices"
+      xlink:href="../documents\solar-AdvisorInvoices_2019-09-20.xsd#roleType_AdvisorInvoices"
+      xlink:type="simple"/>
+    <presentationLink
+      xlink:role="http://xbrl.us/Solar/2019-09-20/roles/AdvisorInvoices"
+      xlink:type="extended">
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_AdvisorInvoicesAbstract"
+          xlink:label="solar_AdvisorInvoicesAbstract"
+          xlink:type="locator"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_AdvisorInvoicesAvailabilityOfDocument"
+          xlink:label="solar_AdvisorInvoicesAvailabilityOfDocument"
+          xlink:type="locator"/>
+        <presentationArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_AdvisorInvoicesAbstract"
+          xlink:to="solar_AdvisorInvoicesAvailabilityOfDocument"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_AdvisorInvoicesAvailabilityOfFinalDocument"
+          xlink:label="solar_AdvisorInvoicesAvailabilityOfFinalDocument"
+          xlink:type="locator"/>
+        <presentationArc
+          order="2"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_AdvisorInvoicesAbstract"
+          xlink:to="solar_AdvisorInvoicesAvailabilityOfFinalDocument"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_AdvisorInvoicesAvailabilityOfDocumentExceptions"
+          xlink:label="solar_AdvisorInvoicesAvailabilityOfDocumentExceptions"
+          xlink:type="locator"/>
+        <presentationArc
+          order="3"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_AdvisorInvoicesAbstract"
+          xlink:to="solar_AdvisorInvoicesAvailabilityOfDocumentExceptions"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_AdvisorInvoicesExceptionDescription"
+          xlink:label="solar_AdvisorInvoicesExceptionDescription"
+          xlink:type="locator"/>
+        <presentationArc
+          order="4"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_AdvisorInvoicesAbstract"
+          xlink:to="solar_AdvisorInvoicesExceptionDescription"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_AdvisorInvoicesCounterparties"
+          xlink:label="solar_AdvisorInvoicesCounterparties"
+          xlink:type="locator"/>
+        <presentationArc
+          order="5"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_AdvisorInvoicesAbstract"
+          xlink:to="solar_AdvisorInvoicesCounterparties"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_AdvisorInvoicesEffectiveDate"
+          xlink:label="solar_AdvisorInvoicesEffectiveDate"
+          xlink:type="locator"/>
+        <presentationArc
+          order="6"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_AdvisorInvoicesAbstract"
+          xlink:to="solar_AdvisorInvoicesEffectiveDate"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_AdvisorInvoicesExpirationDate"
+          xlink:label="solar_AdvisorInvoicesExpirationDate"
+          xlink:type="locator"/>
+        <presentationArc
+          order="7"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_AdvisorInvoicesAbstract"
+          xlink:to="solar_AdvisorInvoicesExpirationDate"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_AdvisorInvoicesDocumentLink"
+          xlink:label="solar_AdvisorInvoicesDocumentLink"
+          xlink:type="locator"/>
+        <presentationArc
+          order="8"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_AdvisorInvoicesAbstract"
+          xlink:to="solar_AdvisorInvoicesDocumentLink"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_PreparerOfAdvisorInvoices"
+          xlink:label="solar_PreparerOfAdvisorInvoices"
+          xlink:type="locator"/>
+        <presentationArc
+          order="9"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_AdvisorInvoicesAbstract"
+          xlink:to="solar_PreparerOfAdvisorInvoices"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_DocumentIdentifierAdvisorInvoices"
+          xlink:label="solar_DocumentIdentifierAdvisorInvoices"
+          xlink:type="locator"/>
+        <presentationArc
+          order="10"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_AdvisorInvoicesAbstract"
+          xlink:to="solar_DocumentIdentifierAdvisorInvoices"
+          xlink:type="arc"/>
+    </presentationLink>
+</linkbase>

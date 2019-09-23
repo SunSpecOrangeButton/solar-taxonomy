@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Copyright 2019 SunSpec Alliance and XBRL US Inc. 
+
+Licensed under the Apache License, Version 2.0 (the "License"); 
+you may not use this file except in compliance with the License. 
+You may obtain a copy of the License at 
+
+    http://www.apache.org/licenses/LICENSE-2.0 
+
+Unless required by applicable law or agreed to in writing, software 
+distributed under the License is distributed on an "AS IS" BASIS, 
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+See the License for the specific language governing permissions and 
+limitations under the License.
+
+
+Orange Button Taxonomy - ConstructionIssuesReport-->
+<linkbase
+  xmlns="http://www.xbrl.org/2003/linkbase"
+  xmlns:xbrli="http://www.xbrl.org/2003/instance"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+    <roleRef
+      roleURI="http://xbrl.us/Solar/2019-09-20/roles/ConstructionIssuesReport"
+      xlink:href="../documents\solar-ConstructionIssuesReport_2019-09-20.xsd#roleType_ConstructionIssuesReport"
+      xlink:type="simple"/>
+    <presentationLink
+      xlink:role="http://xbrl.us/Solar/2019-09-20/roles/ConstructionIssuesReport"
+      xlink:type="extended">
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_IssuesDuringConstructionAbstract"
+          xlink:label="solar_IssuesDuringConstructionAbstract"
+          xlink:type="locator"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_IssuesDuringConstructionEquipmentIssues"
+          xlink:label="solar_IssuesDuringConstructionEquipmentIssues"
+          xlink:type="locator"/>
+        <presentationArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_IssuesDuringConstructionAbstract"
+          xlink:to="solar_IssuesDuringConstructionEquipmentIssues"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_IssuesDuringConstructionOtherTechnicalIssues"
+          xlink:label="solar_IssuesDuringConstructionOtherTechnicalIssues"
+          xlink:type="locator"/>
+        <presentationArc
+          order="2"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_IssuesDuringConstructionAbstract"
+          xlink:to="solar_IssuesDuringConstructionOtherTechnicalIssues"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_IssuesDuringConstructionSecurityIssues"
+          xlink:label="solar_IssuesDuringConstructionSecurityIssues"
+          xlink:type="locator"/>
+        <presentationArc
+          order="3"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_IssuesDuringConstructionAbstract"
+          xlink:to="solar_IssuesDuringConstructionSecurityIssues"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_PreparerOfConstructionIssuesReport"
+          xlink:label="solar_PreparerOfConstructionIssuesReport"
+          xlink:type="locator"/>
+        <presentationArc
+          order="4"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_IssuesDuringConstructionAbstract"
+          xlink:to="solar_PreparerOfConstructionIssuesReport"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_DocumentIdentifierConstructionIssuesReport"
+          xlink:label="solar_DocumentIdentifierConstructionIssuesReport"
+          xlink:type="locator"/>
+        <presentationArc
+          order="5"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_IssuesDuringConstructionAbstract"
+          xlink:to="solar_DocumentIdentifierConstructionIssuesReport"
+          xlink:type="arc"/>
+    </presentationLink>
+</linkbase>

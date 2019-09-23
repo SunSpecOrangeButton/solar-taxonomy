@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Copyright 2019 SunSpec Alliance and XBRL US Inc. 
+
+Licensed under the Apache License, Version 2.0 (the "License"); 
+you may not use this file except in compliance with the License. 
+You may obtain a copy of the License at 
+
+    http://www.apache.org/licenses/LICENSE-2.0 
+
+Unless required by applicable law or agreed to in writing, software 
+distributed under the License is distributed on an "AS IS" BASIS, 
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+See the License for the specific language governing permissions and 
+limitations under the License.
+
+
+Orange Button Taxonomy - MonitoringContract-->
+<linkbase
+  xmlns="http://www.xbrl.org/2003/linkbase"
+  xmlns:xbrli="http://www.xbrl.org/2003/instance"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+    <roleRef
+      roleURI="http://xbrl.us/Solar/2019-09-20/roles/MonitoringContract"
+      xlink:href="../documents\solar-MonitoringContract_2019-09-20.xsd#roleType_MonitoringContract"
+      xlink:type="simple"/>
+    <presentationLink
+      xlink:role="http://xbrl.us/Solar/2019-09-20/roles/MonitoringContract"
+      xlink:type="extended">
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_MonitoringContractAbstract"
+          xlink:label="solar_MonitoringContractAbstract"
+          xlink:type="locator"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_MonitoringContractRate"
+          xlink:label="solar_MonitoringContractRate"
+          xlink:type="locator"/>
+        <presentationArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_MonitoringContractAbstract"
+          xlink:to="solar_MonitoringContractRate"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_MonitoringContractRateEscalator"
+          xlink:label="solar_MonitoringContractRateEscalator"
+          xlink:type="locator"/>
+        <presentationArc
+          order="2"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_MonitoringContractAbstract"
+          xlink:to="solar_MonitoringContractRateEscalator"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_MonitoringContractRateType"
+          xlink:label="solar_MonitoringContractRateType"
+          xlink:type="locator"/>
+        <presentationArc
+          order="3"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_MonitoringContractAbstract"
+          xlink:to="solar_MonitoringContractRateType"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_MonitoringContractCounterparty"
+          xlink:label="solar_MonitoringContractCounterparty"
+          xlink:type="locator"/>
+        <presentationArc
+          order="4"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_MonitoringContractAbstract"
+          xlink:to="solar_MonitoringContractCounterparty"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_MonitoringContractExpirationDate"
+          xlink:label="solar_MonitoringContractExpirationDate"
+          xlink:type="locator"/>
+        <presentationArc
+          order="5"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_MonitoringContractAbstract"
+          xlink:to="solar_MonitoringContractExpirationDate"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_MonitoringContractInitiationDate"
+          xlink:label="solar_MonitoringContractInitiationDate"
+          xlink:type="locator"/>
+        <presentationArc
+          order="6"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_MonitoringContractAbstract"
+          xlink:to="solar_MonitoringContractInitiationDate"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_MonitoringContractTerm"
+          xlink:label="solar_MonitoringContractTerm"
+          xlink:type="locator"/>
+        <presentationArc
+          order="7"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_MonitoringContractAbstract"
+          xlink:to="solar_MonitoringContractTerm"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_MonitoringContractAvailabilityOfDocument"
+          xlink:label="solar_MonitoringContractAvailabilityOfDocument"
+          xlink:type="locator"/>
+        <presentationArc
+          order="8"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_MonitoringContractAbstract"
+          xlink:to="solar_MonitoringContractAvailabilityOfDocument"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_MonitoringContractAvailabilityOfFinalDocument"
+          xlink:label="solar_MonitoringContractAvailabilityOfFinalDocument"
+          xlink:type="locator"/>
+        <presentationArc
+          order="9"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_MonitoringContractAbstract"
+          xlink:to="solar_MonitoringContractAvailabilityOfFinalDocument"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_MonitoringContractAvailabilityOfDocumentExceptions"
+          xlink:label="solar_MonitoringContractAvailabilityOfDocumentExceptions"
+          xlink:type="locator"/>
+        <presentationArc
+          order="10"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_MonitoringContractAbstract"
+          xlink:to="solar_MonitoringContractAvailabilityOfDocumentExceptions"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_MonitoringContractExceptionDescription"
+          xlink:label="solar_MonitoringContractExceptionDescription"
+          xlink:type="locator"/>
+        <presentationArc
+          order="11"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_MonitoringContractAbstract"
+          xlink:to="solar_MonitoringContractExceptionDescription"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_MonitoringContractCounterparties"
+          xlink:label="solar_MonitoringContractCounterparties"
+          xlink:type="locator"/>
+        <presentationArc
+          order="12"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_MonitoringContractAbstract"
+          xlink:to="solar_MonitoringContractCounterparties"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_MonitoringContractDocumentLink"
+          xlink:label="solar_MonitoringContractDocumentLink"
+          xlink:type="locator"/>
+        <presentationArc
+          order="13"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_MonitoringContractAbstract"
+          xlink:to="solar_MonitoringContractDocumentLink"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_DocumentIdentifierMonitoringContractAgreement"
+          xlink:label="solar_DocumentIdentifierMonitoringContractAgreement"
+          xlink:type="locator"/>
+        <presentationArc
+          order="14"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_MonitoringContractAbstract"
+          xlink:to="solar_DocumentIdentifierMonitoringContractAgreement"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_PreparerOfMonitoringContractAgreement"
+          xlink:label="solar_PreparerOfMonitoringContractAgreement"
+          xlink:type="locator"/>
+        <presentationArc
+          order="15"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_MonitoringContractAbstract"
+          xlink:to="solar_PreparerOfMonitoringContractAgreement"
+          xlink:type="arc"/>
+    </presentationLink>
+</linkbase>

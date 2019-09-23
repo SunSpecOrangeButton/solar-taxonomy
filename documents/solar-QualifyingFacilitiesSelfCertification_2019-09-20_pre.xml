@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Copyright 2019 SunSpec Alliance and XBRL US Inc. 
+
+Licensed under the Apache License, Version 2.0 (the "License"); 
+you may not use this file except in compliance with the License. 
+You may obtain a copy of the License at 
+
+    http://www.apache.org/licenses/LICENSE-2.0 
+
+Unless required by applicable law or agreed to in writing, software 
+distributed under the License is distributed on an "AS IS" BASIS, 
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+See the License for the specific language governing permissions and 
+limitations under the License.
+
+
+Orange Button Taxonomy - QualifyingFacilitiesSelfCertification-->
+<linkbase
+  xmlns="http://www.xbrl.org/2003/linkbase"
+  xmlns:xbrli="http://www.xbrl.org/2003/instance"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+    <roleRef
+      roleURI="http://xbrl.us/Solar/2019-09-20/roles/QualifyingFacilitiesSelfCertification"
+      xlink:href="../documents\solar-QualifyingFacilitiesSelfCertification_2019-09-20.xsd#roleType_QualifyingFacilitiesSelfCertification"
+      xlink:type="simple"/>
+    <presentationLink
+      xlink:role="http://xbrl.us/Solar/2019-09-20/roles/QualifyingFacilitiesSelfCertification"
+      xlink:type="extended">
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_QualifyingFacilitiesSelfCertificationAbstract"
+          xlink:label="solar_QualifyingFacilitiesSelfCertificationAbstract"
+          xlink:type="locator"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_QualifyingFacilitiesSelfCertificationAvailabilityOfDocument"
+          xlink:label="solar_QualifyingFacilitiesSelfCertificationAvailabilityOfDocument"
+          xlink:type="locator"/>
+        <presentationArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_QualifyingFacilitiesSelfCertificationAbstract"
+          xlink:to="solar_QualifyingFacilitiesSelfCertificationAvailabilityOfDocument"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_QualifyingFacilitiesSelfCertificationAvailabilityOfFinalDocument"
+          xlink:label="solar_QualifyingFacilitiesSelfCertificationAvailabilityOfFinalDocument"
+          xlink:type="locator"/>
+        <presentationArc
+          order="2"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_QualifyingFacilitiesSelfCertificationAbstract"
+          xlink:to="solar_QualifyingFacilitiesSelfCertificationAvailabilityOfFinalDocument"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_QualifyingFacilitiesSelfCertificationAvailabilityOfDocumentExceptions"
+          xlink:label="solar_QualifyingFacilitiesSelfCertificationAvailabilityOfDocumentExceptions"
+          xlink:type="locator"/>
+        <presentationArc
+          order="3"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_QualifyingFacilitiesSelfCertificationAbstract"
+          xlink:to="solar_QualifyingFacilitiesSelfCertificationAvailabilityOfDocumentExceptions"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_QualifyingFacilitiesSelfCertificationExceptionDescription"
+          xlink:label="solar_QualifyingFacilitiesSelfCertificationExceptionDescription"
+          xlink:type="locator"/>
+        <presentationArc
+          order="4"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_QualifyingFacilitiesSelfCertificationAbstract"
+          xlink:to="solar_QualifyingFacilitiesSelfCertificationExceptionDescription"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_QualifyingFacilitiesSelfCertificationCounterparties"
+          xlink:label="solar_QualifyingFacilitiesSelfCertificationCounterparties"
+          xlink:type="locator"/>
+        <presentationArc
+          order="5"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_QualifyingFacilitiesSelfCertificationAbstract"
+          xlink:to="solar_QualifyingFacilitiesSelfCertificationCounterparties"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_QualifyingFacilitiesSelfCertificationEffectiveDate"
+          xlink:label="solar_QualifyingFacilitiesSelfCertificationEffectiveDate"
+          xlink:type="locator"/>
+        <presentationArc
+          order="6"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_QualifyingFacilitiesSelfCertificationAbstract"
+          xlink:to="solar_QualifyingFacilitiesSelfCertificationEffectiveDate"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_QualifyingFacilitiesSelfCertificationExpirationDate"
+          xlink:label="solar_QualifyingFacilitiesSelfCertificationExpirationDate"
+          xlink:type="locator"/>
+        <presentationArc
+          order="7"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_QualifyingFacilitiesSelfCertificationAbstract"
+          xlink:to="solar_QualifyingFacilitiesSelfCertificationExpirationDate"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_QualifyingFacilitiesSelfCertificationDocumentLink"
+          xlink:label="solar_QualifyingFacilitiesSelfCertificationDocumentLink"
+          xlink:type="locator"/>
+        <presentationArc
+          order="8"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_QualifyingFacilitiesSelfCertificationAbstract"
+          xlink:to="solar_QualifyingFacilitiesSelfCertificationDocumentLink"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_PreparerOfQualifyingFacilitiesSelfCertification"
+          xlink:label="solar_PreparerOfQualifyingFacilitiesSelfCertification"
+          xlink:type="locator"/>
+        <presentationArc
+          order="9"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_QualifyingFacilitiesSelfCertificationAbstract"
+          xlink:to="solar_PreparerOfQualifyingFacilitiesSelfCertification"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_DocumentIdentifierQualifyingFacilitiesSelfCertification"
+          xlink:label="solar_DocumentIdentifierQualifyingFacilitiesSelfCertification"
+          xlink:type="locator"/>
+        <presentationArc
+          order="10"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_QualifyingFacilitiesSelfCertificationAbstract"
+          xlink:to="solar_DocumentIdentifierQualifyingFacilitiesSelfCertification"
+          xlink:type="arc"/>
+    </presentationLink>
+</linkbase>

@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Copyright 2019 SunSpec Alliance and XBRL US Inc. 
+
+Licensed under the Apache License, Version 2.0 (the "License"); 
+you may not use this file except in compliance with the License. 
+You may obtain a copy of the License at 
+
+    http://www.apache.org/licenses/LICENSE-2.0 
+
+Unless required by applicable law or agreed to in writing, software 
+distributed under the License is distributed on an "AS IS" BASIS, 
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+See the License for the specific language governing permissions and 
+limitations under the License.
+
+
+Orange Button Taxonomy - OperationalEventReport-->
+<linkbase
+  xmlns="http://www.xbrl.org/2003/linkbase"
+  xmlns:xbrli="http://www.xbrl.org/2003/instance"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+    <roleRef
+      roleURI="http://xbrl.us/Solar/2019-09-20/roles/OperationalEventReport"
+      xlink:href="../documents\solar-OperationalEventReport_2019-09-20.xsd#roleType_OperationalEventReport"
+      xlink:type="simple"/>
+    <presentationLink
+      xlink:role="http://xbrl.us/Solar/2019-09-20/roles/OperationalEventReport"
+      xlink:type="extended">
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_OperationalEventReportingAbstract"
+          xlink:label="solar_OperationalEventReportingAbstract"
+          xlink:type="locator"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_OperationalEventReportingTable"
+          xlink:label="solar_OperationalEventReportingTable"
+          xlink:type="locator"/>
+        <presentationArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_OperationalEventReportingAbstract"
+          xlink:to="solar_OperationalEventReportingTable"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_OperationalEventReportingAxis"
+          xlink:label="solar_OperationalEventReportingAxis"
+          xlink:type="locator"/>
+        <presentationArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_OperationalEventReportingTable"
+          xlink:to="solar_OperationalEventReportingAxis"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_OperationalEventReportingLineItems"
+          xlink:label="solar_OperationalEventReportingLineItems"
+          xlink:type="locator"/>
+        <presentationArc
+          order="2"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_OperationalEventReportingTable"
+          xlink:to="solar_OperationalEventReportingLineItems"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_OperationalReportingMajorEvent"
+          xlink:label="solar_OperationalReportingMajorEvent"
+          xlink:type="locator"/>
+        <presentationArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_OperationalEventReportingLineItems"
+          xlink:to="solar_OperationalReportingMajorEvent"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_OperationalReportingDescriptionOfMajorEvent"
+          xlink:label="solar_OperationalReportingDescriptionOfMajorEvent"
+          xlink:type="locator"/>
+        <presentationArc
+          order="2"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_OperationalEventReportingLineItems"
+          xlink:to="solar_OperationalReportingDescriptionOfMajorEvent"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_OperationalReportingDateOfMajorEvent"
+          xlink:label="solar_OperationalReportingDateOfMajorEvent"
+          xlink:type="locator"/>
+        <presentationArc
+          order="3"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_OperationalEventReportingLineItems"
+          xlink:to="solar_OperationalReportingDateOfMajorEvent"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_OperationalReportingResponseTimeToMajorEvent"
+          xlink:label="solar_OperationalReportingResponseTimeToMajorEvent"
+          xlink:type="locator"/>
+        <presentationArc
+          order="4"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_OperationalEventReportingLineItems"
+          xlink:to="solar_OperationalReportingResponseTimeToMajorEvent"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_OperationalReportingCommentAboutMajorEvent"
+          xlink:label="solar_OperationalReportingCommentAboutMajorEvent"
+          xlink:type="locator"/>
+        <presentationArc
+          order="5"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_OperationalEventReportingLineItems"
+          xlink:to="solar_OperationalReportingCommentAboutMajorEvent"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_OperationalReportingAgreementRelatedToMajorEvent"
+          xlink:label="solar_OperationalReportingAgreementRelatedToMajorEvent"
+          xlink:type="locator"/>
+        <presentationArc
+          order="6"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_OperationalEventReportingLineItems"
+          xlink:to="solar_OperationalReportingAgreementRelatedToMajorEvent"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_OperationalReportingAgreementVarianceRelatedToMajorEvent"
+          xlink:label="solar_OperationalReportingAgreementVarianceRelatedToMajorEvent"
+          xlink:type="locator"/>
+        <presentationArc
+          order="7"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_OperationalEventReportingLineItems"
+          xlink:to="solar_OperationalReportingAgreementVarianceRelatedToMajorEvent"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_OperationalReportingAgreementSectionRelatedToMajorEvent"
+          xlink:label="solar_OperationalReportingAgreementSectionRelatedToMajorEvent"
+          xlink:type="locator"/>
+        <presentationArc
+          order="8"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_OperationalEventReportingLineItems"
+          xlink:to="solar_OperationalReportingAgreementSectionRelatedToMajorEvent"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_PriorityOfCorrectiveAction"
+          xlink:label="solar_PriorityOfCorrectiveAction"
+          xlink:type="locator"/>
+        <presentationArc
+          order="9"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_OperationalEventReportingLineItems"
+          xlink:to="solar_PriorityOfCorrectiveAction"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_PriorityOfAnyOtherAction"
+          xlink:label="solar_PriorityOfAnyOtherAction"
+          xlink:type="locator"/>
+        <presentationArc
+          order="10"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_OperationalEventReportingLineItems"
+          xlink:to="solar_PriorityOfAnyOtherAction"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_PreparerOfOperationalEventReport"
+          xlink:label="solar_PreparerOfOperationalEventReport"
+          xlink:type="locator"/>
+        <presentationArc
+          order="11"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_OperationalEventReportingLineItems"
+          xlink:to="solar_PreparerOfOperationalEventReport"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_DocumentIdentifierOperationalEventReport"
+          xlink:label="solar_DocumentIdentifierOperationalEventReport"
+          xlink:type="locator"/>
+        <presentationArc
+          order="12"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_OperationalEventReportingLineItems"
+          xlink:to="solar_DocumentIdentifierOperationalEventReport"
+          xlink:type="arc"/>
+    </presentationLink>
+</linkbase>

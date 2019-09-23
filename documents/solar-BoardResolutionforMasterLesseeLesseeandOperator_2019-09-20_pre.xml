@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Copyright 2019 SunSpec Alliance and XBRL US Inc. 
+
+Licensed under the Apache License, Version 2.0 (the "License"); 
+you may not use this file except in compliance with the License. 
+You may obtain a copy of the License at 
+
+    http://www.apache.org/licenses/LICENSE-2.0 
+
+Unless required by applicable law or agreed to in writing, software 
+distributed under the License is distributed on an "AS IS" BASIS, 
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+See the License for the specific language governing permissions and 
+limitations under the License.
+
+
+Orange Button Taxonomy - BoardResolutionforMasterLesseeLesseeandOperator-->
+<linkbase
+  xmlns="http://www.xbrl.org/2003/linkbase"
+  xmlns:xbrli="http://www.xbrl.org/2003/instance"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+    <roleRef
+      roleURI="http://xbrl.us/Solar/2019-09-20/roles/BoardResolutionforMasterLesseeLesseeandOperator"
+      xlink:href="../documents\solar-BoardResolutionforMasterLesseeLesseeandOperator_2019-09-20.xsd#roleType_BoardResolutionforMasterLesseeLesseeandOperator"
+      xlink:type="simple"/>
+    <presentationLink
+      xlink:role="http://xbrl.us/Solar/2019-09-20/roles/BoardResolutionforMasterLesseeLesseeandOperator"
+      xlink:type="extended">
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_BoardResolutionForMasterLesseeLesseeAndOperatorAbstract"
+          xlink:label="solar_BoardResolutionForMasterLesseeLesseeAndOperatorAbstract"
+          xlink:type="locator"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_BoardResolutionForMasterLesseeLesseeAndOperatorAvailabilityOfDocument"
+          xlink:label="solar_BoardResolutionForMasterLesseeLesseeAndOperatorAvailabilityOfDocument"
+          xlink:type="locator"/>
+        <presentationArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_BoardResolutionForMasterLesseeLesseeAndOperatorAbstract"
+          xlink:to="solar_BoardResolutionForMasterLesseeLesseeAndOperatorAvailabilityOfDocument"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_BoardResolutionForMasterLesseeLesseeAndOperatorAvailabilityOfFinalDocument"
+          xlink:label="solar_BoardResolutionForMasterLesseeLesseeAndOperatorAvailabilityOfFinalDocument"
+          xlink:type="locator"/>
+        <presentationArc
+          order="2"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_BoardResolutionForMasterLesseeLesseeAndOperatorAbstract"
+          xlink:to="solar_BoardResolutionForMasterLesseeLesseeAndOperatorAvailabilityOfFinalDocument"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_BoardResolutionForMasterLesseeLesseeAndOperatorAvailabilityOfDocumentExceptions"
+          xlink:label="solar_BoardResolutionForMasterLesseeLesseeAndOperatorAvailabilityOfDocumentExceptions"
+          xlink:type="locator"/>
+        <presentationArc
+          order="3"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_BoardResolutionForMasterLesseeLesseeAndOperatorAbstract"
+          xlink:to="solar_BoardResolutionForMasterLesseeLesseeAndOperatorAvailabilityOfDocumentExceptions"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_BoardResolutionForMasterLesseeLesseeAndOperatorExceptionDescription"
+          xlink:label="solar_BoardResolutionForMasterLesseeLesseeAndOperatorExceptionDescription"
+          xlink:type="locator"/>
+        <presentationArc
+          order="4"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_BoardResolutionForMasterLesseeLesseeAndOperatorAbstract"
+          xlink:to="solar_BoardResolutionForMasterLesseeLesseeAndOperatorExceptionDescription"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_BoardResolutionForMasterLesseeLesseeAndOperatorCounterparties"
+          xlink:label="solar_BoardResolutionForMasterLesseeLesseeAndOperatorCounterparties"
+          xlink:type="locator"/>
+        <presentationArc
+          order="5"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_BoardResolutionForMasterLesseeLesseeAndOperatorAbstract"
+          xlink:to="solar_BoardResolutionForMasterLesseeLesseeAndOperatorCounterparties"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_BoardResolutionForMasterLesseeLesseeAndOperatorEffectiveDate"
+          xlink:label="solar_BoardResolutionForMasterLesseeLesseeAndOperatorEffectiveDate"
+          xlink:type="locator"/>
+        <presentationArc
+          order="6"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_BoardResolutionForMasterLesseeLesseeAndOperatorAbstract"
+          xlink:to="solar_BoardResolutionForMasterLesseeLesseeAndOperatorEffectiveDate"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_BoardResolutionForMasterLesseeLesseeAndOperatorExpirationDate"
+          xlink:label="solar_BoardResolutionForMasterLesseeLesseeAndOperatorExpirationDate"
+          xlink:type="locator"/>
+        <presentationArc
+          order="7"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_BoardResolutionForMasterLesseeLesseeAndOperatorAbstract"
+          xlink:to="solar_BoardResolutionForMasterLesseeLesseeAndOperatorExpirationDate"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_BoardResolutionDocumentLink"
+          xlink:label="solar_BoardResolutionDocumentLink"
+          xlink:type="locator"/>
+        <presentationArc
+          order="8"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_BoardResolutionForMasterLesseeLesseeAndOperatorAbstract"
+          xlink:to="solar_BoardResolutionDocumentLink"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_PreparerOfBoardResolutionForMasterLesseeLesseeAndOperator"
+          xlink:label="solar_PreparerOfBoardResolutionForMasterLesseeLesseeAndOperator"
+          xlink:type="locator"/>
+        <presentationArc
+          order="9"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_BoardResolutionForMasterLesseeLesseeAndOperatorAbstract"
+          xlink:to="solar_PreparerOfBoardResolutionForMasterLesseeLesseeAndOperator"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_DocumentIdentifierBoardResolutionForMasterLesseeLesseeAndOperator"
+          xlink:label="solar_DocumentIdentifierBoardResolutionForMasterLesseeLesseeAndOperator"
+          xlink:type="locator"/>
+        <presentationArc
+          order="10"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_BoardResolutionForMasterLesseeLesseeAndOperatorAbstract"
+          xlink:to="solar_DocumentIdentifierBoardResolutionForMasterLesseeLesseeAndOperator"
+          xlink:type="arc"/>
+    </presentationLink>
+</linkbase>

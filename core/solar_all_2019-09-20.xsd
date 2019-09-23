@@ -1,0 +1,1122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Copyright 2019 SunSpec Alliance and XBRL US Inc. 
+
+Licensed under the Apache License, Version 2.0 (the "License"); 
+you may not use this file except in compliance with the License. 
+You may obtain a copy of the License at 
+
+    http://www.apache.org/licenses/LICENSE-2.0 
+
+Unless required by applicable law or agreed to in writing, software 
+distributed under the License is distributed on an "AS IS" BASIS, 
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+See the License for the specific language governing permissions and 
+limitations under the License.
+
+
+Initial Solar taxonomy-->
+<xs:schema
+  attributeFormDefault="unqualified"
+  elementFormDefault="qualified"
+  targetNamespace="http://xbrl.us/Solar/2019-09-20/solar-all"
+  xmlns:dei="http://xbrl.sec.gov/dei/2014-01-31"
+  xmlns:genlink="http://xbrl.org/2008/generic"
+  xmlns:link="http://www.xbrl.org/2003/linkbase"
+  xmlns:nonnum="http://www.xbrl.org/dtr/type/non-numeric"
+  xmlns:solar="http://xbrl.us/Solar/2019-09-20/solar"
+  xmlns:solar-all="http://xbrl.us/Solar/2019-09-20/solar-all"
+  xmlns:us-gaap="http://fasb.org/us-gaap/2017-01-31"
+  xmlns:xbrldt="http://xbrl.org/2005/xbrldt"
+  xmlns:xbrli="http://www.xbrl.org/2003/instance"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:annotation>
+        <xs:documentation>This schema contains core elements for the Solar taxonomy and is a comprehensie list of all roles.</xs:documentation>
+        <xs:appinfo>
+            <link:roleType
+              id="roleType_UML"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/UML">
+                <link:definition>100000 - UML</link:definition>
+                <link:usedOn>genlink:link</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_Site"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/Site">
+                <link:definition>100100 - Data - Site</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_System"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/System">
+                <link:definition>100110 - Data - System</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_SystemDeviceListing"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/SystemDeviceListing">
+                <link:definition>100111 - Data - System Device Listing</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+                <link:usedOn>genlink:link</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_SystemInstallationType"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/SystemInstallationType">
+                <link:definition>100112 - Data - System Installation Type</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_SystemInstallationCost"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/SystemInstallationCost">
+                <link:definition>100113 - Data - System Installation Cost</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_SystemProduction"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/SystemProduction">
+                <link:definition>100115 - Data - System Production</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_Utility"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/Utility">
+                <link:definition>100120 - Data - Utility</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_Entity"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/Entity">
+                <link:definition>100130 - Data - Entity</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_Project"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/Project">
+                <link:definition>100140 - Data - Project</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_Fund"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/Fund">
+                <link:definition>100150 - Data - Fund</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_Developer"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/Developer">
+                <link:definition>100160 - Data - Developer</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_OperationsManager"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/OperationsManager">
+                <link:definition>100170 - Data - Operations Manager</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_AssetManager"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/AssetManager">
+                <link:definition>100180 - Data - Asset Manager</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_Portfolio"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/Portfolio">
+                <link:definition>100185 - Data - Portfolio</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_Sponsor"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/Sponsor">
+                <link:definition>100188 - Data - Sponsor</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_FinancialPerformance"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/FinancialPerformance">
+                <link:definition>100190 - Data - Financial Performance</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+                <link:usedOn>link:calculationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_OperationalPerformance"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/OperationalPerformance">
+                <link:definition>100195 - Data - Operational Performance</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_ComponentMaintenance"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/ComponentMaintenance">
+                <link:definition>100196 - Data - Operational Performance - Component Maintenance</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_ComponentMaintenanceActions"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/ComponentMaintenanceActions">
+                <link:definition>100197 - Data - Operational Performance - Component Maintenance Actions</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_Insurance"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/Insurance">
+                <link:definition>100198 - Data - Insurance</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_AdvisorInvoices"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/AdvisorInvoices">
+                <link:definition>100200 - Documents - Advisor Invoices</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_Appraisal"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/Appraisal">
+                <link:definition>100210 - Documents - Appraisal</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_ApprovalNotice"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/ApprovalNotice">
+                <link:definition>100230 - Documents - Approval Notice</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_AssetManagementContract"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/AssetManagementContract">
+                <link:definition>100240 - Documents - Asset Management Contract</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_AssignmentandAssumptionAgreement"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/AssignmentandAssumptionAgreement">
+                <link:definition>100250 - Documents - Assignment And Assumption Agreement</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_AssignmentOfInterest"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/AssignmentOfInterest">
+                <link:definition>100255 - Documents - Assignment Of Interest</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_BillOfSale"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/BillOfSale">
+                <link:definition>100260 - Documents - Bill Of Sale</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_BoardResolutionforMasterLesseeLesseeandOperator"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/BoardResolutionforMasterLesseeLesseeandOperator">
+                <link:definition>100270 - Documents - Board Resolution for Master Lessee, Lessee and Operator</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_BreakageFeeSideLetter"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/BreakageFeeSideLetter">
+                <link:definition>100280 - Documents - Breakage Fee Side Letter</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_BuildingInspection"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/BuildingInspection">
+                <link:definition>100290 - Documents - Building Inspection</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_BusinessInterruptionInsurancePolicy"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/BusinessInterruptionInsurancePolicy">
+                <link:definition>100295 - Documents - Business Interruption Insurance Policy</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_CasualtyInsurancePolicy"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/CasualtyInsurancePolicy">
+                <link:definition>100297 - Documents - Casualty Insurance Policy</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_CertificateOfAcceptanceReport"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/CertificateOfAcceptanceReport">
+                <link:definition>100300 - Documents - Certificate Of Acceptance Report</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_CertificateOfCompletion"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/CertificateOfCompletion">
+                <link:definition>100310 - Documents - Certificate Of Completion</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_CertificateOfFinalCompletion"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/CertificateOfFinalCompletion">
+                <link:definition>100320 - Documents - Certificate Of Final Completion</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_CertificateOfFormationForMasterLesseeLesseeAndOperator"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/CertificateOfFormationForMasterLesseeLesseeAndOperator">
+                <link:definition>100330 - Documents - Certificate Of Formation For Master Lessee, Lessee And Operator</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_CertificatesofInsurance"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/CertificatesofInsurance">
+                <link:definition>100340 - Documents - Certificates Of Insurance</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_ClosingCertificate"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/ClosingCertificate">
+                <link:definition>100350 - Documents - Closing Certificate</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_ClosingIndemnityAgreement"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/ClosingIndemnityAgreement">
+                <link:definition>100352 - Documents - Closing Indemnity Agreement</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_CoTenancyAgreement"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/CoTenancyAgreement">
+                <link:definition>100355 - Documents - Co Tenancy Agreement</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_CommercialGeneralInsurancePolicy"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/CommercialGeneralInsurancePolicy">
+                <link:definition>100355 - Documents - Commercial General Insurance Policy</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_CommitmentAgreement"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/CommitmentAgreement">
+                <link:definition>100360 - Documents - Commitment Agreement</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_ComponentStatusReport"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/ComponentStatusReport">
+                <link:definition>100365 - Documents - Component Status Report</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_CreditReport"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/CreditReport">
+                <link:definition>100365 - Documents - Credit Report</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_ConstructionContractorNoticeofCertification"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/ConstructionContractorNoticeofCertification">
+                <link:definition>100370 - Documents - Construction Contractor Notice Of Certification</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_ConstructionIssuesReport"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/ConstructionIssuesReport">
+                <link:definition>100373 - Documents - Construction Issues Report</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_ConstructionLoanAgreement"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/ConstructionLoanAgreement">
+                <link:definition>100375 - Documents - Construction Loan Agreement</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_ConstructionMonitoringReport"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/ConstructionMonitoringReport">
+                <link:definition>100380 - Documents - Construction Monitoring Report</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_ContinuityofOperationsAgreement"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/ContinuityofOperationsAgreement">
+                <link:definition>100390 - Documents - Continuity of Operations Agreement</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_CutSheet"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/CutSheet">
+                <link:definition>100395 - Documents - Cut Sheet</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+                <link:usedOn>genlink:link</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_DesignandConstructionDocuments"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/DesignandConstructionDocuments">
+                <link:definition>100400 - Documents - Design And Construction Documents</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_DeveloperPerformanceGuarantee"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/DeveloperPerformanceGuarantee">
+                <link:definition>100410 - Documents - Developer Performance Guarantee</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_EasementReport"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/EasementReport">
+                <link:definition>100420 - Documents - Easement Report</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_ElectricalInspection"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/ElectricalInspection">
+                <link:definition>100430 - Documents - Electrical Inspection</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_EnergyProductionInsurancePolicy"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/EnergyProductionInsurancePolicy">
+                <link:definition>100433 - Documents - Energy Production Insurance Policy</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_EngineeringProcurementAndConstructionContract"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/EngineeringProcurementAndConstructionContract">
+                <link:definition>100435 - Documents - Engineering Procurement And Construction Contract</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_EnvironmentalAssessmentI"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/EnvironmentalAssessmentI">
+                <link:definition>100440 - Documents - Environmental Assessment I</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_EnvironmentalAssessmentII"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/EnvironmentalAssessmentII">
+                <link:definition>100450 - Documents - Environmental Assessment II</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_EnvironmentalImpactReport"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/EnvironmentalImpactReport">
+                <link:definition>100460 - Documents - Environmental Impact Report</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_EquipmentWarranties"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/EquipmentWarranties">
+                <link:definition>100480 - Documents - Equipment Warranties</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_EquityContributionAgreement"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/EquityContributionAgreement">
+                <link:definition>100482 - Documents - Equity Contribution Agreement</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_EquityContributionGuarantee"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/EquityContributionGuarantee">
+                <link:definition>100485 - Documents - Equity Contribution Guarantee</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_EstoppelCertificatePowerPurchaseAgreement"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/EstoppelCertificatePowerPurchaseAgreement">
+                <link:definition>100485 - Documents - Estoppel Certificate Power Purchase Agreement</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_ExposureReport"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/ExposureReport">
+                <link:definition>100490 - Documents - Exposure Report</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_FinancialLeaseSchedule"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/FinancialLeaseSchedule">
+                <link:definition>100495 - Documents - Financial Lease Schedule</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_FundingMemo"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/FundingMemo">
+                <link:definition>100500 - Documents - Funding Memo</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_Guarantees"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/Guarantees">
+                <link:definition>100520 - Documents - Guarantees</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_HedgeAgreement"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/HedgeAgreement">
+                <link:definition>100525 - Documents - Hedge Agreement</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_HostAcknowledgement"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/HostAcknowledgement">
+                <link:definition>100530 - Documents - Host Acknowledgement</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_IECRECertificate"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/IECRECertificate">
+                <link:definition>100535 - Documents - IECRE Certificate</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_IncentiveAssignment"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/IncentiveAssignment">
+                <link:definition>100540 - Documents - Incentive Assignment</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_IncumbencyCertificate"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/IncumbencyCertificate">
+                <link:definition>100550 - Documents - Incumbency Certificate</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_IndependentEngineeringOpinionReport"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/IndependentEngineeringOpinionReport">
+                <link:definition>100560 - Documents - Independent Engineering Opinion Report</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_IndependentEngineeringReport"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/IndependentEngineeringReport">
+                <link:definition>100570 - Documents - Independent Engineering Report</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_IndependentEngineeringServicesCheckList"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/IndependentEngineeringServicesCheckList">
+                <link:definition>100575 - Documents - Independent Engineering Services CheckList</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_InstallationAgreement"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/InstallationAgreement">
+                <link:definition>100580 - Documents - Installation Agreement</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_InsuranceConsultantReport"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/InsuranceConsultantReport">
+                <link:definition>100590 - Documents - Insurance Consultant Report</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_InterconnectionAgreement"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/InterconnectionAgreement">
+                <link:definition>100595 - Documents - Interconnection Agreement</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_InterconnectionApproval"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/InterconnectionApproval">
+                <link:definition>100600 - Documents - Interconnection Approval</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_InvestmentMemo"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/InvestmentMemo">
+                <link:definition>100610 - Documents - Investment Memo</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_InvoiceIncludingWiringInstructions"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/InvoiceIncludingWiringInstructions">
+                <link:definition>100620 - Documents - Invoice Including Wiring Instructions</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_LCCRegistration"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/LCCRegistration">
+                <link:definition>100630 - Documents - LCC Registration</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_LeaseContractForProject"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/LeaseContractForProject">
+                <link:definition>100635 - Documents - Lease Contract For Project</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_LesseeClaimDocuments"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/LesseeClaimDocuments">
+                <link:definition>100640 - Documents - Lessee Claim Documents</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_LesseeCollateralAgencyAgreement"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/LesseeCollateralAgencyAgreement">
+                <link:definition>100650 - Documents - Lessee Collateral Agency Agreement</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_LesseeSecurityAgreement"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/LesseeSecurityAgreement">
+                <link:definition>100660 - Documents - Lessee Security Agreement</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_LetterofCredit"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/LetterofCredit">
+                <link:definition>100670 - Documents - Letter of Credit</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_LiabilityInsuranceCertificate"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/LiabilityInsuranceCertificate">
+                <link:definition>100680 - Documents - Liability Insurance Certificate</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_LienWaiver"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/LienWaiver">
+                <link:definition>100690 - Documents - Lien Waiver</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_LimitedLiabilityCompanyAgreement"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/LimitedLiabilityCompanyAgreement">
+                <link:definition>100700 - Documents - Limited Liability Company Agreement</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_LLCFormationDocuments"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/LLCFormationDocuments">
+                <link:definition>100710 - Documents - LLC Formation Documents</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_LocalIncentiveContract"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/LocalIncentiveContract">
+                <link:definition>100720 - Documents - Local Incentive Contract</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_MasterLease"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/MasterLease">
+                <link:definition>100730 - Documents - Master Lease</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_MasterLesseeSecurityAgreement"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/MasterLesseeSecurityAgreement">
+                <link:definition>100750 - Documents - Master Lessee Security Agreement</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_MasterPurchaseAgreement"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/MasterPurchaseAgreement">
+                <link:definition>100760 - Documents - Master Purchase Agreement</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_MasterServicesAgreement"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/MasterServicesAgreement">
+                <link:definition>100770 - Documents - Master Services Agreement</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_MechanicalCompletionCertificate"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/MechanicalCompletionCertificate">
+                <link:definition>100780 - Documents - Mechanical Completion Certificate</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_MembershipCertificateofLessee"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/MembershipCertificateofLessee">
+                <link:definition>100790 - Documents - Membership Certificate Of Lessee</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_MembershipCertificateofMasterLessee"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/MembershipCertificateofMasterLessee">
+                <link:definition>100800 - Documents - Membership Certificate Of Master Lessee</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_MembershipInterestPurchaseAgreement"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/MembershipInterestPurchaseAgreement">
+                <link:definition>100805 - Documents - Membership Interest Purchase Agreement</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_ModuleAcceleratedAgeTestReport"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/ModuleAcceleratedAgeTestReport">
+                <link:definition>100810 - Documents - Module Accelerated Age Test Report</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_ModuleFactoryAuditReport"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/ModuleFactoryAuditReport">
+                <link:definition>100820 - Documents - Module Factory Audit Report</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_MonthlyOperatingReport"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/MonthlyOperatingReport">
+                <link:definition>100825 - Documents - Monthly Operating Report</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_MonitoringContract"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/MonitoringContract">
+                <link:definition>100830 - Documents - Monitoring Contract</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_NoticeandPaymentInstructions"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/NoticeandPaymentInstructions">
+                <link:definition>100840 - Documents - Notice and Payment Instructions</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_NoticeofApproval"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/NoticeofApproval">
+                <link:definition>100850 - Documents - Notice Of Approval</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_NoticeOfCommercialOperation"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/NoticeOfCommercialOperation">
+                <link:definition>100860 - Documents - Notice Of Commercial Operation</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_NoticeofCommercialOperationsDate"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/NoticeofCommercialOperationsDate">
+                <link:definition>100870 - Documents - Notice Of Commercial Operations Date</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_OperatingAgreementsForMasterLesseeLesseeandOperator"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/OperatingAgreementsForMasterLesseeLesseeandOperator">
+                <link:definition>100880 - Documents - Operating Agreements For Master Lessee, Lessee And Operator</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_OperationalEventReport"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/OperationalEventReport">
+                <link:definition>100885 - Documents - Operational Event Report</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_OperationalIssuesReport"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/OperationalIssuesReport">
+                <link:definition>100887 - Documents - Operational Issues Report</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_OperationsandMaintenanceContract"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/OperationsandMaintenanceContract">
+                <link:definition>100890 - Documents - Operations And Maintenance Contract</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_OperationsandMaintenanceManual"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/OperationsandMaintenanceManual">
+                <link:definition>100900 - Documents - Operations And Maintenance Manual</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_OperationsAndMaintenanceSubcontractorContract"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/OperationsAndMaintenanceSubcontractorContract">
+                <link:definition>100905 - Documents - Operations and Maintenance Subcontractor Contract</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_OperationsManual"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/OperationsManual">
+                <link:definition>100910 - Documents - Operations Manual</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_OperatorGuarantee"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/OperatorGuarantee">
+                <link:definition>100920 - Documents - Operator Guarantee</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_OperatorPerformanceSponsorGuaranteeContract"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/OperatorPerformanceSponsorGuaranteeContract">
+                <link:definition>100925 - Documents - Operator Performance Sponsor Guarantee Contract</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_OriginationRequest"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/OriginationRequest">
+                <link:definition>100930 - Documents - Origination Request</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_OtherEquipmentDueDiligenceReports"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/OtherEquipmentDueDiligenceReports">
+                <link:definition>100940 - Documents - Other Equipment Due Diligence Reports</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_ParentGuarantee"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/ParentGuarantee">
+                <link:definition>100950 - Documents - Parent Guarantee</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_PartnershipFlipContractForProject"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/PartnershipFlipContractForProject">
+                <link:definition>100953 - Documents - Partnership Flip Contract For Project</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_PerformanceGuarantee"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/PerformanceGuarantee">
+                <link:definition>100960 - Documents - Performance Guarantee</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_PermissionToOperateInterconnectionApproval"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/PermissionToOperateInterconnectionApproval">
+                <link:definition>100970 - Documents - Permission To Operate Interconnection Approval</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_PledgeAgreement"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/PledgeAgreement">
+                <link:definition>100980 - Documents - Pledge Agreement</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_PowerPurchaseAgreement"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/PowerPurchaseAgreement">
+                <link:definition>100990 - Documents - Power Purchase Agreement</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_PricingFile"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/PricingFile">
+                <link:definition>101000 - Documents - Pricing File</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_PricingModelReport"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/PricingModelReport">
+                <link:definition>101005 - Documents - Pricing Model Report</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_ProjectAdministrationAgreement"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/ProjectAdministrationAgreement">
+                <link:definition>101005 - Documents - Project Administration Agreement</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_PropertyInsuranceCertificate"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/PropertyInsuranceCertificate">
+                <link:definition>101010 - Documents - Property Insurance Certificate</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_PropertyInsurancePolicy"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/PropertyInsurancePolicy">
+                <link:definition>101015 - Documents - Property Insurance Policy</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_PropertyTaxExemptionOpinion"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/PropertyTaxExemptionOpinion">
+                <link:definition>101020 - Documents - Property Tax Exemption Opinion</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_PunchList"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/PunchList">
+                <link:definition>101030 - Documents - Punch List</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_QualifyingFacilitiesSelfCertification"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/QualifyingFacilitiesSelfCertification">
+                <link:definition>101035 - Documents - Qualifying Facilities Self Certification</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_RECBuyerAcknowledgement"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/RECBuyerAcknowledgement">
+                <link:definition>101040 - Documents - Renewable Energy Credit Buyer Acknowledgement</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_RenewableEnergyCreditOfftakeAgreement"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/RenewableEnergyCreditOfftakeAgreement">
+                <link:definition>101045 - Documents - Renewable Energy Credit Offtaker Agreement</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_RenewableEnergyCreditPerformanceAgreement"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/RenewableEnergyCreditPerformanceAgreement">
+                <link:definition>101047 - Documents - Renewable Energy Credit Performance Agreement</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_SalesLeasebackContractForProject"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/SalesLeasebackContractForProject">
+                <link:definition>101055 - Documents - Sales Leaseback Contract For Project</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_SecurityAgreementSupplement"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/SecurityAgreementSupplement">
+                <link:definition>101060 - Documents - Security Agreement Supplement</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_SecurityContract"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/SecurityContract">
+                <link:definition>101063 - Documents - Security Contract</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_SharedFacilityAgreement"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/SharedFacilityAgreement">
+                <link:definition>101065 - Documents - Shared Facility Agreement</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_SiteControlContract"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/SiteControlContract">
+                <link:definition>101068 - Documents - Site Control Contract</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_SiteLease"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/SiteLease">
+                <link:definition>101070 - Documents - Site Lease</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_SiteLeaseAssignment"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/SiteLeaseAssignment">
+                <link:definition>101080 - Documents - Site Lease Assignment</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_SiteLeaseMemo"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/SiteLeaseMemo">
+                <link:definition>101090 - Documents - Site Lease Memo</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_SiteLicenseAgreement"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/SiteLicenseAgreement">
+                <link:definition>101100 - Documents - Site License Agreement</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_SubstantialCompletionCertificate"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/SubstantialCompletionCertificate">
+                <link:definition>101110 - Documents - Substantial Completion Certificate</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_SupplementalReportReviewOfLocalTaxReview"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/SupplementalReportReviewOfLocalTaxReview">
+                <link:definition>101115 - Documents - Supplemental Report Review Of Local Tax Review</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_SupplyAgreements"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/SupplyAgreements">
+                <link:definition>101120 - Documents - Supply Agreements</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_SuretyBondPolicy"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/SuretyBondPolicy">
+                <link:definition>101125 - Documents - Surety Bond Policy</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_TaxIndemnityAgreement"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/TaxIndemnityAgreement">
+                <link:definition>101130 - Documents - Tax Indemnity Agreement</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_TaxOpinion"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/TaxOpinion">
+                <link:definition>101140 - Documents - Tax Opinion</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_TermLoan"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/TermLoan">
+                <link:definition>101145 - Documents - Term Loan</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_TermSheet"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/TermSheet">
+                <link:definition>101150 - Documents - Term Sheet</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_TitleSurvey"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/TitleSurvey">
+                <link:definition>101160 - Documents - Title Survey</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_TransmissionReportandCurtailmentEstimate"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/TransmissionReportandCurtailmentEstimate">
+                <link:definition>101170 - Documents - Transmission Report and Curtailment Estimate</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_UCCPrecautionaryLeaseFiling"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/UCCPrecautionaryLeaseFiling">
+                <link:definition>101180 - Documents - UCC Precautionary Lease Filing</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_UCCSecurityAgreement"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/UCCSecurityAgreement">
+                <link:definition>101190 - Documents - UCC Security Agreement</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_UCCTaxLienandJudgmentLienSearches"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/UCCTaxLienandJudgmentLienSearches">
+                <link:definition>101210 - Documents - UCC Tax, Lien and Judgment Lien Searches</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_UniversalInsurancePolicy"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/UniversalInsurancePolicy">
+                <link:definition>101213 - Documents - Universal Insurance Policy</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_VegetationManagementAgreement"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/VegetationManagementAgreement">
+                <link:definition>101215 - Documents - Vegetation Management Agreement</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_WashingAndWasteAgreement"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/WashingAndWasteAgreement">
+                <link:definition>101216 - Documents - Washing And Waste Agreement</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_WiringInstructions"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/WiringInstructions">
+                <link:definition>101220 - Documents - Wiring Instructions</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_WorkersCompensationInsurancePolicy"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/WorkersCompensationInsurancePolicy">
+                <link:definition>101230 - Documents - Workers Compensation Insurance Policy</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_ProjectFinancing"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/ProjectFinancing">
+                <link:definition>101830 - Process - Project Financing</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+                <link:usedOn>link:definitionLink</link:usedOn>
+            </link:roleType>
+            <link:roleType
+              id="roleType_Monitoring"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/Monitoring">
+                <link:definition>101900 - Monitoring</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:linkbaseRef
+              xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"
+              xlink:href="solar_all_2019-09-20_pre.xml"
+              xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef"
+              xlink:type="simple"/>
+            <link:linkbaseRef
+              xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"
+              xlink:href="solar_all_2019-09-20_def.xml"
+              xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef"
+              xlink:type="simple"/>
+            <link:linkbaseRef
+              xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"
+              xlink:href="solar_all_2019-09-20_cal.xml"
+              xlink:role="http://www.xbrl.org/2003/role/calculationLinkbaseRef"
+              xlink:type="simple"/>
+            <link:linkbaseRef
+              xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"
+              xlink:href="solar_all_2019-09-20_uml.xml"
+              xlink:type="simple"/>
+        </xs:appinfo>
+    </xs:annotation>
+    <xs:import
+      namespace="http://fasb.org/us-gaap/2017-01-31"
+      schemaLocation="http://xbrl.fasb.org/us-gaap/2017/elts/us-gaap-2017-01-31.xsd"/>
+    <xs:import
+      namespace="http://www.xbrl.org/2003/instance"
+      schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+    <xs:import
+      namespace="http://xbrl.org/2005/xbrldt"
+      schemaLocation="http://www.xbrl.org/2005/xbrldt-2005.xsd"/>
+    <xs:import
+      namespace="http://xbrl.sec.gov/dei/2014-01-31"
+      schemaLocation="http://xbrl.sec.gov/dei/2014/dei-2014-01-31.xsd"/>
+    <xs:import
+      namespace="http://xbrl.us/Solar/2019-09-20/solar"
+      schemaLocation="solar_2019-09-20.xsd"/>
+</xs:schema>

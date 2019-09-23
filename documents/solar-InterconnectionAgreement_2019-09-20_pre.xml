@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Copyright 2019 SunSpec Alliance and XBRL US Inc. 
+
+Licensed under the Apache License, Version 2.0 (the "License"); 
+you may not use this file except in compliance with the License. 
+You may obtain a copy of the License at 
+
+    http://www.apache.org/licenses/LICENSE-2.0 
+
+Unless required by applicable law or agreed to in writing, software 
+distributed under the License is distributed on an "AS IS" BASIS, 
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+See the License for the specific language governing permissions and 
+limitations under the License.
+
+
+Orange Button Taxonomy - InterconnectionAgreement-->
+<linkbase
+  xmlns="http://www.xbrl.org/2003/linkbase"
+  xmlns:xbrli="http://www.xbrl.org/2003/instance"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+    <roleRef
+      roleURI="http://xbrl.us/Solar/2019-09-20/roles/InterconnectionAgreement"
+      xlink:href="../documents\solar-InterconnectionAgreement_2019-09-20.xsd#roleType_InterconnectionAgreement"
+      xlink:type="simple"/>
+    <presentationLink
+      xlink:role="http://xbrl.us/Solar/2019-09-20/roles/InterconnectionAgreement"
+      xlink:type="extended">
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_InterconnectionAgreementAbstract"
+          xlink:label="solar_InterconnectionAgreementAbstract"
+          xlink:type="locator"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_InterconnectionAgreementType"
+          xlink:label="solar_InterconnectionAgreementType"
+          xlink:type="locator"/>
+        <presentationArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_InterconnectionAgreementAbstract"
+          xlink:to="solar_InterconnectionAgreementType"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_InterconnectionAgreementCustomer"
+          xlink:label="solar_InterconnectionAgreementCustomer"
+          xlink:type="locator"/>
+        <presentationArc
+          order="2"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_InterconnectionAgreementAbstract"
+          xlink:to="solar_InterconnectionAgreementCustomer"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_InterconnectionAgreementEffectiveDate"
+          xlink:label="solar_InterconnectionAgreementEffectiveDate"
+          xlink:type="locator"/>
+        <presentationArc
+          order="3"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_InterconnectionAgreementAbstract"
+          xlink:to="solar_InterconnectionAgreementEffectiveDate"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_InterconnectionAgreementInterconnectionProvider"
+          xlink:label="solar_InterconnectionAgreementInterconnectionProvider"
+          xlink:type="locator"/>
+        <presentationArc
+          order="4"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_InterconnectionAgreementAbstract"
+          xlink:to="solar_InterconnectionAgreementInterconnectionProvider"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_InterconnectionAgreementPointOfInterconnection"
+          xlink:label="solar_InterconnectionAgreementPointOfInterconnection"
+          xlink:type="locator"/>
+        <presentationArc
+          order="5"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_InterconnectionAgreementAbstract"
+          xlink:to="solar_InterconnectionAgreementPointOfInterconnection"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_InterconnectionAgreementSpecialFeatures"
+          xlink:label="solar_InterconnectionAgreementSpecialFeatures"
+          xlink:type="locator"/>
+        <presentationArc
+          order="6"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_InterconnectionAgreementAbstract"
+          xlink:to="solar_InterconnectionAgreementSpecialFeatures"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_InterconnectionAgreementAvailabilityOfDocument"
+          xlink:label="solar_InterconnectionAgreementAvailabilityOfDocument"
+          xlink:type="locator"/>
+        <presentationArc
+          order="7"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_InterconnectionAgreementAbstract"
+          xlink:to="solar_InterconnectionAgreementAvailabilityOfDocument"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_InterconnectionAgreementAvailabilityOfFinalDocument"
+          xlink:label="solar_InterconnectionAgreementAvailabilityOfFinalDocument"
+          xlink:type="locator"/>
+        <presentationArc
+          order="8"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_InterconnectionAgreementAbstract"
+          xlink:to="solar_InterconnectionAgreementAvailabilityOfFinalDocument"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_InterconnectionAgreementAvailabilityOfDocumentExceptions"
+          xlink:label="solar_InterconnectionAgreementAvailabilityOfDocumentExceptions"
+          xlink:type="locator"/>
+        <presentationArc
+          order="9"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_InterconnectionAgreementAbstract"
+          xlink:to="solar_InterconnectionAgreementAvailabilityOfDocumentExceptions"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_InterconnectionAgreementExceptionDescription"
+          xlink:label="solar_InterconnectionAgreementExceptionDescription"
+          xlink:type="locator"/>
+        <presentationArc
+          order="10"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_InterconnectionAgreementAbstract"
+          xlink:to="solar_InterconnectionAgreementExceptionDescription"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_InterconnectionAgreementCounterparties"
+          xlink:label="solar_InterconnectionAgreementCounterparties"
+          xlink:type="locator"/>
+        <presentationArc
+          order="11"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_InterconnectionAgreementAbstract"
+          xlink:to="solar_InterconnectionAgreementCounterparties"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_InterconnectionAgreementExpirationDate"
+          xlink:label="solar_InterconnectionAgreementExpirationDate"
+          xlink:type="locator"/>
+        <presentationArc
+          order="12"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_InterconnectionAgreementAbstract"
+          xlink:to="solar_InterconnectionAgreementExpirationDate"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_InterconnectionAgreementDocumentLink"
+          xlink:label="solar_InterconnectionAgreementDocumentLink"
+          xlink:type="locator"/>
+        <presentationArc
+          order="13"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_InterconnectionAgreementAbstract"
+          xlink:to="solar_InterconnectionAgreementDocumentLink"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_DocumentIdentifierInterconnectionAgreement"
+          xlink:label="solar_DocumentIdentifierInterconnectionAgreement"
+          xlink:type="locator"/>
+        <presentationArc
+          order="14"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_InterconnectionAgreementAbstract"
+          xlink:to="solar_DocumentIdentifierInterconnectionAgreement"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_PreparerOfInterconnectionAgreement"
+          xlink:label="solar_PreparerOfInterconnectionAgreement"
+          xlink:type="locator"/>
+        <presentationArc
+          order="15"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_InterconnectionAgreementAbstract"
+          xlink:to="solar_PreparerOfInterconnectionAgreement"
+          xlink:type="arc"/>
+    </presentationLink>
+</linkbase>

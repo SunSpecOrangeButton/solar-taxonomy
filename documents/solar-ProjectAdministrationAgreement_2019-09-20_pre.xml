@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Copyright 2019 SunSpec Alliance and XBRL US Inc. 
+
+Licensed under the Apache License, Version 2.0 (the "License"); 
+you may not use this file except in compliance with the License. 
+You may obtain a copy of the License at 
+
+    http://www.apache.org/licenses/LICENSE-2.0 
+
+Unless required by applicable law or agreed to in writing, software 
+distributed under the License is distributed on an "AS IS" BASIS, 
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+See the License for the specific language governing permissions and 
+limitations under the License.
+
+
+Orange Button Taxonomy - ProjectAdministrationAgreement-->
+<linkbase
+  xmlns="http://www.xbrl.org/2003/linkbase"
+  xmlns:xbrli="http://www.xbrl.org/2003/instance"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+    <roleRef
+      roleURI="http://xbrl.us/Solar/2019-09-20/roles/ProjectAdministrationAgreement"
+      xlink:href="../documents\solar-ProjectAdministrationAgreement_2019-09-20.xsd#roleType_ProjectAdministrationAgreement"
+      xlink:type="simple"/>
+    <presentationLink
+      xlink:role="http://xbrl.us/Solar/2019-09-20/roles/ProjectAdministrationAgreement"
+      xlink:type="extended">
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_ProjectAdministrationAgreement"
+          xlink:label="solar_ProjectAdministrationAgreement"
+          xlink:type="locator"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_ProjectAdministrationAgreementAvailabilityOfDocument"
+          xlink:label="solar_ProjectAdministrationAgreementAvailabilityOfDocument"
+          xlink:type="locator"/>
+        <presentationArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_ProjectAdministrationAgreement"
+          xlink:to="solar_ProjectAdministrationAgreementAvailabilityOfDocument"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_ProjectAdministrationAgreementAvailabilityOfFinalDocument"
+          xlink:label="solar_ProjectAdministrationAgreementAvailabilityOfFinalDocument"
+          xlink:type="locator"/>
+        <presentationArc
+          order="2"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_ProjectAdministrationAgreement"
+          xlink:to="solar_ProjectAdministrationAgreementAvailabilityOfFinalDocument"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_ProjectAdministrationAgreementAvailabilityOfDocumentExceptions"
+          xlink:label="solar_ProjectAdministrationAgreementAvailabilityOfDocumentExceptions"
+          xlink:type="locator"/>
+        <presentationArc
+          order="3"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_ProjectAdministrationAgreement"
+          xlink:to="solar_ProjectAdministrationAgreementAvailabilityOfDocumentExceptions"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_ProjectAdministrationAgreementExceptionDescription"
+          xlink:label="solar_ProjectAdministrationAgreementExceptionDescription"
+          xlink:type="locator"/>
+        <presentationArc
+          order="4"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_ProjectAdministrationAgreement"
+          xlink:to="solar_ProjectAdministrationAgreementExceptionDescription"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_ProjectAdministrationAgreementCounterparties"
+          xlink:label="solar_ProjectAdministrationAgreementCounterparties"
+          xlink:type="locator"/>
+        <presentationArc
+          order="5"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_ProjectAdministrationAgreement"
+          xlink:to="solar_ProjectAdministrationAgreementCounterparties"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_ProjectAdministrationAgreementEffectiveDate"
+          xlink:label="solar_ProjectAdministrationAgreementEffectiveDate"
+          xlink:type="locator"/>
+        <presentationArc
+          order="6"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_ProjectAdministrationAgreement"
+          xlink:to="solar_ProjectAdministrationAgreementEffectiveDate"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_ProjectAdministrationAgreementExpirationDate"
+          xlink:label="solar_ProjectAdministrationAgreementExpirationDate"
+          xlink:type="locator"/>
+        <presentationArc
+          order="7"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_ProjectAdministrationAgreement"
+          xlink:to="solar_ProjectAdministrationAgreementExpirationDate"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_ProjectAdministrationAgreementDocumentLink"
+          xlink:label="solar_ProjectAdministrationAgreementDocumentLink"
+          xlink:type="locator"/>
+        <presentationArc
+          order="8"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_ProjectAdministrationAgreement"
+          xlink:to="solar_ProjectAdministrationAgreementDocumentLink"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_PreparerOfProjectAdministrationAgreement"
+          xlink:label="solar_PreparerOfProjectAdministrationAgreement"
+          xlink:type="locator"/>
+        <presentationArc
+          order="9"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_ProjectAdministrationAgreement"
+          xlink:to="solar_PreparerOfProjectAdministrationAgreement"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_DocumentIdentifierProjectAdministrationAgreement"
+          xlink:label="solar_DocumentIdentifierProjectAdministrationAgreement"
+          xlink:type="locator"/>
+        <presentationArc
+          order="10"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_ProjectAdministrationAgreement"
+          xlink:to="solar_DocumentIdentifierProjectAdministrationAgreement"
+          xlink:type="arc"/>
+    </presentationLink>
+</linkbase>

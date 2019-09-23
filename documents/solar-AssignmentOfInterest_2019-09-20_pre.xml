@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Copyright 2019 SunSpec Alliance and XBRL US Inc. 
+
+Licensed under the Apache License, Version 2.0 (the "License"); 
+you may not use this file except in compliance with the License. 
+You may obtain a copy of the License at 
+
+    http://www.apache.org/licenses/LICENSE-2.0 
+
+Unless required by applicable law or agreed to in writing, software 
+distributed under the License is distributed on an "AS IS" BASIS, 
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+See the License for the specific language governing permissions and 
+limitations under the License.
+
+
+Orange Button Taxonomy - AssignmentOfInterest-->
+<linkbase
+  xmlns="http://www.xbrl.org/2003/linkbase"
+  xmlns:xbrli="http://www.xbrl.org/2003/instance"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+    <roleRef
+      roleURI="http://xbrl.us/Solar/2019-09-20/roles/AssignmentOfInterest"
+      xlink:href="../documents\solar-AssignmentOfInterest_2019-09-20.xsd#roleType_AssignmentOfInterest"
+      xlink:type="simple"/>
+    <presentationLink
+      xlink:role="http://xbrl.us/Solar/2019-09-20/roles/AssignmentOfInterest"
+      xlink:type="extended">
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_AssignmentOfInterestAbstract"
+          xlink:label="solar_AssignmentOfInterestAbstract"
+          xlink:type="locator"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_AssignmentOfInterestAvailabilityOfDocument"
+          xlink:label="solar_AssignmentOfInterestAvailabilityOfDocument"
+          xlink:type="locator"/>
+        <presentationArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_AssignmentOfInterestAbstract"
+          xlink:to="solar_AssignmentOfInterestAvailabilityOfDocument"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_AssignmentOfInterestAvailabilityOfFinalDocument"
+          xlink:label="solar_AssignmentOfInterestAvailabilityOfFinalDocument"
+          xlink:type="locator"/>
+        <presentationArc
+          order="2"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_AssignmentOfInterestAbstract"
+          xlink:to="solar_AssignmentOfInterestAvailabilityOfFinalDocument"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_AssignmentOfInterestAvailabilityOfDocumentExceptions"
+          xlink:label="solar_AssignmentOfInterestAvailabilityOfDocumentExceptions"
+          xlink:type="locator"/>
+        <presentationArc
+          order="3"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_AssignmentOfInterestAbstract"
+          xlink:to="solar_AssignmentOfInterestAvailabilityOfDocumentExceptions"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_AssignmentOfInterestExceptionDescription"
+          xlink:label="solar_AssignmentOfInterestExceptionDescription"
+          xlink:type="locator"/>
+        <presentationArc
+          order="4"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_AssignmentOfInterestAbstract"
+          xlink:to="solar_AssignmentOfInterestExceptionDescription"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_AssignmentOfInterestCounterparties"
+          xlink:label="solar_AssignmentOfInterestCounterparties"
+          xlink:type="locator"/>
+        <presentationArc
+          order="5"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_AssignmentOfInterestAbstract"
+          xlink:to="solar_AssignmentOfInterestCounterparties"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_AssignmentOfInterestEffectiveDate"
+          xlink:label="solar_AssignmentOfInterestEffectiveDate"
+          xlink:type="locator"/>
+        <presentationArc
+          order="6"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_AssignmentOfInterestAbstract"
+          xlink:to="solar_AssignmentOfInterestEffectiveDate"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_AssignmentOfInterestExpirationDate"
+          xlink:label="solar_AssignmentOfInterestExpirationDate"
+          xlink:type="locator"/>
+        <presentationArc
+          order="7"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_AssignmentOfInterestAbstract"
+          xlink:to="solar_AssignmentOfInterestExpirationDate"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_AssignmentOfInterestDocumentLink"
+          xlink:label="solar_AssignmentOfInterestDocumentLink"
+          xlink:type="locator"/>
+        <presentationArc
+          order="8"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_AssignmentOfInterestAbstract"
+          xlink:to="solar_AssignmentOfInterestDocumentLink"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_PreparerOfAssignmentOfInterest"
+          xlink:label="solar_PreparerOfAssignmentOfInterest"
+          xlink:type="locator"/>
+        <presentationArc
+          order="9"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_AssignmentOfInterestAbstract"
+          xlink:to="solar_PreparerOfAssignmentOfInterest"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_DocumentIdentifierAssignmentOfInterest"
+          xlink:label="solar_DocumentIdentifierAssignmentOfInterest"
+          xlink:type="locator"/>
+        <presentationArc
+          order="10"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_AssignmentOfInterestAbstract"
+          xlink:to="solar_DocumentIdentifierAssignmentOfInterest"
+          xlink:type="arc"/>
+    </presentationLink>
+</linkbase>

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Copyright 2019 SunSpec Alliance and XBRL US Inc. 
+
+Licensed under the Apache License, Version 2.0 (the "License"); 
+you may not use this file except in compliance with the License. 
+You may obtain a copy of the License at 
+
+    http://www.apache.org/licenses/LICENSE-2.0 
+
+Unless required by applicable law or agreed to in writing, software 
+distributed under the License is distributed on an "AS IS" BASIS, 
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+See the License for the specific language governing permissions and 
+limitations under the License.
+
+
+Orange Button Taxonomy - SiteLeaseMemo-->
+<linkbase
+  xmlns="http://www.xbrl.org/2003/linkbase"
+  xmlns:xbrli="http://www.xbrl.org/2003/instance"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+    <roleRef
+      roleURI="http://xbrl.us/Solar/2019-09-20/roles/SiteLeaseMemo"
+      xlink:href="../documents\solar-SiteLeaseMemo_2019-09-20.xsd#roleType_SiteLeaseMemo"
+      xlink:type="simple"/>
+    <presentationLink
+      xlink:role="http://xbrl.us/Solar/2019-09-20/roles/SiteLeaseMemo"
+      xlink:type="extended">
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_SiteLeaseMemoAbstract"
+          xlink:label="solar_SiteLeaseMemoAbstract"
+          xlink:type="locator"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_SiteIdentifierTable"
+          xlink:label="solar_SiteIdentifierTable"
+          xlink:type="locator"/>
+        <presentationArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_SiteLeaseMemoAbstract"
+          xlink:to="solar_SiteIdentifierTable"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_SiteIdentifierAxis"
+          xlink:label="solar_SiteIdentifierAxis"
+          xlink:type="locator"/>
+        <presentationArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_SiteIdentifierTable"
+          xlink:to="solar_SiteIdentifierAxis"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_SiteLeaseMemoLineItems"
+          xlink:label="solar_SiteLeaseMemoLineItems"
+          xlink:type="locator"/>
+        <presentationArc
+          order="2"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_SiteIdentifierTable"
+          xlink:to="solar_SiteLeaseMemoLineItems"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_SiteLeaseMemoAvailabilityOfDocument"
+          xlink:label="solar_SiteLeaseMemoAvailabilityOfDocument"
+          xlink:type="locator"/>
+        <presentationArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_SiteLeaseMemoLineItems"
+          xlink:to="solar_SiteLeaseMemoAvailabilityOfDocument"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_SiteLeaseMemoAvailabilityOfFinalDocument"
+          xlink:label="solar_SiteLeaseMemoAvailabilityOfFinalDocument"
+          xlink:type="locator"/>
+        <presentationArc
+          order="2"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_SiteLeaseMemoLineItems"
+          xlink:to="solar_SiteLeaseMemoAvailabilityOfFinalDocument"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_SiteLeaseMemoAvailabilityOfDocumentExceptions"
+          xlink:label="solar_SiteLeaseMemoAvailabilityOfDocumentExceptions"
+          xlink:type="locator"/>
+        <presentationArc
+          order="3"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_SiteLeaseMemoLineItems"
+          xlink:to="solar_SiteLeaseMemoAvailabilityOfDocumentExceptions"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_SiteLeaseMemoExceptionDescription"
+          xlink:label="solar_SiteLeaseMemoExceptionDescription"
+          xlink:type="locator"/>
+        <presentationArc
+          order="4"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_SiteLeaseMemoLineItems"
+          xlink:to="solar_SiteLeaseMemoExceptionDescription"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_SiteLeaseMemoCounterparties"
+          xlink:label="solar_SiteLeaseMemoCounterparties"
+          xlink:type="locator"/>
+        <presentationArc
+          order="5"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_SiteLeaseMemoLineItems"
+          xlink:to="solar_SiteLeaseMemoCounterparties"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_SiteLeaseMemoEffectiveDate"
+          xlink:label="solar_SiteLeaseMemoEffectiveDate"
+          xlink:type="locator"/>
+        <presentationArc
+          order="6"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_SiteLeaseMemoLineItems"
+          xlink:to="solar_SiteLeaseMemoEffectiveDate"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_SiteLeaseMemoExpirationDate"
+          xlink:label="solar_SiteLeaseMemoExpirationDate"
+          xlink:type="locator"/>
+        <presentationArc
+          order="7"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_SiteLeaseMemoLineItems"
+          xlink:to="solar_SiteLeaseMemoExpirationDate"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_SiteLeaseMemoDocumentLink"
+          xlink:label="solar_SiteLeaseMemoDocumentLink"
+          xlink:type="locator"/>
+        <presentationArc
+          order="8"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_SiteLeaseMemoLineItems"
+          xlink:to="solar_SiteLeaseMemoDocumentLink"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_PreparerOfSiteLeaseMemo"
+          xlink:label="solar_PreparerOfSiteLeaseMemo"
+          xlink:type="locator"/>
+        <presentationArc
+          order="9"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_SiteLeaseMemoLineItems"
+          xlink:to="solar_PreparerOfSiteLeaseMemo"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_DocumentIdentifierSiteLeaseMemo"
+          xlink:label="solar_DocumentIdentifierSiteLeaseMemo"
+          xlink:type="locator"/>
+        <presentationArc
+          order="10"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_SiteLeaseMemoLineItems"
+          xlink:to="solar_DocumentIdentifierSiteLeaseMemo"
+          xlink:type="arc"/>
+    </presentationLink>
+</linkbase>

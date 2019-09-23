@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Copyright 2019 SunSpec Alliance and XBRL US Inc. 
+
+Licensed under the Apache License, Version 2.0 (the "License"); 
+you may not use this file except in compliance with the License. 
+You may obtain a copy of the License at 
+
+    http://www.apache.org/licenses/LICENSE-2.0 
+
+Unless required by applicable law or agreed to in writing, software 
+distributed under the License is distributed on an "AS IS" BASIS, 
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+See the License for the specific language governing permissions and 
+limitations under the License.
+
+
+Orange Button Taxonomy - EnvironmentalAssessmentII-->
+<linkbase
+  xmlns="http://www.xbrl.org/2003/linkbase"
+  xmlns:xbrli="http://www.xbrl.org/2003/instance"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+    <roleRef
+      roleURI="http://xbrl.us/Solar/2019-09-20/roles/EnvironmentalAssessmentII"
+      xlink:href="../documents\solar-EnvironmentalAssessmentII_2019-09-20.xsd#roleType_EnvironmentalAssessmentII"
+      xlink:type="simple"/>
+    <presentationLink
+      xlink:role="http://xbrl.us/Solar/2019-09-20/roles/EnvironmentalAssessmentII"
+      xlink:type="extended">
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_EnvironmentalSiteAssessmentIIAbstract"
+          xlink:label="solar_EnvironmentalSiteAssessmentIIAbstract"
+          xlink:type="locator"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_SiteIdentifierTable"
+          xlink:label="solar_SiteIdentifierTable"
+          xlink:type="locator"/>
+        <presentationArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_EnvironmentalSiteAssessmentIIAbstract"
+          xlink:to="solar_SiteIdentifierTable"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_SiteIdentifierAxis"
+          xlink:label="solar_SiteIdentifierAxis"
+          xlink:type="locator"/>
+        <presentationArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_SiteIdentifierTable"
+          xlink:to="solar_SiteIdentifierAxis"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_EnvironmentalSiteAssessmentIILineItems"
+          xlink:label="solar_EnvironmentalSiteAssessmentIILineItems"
+          xlink:type="locator"/>
+        <presentationArc
+          order="2"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_SiteIdentifierTable"
+          xlink:to="solar_EnvironmentalSiteAssessmentIILineItems"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_EnvironmentalSiteAssessmentIIAvailabilityOfDocument"
+          xlink:label="solar_EnvironmentalSiteAssessmentIIAvailabilityOfDocument"
+          xlink:type="locator"/>
+        <presentationArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_EnvironmentalSiteAssessmentIILineItems"
+          xlink:to="solar_EnvironmentalSiteAssessmentIIAvailabilityOfDocument"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_EnvironmentalSiteAssessmentIIAvailabilityOfFinalDocument"
+          xlink:label="solar_EnvironmentalSiteAssessmentIIAvailabilityOfFinalDocument"
+          xlink:type="locator"/>
+        <presentationArc
+          order="2"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_EnvironmentalSiteAssessmentIILineItems"
+          xlink:to="solar_EnvironmentalSiteAssessmentIIAvailabilityOfFinalDocument"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_EnvironmentalSiteAssessmentIIAvailabilityOfDocumentExceptions"
+          xlink:label="solar_EnvironmentalSiteAssessmentIIAvailabilityOfDocumentExceptions"
+          xlink:type="locator"/>
+        <presentationArc
+          order="3"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_EnvironmentalSiteAssessmentIILineItems"
+          xlink:to="solar_EnvironmentalSiteAssessmentIIAvailabilityOfDocumentExceptions"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_EnvironmentalSiteAssessmentIIExceptionDescription"
+          xlink:label="solar_EnvironmentalSiteAssessmentIIExceptionDescription"
+          xlink:type="locator"/>
+        <presentationArc
+          order="4"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_EnvironmentalSiteAssessmentIILineItems"
+          xlink:to="solar_EnvironmentalSiteAssessmentIIExceptionDescription"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_EnvironmentalSiteAssessmentIICounterparties"
+          xlink:label="solar_EnvironmentalSiteAssessmentIICounterparties"
+          xlink:type="locator"/>
+        <presentationArc
+          order="5"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_EnvironmentalSiteAssessmentIILineItems"
+          xlink:to="solar_EnvironmentalSiteAssessmentIICounterparties"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_EnvironmentalSiteAssessmentIIEffectiveDate"
+          xlink:label="solar_EnvironmentalSiteAssessmentIIEffectiveDate"
+          xlink:type="locator"/>
+        <presentationArc
+          order="6"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_EnvironmentalSiteAssessmentIILineItems"
+          xlink:to="solar_EnvironmentalSiteAssessmentIIEffectiveDate"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_EnvironmentalSiteAssessmentIIExpirationDate"
+          xlink:label="solar_EnvironmentalSiteAssessmentIIExpirationDate"
+          xlink:type="locator"/>
+        <presentationArc
+          order="7"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_EnvironmentalSiteAssessmentIILineItems"
+          xlink:to="solar_EnvironmentalSiteAssessmentIIExpirationDate"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_EnvironmentalSiteAssessmentIIReportAuthor"
+          xlink:label="solar_EnvironmentalSiteAssessmentIIReportAuthor"
+          xlink:type="locator"/>
+        <presentationArc
+          order="8"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_EnvironmentalSiteAssessmentIILineItems"
+          xlink:to="solar_EnvironmentalSiteAssessmentIIReportAuthor"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_EnvironmentalSiteAssessmentIIRecognizedEnvironmentalCondition"
+          xlink:label="solar_EnvironmentalSiteAssessmentIIRecognizedEnvironmentalCondition"
+          xlink:type="locator"/>
+        <presentationArc
+          order="9"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_EnvironmentalSiteAssessmentIILineItems"
+          xlink:to="solar_EnvironmentalSiteAssessmentIIRecognizedEnvironmentalCondition"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_EnvironmentalSiteAssessmentIIDocumentLink"
+          xlink:label="solar_EnvironmentalSiteAssessmentIIDocumentLink"
+          xlink:type="locator"/>
+        <presentationArc
+          order="10"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_EnvironmentalSiteAssessmentIILineItems"
+          xlink:to="solar_EnvironmentalSiteAssessmentIIDocumentLink"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_PreparerOfEnvironmentalAssessmentII"
+          xlink:label="solar_PreparerOfEnvironmentalAssessmentII"
+          xlink:type="locator"/>
+        <presentationArc
+          order="11"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_EnvironmentalSiteAssessmentIILineItems"
+          xlink:to="solar_PreparerOfEnvironmentalAssessmentII"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_DocumentIdentifierEnvironmentalAssessmentII"
+          xlink:label="solar_DocumentIdentifierEnvironmentalAssessmentII"
+          xlink:type="locator"/>
+        <presentationArc
+          order="12"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_EnvironmentalSiteAssessmentIILineItems"
+          xlink:to="solar_DocumentIdentifierEnvironmentalAssessmentII"
+          xlink:type="arc"/>
+    </presentationLink>
+</linkbase>

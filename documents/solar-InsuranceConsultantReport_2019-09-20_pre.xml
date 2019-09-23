@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Copyright 2019 SunSpec Alliance and XBRL US Inc. 
+
+Licensed under the Apache License, Version 2.0 (the "License"); 
+you may not use this file except in compliance with the License. 
+You may obtain a copy of the License at 
+
+    http://www.apache.org/licenses/LICENSE-2.0 
+
+Unless required by applicable law or agreed to in writing, software 
+distributed under the License is distributed on an "AS IS" BASIS, 
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+See the License for the specific language governing permissions and 
+limitations under the License.
+
+
+Orange Button Taxonomy - InsuranceConsultantReport-->
+<linkbase
+  xmlns="http://www.xbrl.org/2003/linkbase"
+  xmlns:xbrli="http://www.xbrl.org/2003/instance"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+    <roleRef
+      roleURI="http://xbrl.us/Solar/2019-09-20/roles/InsuranceConsultantReport"
+      xlink:href="../documents\solar-InsuranceConsultantReport_2019-09-20.xsd#roleType_InsuranceConsultantReport"
+      xlink:type="simple"/>
+    <presentationLink
+      xlink:role="http://xbrl.us/Solar/2019-09-20/roles/InsuranceConsultantReport"
+      xlink:type="extended">
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_InsuranceConsultantReportAbstract"
+          xlink:label="solar_InsuranceConsultantReportAbstract"
+          xlink:type="locator"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_InsuranceConsultantReportAvailabilityOfDocument"
+          xlink:label="solar_InsuranceConsultantReportAvailabilityOfDocument"
+          xlink:type="locator"/>
+        <presentationArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_InsuranceConsultantReportAbstract"
+          xlink:to="solar_InsuranceConsultantReportAvailabilityOfDocument"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_InsuranceConsultantReportAvailabilityOfFinalDocument"
+          xlink:label="solar_InsuranceConsultantReportAvailabilityOfFinalDocument"
+          xlink:type="locator"/>
+        <presentationArc
+          order="2"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_InsuranceConsultantReportAbstract"
+          xlink:to="solar_InsuranceConsultantReportAvailabilityOfFinalDocument"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_InsuranceConsultantReportAvailabilityOfDocumentExceptions"
+          xlink:label="solar_InsuranceConsultantReportAvailabilityOfDocumentExceptions"
+          xlink:type="locator"/>
+        <presentationArc
+          order="3"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_InsuranceConsultantReportAbstract"
+          xlink:to="solar_InsuranceConsultantReportAvailabilityOfDocumentExceptions"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_InsuranceConsultantReportExceptionDescription"
+          xlink:label="solar_InsuranceConsultantReportExceptionDescription"
+          xlink:type="locator"/>
+        <presentationArc
+          order="4"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_InsuranceConsultantReportAbstract"
+          xlink:to="solar_InsuranceConsultantReportExceptionDescription"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_InsuranceConsultantReportCounterparties"
+          xlink:label="solar_InsuranceConsultantReportCounterparties"
+          xlink:type="locator"/>
+        <presentationArc
+          order="5"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_InsuranceConsultantReportAbstract"
+          xlink:to="solar_InsuranceConsultantReportCounterparties"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_InsuranceConsultantReportEffectiveDate"
+          xlink:label="solar_InsuranceConsultantReportEffectiveDate"
+          xlink:type="locator"/>
+        <presentationArc
+          order="6"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_InsuranceConsultantReportAbstract"
+          xlink:to="solar_InsuranceConsultantReportEffectiveDate"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_InsuranceConsultantReportExpirationDate"
+          xlink:label="solar_InsuranceConsultantReportExpirationDate"
+          xlink:type="locator"/>
+        <presentationArc
+          order="7"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_InsuranceConsultantReportAbstract"
+          xlink:to="solar_InsuranceConsultantReportExpirationDate"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_InsuranceConsultantReportDocumentLink"
+          xlink:label="solar_InsuranceConsultantReportDocumentLink"
+          xlink:type="locator"/>
+        <presentationArc
+          order="8"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_InsuranceConsultantReportAbstract"
+          xlink:to="solar_InsuranceConsultantReportDocumentLink"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_PreparerOfInsuranceConsultantReport"
+          xlink:label="solar_PreparerOfInsuranceConsultantReport"
+          xlink:type="locator"/>
+        <presentationArc
+          order="9"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_InsuranceConsultantReportAbstract"
+          xlink:to="solar_PreparerOfInsuranceConsultantReport"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_DocumentIdentifierInsuranceConsultantReport"
+          xlink:label="solar_DocumentIdentifierInsuranceConsultantReport"
+          xlink:type="locator"/>
+        <presentationArc
+          order="10"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_InsuranceConsultantReportAbstract"
+          xlink:to="solar_DocumentIdentifierInsuranceConsultantReport"
+          xlink:type="arc"/>
+    </presentationLink>
+</linkbase>

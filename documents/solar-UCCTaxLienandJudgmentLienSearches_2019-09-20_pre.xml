@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Copyright 2019 SunSpec Alliance and XBRL US Inc. 
+
+Licensed under the Apache License, Version 2.0 (the "License"); 
+you may not use this file except in compliance with the License. 
+You may obtain a copy of the License at 
+
+    http://www.apache.org/licenses/LICENSE-2.0 
+
+Unless required by applicable law or agreed to in writing, software 
+distributed under the License is distributed on an "AS IS" BASIS, 
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+See the License for the specific language governing permissions and 
+limitations under the License.
+
+
+Orange Button Taxonomy - UCCTaxLienandJudgmentLienSearches-->
+<linkbase
+  xmlns="http://www.xbrl.org/2003/linkbase"
+  xmlns:xbrli="http://www.xbrl.org/2003/instance"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+    <roleRef
+      roleURI="http://xbrl.us/Solar/2019-09-20/roles/UCCTaxLienandJudgmentLienSearches"
+      xlink:href="../documents\solar-UCCTaxLienandJudgmentLienSearches_2019-09-20.xsd#roleType_UCCTaxLienandJudgmentLienSearches"
+      xlink:type="simple"/>
+    <presentationLink
+      xlink:role="http://xbrl.us/Solar/2019-09-20/roles/UCCTaxLienandJudgmentLienSearches"
+      xlink:type="extended">
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_UCCTaxLienAndJudgmentLienSearchesAbstract"
+          xlink:label="solar_UCCTaxLienAndJudgmentLienSearchesAbstract"
+          xlink:type="locator"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_UCCTaxLienAndJudgmentLienSearchesAvailabilityOfDocument"
+          xlink:label="solar_UCCTaxLienAndJudgmentLienSearchesAvailabilityOfDocument"
+          xlink:type="locator"/>
+        <presentationArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_UCCTaxLienAndJudgmentLienSearchesAbstract"
+          xlink:to="solar_UCCTaxLienAndJudgmentLienSearchesAvailabilityOfDocument"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_UCCTaxLienAndJudgmentLienSearchesAvailabilityOfFinalDocument"
+          xlink:label="solar_UCCTaxLienAndJudgmentLienSearchesAvailabilityOfFinalDocument"
+          xlink:type="locator"/>
+        <presentationArc
+          order="2"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_UCCTaxLienAndJudgmentLienSearchesAbstract"
+          xlink:to="solar_UCCTaxLienAndJudgmentLienSearchesAvailabilityOfFinalDocument"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_UCCTaxLienAndJudgmentLienSearchesAvailabilityOfDocumentExceptions"
+          xlink:label="solar_UCCTaxLienAndJudgmentLienSearchesAvailabilityOfDocumentExceptions"
+          xlink:type="locator"/>
+        <presentationArc
+          order="3"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_UCCTaxLienAndJudgmentLienSearchesAbstract"
+          xlink:to="solar_UCCTaxLienAndJudgmentLienSearchesAvailabilityOfDocumentExceptions"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_UCCTaxLienAndJudgmentLienSearchesExceptionDescription"
+          xlink:label="solar_UCCTaxLienAndJudgmentLienSearchesExceptionDescription"
+          xlink:type="locator"/>
+        <presentationArc
+          order="4"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_UCCTaxLienAndJudgmentLienSearchesAbstract"
+          xlink:to="solar_UCCTaxLienAndJudgmentLienSearchesExceptionDescription"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_UCCTaxLienAndJudgmentLienSearchesCounterparties"
+          xlink:label="solar_UCCTaxLienAndJudgmentLienSearchesCounterparties"
+          xlink:type="locator"/>
+        <presentationArc
+          order="5"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_UCCTaxLienAndJudgmentLienSearchesAbstract"
+          xlink:to="solar_UCCTaxLienAndJudgmentLienSearchesCounterparties"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_UCCTaxLienAndJudgmentLienSearchesEffectiveDate"
+          xlink:label="solar_UCCTaxLienAndJudgmentLienSearchesEffectiveDate"
+          xlink:type="locator"/>
+        <presentationArc
+          order="6"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_UCCTaxLienAndJudgmentLienSearchesAbstract"
+          xlink:to="solar_UCCTaxLienAndJudgmentLienSearchesEffectiveDate"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_UCCTaxLienAndJudgmentLienSearchesExpirationDate"
+          xlink:label="solar_UCCTaxLienAndJudgmentLienSearchesExpirationDate"
+          xlink:type="locator"/>
+        <presentationArc
+          order="7"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_UCCTaxLienAndJudgmentLienSearchesAbstract"
+          xlink:to="solar_UCCTaxLienAndJudgmentLienSearchesExpirationDate"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_UCCTaxLienAndJudgmentSearchesDocumentLink"
+          xlink:label="solar_UCCTaxLienAndJudgmentSearchesDocumentLink"
+          xlink:type="locator"/>
+        <presentationArc
+          order="8"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_UCCTaxLienAndJudgmentLienSearchesAbstract"
+          xlink:to="solar_UCCTaxLienAndJudgmentSearchesDocumentLink"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_PreparerOfUCCTaxLienAndJudgementLienSearches"
+          xlink:label="solar_PreparerOfUCCTaxLienAndJudgementLienSearches"
+          xlink:type="locator"/>
+        <presentationArc
+          order="9"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_UCCTaxLienAndJudgmentLienSearchesAbstract"
+          xlink:to="solar_PreparerOfUCCTaxLienAndJudgementLienSearches"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_DocumentIdentifierUCCTaxLienAndJudgementLienSearches"
+          xlink:label="solar_DocumentIdentifierUCCTaxLienAndJudgementLienSearches"
+          xlink:type="locator"/>
+        <presentationArc
+          order="10"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_UCCTaxLienAndJudgmentLienSearchesAbstract"
+          xlink:to="solar_DocumentIdentifierUCCTaxLienAndJudgementLienSearches"
+          xlink:type="arc"/>
+    </presentationLink>
+</linkbase>
