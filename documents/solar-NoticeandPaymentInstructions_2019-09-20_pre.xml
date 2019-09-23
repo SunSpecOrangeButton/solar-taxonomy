@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Copyright 2019 SunSpec Alliance and XBRL US Inc. 
+
+Licensed under the Apache License, Version 2.0 (the "License"); 
+you may not use this file except in compliance with the License. 
+You may obtain a copy of the License at 
+
+    http://www.apache.org/licenses/LICENSE-2.0 
+
+Unless required by applicable law or agreed to in writing, software 
+distributed under the License is distributed on an "AS IS" BASIS, 
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+See the License for the specific language governing permissions and 
+limitations under the License.
+
+
+Orange Button Taxonomy - NoticeandPaymentInstructions-->
+<linkbase
+  xmlns="http://www.xbrl.org/2003/linkbase"
+  xmlns:xbrli="http://www.xbrl.org/2003/instance"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+    <roleRef
+      roleURI="http://xbrl.us/Solar/2019-09-20/roles/NoticeandPaymentInstructions"
+      xlink:href="../documents\solar-NoticeandPaymentInstructions_2019-09-20.xsd#roleType_NoticeandPaymentInstructions"
+      xlink:type="simple"/>
+    <presentationLink
+      xlink:role="http://xbrl.us/Solar/2019-09-20/roles/NoticeandPaymentInstructions"
+      xlink:type="extended">
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_NoticeAndPaymentInstructionsAbstract"
+          xlink:label="solar_NoticeAndPaymentInstructionsAbstract"
+          xlink:type="locator"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_NoticeAndPaymentInstructionsAvailabilityOfDocument"
+          xlink:label="solar_NoticeAndPaymentInstructionsAvailabilityOfDocument"
+          xlink:type="locator"/>
+        <presentationArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_NoticeAndPaymentInstructionsAbstract"
+          xlink:to="solar_NoticeAndPaymentInstructionsAvailabilityOfDocument"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_NoticeAndPaymentInstructionsAvailabilityOfFinalDocument"
+          xlink:label="solar_NoticeAndPaymentInstructionsAvailabilityOfFinalDocument"
+          xlink:type="locator"/>
+        <presentationArc
+          order="2"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_NoticeAndPaymentInstructionsAbstract"
+          xlink:to="solar_NoticeAndPaymentInstructionsAvailabilityOfFinalDocument"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_NoticeAndPaymentInstructionsAvailabilityOfDocumentExceptions"
+          xlink:label="solar_NoticeAndPaymentInstructionsAvailabilityOfDocumentExceptions"
+          xlink:type="locator"/>
+        <presentationArc
+          order="3"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_NoticeAndPaymentInstructionsAbstract"
+          xlink:to="solar_NoticeAndPaymentInstructionsAvailabilityOfDocumentExceptions"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_NoticeAndPaymentInstructionsExceptionDescription"
+          xlink:label="solar_NoticeAndPaymentInstructionsExceptionDescription"
+          xlink:type="locator"/>
+        <presentationArc
+          order="4"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_NoticeAndPaymentInstructionsAbstract"
+          xlink:to="solar_NoticeAndPaymentInstructionsExceptionDescription"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_NoticeAndPaymentInstructionsCounterparties"
+          xlink:label="solar_NoticeAndPaymentInstructionsCounterparties"
+          xlink:type="locator"/>
+        <presentationArc
+          order="5"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_NoticeAndPaymentInstructionsAbstract"
+          xlink:to="solar_NoticeAndPaymentInstructionsCounterparties"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_NoticeAndPaymentInstructionsEffectiveDate"
+          xlink:label="solar_NoticeAndPaymentInstructionsEffectiveDate"
+          xlink:type="locator"/>
+        <presentationArc
+          order="6"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_NoticeAndPaymentInstructionsAbstract"
+          xlink:to="solar_NoticeAndPaymentInstructionsEffectiveDate"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_NoticeAndPaymentInstructionsExpirationDate"
+          xlink:label="solar_NoticeAndPaymentInstructionsExpirationDate"
+          xlink:type="locator"/>
+        <presentationArc
+          order="7"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_NoticeAndPaymentInstructionsAbstract"
+          xlink:to="solar_NoticeAndPaymentInstructionsExpirationDate"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_NoticeAndPaymentInstructionsLink"
+          xlink:label="solar_NoticeAndPaymentInstructionsLink"
+          xlink:type="locator"/>
+        <presentationArc
+          order="8"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_NoticeAndPaymentInstructionsAbstract"
+          xlink:to="solar_NoticeAndPaymentInstructionsLink"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_PreparerOfNoticeAndPaymentInstructions"
+          xlink:label="solar_PreparerOfNoticeAndPaymentInstructions"
+          xlink:type="locator"/>
+        <presentationArc
+          order="9"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_NoticeAndPaymentInstructionsAbstract"
+          xlink:to="solar_PreparerOfNoticeAndPaymentInstructions"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_DocumentIdentifierNoticeAndPaymentInstructions"
+          xlink:label="solar_DocumentIdentifierNoticeAndPaymentInstructions"
+          xlink:type="locator"/>
+        <presentationArc
+          order="10"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_NoticeAndPaymentInstructionsAbstract"
+          xlink:to="solar_DocumentIdentifierNoticeAndPaymentInstructions"
+          xlink:type="arc"/>
+    </presentationLink>
+</linkbase>

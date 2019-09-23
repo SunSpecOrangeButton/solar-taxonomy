@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Copyright 2019 SunSpec Alliance and XBRL US Inc. 
+
+Licensed under the Apache License, Version 2.0 (the "License"); 
+you may not use this file except in compliance with the License. 
+You may obtain a copy of the License at 
+
+    http://www.apache.org/licenses/LICENSE-2.0 
+
+Unless required by applicable law or agreed to in writing, software 
+distributed under the License is distributed on an "AS IS" BASIS, 
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+See the License for the specific language governing permissions and 
+limitations under the License.
+
+
+Orange Button Taxonomy - TitleSurvey-->
+<linkbase
+  xmlns="http://www.xbrl.org/2003/linkbase"
+  xmlns:xbrldt="http://xbrl.org/2005/xbrldt"
+  xmlns:xbrli="http://www.xbrl.org/2003/instance"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+    <arcroleRef
+      arcroleURI="http://xbrl.org/int/dim/arcrole/dimension-default"
+      xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#dimension-default"
+      xlink:type="simple"/>
+    <arcroleRef
+      arcroleURI="http://xbrl.org/int/dim/arcrole/hypercube-dimension"
+      xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#hypercube-dimension"
+      xlink:type="simple"/>
+    <arcroleRef
+      arcroleURI="http://xbrl.org/int/dim/arcrole/domain-member"
+      xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#domain-member"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/Solar/2019-09-20/roles/TitleSurvey"
+      xlink:href="../documents\solar-TitleSurvey_2019-09-20.xsd#roleType_TitleSurvey"
+      xlink:type="simple"/>
+    <arcroleRef
+      arcroleURI="http://xbrl.org/int/dim/arcrole/all"
+      xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#all"
+      xlink:type="simple"/>
+    <arcroleRef
+      arcroleURI="http://xbrl.org/int/dim/arcrole/dimension-domain"
+      xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#dimension-domain"
+      xlink:type="simple"/>
+    <definitionLink
+      xlink:role="http://xbrl.us/Solar/2019-09-20/roles/TitleSurvey"
+      xlink:type="extended">
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_TitleSurveyAbstract"
+          xlink:label="solar_TitleSurveyAbstract"
+          xlink:type="locator"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_TitleSurveyLineItems"
+          xlink:label="solar_TitleSurveyLineItems"
+          xlink:type="locator"/>
+        <definitionArc
+          order="1"
+          xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
+          xlink:from="solar_TitleSurveyAbstract"
+          xlink:to="solar_TitleSurveyLineItems"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_SiteIdentifierTable"
+          xlink:label="solar_SiteIdentifierTable"
+          xlink:type="locator"/>
+        <definitionArc
+          order="1"
+          xbrldt:closed="true"
+          xbrldt:contextElement="segment"
+          xlink:arcrole="http://xbrl.org/int/dim/arcrole/all"
+          xlink:from="solar_TitleSurveyLineItems"
+          xlink:to="solar_SiteIdentifierTable"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_SiteIdentifierAxis"
+          xlink:label="solar_SiteIdentifierAxis"
+          xlink:type="locator"/>
+        <definitionArc
+          order="1"
+          xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension"
+          xlink:from="solar_SiteIdentifierTable"
+          xlink:to="solar_SiteIdentifierAxis"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_TitleSurveyAvailabilityOfDocument"
+          xlink:label="solar_TitleSurveyAvailabilityOfDocument"
+          xlink:type="locator"/>
+        <definitionArc
+          order="2"
+          xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
+          xlink:from="solar_TitleSurveyLineItems"
+          xlink:to="solar_TitleSurveyAvailabilityOfDocument"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_TitleSurveyAvailabilityOfFinalDocument"
+          xlink:label="solar_TitleSurveyAvailabilityOfFinalDocument"
+          xlink:type="locator"/>
+        <definitionArc
+          order="3"
+          xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
+          xlink:from="solar_TitleSurveyLineItems"
+          xlink:to="solar_TitleSurveyAvailabilityOfFinalDocument"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_TitleSurveyAvailabilityOfDocumentExceptions"
+          xlink:label="solar_TitleSurveyAvailabilityOfDocumentExceptions"
+          xlink:type="locator"/>
+        <definitionArc
+          order="4"
+          xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
+          xlink:from="solar_TitleSurveyLineItems"
+          xlink:to="solar_TitleSurveyAvailabilityOfDocumentExceptions"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_TitleSurveyExceptionDescription"
+          xlink:label="solar_TitleSurveyExceptionDescription"
+          xlink:type="locator"/>
+        <definitionArc
+          order="5"
+          xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
+          xlink:from="solar_TitleSurveyLineItems"
+          xlink:to="solar_TitleSurveyExceptionDescription"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_TitleSurveyCounterparties"
+          xlink:label="solar_TitleSurveyCounterparties"
+          xlink:type="locator"/>
+        <definitionArc
+          order="6"
+          xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
+          xlink:from="solar_TitleSurveyLineItems"
+          xlink:to="solar_TitleSurveyCounterparties"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_TitleSurveyEffectiveDate"
+          xlink:label="solar_TitleSurveyEffectiveDate"
+          xlink:type="locator"/>
+        <definitionArc
+          order="7"
+          xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
+          xlink:from="solar_TitleSurveyLineItems"
+          xlink:to="solar_TitleSurveyEffectiveDate"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_TitleSurveyExpirationDate"
+          xlink:label="solar_TitleSurveyExpirationDate"
+          xlink:type="locator"/>
+        <definitionArc
+          order="8"
+          xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
+          xlink:from="solar_TitleSurveyLineItems"
+          xlink:to="solar_TitleSurveyExpirationDate"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_TitleSurveyDocumentLink"
+          xlink:label="solar_TitleSurveyDocumentLink"
+          xlink:type="locator"/>
+        <definitionArc
+          order="9"
+          xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
+          xlink:from="solar_TitleSurveyLineItems"
+          xlink:to="solar_TitleSurveyDocumentLink"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_PreparerOfTitleSurvey"
+          xlink:label="solar_PreparerOfTitleSurvey"
+          xlink:type="locator"/>
+        <definitionArc
+          order="10"
+          xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
+          xlink:from="solar_TitleSurveyLineItems"
+          xlink:to="solar_PreparerOfTitleSurvey"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_DocumentIdentifierTitleSurvey"
+          xlink:label="solar_DocumentIdentifierTitleSurvey"
+          xlink:type="locator"/>
+        <definitionArc
+          order="11"
+          xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
+          xlink:from="solar_TitleSurveyLineItems"
+          xlink:to="solar_DocumentIdentifierTitleSurvey"
+          xlink:type="arc"/>
+    </definitionLink>
+    <definitionLink
+      xlink:role="http://xbrl.us/Solar/2019-09-20/roles/TitleSurvey"
+      xlink:type="extended"/>
+</linkbase>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Copyright 2019 SunSpec Alliance and XBRL US Inc. 
+
+Licensed under the Apache License, Version 2.0 (the "License"); 
+you may not use this file except in compliance with the License. 
+You may obtain a copy of the License at 
+
+    http://www.apache.org/licenses/LICENSE-2.0 
+
+Unless required by applicable law or agreed to in writing, software 
+distributed under the License is distributed on an "AS IS" BASIS, 
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+See the License for the specific language governing permissions and 
+limitations under the License.
+
+
+Orange Button Taxonomy - NoticeofCommercialOperationsDate-->
+<linkbase
+  xmlns="http://www.xbrl.org/2003/linkbase"
+  xmlns:xbrli="http://www.xbrl.org/2003/instance"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+    <roleRef
+      roleURI="http://xbrl.us/Solar/2019-09-20/roles/NoticeofCommercialOperationsDate"
+      xlink:href="../documents\solar-NoticeofCommercialOperationsDate_2019-09-20.xsd#roleType_NoticeofCommercialOperationsDate"
+      xlink:type="simple"/>
+    <presentationLink
+      xlink:role="http://xbrl.us/Solar/2019-09-20/roles/NoticeofCommercialOperationsDate"
+      xlink:type="extended">
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_NoticeOfCommercialOperationsDateAbstract"
+          xlink:label="solar_NoticeOfCommercialOperationsDateAbstract"
+          xlink:type="locator"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_NoticeOfCommercialOperationsDateAvailabilityOfDocument"
+          xlink:label="solar_NoticeOfCommercialOperationsDateAvailabilityOfDocument"
+          xlink:type="locator"/>
+        <presentationArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_NoticeOfCommercialOperationsDateAbstract"
+          xlink:to="solar_NoticeOfCommercialOperationsDateAvailabilityOfDocument"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_NoticeOfCommercialOperationsDateAvailabilityOfFinalDocument"
+          xlink:label="solar_NoticeOfCommercialOperationsDateAvailabilityOfFinalDocument"
+          xlink:type="locator"/>
+        <presentationArc
+          order="2"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_NoticeOfCommercialOperationsDateAbstract"
+          xlink:to="solar_NoticeOfCommercialOperationsDateAvailabilityOfFinalDocument"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_NoticeOfCommercialOperationsDateAvailabilityOfDocumentExceptions"
+          xlink:label="solar_NoticeOfCommercialOperationsDateAvailabilityOfDocumentExceptions"
+          xlink:type="locator"/>
+        <presentationArc
+          order="3"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_NoticeOfCommercialOperationsDateAbstract"
+          xlink:to="solar_NoticeOfCommercialOperationsDateAvailabilityOfDocumentExceptions"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_NoticeOfCommercialOperationsDateExceptionDescription"
+          xlink:label="solar_NoticeOfCommercialOperationsDateExceptionDescription"
+          xlink:type="locator"/>
+        <presentationArc
+          order="4"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_NoticeOfCommercialOperationsDateAbstract"
+          xlink:to="solar_NoticeOfCommercialOperationsDateExceptionDescription"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_NoticeOfCommercialOperationsDateCounterparties"
+          xlink:label="solar_NoticeOfCommercialOperationsDateCounterparties"
+          xlink:type="locator"/>
+        <presentationArc
+          order="5"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_NoticeOfCommercialOperationsDateAbstract"
+          xlink:to="solar_NoticeOfCommercialOperationsDateCounterparties"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_NoticeOfCommercialOperationsDateEffectiveDate"
+          xlink:label="solar_NoticeOfCommercialOperationsDateEffectiveDate"
+          xlink:type="locator"/>
+        <presentationArc
+          order="6"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_NoticeOfCommercialOperationsDateAbstract"
+          xlink:to="solar_NoticeOfCommercialOperationsDateEffectiveDate"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_NoticeOfCommercialOperationsDocumentLink"
+          xlink:label="solar_NoticeOfCommercialOperationsDocumentLink"
+          xlink:type="locator"/>
+        <presentationArc
+          order="7"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_NoticeOfCommercialOperationsDateAbstract"
+          xlink:to="solar_NoticeOfCommercialOperationsDocumentLink"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_PreparerOfNoticeOfCommercialOperationsDate"
+          xlink:label="solar_PreparerOfNoticeOfCommercialOperationsDate"
+          xlink:type="locator"/>
+        <presentationArc
+          order="8"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_NoticeOfCommercialOperationsDateAbstract"
+          xlink:to="solar_PreparerOfNoticeOfCommercialOperationsDate"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_DocumentIdentifierNoticeOfCommercialOperationsDate"
+          xlink:label="solar_DocumentIdentifierNoticeOfCommercialOperationsDate"
+          xlink:type="locator"/>
+        <presentationArc
+          order="9"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_NoticeOfCommercialOperationsDateAbstract"
+          xlink:to="solar_DocumentIdentifierNoticeOfCommercialOperationsDate"
+          xlink:type="arc"/>
+    </presentationLink>
+</linkbase>

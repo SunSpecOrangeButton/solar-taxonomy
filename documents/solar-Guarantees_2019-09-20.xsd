@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Copyright 2019 SunSpec Alliance and XBRL US Inc. 
+
+Licensed under the Apache License, Version 2.0 (the "License"); 
+you may not use this file except in compliance with the License. 
+You may obtain a copy of the License at 
+
+    http://www.apache.org/licenses/LICENSE-2.0 
+
+Unless required by applicable law or agreed to in writing, software 
+distributed under the License is distributed on an "AS IS" BASIS, 
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+See the License for the specific language governing permissions and 
+limitations under the License.
+
+
+Orange Button Taxonomy - Guarantees-->
+<xs:schema
+  attributeFormDefault="unqualified"
+  elementFormDefault="qualified"
+  targetNamespace="http://xbrl.us/Solar/2019-09-20/solar-Guarantees"
+  xmlns:link="http://www.xbrl.org/2003/linkbase"
+  xmlns:nonnum="http://www.xbrl.org/dtr/type/non-numeric"
+  xmlns:solar="http://xbrl.us/Solar/2019-09-20/solar"
+  xmlns:solar-Guarantees="http://xbrl.us/Solar/2019-09-20/solar-Guarantees"
+  xmlns:xbrldt="http://xbrl.org/2005/xbrldt"
+  xmlns:xbrli="http://www.xbrl.org/2003/instance"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:annotation>
+        <xs:documentation>This schema contains the entry point for the Guarantees</xs:documentation>
+        <xs:appinfo>
+            <link:roleType
+              id="roleType_Guarantees"
+              roleURI="http://xbrl.us/Solar/2019-09-20/roles/Guarantees">
+                <link:definition>100520 - Documents - Guarantees</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:linkbaseRef
+              xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"
+              xlink:href="solar-Guarantees_2019-09-20_pre.xml"
+              xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef"
+              xlink:type="simple"/>
+            <link:linkbaseRef
+              xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"
+              xlink:href="solar-Guarantees_2019-09-20_def.xml"
+              xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef"
+              xlink:type="simple"/>
+        </xs:appinfo>
+    </xs:annotation>
+    <xs:import
+      namespace="http://www.xbrl.org/2003/instance"
+      schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+    <xs:import
+      namespace="http://xbrl.us/Solar/2019-09-20/solar"
+      schemaLocation="../core/solar_2019-09-20.xsd"/>
+</xs:schema>

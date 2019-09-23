@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Copyright 2019 SunSpec Alliance and XBRL US Inc. 
+
+Licensed under the Apache License, Version 2.0 (the "License"); 
+you may not use this file except in compliance with the License. 
+You may obtain a copy of the License at 
+
+    http://www.apache.org/licenses/LICENSE-2.0 
+
+Unless required by applicable law or agreed to in writing, software 
+distributed under the License is distributed on an "AS IS" BASIS, 
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+See the License for the specific language governing permissions and 
+limitations under the License.
+
+
+Orange Button Taxonomy - ModuleFactoryAuditReport-->
+<linkbase
+  xmlns="http://www.xbrl.org/2003/linkbase"
+  xmlns:xbrli="http://www.xbrl.org/2003/instance"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+    <roleRef
+      roleURI="http://xbrl.us/Solar/2019-09-20/roles/ModuleFactoryAuditReport"
+      xlink:href="../documents\solar-ModuleFactoryAuditReport_2019-09-20.xsd#roleType_ModuleFactoryAuditReport"
+      xlink:type="simple"/>
+    <presentationLink
+      xlink:role="http://xbrl.us/Solar/2019-09-20/roles/ModuleFactoryAuditReport"
+      xlink:type="extended">
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_ModuleFactoryAuditReportAbstract"
+          xlink:label="solar_ModuleFactoryAuditReportAbstract"
+          xlink:type="locator"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_ModuleFactoryAuditReportAvailabilityOfDocument"
+          xlink:label="solar_ModuleFactoryAuditReportAvailabilityOfDocument"
+          xlink:type="locator"/>
+        <presentationArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_ModuleFactoryAuditReportAbstract"
+          xlink:to="solar_ModuleFactoryAuditReportAvailabilityOfDocument"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_ModuleFactoryAuditReportAvailabilityOfFinalDocument"
+          xlink:label="solar_ModuleFactoryAuditReportAvailabilityOfFinalDocument"
+          xlink:type="locator"/>
+        <presentationArc
+          order="2"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_ModuleFactoryAuditReportAbstract"
+          xlink:to="solar_ModuleFactoryAuditReportAvailabilityOfFinalDocument"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_ModuleFactoryAuditReportAvailabilityOfDocumentExceptions"
+          xlink:label="solar_ModuleFactoryAuditReportAvailabilityOfDocumentExceptions"
+          xlink:type="locator"/>
+        <presentationArc
+          order="3"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_ModuleFactoryAuditReportAbstract"
+          xlink:to="solar_ModuleFactoryAuditReportAvailabilityOfDocumentExceptions"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_ModuleFactoryAuditReportExceptionDescription"
+          xlink:label="solar_ModuleFactoryAuditReportExceptionDescription"
+          xlink:type="locator"/>
+        <presentationArc
+          order="4"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_ModuleFactoryAuditReportAbstract"
+          xlink:to="solar_ModuleFactoryAuditReportExceptionDescription"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_ModuleFactoryAuditReportCounterpartiesToThe"
+          xlink:label="solar_ModuleFactoryAuditReportCounterpartiesToThe"
+          xlink:type="locator"/>
+        <presentationArc
+          order="5"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_ModuleFactoryAuditReportAbstract"
+          xlink:to="solar_ModuleFactoryAuditReportCounterpartiesToThe"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_ModuleFactoryAuditReportEffectiveDate"
+          xlink:label="solar_ModuleFactoryAuditReportEffectiveDate"
+          xlink:type="locator"/>
+        <presentationArc
+          order="6"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_ModuleFactoryAuditReportAbstract"
+          xlink:to="solar_ModuleFactoryAuditReportEffectiveDate"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_ModuleFactoryAuditReportDocumentLink"
+          xlink:label="solar_ModuleFactoryAuditReportDocumentLink"
+          xlink:type="locator"/>
+        <presentationArc
+          order="7"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_ModuleFactoryAuditReportAbstract"
+          xlink:to="solar_ModuleFactoryAuditReportDocumentLink"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_PreparerOfModuleFactoryAuditReport"
+          xlink:label="solar_PreparerOfModuleFactoryAuditReport"
+          xlink:type="locator"/>
+        <presentationArc
+          order="8"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_ModuleFactoryAuditReportAbstract"
+          xlink:to="solar_PreparerOfModuleFactoryAuditReport"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_DocumentIdentifierModuleFactoryAuditReport"
+          xlink:label="solar_DocumentIdentifierModuleFactoryAuditReport"
+          xlink:type="locator"/>
+        <presentationArc
+          order="9"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_ModuleFactoryAuditReportAbstract"
+          xlink:to="solar_DocumentIdentifierModuleFactoryAuditReport"
+          xlink:type="arc"/>
+    </presentationLink>
+</linkbase>

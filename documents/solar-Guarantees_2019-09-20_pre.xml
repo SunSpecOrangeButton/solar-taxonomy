@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Copyright 2019 SunSpec Alliance and XBRL US Inc. 
+
+Licensed under the Apache License, Version 2.0 (the "License"); 
+you may not use this file except in compliance with the License. 
+You may obtain a copy of the License at 
+
+    http://www.apache.org/licenses/LICENSE-2.0 
+
+Unless required by applicable law or agreed to in writing, software 
+distributed under the License is distributed on an "AS IS" BASIS, 
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+See the License for the specific language governing permissions and 
+limitations under the License.
+
+
+Orange Button Taxonomy - Guarantees-->
+<linkbase
+  xmlns="http://www.xbrl.org/2003/linkbase"
+  xmlns:xbrli="http://www.xbrl.org/2003/instance"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+    <roleRef
+      roleURI="http://xbrl.us/Solar/2019-09-20/roles/Guarantees"
+      xlink:href="../documents\solar-Guarantees_2019-09-20.xsd#roleType_Guarantees"
+      xlink:type="simple"/>
+    <presentationLink
+      xlink:role="http://xbrl.us/Solar/2019-09-20/roles/Guarantees"
+      xlink:type="extended">
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_GuaranteeAbstract"
+          xlink:label="solar_GuaranteeAbstract"
+          xlink:type="locator"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_GuaranteeAmountCap"
+          xlink:label="solar_GuaranteeAmountCap"
+          xlink:type="locator"/>
+        <presentationArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_GuaranteeAbstract"
+          xlink:to="solar_GuaranteeAmountCap"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_GuaranteeName"
+          xlink:label="solar_GuaranteeName"
+          xlink:type="locator"/>
+        <presentationArc
+          order="2"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_GuaranteeAbstract"
+          xlink:to="solar_GuaranteeName"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_GuaranteeBeneficiary"
+          xlink:label="solar_GuaranteeBeneficiary"
+          xlink:type="locator"/>
+        <presentationArc
+          order="3"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_GuaranteeAbstract"
+          xlink:to="solar_GuaranteeBeneficiary"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_GuaranteeCommencementDate"
+          xlink:label="solar_GuaranteeCommencementDate"
+          xlink:type="locator"/>
+        <presentationArc
+          order="4"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_GuaranteeAbstract"
+          xlink:to="solar_GuaranteeCommencementDate"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_GuaranteeExpirationDate"
+          xlink:label="solar_GuaranteeExpirationDate"
+          xlink:type="locator"/>
+        <presentationArc
+          order="5"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_GuaranteeAbstract"
+          xlink:to="solar_GuaranteeExpirationDate"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_GuaranteeMeasurementUnits"
+          xlink:label="solar_GuaranteeMeasurementUnits"
+          xlink:type="locator"/>
+        <presentationArc
+          order="6"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_GuaranteeAbstract"
+          xlink:to="solar_GuaranteeMeasurementUnits"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_MinimumOutputGuaranteedPercent"
+          xlink:label="solar_MinimumOutputGuaranteedPercent"
+          xlink:type="locator"/>
+        <presentationArc
+          order="7"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_GuaranteeAbstract"
+          xlink:to="solar_MinimumOutputGuaranteedPercent"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_MaximumPercentThresholdForPaymentOfGuarantee"
+          xlink:label="solar_MaximumPercentThresholdForPaymentOfGuarantee"
+          xlink:type="locator"/>
+        <presentationArc
+          order="8"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_GuaranteeAbstract"
+          xlink:to="solar_MaximumPercentThresholdForPaymentOfGuarantee"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_GuaranteePaymentScalingFactor"
+          xlink:label="solar_GuaranteePaymentScalingFactor"
+          xlink:type="locator"/>
+        <presentationArc
+          order="9"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_GuaranteeAbstract"
+          xlink:to="solar_GuaranteePaymentScalingFactor"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_GuaranteePaymentMaximum"
+          xlink:label="solar_GuaranteePaymentMaximum"
+          xlink:type="locator"/>
+        <presentationArc
+          order="10"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_GuaranteeAbstract"
+          xlink:to="solar_GuaranteePaymentMaximum"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_GuaranteeReconciliationPeriod"
+          xlink:label="solar_GuaranteeReconciliationPeriod"
+          xlink:type="locator"/>
+        <presentationArc
+          order="11"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_GuaranteeAbstract"
+          xlink:to="solar_GuaranteeReconciliationPeriod"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_GuaranteeTerm"
+          xlink:label="solar_GuaranteeTerm"
+          xlink:type="locator"/>
+        <presentationArc
+          order="12"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_GuaranteeAbstract"
+          xlink:to="solar_GuaranteeTerm"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_GuaranteeObligation"
+          xlink:label="solar_GuaranteeObligation"
+          xlink:type="locator"/>
+        <presentationArc
+          order="13"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_GuaranteeAbstract"
+          xlink:to="solar_GuaranteeObligation"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_GuaranteeGuarantor"
+          xlink:label="solar_GuaranteeGuarantor"
+          xlink:type="locator"/>
+        <presentationArc
+          order="14"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_GuaranteeAbstract"
+          xlink:to="solar_GuaranteeGuarantor"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_GuaranteeDocumentLink"
+          xlink:label="solar_GuaranteeDocumentLink"
+          xlink:type="locator"/>
+        <presentationArc
+          order="15"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_GuaranteeAbstract"
+          xlink:to="solar_GuaranteeDocumentLink"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_PreparerOfGuaranteeAgreement"
+          xlink:label="solar_PreparerOfGuaranteeAgreement"
+          xlink:type="locator"/>
+        <presentationArc
+          order="16"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_GuaranteeAbstract"
+          xlink:to="solar_PreparerOfGuaranteeAgreement"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_DocumentIdentifierGuaranteeAgreement"
+          xlink:label="solar_DocumentIdentifierGuaranteeAgreement"
+          xlink:type="locator"/>
+        <presentationArc
+          order="17"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_GuaranteeAbstract"
+          xlink:to="solar_DocumentIdentifierGuaranteeAgreement"
+          xlink:type="arc"/>
+    </presentationLink>
+</linkbase>
