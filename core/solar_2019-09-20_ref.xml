@@ -27,7 +27,7 @@ Initial Solar taxonomy-->
                       http://www.xbrl.org/2006/ref http://www.xbrl.org/2006/ref-2006-02-27.xsd">
     <roleRef
       roleURI="http://xbrl.us/solar/v1.2/2018-03-31/roles/reference/standard"
-      xlink:href="core\solar-ref-roles_2018-03-31.xsd#standard"
+      xlink:href="solar-ref-roles_2018-03-31.xsd#standard"
       xlink:type="simple"/>
     <referenceLink
       xlink:role="http://www.xbrl.org/2003/role/link"
