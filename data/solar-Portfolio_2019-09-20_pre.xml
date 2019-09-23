@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Copyright 2019 SunSpec Alliance and XBRL US Inc. 
+
+Licensed under the Apache License, Version 2.0 (the "License"); 
+you may not use this file except in compliance with the License. 
+You may obtain a copy of the License at 
+
+    http://www.apache.org/licenses/LICENSE-2.0 
+
+Unless required by applicable law or agreed to in writing, software 
+distributed under the License is distributed on an "AS IS" BASIS, 
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+See the License for the specific language governing permissions and 
+limitations under the License.
+
+
+Orange Button Taxonomy - Portfolio-->
+<linkbase
+  xmlns="http://www.xbrl.org/2003/linkbase"
+  xmlns:xbrli="http://www.xbrl.org/2003/instance"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+    <roleRef
+      roleURI="http://xbrl.us/Solar/2019-09-20/roles/Portfolio"
+      xlink:href="../data\solar-Portfolio_2019-09-20.xsd#roleType_Portfolio"
+      xlink:type="simple"/>
+    <presentationLink
+      xlink:role="http://xbrl.us/Solar/2019-09-20/roles/Portfolio"
+      xlink:type="extended">
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_PortfolioAbstract"
+          xlink:label="solar_PortfolioAbstract"
+          xlink:type="locator"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_PortfolioTable"
+          xlink:label="solar_PortfolioTable"
+          xlink:type="locator"/>
+        <presentationArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_PortfolioAbstract"
+          xlink:to="solar_PortfolioTable"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_PortfolioIdentifierAxis"
+          xlink:label="solar_PortfolioIdentifierAxis"
+          xlink:type="locator"/>
+        <presentationArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_PortfolioTable"
+          xlink:to="solar_PortfolioIdentifierAxis"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_PortfolioLineItems"
+          xlink:label="solar_PortfolioLineItems"
+          xlink:type="locator"/>
+        <presentationArc
+          order="2"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_PortfolioTable"
+          xlink:to="solar_PortfolioLineItems"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_ProjectIdentifier"
+          xlink:label="solar_ProjectIdentifier"
+          xlink:type="locator"/>
+        <presentationArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_PortfolioLineItems"
+          xlink:to="solar_ProjectIdentifier"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_PortfolioUsedInFund"
+          xlink:label="solar_PortfolioUsedInFund"
+          xlink:type="locator"/>
+        <presentationArc
+          order="2"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_PortfolioLineItems"
+          xlink:to="solar_PortfolioUsedInFund"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_PortfolioLevelDebt"
+          xlink:label="solar_PortfolioLevelDebt"
+          xlink:type="locator"/>
+        <presentationArc
+          order="3"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_PortfolioLineItems"
+          xlink:to="solar_PortfolioLevelDebt"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_PortfolioLevelLegalEntity"
+          xlink:label="solar_PortfolioLevelLegalEntity"
+          xlink:type="locator"/>
+        <presentationArc
+          order="4"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_PortfolioLineItems"
+          xlink:to="solar_PortfolioLevelLegalEntity"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_PortfolioLegalEntity"
+          xlink:label="solar_PortfolioLegalEntity"
+          xlink:type="locator"/>
+        <presentationArc
+          order="5"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_PortfolioLineItems"
+          xlink:to="solar_PortfolioLegalEntity"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_SizeMegawatts"
+          xlink:label="solar_SizeMegawatts"
+          xlink:type="locator"/>
+        <presentationArc
+          order="6"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_PortfolioLineItems"
+          xlink:to="solar_SizeMegawatts"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_SizeValue"
+          xlink:label="solar_SizeValue"
+          xlink:type="locator"/>
+        <presentationArc
+          order="7"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_PortfolioLineItems"
+          xlink:to="solar_SizeValue"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_BankInvestment"
+          xlink:label="solar_BankInvestment"
+          xlink:type="locator"/>
+        <presentationArc
+          order="8"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_PortfolioLineItems"
+          xlink:to="solar_BankInvestment"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_PortfolioNumberOfSystems"
+          xlink:label="solar_PortfolioNumberOfSystems"
+          xlink:type="locator"/>
+        <presentationArc
+          order="9"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_PortfolioLineItems"
+          xlink:to="solar_PortfolioNumberOfSystems"
+          xlink:type="arc"/>
+    </presentationLink>
+</linkbase>

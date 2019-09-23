@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Copyright 2019 SunSpec Alliance and XBRL US Inc. 
+
+Licensed under the Apache License, Version 2.0 (the "License"); 
+you may not use this file except in compliance with the License. 
+You may obtain a copy of the License at 
+
+    http://www.apache.org/licenses/LICENSE-2.0 
+
+Unless required by applicable law or agreed to in writing, software 
+distributed under the License is distributed on an "AS IS" BASIS, 
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+See the License for the specific language governing permissions and 
+limitations under the License.
+
+
+Orange Button Taxonomy - PermissionToOperateInterconnectionApproval-->
+<linkbase
+  xmlns="http://www.xbrl.org/2003/linkbase"
+  xmlns:xbrli="http://www.xbrl.org/2003/instance"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+    <roleRef
+      roleURI="http://xbrl.us/Solar/2019-09-20/roles/PermissionToOperateInterconnectionApproval"
+      xlink:href="../documents\solar-PermissionToOperateInterconnectionApproval_2019-09-20.xsd#roleType_PermissionToOperateInterconnectionApproval"
+      xlink:type="simple"/>
+    <presentationLink
+      xlink:role="http://xbrl.us/Solar/2019-09-20/roles/PermissionToOperateInterconnectionApproval"
+      xlink:type="extended">
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_PermissionToOperateInterconnectionApprovalAbstract"
+          xlink:label="solar_PermissionToOperateInterconnectionApprovalAbstract"
+          xlink:type="locator"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_PermissionToOperateInterconnectionApprovalAvailabilityOfDocument"
+          xlink:label="solar_PermissionToOperateInterconnectionApprovalAvailabilityOfDocument"
+          xlink:type="locator"/>
+        <presentationArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_PermissionToOperateInterconnectionApprovalAbstract"
+          xlink:to="solar_PermissionToOperateInterconnectionApprovalAvailabilityOfDocument"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_PermissionToOperateInterconnectionApprovalAvailabilityOfFinalDocument"
+          xlink:label="solar_PermissionToOperateInterconnectionApprovalAvailabilityOfFinalDocument"
+          xlink:type="locator"/>
+        <presentationArc
+          order="2"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_PermissionToOperateInterconnectionApprovalAbstract"
+          xlink:to="solar_PermissionToOperateInterconnectionApprovalAvailabilityOfFinalDocument"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_PermissionToOperateInterconnectionApprovalAvailabilityOfDocumentExceptions"
+          xlink:label="solar_PermissionToOperateInterconnectionApprovalAvailabilityOfDocumentExceptions"
+          xlink:type="locator"/>
+        <presentationArc
+          order="3"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_PermissionToOperateInterconnectionApprovalAbstract"
+          xlink:to="solar_PermissionToOperateInterconnectionApprovalAvailabilityOfDocumentExceptions"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_PermissionToOperateInterconnectionApprovalExceptionDescription"
+          xlink:label="solar_PermissionToOperateInterconnectionApprovalExceptionDescription"
+          xlink:type="locator"/>
+        <presentationArc
+          order="4"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_PermissionToOperateInterconnectionApprovalAbstract"
+          xlink:to="solar_PermissionToOperateInterconnectionApprovalExceptionDescription"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_PermissionToOperateInterconnectionApprovalCounterparties"
+          xlink:label="solar_PermissionToOperateInterconnectionApprovalCounterparties"
+          xlink:type="locator"/>
+        <presentationArc
+          order="5"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_PermissionToOperateInterconnectionApprovalAbstract"
+          xlink:to="solar_PermissionToOperateInterconnectionApprovalCounterparties"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_PermissionToOperateInterconnectionApprovalEffectiveDate"
+          xlink:label="solar_PermissionToOperateInterconnectionApprovalEffectiveDate"
+          xlink:type="locator"/>
+        <presentationArc
+          order="6"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_PermissionToOperateInterconnectionApprovalAbstract"
+          xlink:to="solar_PermissionToOperateInterconnectionApprovalEffectiveDate"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_PermissionToOperateInterconnectionApprovalExpirationDate"
+          xlink:label="solar_PermissionToOperateInterconnectionApprovalExpirationDate"
+          xlink:type="locator"/>
+        <presentationArc
+          order="7"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_PermissionToOperateInterconnectionApprovalAbstract"
+          xlink:to="solar_PermissionToOperateInterconnectionApprovalExpirationDate"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_PermissionToOperateInterconnectionApprovalDocumentLink"
+          xlink:label="solar_PermissionToOperateInterconnectionApprovalDocumentLink"
+          xlink:type="locator"/>
+        <presentationArc
+          order="8"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_PermissionToOperateInterconnectionApprovalAbstract"
+          xlink:to="solar_PermissionToOperateInterconnectionApprovalDocumentLink"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_PreparerOfPermissionToOperateInterconnectionApproval"
+          xlink:label="solar_PreparerOfPermissionToOperateInterconnectionApproval"
+          xlink:type="locator"/>
+        <presentationArc
+          order="9"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_PermissionToOperateInterconnectionApprovalAbstract"
+          xlink:to="solar_PreparerOfPermissionToOperateInterconnectionApproval"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_DocumentIdentifierPermissionToOperateInterconnectionApproval"
+          xlink:label="solar_DocumentIdentifierPermissionToOperateInterconnectionApproval"
+          xlink:type="locator"/>
+        <presentationArc
+          order="10"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_PermissionToOperateInterconnectionApprovalAbstract"
+          xlink:to="solar_DocumentIdentifierPermissionToOperateInterconnectionApproval"
+          xlink:type="arc"/>
+    </presentationLink>
+</linkbase>

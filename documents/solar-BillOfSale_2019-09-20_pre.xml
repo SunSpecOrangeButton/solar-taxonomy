@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Copyright 2019 SunSpec Alliance and XBRL US Inc. 
+
+Licensed under the Apache License, Version 2.0 (the "License"); 
+you may not use this file except in compliance with the License. 
+You may obtain a copy of the License at 
+
+    http://www.apache.org/licenses/LICENSE-2.0 
+
+Unless required by applicable law or agreed to in writing, software 
+distributed under the License is distributed on an "AS IS" BASIS, 
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+See the License for the specific language governing permissions and 
+limitations under the License.
+
+
+Orange Button Taxonomy - BillOfSale-->
+<linkbase
+  xmlns="http://www.xbrl.org/2003/linkbase"
+  xmlns:xbrli="http://www.xbrl.org/2003/instance"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+    <roleRef
+      roleURI="http://xbrl.us/Solar/2019-09-20/roles/BillOfSale"
+      xlink:href="../documents\solar-BillOfSale_2019-09-20.xsd#roleType_BillOfSale"
+      xlink:type="simple"/>
+    <presentationLink
+      xlink:role="http://xbrl.us/Solar/2019-09-20/roles/BillOfSale"
+      xlink:type="extended">
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_BillOfSaleAbstract"
+          xlink:label="solar_BillOfSaleAbstract"
+          xlink:type="locator"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_BillOfSaleAvailabilityOfDocument"
+          xlink:label="solar_BillOfSaleAvailabilityOfDocument"
+          xlink:type="locator"/>
+        <presentationArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_BillOfSaleAbstract"
+          xlink:to="solar_BillOfSaleAvailabilityOfDocument"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_BillOfSaleAvailabilityOfFinalDocument"
+          xlink:label="solar_BillOfSaleAvailabilityOfFinalDocument"
+          xlink:type="locator"/>
+        <presentationArc
+          order="2"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_BillOfSaleAbstract"
+          xlink:to="solar_BillOfSaleAvailabilityOfFinalDocument"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_BillOfSaleAvailabilityOfDocumentExceptions"
+          xlink:label="solar_BillOfSaleAvailabilityOfDocumentExceptions"
+          xlink:type="locator"/>
+        <presentationArc
+          order="3"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_BillOfSaleAbstract"
+          xlink:to="solar_BillOfSaleAvailabilityOfDocumentExceptions"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_BillOfSaleExceptionDescription"
+          xlink:label="solar_BillOfSaleExceptionDescription"
+          xlink:type="locator"/>
+        <presentationArc
+          order="4"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_BillOfSaleAbstract"
+          xlink:to="solar_BillOfSaleExceptionDescription"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_BillOfSaleCounterparties"
+          xlink:label="solar_BillOfSaleCounterparties"
+          xlink:type="locator"/>
+        <presentationArc
+          order="5"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_BillOfSaleAbstract"
+          xlink:to="solar_BillOfSaleCounterparties"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_BillOfSaleEffectiveDate"
+          xlink:label="solar_BillOfSaleEffectiveDate"
+          xlink:type="locator"/>
+        <presentationArc
+          order="6"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_BillOfSaleAbstract"
+          xlink:to="solar_BillOfSaleEffectiveDate"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_BillOfSaleExpirationDate"
+          xlink:label="solar_BillOfSaleExpirationDate"
+          xlink:type="locator"/>
+        <presentationArc
+          order="7"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_BillOfSaleAbstract"
+          xlink:to="solar_BillOfSaleExpirationDate"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_BillOfSaleDocumentLink"
+          xlink:label="solar_BillOfSaleDocumentLink"
+          xlink:type="locator"/>
+        <presentationArc
+          order="8"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_BillOfSaleAbstract"
+          xlink:to="solar_BillOfSaleDocumentLink"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_PreparerOfBillOfSale"
+          xlink:label="solar_PreparerOfBillOfSale"
+          xlink:type="locator"/>
+        <presentationArc
+          order="9"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_BillOfSaleAbstract"
+          xlink:to="solar_PreparerOfBillOfSale"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_DocumentIdentifierBillOfSale"
+          xlink:label="solar_DocumentIdentifierBillOfSale"
+          xlink:type="locator"/>
+        <presentationArc
+          order="10"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_BillOfSaleAbstract"
+          xlink:to="solar_DocumentIdentifierBillOfSale"
+          xlink:type="arc"/>
+    </presentationLink>
+</linkbase>

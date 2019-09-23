@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Copyright 2019 SunSpec Alliance and XBRL US Inc. 
+
+Licensed under the Apache License, Version 2.0 (the "License"); 
+you may not use this file except in compliance with the License. 
+You may obtain a copy of the License at 
+
+    http://www.apache.org/licenses/LICENSE-2.0 
+
+Unless required by applicable law or agreed to in writing, software 
+distributed under the License is distributed on an "AS IS" BASIS, 
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+See the License for the specific language governing permissions and 
+limitations under the License.
+
+
+Orange Button Taxonomy - RenewableEnergyCreditPerformanceAgreement-->
+<linkbase
+  xmlns="http://www.xbrl.org/2003/linkbase"
+  xmlns:xbrli="http://www.xbrl.org/2003/instance"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+    <roleRef
+      roleURI="http://xbrl.us/Solar/2019-09-20/roles/RenewableEnergyCreditPerformanceAgreement"
+      xlink:href="../documents\solar-RenewableEnergyCreditPerformanceAgreement_2019-09-20.xsd#roleType_RenewableEnergyCreditPerformanceAgreement"
+      xlink:type="simple"/>
+    <presentationLink
+      xlink:role="http://xbrl.us/Solar/2019-09-20/roles/RenewableEnergyCreditPerformanceAgreement"
+      xlink:type="extended">
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_RenewableEnergyCreditPerformanceGuaranteeAbstract"
+          xlink:label="solar_RenewableEnergyCreditPerformanceGuaranteeAbstract"
+          xlink:type="locator"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_RenewableEnergyCreditPerformanceGuaranteeNumberOfCredits"
+          xlink:label="solar_RenewableEnergyCreditPerformanceGuaranteeNumberOfCredits"
+          xlink:type="locator"/>
+        <presentationArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_RenewableEnergyCreditPerformanceGuaranteeAbstract"
+          xlink:to="solar_RenewableEnergyCreditPerformanceGuaranteeNumberOfCredits"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_RenewableEnergyCreditPerformanceGuarantee"
+          xlink:label="solar_RenewableEnergyCreditPerformanceGuarantee"
+          xlink:type="locator"/>
+        <presentationArc
+          order="2"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_RenewableEnergyCreditPerformanceGuaranteeAbstract"
+          xlink:to="solar_RenewableEnergyCreditPerformanceGuarantee"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_RenewableEnergyCreditPerformanceGuaranteeExpirationDate"
+          xlink:label="solar_RenewableEnergyCreditPerformanceGuaranteeExpirationDate"
+          xlink:type="locator"/>
+        <presentationArc
+          order="3"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_RenewableEnergyCreditPerformanceGuaranteeAbstract"
+          xlink:to="solar_RenewableEnergyCreditPerformanceGuaranteeExpirationDate"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_RenewableEnergyCreditPerformaneGuaranteeInitiationDate"
+          xlink:label="solar_RenewableEnergyCreditPerformaneGuaranteeInitiationDate"
+          xlink:type="locator"/>
+        <presentationArc
+          order="4"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_RenewableEnergyCreditPerformanceGuaranteeAbstract"
+          xlink:to="solar_RenewableEnergyCreditPerformaneGuaranteeInitiationDate"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_RenewableEnergyCreditPerformanceGuaranteeTerm"
+          xlink:label="solar_RenewableEnergyCreditPerformanceGuaranteeTerm"
+          xlink:type="locator"/>
+        <presentationArc
+          order="5"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_RenewableEnergyCreditPerformanceGuaranteeAbstract"
+          xlink:to="solar_RenewableEnergyCreditPerformanceGuaranteeTerm"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_RenewableEnergyCreditPerformanceGuaranteeType"
+          xlink:label="solar_RenewableEnergyCreditPerformanceGuaranteeType"
+          xlink:type="locator"/>
+        <presentationArc
+          order="6"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_RenewableEnergyCreditPerformanceGuaranteeAbstract"
+          xlink:to="solar_RenewableEnergyCreditPerformanceGuaranteeType"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_PreparerOfRenewableEnergyCreditPerformanceAgreement"
+          xlink:label="solar_PreparerOfRenewableEnergyCreditPerformanceAgreement"
+          xlink:type="locator"/>
+        <presentationArc
+          order="7"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_RenewableEnergyCreditPerformanceGuaranteeAbstract"
+          xlink:to="solar_PreparerOfRenewableEnergyCreditPerformanceAgreement"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_DocumentIdentifierRenewableEnergyCreditPerformanceAgreement"
+          xlink:label="solar_DocumentIdentifierRenewableEnergyCreditPerformanceAgreement"
+          xlink:type="locator"/>
+        <presentationArc
+          order="8"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_RenewableEnergyCreditPerformanceGuaranteeAbstract"
+          xlink:to="solar_DocumentIdentifierRenewableEnergyCreditPerformanceAgreement"
+          xlink:type="arc"/>
+    </presentationLink>
+</linkbase>

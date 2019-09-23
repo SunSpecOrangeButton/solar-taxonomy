@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Copyright 2019 SunSpec Alliance and XBRL US Inc. 
+
+Licensed under the Apache License, Version 2.0 (the "License"); 
+you may not use this file except in compliance with the License. 
+You may obtain a copy of the License at 
+
+    http://www.apache.org/licenses/LICENSE-2.0 
+
+Unless required by applicable law or agreed to in writing, software 
+distributed under the License is distributed on an "AS IS" BASIS, 
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+See the License for the specific language governing permissions and 
+limitations under the License.
+
+
+Orange Button Taxonomy - SecurityAgreementSupplement-->
+<linkbase
+  xmlns="http://www.xbrl.org/2003/linkbase"
+  xmlns:xbrli="http://www.xbrl.org/2003/instance"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+    <roleRef
+      roleURI="http://xbrl.us/Solar/2019-09-20/roles/SecurityAgreementSupplement"
+      xlink:href="../documents\solar-SecurityAgreementSupplement_2019-09-20.xsd#roleType_SecurityAgreementSupplement"
+      xlink:type="simple"/>
+    <presentationLink
+      xlink:role="http://xbrl.us/Solar/2019-09-20/roles/SecurityAgreementSupplement"
+      xlink:type="extended">
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_SecurityAgreementSupplementAbstract"
+          xlink:label="solar_SecurityAgreementSupplementAbstract"
+          xlink:type="locator"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_SecurityAgreementSupplementAvailabilityOfDocument"
+          xlink:label="solar_SecurityAgreementSupplementAvailabilityOfDocument"
+          xlink:type="locator"/>
+        <presentationArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_SecurityAgreementSupplementAbstract"
+          xlink:to="solar_SecurityAgreementSupplementAvailabilityOfDocument"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_SecurityAgreementSupplementAvailabilityOfFinalDocument"
+          xlink:label="solar_SecurityAgreementSupplementAvailabilityOfFinalDocument"
+          xlink:type="locator"/>
+        <presentationArc
+          order="2"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_SecurityAgreementSupplementAbstract"
+          xlink:to="solar_SecurityAgreementSupplementAvailabilityOfFinalDocument"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_SecurityAgreementSupplementAvailabilityOfDocumentExceptions"
+          xlink:label="solar_SecurityAgreementSupplementAvailabilityOfDocumentExceptions"
+          xlink:type="locator"/>
+        <presentationArc
+          order="3"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_SecurityAgreementSupplementAbstract"
+          xlink:to="solar_SecurityAgreementSupplementAvailabilityOfDocumentExceptions"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_SecurityAgreementSupplementExceptionDescription"
+          xlink:label="solar_SecurityAgreementSupplementExceptionDescription"
+          xlink:type="locator"/>
+        <presentationArc
+          order="4"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_SecurityAgreementSupplementAbstract"
+          xlink:to="solar_SecurityAgreementSupplementExceptionDescription"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_SecurityAgreementSupplementCounterparties"
+          xlink:label="solar_SecurityAgreementSupplementCounterparties"
+          xlink:type="locator"/>
+        <presentationArc
+          order="5"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_SecurityAgreementSupplementAbstract"
+          xlink:to="solar_SecurityAgreementSupplementCounterparties"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_SecurityAgreementSupplementEffectiveDate"
+          xlink:label="solar_SecurityAgreementSupplementEffectiveDate"
+          xlink:type="locator"/>
+        <presentationArc
+          order="6"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_SecurityAgreementSupplementAbstract"
+          xlink:to="solar_SecurityAgreementSupplementEffectiveDate"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_SecurityAgreementSupplementExpirationDate"
+          xlink:label="solar_SecurityAgreementSupplementExpirationDate"
+          xlink:type="locator"/>
+        <presentationArc
+          order="7"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_SecurityAgreementSupplementAbstract"
+          xlink:to="solar_SecurityAgreementSupplementExpirationDate"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_SecurityAgreementSupplementDocumentLink"
+          xlink:label="solar_SecurityAgreementSupplementDocumentLink"
+          xlink:type="locator"/>
+        <presentationArc
+          order="8"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_SecurityAgreementSupplementAbstract"
+          xlink:to="solar_SecurityAgreementSupplementDocumentLink"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_PreparerOfSecurityAgreementSupplement"
+          xlink:label="solar_PreparerOfSecurityAgreementSupplement"
+          xlink:type="locator"/>
+        <presentationArc
+          order="9"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_SecurityAgreementSupplementAbstract"
+          xlink:to="solar_PreparerOfSecurityAgreementSupplement"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_DocumentIdentifierSecurityAgreementSupplement"
+          xlink:label="solar_DocumentIdentifierSecurityAgreementSupplement"
+          xlink:type="locator"/>
+        <presentationArc
+          order="10"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_SecurityAgreementSupplementAbstract"
+          xlink:to="solar_DocumentIdentifierSecurityAgreementSupplement"
+          xlink:type="arc"/>
+    </presentationLink>
+</linkbase>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Copyright 2019 SunSpec Alliance and XBRL US Inc. 
+
+Licensed under the Apache License, Version 2.0 (the "License"); 
+you may not use this file except in compliance with the License. 
+You may obtain a copy of the License at 
+
+    http://www.apache.org/licenses/LICENSE-2.0 
+
+Unless required by applicable law or agreed to in writing, software 
+distributed under the License is distributed on an "AS IS" BASIS, 
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+See the License for the specific language governing permissions and 
+limitations under the License.
+
+
+Orange Button Taxonomy - TaxIndemnityAgreement-->
+<linkbase
+  xmlns="http://www.xbrl.org/2003/linkbase"
+  xmlns:xbrli="http://www.xbrl.org/2003/instance"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+    <roleRef
+      roleURI="http://xbrl.us/Solar/2019-09-20/roles/TaxIndemnityAgreement"
+      xlink:href="../documents\solar-TaxIndemnityAgreement_2019-09-20.xsd#roleType_TaxIndemnityAgreement"
+      xlink:type="simple"/>
+    <presentationLink
+      xlink:role="http://xbrl.us/Solar/2019-09-20/roles/TaxIndemnityAgreement"
+      xlink:type="extended">
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_TaxIndemnityAgreementAbstract"
+          xlink:label="solar_TaxIndemnityAgreementAbstract"
+          xlink:type="locator"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_TaxIndemnityAgreementAvailabilityOfDocument"
+          xlink:label="solar_TaxIndemnityAgreementAvailabilityOfDocument"
+          xlink:type="locator"/>
+        <presentationArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_TaxIndemnityAgreementAbstract"
+          xlink:to="solar_TaxIndemnityAgreementAvailabilityOfDocument"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_TaxIndemnityAgreementAvailabilityOfFinalDocument"
+          xlink:label="solar_TaxIndemnityAgreementAvailabilityOfFinalDocument"
+          xlink:type="locator"/>
+        <presentationArc
+          order="2"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_TaxIndemnityAgreementAbstract"
+          xlink:to="solar_TaxIndemnityAgreementAvailabilityOfFinalDocument"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_TaxIndemnityAgreementAvailabilityOfDocumentExceptions"
+          xlink:label="solar_TaxIndemnityAgreementAvailabilityOfDocumentExceptions"
+          xlink:type="locator"/>
+        <presentationArc
+          order="3"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_TaxIndemnityAgreementAbstract"
+          xlink:to="solar_TaxIndemnityAgreementAvailabilityOfDocumentExceptions"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_TaxIndemnityAgreementExceptionDescription"
+          xlink:label="solar_TaxIndemnityAgreementExceptionDescription"
+          xlink:type="locator"/>
+        <presentationArc
+          order="4"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_TaxIndemnityAgreementAbstract"
+          xlink:to="solar_TaxIndemnityAgreementExceptionDescription"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_TaxIndemnityAgreementCounterparties"
+          xlink:label="solar_TaxIndemnityAgreementCounterparties"
+          xlink:type="locator"/>
+        <presentationArc
+          order="5"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_TaxIndemnityAgreementAbstract"
+          xlink:to="solar_TaxIndemnityAgreementCounterparties"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_TaxIndemnityAgreementEffectiveDate"
+          xlink:label="solar_TaxIndemnityAgreementEffectiveDate"
+          xlink:type="locator"/>
+        <presentationArc
+          order="6"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_TaxIndemnityAgreementAbstract"
+          xlink:to="solar_TaxIndemnityAgreementEffectiveDate"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_TaxIndemnityAgreementExpirationDate"
+          xlink:label="solar_TaxIndemnityAgreementExpirationDate"
+          xlink:type="locator"/>
+        <presentationArc
+          order="7"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_TaxIndemnityAgreementAbstract"
+          xlink:to="solar_TaxIndemnityAgreementExpirationDate"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_TaxIndemnityAgreementLink"
+          xlink:label="solar_TaxIndemnityAgreementLink"
+          xlink:type="locator"/>
+        <presentationArc
+          order="8"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_TaxIndemnityAgreementAbstract"
+          xlink:to="solar_TaxIndemnityAgreementLink"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_PreparerOfTaxIndemnityAgreement"
+          xlink:label="solar_PreparerOfTaxIndemnityAgreement"
+          xlink:type="locator"/>
+        <presentationArc
+          order="9"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_TaxIndemnityAgreementAbstract"
+          xlink:to="solar_PreparerOfTaxIndemnityAgreement"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_DocumentIdentifierTaxIndemnityAgreement"
+          xlink:label="solar_DocumentIdentifierTaxIndemnityAgreement"
+          xlink:type="locator"/>
+        <presentationArc
+          order="10"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_TaxIndemnityAgreementAbstract"
+          xlink:to="solar_DocumentIdentifierTaxIndemnityAgreement"
+          xlink:type="arc"/>
+    </presentationLink>
+</linkbase>

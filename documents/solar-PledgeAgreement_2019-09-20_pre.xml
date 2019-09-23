@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Copyright 2019 SunSpec Alliance and XBRL US Inc. 
+
+Licensed under the Apache License, Version 2.0 (the "License"); 
+you may not use this file except in compliance with the License. 
+You may obtain a copy of the License at 
+
+    http://www.apache.org/licenses/LICENSE-2.0 
+
+Unless required by applicable law or agreed to in writing, software 
+distributed under the License is distributed on an "AS IS" BASIS, 
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+See the License for the specific language governing permissions and 
+limitations under the License.
+
+
+Orange Button Taxonomy - PledgeAgreement-->
+<linkbase
+  xmlns="http://www.xbrl.org/2003/linkbase"
+  xmlns:xbrli="http://www.xbrl.org/2003/instance"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+    <roleRef
+      roleURI="http://xbrl.us/Solar/2019-09-20/roles/PledgeAgreement"
+      xlink:href="../documents\solar-PledgeAgreement_2019-09-20.xsd#roleType_PledgeAgreement"
+      xlink:type="simple"/>
+    <presentationLink
+      xlink:role="http://xbrl.us/Solar/2019-09-20/roles/PledgeAgreement"
+      xlink:type="extended">
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_PledgeAgreementAbstract"
+          xlink:label="solar_PledgeAgreementAbstract"
+          xlink:type="locator"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_PledgeAgreementAvailabilityOfDocument"
+          xlink:label="solar_PledgeAgreementAvailabilityOfDocument"
+          xlink:type="locator"/>
+        <presentationArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_PledgeAgreementAbstract"
+          xlink:to="solar_PledgeAgreementAvailabilityOfDocument"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_PledgeAgreementAvailabilityOfFinalDocument"
+          xlink:label="solar_PledgeAgreementAvailabilityOfFinalDocument"
+          xlink:type="locator"/>
+        <presentationArc
+          order="2"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_PledgeAgreementAbstract"
+          xlink:to="solar_PledgeAgreementAvailabilityOfFinalDocument"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_PledgeAgreementAvailabilityOfDocumentExceptions"
+          xlink:label="solar_PledgeAgreementAvailabilityOfDocumentExceptions"
+          xlink:type="locator"/>
+        <presentationArc
+          order="3"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_PledgeAgreementAbstract"
+          xlink:to="solar_PledgeAgreementAvailabilityOfDocumentExceptions"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_PledgeAgreementExceptionDescription"
+          xlink:label="solar_PledgeAgreementExceptionDescription"
+          xlink:type="locator"/>
+        <presentationArc
+          order="4"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_PledgeAgreementAbstract"
+          xlink:to="solar_PledgeAgreementExceptionDescription"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_PledgeAgreementCounterparties"
+          xlink:label="solar_PledgeAgreementCounterparties"
+          xlink:type="locator"/>
+        <presentationArc
+          order="5"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_PledgeAgreementAbstract"
+          xlink:to="solar_PledgeAgreementCounterparties"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_PledgeAgreementEffectiveDate"
+          xlink:label="solar_PledgeAgreementEffectiveDate"
+          xlink:type="locator"/>
+        <presentationArc
+          order="6"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_PledgeAgreementAbstract"
+          xlink:to="solar_PledgeAgreementEffectiveDate"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_PledgeAgreementExpirationDate"
+          xlink:label="solar_PledgeAgreementExpirationDate"
+          xlink:type="locator"/>
+        <presentationArc
+          order="7"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_PledgeAgreementAbstract"
+          xlink:to="solar_PledgeAgreementExpirationDate"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_PledgeAgreementLink"
+          xlink:label="solar_PledgeAgreementLink"
+          xlink:type="locator"/>
+        <presentationArc
+          order="8"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_PledgeAgreementAbstract"
+          xlink:to="solar_PledgeAgreementLink"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_PledgeAgreementDocumentLink"
+          xlink:label="solar_PledgeAgreementDocumentLink"
+          xlink:type="locator"/>
+        <presentationArc
+          order="9"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_PledgeAgreementAbstract"
+          xlink:to="solar_PledgeAgreementDocumentLink"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_PreparerOfPledgeAgreement"
+          xlink:label="solar_PreparerOfPledgeAgreement"
+          xlink:type="locator"/>
+        <presentationArc
+          order="10"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_PledgeAgreementAbstract"
+          xlink:to="solar_PreparerOfPledgeAgreement"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_DocumentIdentifierPledgeAgreement"
+          xlink:label="solar_DocumentIdentifierPledgeAgreement"
+          xlink:type="locator"/>
+        <presentationArc
+          order="11"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_PledgeAgreementAbstract"
+          xlink:to="solar_DocumentIdentifierPledgeAgreement"
+          xlink:type="arc"/>
+    </presentationLink>
+</linkbase>

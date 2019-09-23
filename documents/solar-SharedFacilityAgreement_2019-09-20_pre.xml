@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Copyright 2019 SunSpec Alliance and XBRL US Inc. 
+
+Licensed under the Apache License, Version 2.0 (the "License"); 
+you may not use this file except in compliance with the License. 
+You may obtain a copy of the License at 
+
+    http://www.apache.org/licenses/LICENSE-2.0 
+
+Unless required by applicable law or agreed to in writing, software 
+distributed under the License is distributed on an "AS IS" BASIS, 
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+See the License for the specific language governing permissions and 
+limitations under the License.
+
+
+Orange Button Taxonomy - SharedFacilityAgreement-->
+<linkbase
+  xmlns="http://www.xbrl.org/2003/linkbase"
+  xmlns:xbrli="http://www.xbrl.org/2003/instance"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+    <roleRef
+      roleURI="http://xbrl.us/Solar/2019-09-20/roles/SharedFacilityAgreement"
+      xlink:href="../documents\solar-SharedFacilityAgreement_2019-09-20.xsd#roleType_SharedFacilityAgreement"
+      xlink:type="simple"/>
+    <presentationLink
+      xlink:role="http://xbrl.us/Solar/2019-09-20/roles/SharedFacilityAgreement"
+      xlink:type="extended">
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_SharedFacilityAgreementAbstract"
+          xlink:label="solar_SharedFacilityAgreementAbstract"
+          xlink:type="locator"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_SharedFacilityAgreementAvailabilityOfDocument"
+          xlink:label="solar_SharedFacilityAgreementAvailabilityOfDocument"
+          xlink:type="locator"/>
+        <presentationArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_SharedFacilityAgreementAbstract"
+          xlink:to="solar_SharedFacilityAgreementAvailabilityOfDocument"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_SharedFacilityAgreementAvailabilityOfFinalDocument"
+          xlink:label="solar_SharedFacilityAgreementAvailabilityOfFinalDocument"
+          xlink:type="locator"/>
+        <presentationArc
+          order="2"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_SharedFacilityAgreementAbstract"
+          xlink:to="solar_SharedFacilityAgreementAvailabilityOfFinalDocument"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_SharedFacilityAgreementAvailabilityOfDocumentExceptions"
+          xlink:label="solar_SharedFacilityAgreementAvailabilityOfDocumentExceptions"
+          xlink:type="locator"/>
+        <presentationArc
+          order="3"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_SharedFacilityAgreementAbstract"
+          xlink:to="solar_SharedFacilityAgreementAvailabilityOfDocumentExceptions"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_SharedFacilityAgreementExceptionDescription"
+          xlink:label="solar_SharedFacilityAgreementExceptionDescription"
+          xlink:type="locator"/>
+        <presentationArc
+          order="4"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_SharedFacilityAgreementAbstract"
+          xlink:to="solar_SharedFacilityAgreementExceptionDescription"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_SharedFacilityAgreementCounterparties"
+          xlink:label="solar_SharedFacilityAgreementCounterparties"
+          xlink:type="locator"/>
+        <presentationArc
+          order="5"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_SharedFacilityAgreementAbstract"
+          xlink:to="solar_SharedFacilityAgreementCounterparties"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_SharedFacilityAgreementEffectiveDate"
+          xlink:label="solar_SharedFacilityAgreementEffectiveDate"
+          xlink:type="locator"/>
+        <presentationArc
+          order="6"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_SharedFacilityAgreementAbstract"
+          xlink:to="solar_SharedFacilityAgreementEffectiveDate"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_SharedFacilityAgreementExpirationDate"
+          xlink:label="solar_SharedFacilityAgreementExpirationDate"
+          xlink:type="locator"/>
+        <presentationArc
+          order="7"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_SharedFacilityAgreementAbstract"
+          xlink:to="solar_SharedFacilityAgreementExpirationDate"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_SharedFacilityAgreementDocumentLink"
+          xlink:label="solar_SharedFacilityAgreementDocumentLink"
+          xlink:type="locator"/>
+        <presentationArc
+          order="8"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_SharedFacilityAgreementAbstract"
+          xlink:to="solar_SharedFacilityAgreementDocumentLink"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_PreparerOfSharedFacilityAgreement"
+          xlink:label="solar_PreparerOfSharedFacilityAgreement"
+          xlink:type="locator"/>
+        <presentationArc
+          order="9"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_SharedFacilityAgreementAbstract"
+          xlink:to="solar_PreparerOfSharedFacilityAgreement"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2019-09-20.xsd#solar_DocumentIdentifierSharedFacilityAgreement"
+          xlink:label="solar_DocumentIdentifierSharedFacilityAgreement"
+          xlink:type="locator"/>
+        <presentationArc
+          order="10"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_SharedFacilityAgreementAbstract"
+          xlink:to="solar_DocumentIdentifierSharedFacilityAgreement"
+          xlink:type="arc"/>
+    </presentationLink>
+</linkbase>
