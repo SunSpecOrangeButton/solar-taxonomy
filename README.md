@@ -1,4 +1,4 @@
-# Orange Button Solar Taxonomy 2019-07-31
+# Orange Button Solar Taxonomy 2019-09-20
 
 This Taxonomy was developed as part of the U.S. Department of Energy Solar Energy Technologies Office-funded <a href="https://xbrl.us/solar" target="_blank">Orange Button <sup style="font-size: 60%;">SM</sup> program</a>, that aims to make it easier to aggregate and share solar data, facilitating more efficient and cost-effective financing of distributed energy projects.  
 
