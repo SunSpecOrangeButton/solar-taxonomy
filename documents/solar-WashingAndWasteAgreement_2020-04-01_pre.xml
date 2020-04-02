@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Copyright 2019 SunSpec Alliance and XBRL US Inc. 
+
+Licensed under the Apache License, Version 2.0 (the "License"); 
+you may not use this file except in compliance with the License. 
+You may obtain a copy of the License at 
+
+    http://www.apache.org/licenses/LICENSE-2.0 
+
+Unless required by applicable law or agreed to in writing, software 
+distributed under the License is distributed on an "AS IS" BASIS, 
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+See the License for the specific language governing permissions and 
+limitations under the License.
+
+
+Orange Button Taxonomy - WashingAndWasteAgreement-->
+<linkbase
+  xmlns="http://www.xbrl.org/2003/linkbase"
+  xmlns:xbrli="http://www.xbrl.org/2003/instance"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+    <roleRef
+      roleURI="http://xbrl.us/Solar/2020-04-01/roles/WashingAndWasteAgreement"
+      xlink:href="../documents\solar-WashingAndWasteAgreement_2020-04-01.xsd#roleType_WashingAndWasteAgreement"
+      xlink:type="simple"/>
+    <presentationLink
+      xlink:role="http://xbrl.us/Solar/2020-04-01/roles/WashingAndWasteAgreement"
+      xlink:type="extended">
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_WashingAndWasteAbstract"
+          xlink:label="solar_WashingAndWasteAbstract"
+          xlink:type="locator"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_SiteIDTable"
+          xlink:label="solar_SiteIDTable"
+          xlink:type="locator"/>
+        <presentationArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_WashingAndWasteAbstract"
+          xlink:to="solar_SiteIDTable"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_SiteIDAxis"
+          xlink:label="solar_SiteIDAxis"
+          xlink:type="locator"/>
+        <presentationArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_SiteIDTable"
+          xlink:to="solar_SiteIDAxis"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_WashingAndWasteAgreeLineItems"
+          xlink:label="solar_WashingAndWasteAgreeLineItems"
+          xlink:type="locator"/>
+        <presentationArc
+          order="2"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_SiteIDTable"
+          xlink:to="solar_WashingAndWasteAgreeLineItems"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_WashingAndWasteCostPerModule"
+          xlink:label="solar_WashingAndWasteCostPerModule"
+          xlink:type="locator"/>
+        <presentationArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_WashingAndWasteAgreeLineItems"
+          xlink:to="solar_WashingAndWasteCostPerModule"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_WashingAndWasteEquipRentalExpense"
+          xlink:label="solar_WashingAndWasteEquipRentalExpense"
+          xlink:type="locator"/>
+        <presentationArc
+          order="2"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_WashingAndWasteAgreeLineItems"
+          xlink:to="solar_WashingAndWasteEquipRentalExpense"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_WashingAndWasteFreqOfWashing"
+          xlink:label="solar_WashingAndWasteFreqOfWashing"
+          xlink:type="locator"/>
+        <presentationArc
+          order="3"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_WashingAndWasteAgreeLineItems"
+          xlink:to="solar_WashingAndWasteFreqOfWashing"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_WashingAndWasteModuleQuantCount"
+          xlink:label="solar_WashingAndWasteModuleQuantCount"
+          xlink:type="locator"/>
+        <presentationArc
+          order="4"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_WashingAndWasteAgreeLineItems"
+          xlink:to="solar_WashingAndWasteModuleQuantCount"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_WashingAndWasteCostOfWater"
+          xlink:label="solar_WashingAndWasteCostOfWater"
+          xlink:type="locator"/>
+        <presentationArc
+          order="5"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_WashingAndWasteAgreeLineItems"
+          xlink:to="solar_WashingAndWasteCostOfWater"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_WashingAndWasteQuantOfWater"
+          xlink:label="solar_WashingAndWasteQuantOfWater"
+          xlink:type="locator"/>
+        <presentationArc
+          order="6"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_WashingAndWasteAgreeLineItems"
+          xlink:to="solar_WashingAndWasteQuantOfWater"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_WashingAndWasteExpenseOfWaste"
+          xlink:label="solar_WashingAndWasteExpenseOfWaste"
+          xlink:type="locator"/>
+        <presentationArc
+          order="7"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_WashingAndWasteAgreeLineItems"
+          xlink:to="solar_WashingAndWasteExpenseOfWaste"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_WashingAndWasteExpenseOfWater"
+          xlink:label="solar_WashingAndWasteExpenseOfWater"
+          xlink:type="locator"/>
+        <presentationArc
+          order="8"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_WashingAndWasteAgreeLineItems"
+          xlink:to="solar_WashingAndWasteExpenseOfWater"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_PreparerOfWashingAndWasteMgmtAgree"
+          xlink:label="solar_PreparerOfWashingAndWasteMgmtAgree"
+          xlink:type="locator"/>
+        <presentationArc
+          order="9"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_WashingAndWasteAgreeLineItems"
+          xlink:to="solar_PreparerOfWashingAndWasteMgmtAgree"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_DocIDWashingAndWasteMgmtAgree"
+          xlink:label="solar_DocIDWashingAndWasteMgmtAgree"
+          xlink:type="locator"/>
+        <presentationArc
+          order="10"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_WashingAndWasteAgreeLineItems"
+          xlink:to="solar_DocIDWashingAndWasteMgmtAgree"
+          xlink:type="arc"/>
+    </presentationLink>
+</linkbase>

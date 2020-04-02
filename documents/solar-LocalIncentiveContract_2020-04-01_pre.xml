@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Copyright 2019 SunSpec Alliance and XBRL US Inc. 
+
+Licensed under the Apache License, Version 2.0 (the "License"); 
+you may not use this file except in compliance with the License. 
+You may obtain a copy of the License at 
+
+    http://www.apache.org/licenses/LICENSE-2.0 
+
+Unless required by applicable law or agreed to in writing, software 
+distributed under the License is distributed on an "AS IS" BASIS, 
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+See the License for the specific language governing permissions and 
+limitations under the License.
+
+
+Orange Button Taxonomy - LocalIncentiveContract-->
+<linkbase
+  xmlns="http://www.xbrl.org/2003/linkbase"
+  xmlns:xbrli="http://www.xbrl.org/2003/instance"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+    <roleRef
+      roleURI="http://xbrl.us/Solar/2020-04-01/roles/LocalIncentiveContract"
+      xlink:href="../documents\solar-LocalIncentiveContract_2020-04-01.xsd#roleType_LocalIncentiveContract"
+      xlink:type="simple"/>
+    <presentationLink
+      xlink:role="http://xbrl.us/Solar/2020-04-01/roles/LocalIncentiveContract"
+      xlink:type="extended">
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_LocalIncentiveContractAbstract"
+          xlink:label="solar_LocalIncentiveContractAbstract"
+          xlink:type="locator"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_LocalIncentiveContractAvailOfDoc"
+          xlink:label="solar_LocalIncentiveContractAvailOfDoc"
+          xlink:type="locator"/>
+        <presentationArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_LocalIncentiveContractAbstract"
+          xlink:to="solar_LocalIncentiveContractAvailOfDoc"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_LocalIncentiveContractAvailOfFinalDoc"
+          xlink:label="solar_LocalIncentiveContractAvailOfFinalDoc"
+          xlink:type="locator"/>
+        <presentationArc
+          order="2"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_LocalIncentiveContractAbstract"
+          xlink:to="solar_LocalIncentiveContractAvailOfFinalDoc"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_LocalIncentiveContractAvailOfDocExcept"
+          xlink:label="solar_LocalIncentiveContractAvailOfDocExcept"
+          xlink:type="locator"/>
+        <presentationArc
+          order="3"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_LocalIncentiveContractAbstract"
+          xlink:to="solar_LocalIncentiveContractAvailOfDocExcept"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_LocalIncentiveContractExceptDesc"
+          xlink:label="solar_LocalIncentiveContractExceptDesc"
+          xlink:type="locator"/>
+        <presentationArc
+          order="4"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_LocalIncentiveContractAbstract"
+          xlink:to="solar_LocalIncentiveContractExceptDesc"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_LocalIncentiveContractCntrparty"
+          xlink:label="solar_LocalIncentiveContractCntrparty"
+          xlink:type="locator"/>
+        <presentationArc
+          order="5"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_LocalIncentiveContractAbstract"
+          xlink:to="solar_LocalIncentiveContractCntrparty"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_LocalIncentiveContractEffectDate"
+          xlink:label="solar_LocalIncentiveContractEffectDate"
+          xlink:type="locator"/>
+        <presentationArc
+          order="6"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_LocalIncentiveContractAbstract"
+          xlink:to="solar_LocalIncentiveContractEffectDate"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_LocalIncentiveContractExpDate"
+          xlink:label="solar_LocalIncentiveContractExpDate"
+          xlink:type="locator"/>
+        <presentationArc
+          order="7"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_LocalIncentiveContractAbstract"
+          xlink:to="solar_LocalIncentiveContractExpDate"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_LocalIncentiveContractAmt"
+          xlink:label="solar_LocalIncentiveContractAmt"
+          xlink:type="locator"/>
+        <presentationArc
+          order="8"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_LocalIncentiveContractAbstract"
+          xlink:to="solar_LocalIncentiveContractAmt"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_LocalIncentiveContractNumOfUnits"
+          xlink:label="solar_LocalIncentiveContractNumOfUnits"
+          xlink:type="locator"/>
+        <presentationArc
+          order="9"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_LocalIncentiveContractAbstract"
+          xlink:to="solar_LocalIncentiveContractNumOfUnits"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_LocalIncentiveContractDesc"
+          xlink:label="solar_LocalIncentiveContractDesc"
+          xlink:type="locator"/>
+        <presentationArc
+          order="10"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_LocalIncentiveContractAbstract"
+          xlink:to="solar_LocalIncentiveContractDesc"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_LocalIncentiveContractJurisdiction"
+          xlink:label="solar_LocalIncentiveContractJurisdiction"
+          xlink:type="locator"/>
+        <presentationArc
+          order="11"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_LocalIncentiveContractAbstract"
+          xlink:to="solar_LocalIncentiveContractJurisdiction"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_LocalIncentiveContractDocLink"
+          xlink:label="solar_LocalIncentiveContractDocLink"
+          xlink:type="locator"/>
+        <presentationArc
+          order="12"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_LocalIncentiveContractAbstract"
+          xlink:to="solar_LocalIncentiveContractDocLink"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_PreparerOfLocalIncentiveContract"
+          xlink:label="solar_PreparerOfLocalIncentiveContract"
+          xlink:type="locator"/>
+        <presentationArc
+          order="13"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_LocalIncentiveContractAbstract"
+          xlink:to="solar_PreparerOfLocalIncentiveContract"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_DocIDLocalIncentiveContract"
+          xlink:label="solar_DocIDLocalIncentiveContract"
+          xlink:type="locator"/>
+        <presentationArc
+          order="14"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_LocalIncentiveContractAbstract"
+          xlink:to="solar_DocIDLocalIncentiveContract"
+          xlink:type="arc"/>
+    </presentationLink>
+</linkbase>

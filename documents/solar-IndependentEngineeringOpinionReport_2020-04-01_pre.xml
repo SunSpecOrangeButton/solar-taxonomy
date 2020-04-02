@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Copyright 2019 SunSpec Alliance and XBRL US Inc. 
+
+Licensed under the Apache License, Version 2.0 (the "License"); 
+you may not use this file except in compliance with the License. 
+You may obtain a copy of the License at 
+
+    http://www.apache.org/licenses/LICENSE-2.0 
+
+Unless required by applicable law or agreed to in writing, software 
+distributed under the License is distributed on an "AS IS" BASIS, 
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+See the License for the specific language governing permissions and 
+limitations under the License.
+
+
+Orange Button Taxonomy - IndependentEngineeringOpinionReport-->
+<linkbase
+  xmlns="http://www.xbrl.org/2003/linkbase"
+  xmlns:xbrli="http://www.xbrl.org/2003/instance"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+    <roleRef
+      roleURI="http://xbrl.us/Solar/2020-04-01/roles/IndependentEngineeringOpinionReport"
+      xlink:href="../documents\solar-IndependentEngineeringOpinionReport_2020-04-01.xsd#roleType_IndependentEngineeringOpinionReport"
+      xlink:type="simple"/>
+    <presentationLink
+      xlink:role="http://xbrl.us/Solar/2020-04-01/roles/IndependentEngineeringOpinionReport"
+      xlink:type="extended">
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_IndepEngOpinRptAbstract"
+          xlink:label="solar_IndepEngOpinRptAbstract"
+          xlink:type="locator"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_IndepEngOpinRptAvailOfDoc"
+          xlink:label="solar_IndepEngOpinRptAvailOfDoc"
+          xlink:type="locator"/>
+        <presentationArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_IndepEngOpinRptAbstract"
+          xlink:to="solar_IndepEngOpinRptAvailOfDoc"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_IndepEngOpinRptAvailOfFinalDoc"
+          xlink:label="solar_IndepEngOpinRptAvailOfFinalDoc"
+          xlink:type="locator"/>
+        <presentationArc
+          order="2"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_IndepEngOpinRptAbstract"
+          xlink:to="solar_IndepEngOpinRptAvailOfFinalDoc"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_IndepEngOpinRptAvailOfDocExcept"
+          xlink:label="solar_IndepEngOpinRptAvailOfDocExcept"
+          xlink:type="locator"/>
+        <presentationArc
+          order="3"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_IndepEngOpinRptAbstract"
+          xlink:to="solar_IndepEngOpinRptAvailOfDocExcept"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_IndepEngOpinRptExceptDesc"
+          xlink:label="solar_IndepEngOpinRptExceptDesc"
+          xlink:type="locator"/>
+        <presentationArc
+          order="4"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_IndepEngOpinRptAbstract"
+          xlink:to="solar_IndepEngOpinRptExceptDesc"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_IndepEngOpinRptCntrpartyToThe"
+          xlink:label="solar_IndepEngOpinRptCntrpartyToThe"
+          xlink:type="locator"/>
+        <presentationArc
+          order="5"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_IndepEngOpinRptAbstract"
+          xlink:to="solar_IndepEngOpinRptCntrpartyToThe"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_IndepEngOpinRptEffectDate"
+          xlink:label="solar_IndepEngOpinRptEffectDate"
+          xlink:type="locator"/>
+        <presentationArc
+          order="6"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_IndepEngOpinRptAbstract"
+          xlink:to="solar_IndepEngOpinRptEffectDate"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_IndepEngOpinRptDocLink"
+          xlink:label="solar_IndepEngOpinRptDocLink"
+          xlink:type="locator"/>
+        <presentationArc
+          order="7"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_IndepEngOpinRptAbstract"
+          xlink:to="solar_IndepEngOpinRptDocLink"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_PreparerOfIndepEngOpinRpt"
+          xlink:label="solar_PreparerOfIndepEngOpinRpt"
+          xlink:type="locator"/>
+        <presentationArc
+          order="8"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_IndepEngOpinRptAbstract"
+          xlink:to="solar_PreparerOfIndepEngOpinRpt"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_DocIDIndepEngOpinRpt"
+          xlink:label="solar_DocIDIndepEngOpinRpt"
+          xlink:type="locator"/>
+        <presentationArc
+          order="9"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_IndepEngOpinRptAbstract"
+          xlink:to="solar_DocIDIndepEngOpinRpt"
+          xlink:type="arc"/>
+    </presentationLink>
+</linkbase>

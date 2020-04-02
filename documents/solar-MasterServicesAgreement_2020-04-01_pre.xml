@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Copyright 2019 SunSpec Alliance and XBRL US Inc. 
+
+Licensed under the Apache License, Version 2.0 (the "License"); 
+you may not use this file except in compliance with the License. 
+You may obtain a copy of the License at 
+
+    http://www.apache.org/licenses/LICENSE-2.0 
+
+Unless required by applicable law or agreed to in writing, software 
+distributed under the License is distributed on an "AS IS" BASIS, 
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+See the License for the specific language governing permissions and 
+limitations under the License.
+
+
+Orange Button Taxonomy - MasterServicesAgreement-->
+<linkbase
+  xmlns="http://www.xbrl.org/2003/linkbase"
+  xmlns:xbrli="http://www.xbrl.org/2003/instance"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+    <roleRef
+      roleURI="http://xbrl.us/Solar/2020-04-01/roles/MasterServicesAgreement"
+      xlink:href="../documents\solar-MasterServicesAgreement_2020-04-01.xsd#roleType_MasterServicesAgreement"
+      xlink:type="simple"/>
+    <presentationLink
+      xlink:role="http://xbrl.us/Solar/2020-04-01/roles/MasterServicesAgreement"
+      xlink:type="extended">
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_MasterServAgreeAbstract"
+          xlink:label="solar_MasterServAgreeAbstract"
+          xlink:type="locator"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_MasterServAgreeAdministrator"
+          xlink:label="solar_MasterServAgreeAdministrator"
+          xlink:type="locator"/>
+        <presentationArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_MasterServAgreeAbstract"
+          xlink:to="solar_MasterServAgreeAdministrator"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_MasterServAgreeBudget"
+          xlink:label="solar_MasterServAgreeBudget"
+          xlink:type="locator"/>
+        <presentationArc
+          order="2"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_MasterServAgreeAbstract"
+          xlink:to="solar_MasterServAgreeBudget"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_MasterServAgreeEffectDate"
+          xlink:label="solar_MasterServAgreeEffectDate"
+          xlink:type="locator"/>
+        <presentationArc
+          order="3"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_MasterServAgreeAbstract"
+          xlink:to="solar_MasterServAgreeEffectDate"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_MasterServAgreeFees"
+          xlink:label="solar_MasterServAgreeFees"
+          xlink:type="locator"/>
+        <presentationArc
+          order="4"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_MasterServAgreeAbstract"
+          xlink:to="solar_MasterServAgreeFees"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_MasterServAgreeLimitationOfLiability"
+          xlink:label="solar_MasterServAgreeLimitationOfLiability"
+          xlink:type="locator"/>
+        <presentationArc
+          order="5"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_MasterServAgreeAbstract"
+          xlink:to="solar_MasterServAgreeLimitationOfLiability"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_MasterServAgreeScopeOfWork"
+          xlink:label="solar_MasterServAgreeScopeOfWork"
+          xlink:type="locator"/>
+        <presentationArc
+          order="6"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_MasterServAgreeAbstract"
+          xlink:to="solar_MasterServAgreeScopeOfWork"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_MasterServAgreeTerm"
+          xlink:label="solar_MasterServAgreeTerm"
+          xlink:type="locator"/>
+        <presentationArc
+          order="7"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_MasterServAgreeAbstract"
+          xlink:to="solar_MasterServAgreeTerm"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_MasterServAgreeTermDate"
+          xlink:label="solar_MasterServAgreeTermDate"
+          xlink:type="locator"/>
+        <presentationArc
+          order="8"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_MasterServAgreeAbstract"
+          xlink:to="solar_MasterServAgreeTermDate"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_MasterServAgreeType"
+          xlink:label="solar_MasterServAgreeType"
+          xlink:type="locator"/>
+        <presentationArc
+          order="9"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_MasterServAgreeAbstract"
+          xlink:to="solar_MasterServAgreeType"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_MasterServAgreeAvailOfDoc"
+          xlink:label="solar_MasterServAgreeAvailOfDoc"
+          xlink:type="locator"/>
+        <presentationArc
+          order="10"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_MasterServAgreeAbstract"
+          xlink:to="solar_MasterServAgreeAvailOfDoc"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_MasterServAgreeAvailOfFinalDoc"
+          xlink:label="solar_MasterServAgreeAvailOfFinalDoc"
+          xlink:type="locator"/>
+        <presentationArc
+          order="11"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_MasterServAgreeAbstract"
+          xlink:to="solar_MasterServAgreeAvailOfFinalDoc"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_MasterServAgreeAvailOfDocExcept"
+          xlink:label="solar_MasterServAgreeAvailOfDocExcept"
+          xlink:type="locator"/>
+        <presentationArc
+          order="12"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_MasterServAgreeAbstract"
+          xlink:to="solar_MasterServAgreeAvailOfDocExcept"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_MasterServAgreeExceptDesc"
+          xlink:label="solar_MasterServAgreeExceptDesc"
+          xlink:type="locator"/>
+        <presentationArc
+          order="13"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_MasterServAgreeAbstract"
+          xlink:to="solar_MasterServAgreeExceptDesc"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_MasterServAgreeCntrparty"
+          xlink:label="solar_MasterServAgreeCntrparty"
+          xlink:type="locator"/>
+        <presentationArc
+          order="14"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_MasterServAgreeAbstract"
+          xlink:to="solar_MasterServAgreeCntrparty"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_MasterServAgreeDocLink"
+          xlink:label="solar_MasterServAgreeDocLink"
+          xlink:type="locator"/>
+        <presentationArc
+          order="15"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_MasterServAgreeAbstract"
+          xlink:to="solar_MasterServAgreeDocLink"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_PreparerOfMasterServAgree"
+          xlink:label="solar_PreparerOfMasterServAgree"
+          xlink:type="locator"/>
+        <presentationArc
+          order="16"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_MasterServAgreeAbstract"
+          xlink:to="solar_PreparerOfMasterServAgree"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_DocIDMasterServAgree"
+          xlink:label="solar_DocIDMasterServAgree"
+          xlink:type="locator"/>
+        <presentationArc
+          order="17"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_MasterServAgreeAbstract"
+          xlink:to="solar_DocIDMasterServAgree"
+          xlink:type="arc"/>
+    </presentationLink>
+</linkbase>

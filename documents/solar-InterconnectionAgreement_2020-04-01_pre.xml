@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Copyright 2019 SunSpec Alliance and XBRL US Inc. 
+
+Licensed under the Apache License, Version 2.0 (the "License"); 
+you may not use this file except in compliance with the License. 
+You may obtain a copy of the License at 
+
+    http://www.apache.org/licenses/LICENSE-2.0 
+
+Unless required by applicable law or agreed to in writing, software 
+distributed under the License is distributed on an "AS IS" BASIS, 
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+See the License for the specific language governing permissions and 
+limitations under the License.
+
+
+Orange Button Taxonomy - InterconnectionAgreement-->
+<linkbase
+  xmlns="http://www.xbrl.org/2003/linkbase"
+  xmlns:xbrli="http://www.xbrl.org/2003/instance"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+    <roleRef
+      roleURI="http://xbrl.us/Solar/2020-04-01/roles/InterconnectionAgreement"
+      xlink:href="../documents\solar-InterconnectionAgreement_2020-04-01.xsd#roleType_InterconnectionAgreement"
+      xlink:type="simple"/>
+    <presentationLink
+      xlink:role="http://xbrl.us/Solar/2020-04-01/roles/InterconnectionAgreement"
+      xlink:type="extended">
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_InterconnAgreeAbstract"
+          xlink:label="solar_InterconnAgreeAbstract"
+          xlink:type="locator"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_InterconnAgreeType"
+          xlink:label="solar_InterconnAgreeType"
+          xlink:type="locator"/>
+        <presentationArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_InterconnAgreeAbstract"
+          xlink:to="solar_InterconnAgreeType"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_InterconnAgreeCustomer"
+          xlink:label="solar_InterconnAgreeCustomer"
+          xlink:type="locator"/>
+        <presentationArc
+          order="2"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_InterconnAgreeAbstract"
+          xlink:to="solar_InterconnAgreeCustomer"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_InterconnAgreeEffectDate"
+          xlink:label="solar_InterconnAgreeEffectDate"
+          xlink:type="locator"/>
+        <presentationArc
+          order="3"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_InterconnAgreeAbstract"
+          xlink:to="solar_InterconnAgreeEffectDate"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_InterconnAgreeInterconnProvider"
+          xlink:label="solar_InterconnAgreeInterconnProvider"
+          xlink:type="locator"/>
+        <presentationArc
+          order="4"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_InterconnAgreeAbstract"
+          xlink:to="solar_InterconnAgreeInterconnProvider"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_InterconnAgreePointOfInterconn"
+          xlink:label="solar_InterconnAgreePointOfInterconn"
+          xlink:type="locator"/>
+        <presentationArc
+          order="5"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_InterconnAgreeAbstract"
+          xlink:to="solar_InterconnAgreePointOfInterconn"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_InterconnAgreeSpecialFeat"
+          xlink:label="solar_InterconnAgreeSpecialFeat"
+          xlink:type="locator"/>
+        <presentationArc
+          order="6"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_InterconnAgreeAbstract"
+          xlink:to="solar_InterconnAgreeSpecialFeat"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_InterconnAgreeAvailOfDoc"
+          xlink:label="solar_InterconnAgreeAvailOfDoc"
+          xlink:type="locator"/>
+        <presentationArc
+          order="7"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_InterconnAgreeAbstract"
+          xlink:to="solar_InterconnAgreeAvailOfDoc"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_InterconnAgreeAvailOfFinalDoc"
+          xlink:label="solar_InterconnAgreeAvailOfFinalDoc"
+          xlink:type="locator"/>
+        <presentationArc
+          order="8"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_InterconnAgreeAbstract"
+          xlink:to="solar_InterconnAgreeAvailOfFinalDoc"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_InterconnAgreeAvailOfDocExcept"
+          xlink:label="solar_InterconnAgreeAvailOfDocExcept"
+          xlink:type="locator"/>
+        <presentationArc
+          order="9"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_InterconnAgreeAbstract"
+          xlink:to="solar_InterconnAgreeAvailOfDocExcept"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_InterconnAgreeExceptDesc"
+          xlink:label="solar_InterconnAgreeExceptDesc"
+          xlink:type="locator"/>
+        <presentationArc
+          order="10"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_InterconnAgreeAbstract"
+          xlink:to="solar_InterconnAgreeExceptDesc"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_InterconnAgreeCntrparty"
+          xlink:label="solar_InterconnAgreeCntrparty"
+          xlink:type="locator"/>
+        <presentationArc
+          order="11"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_InterconnAgreeAbstract"
+          xlink:to="solar_InterconnAgreeCntrparty"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_InterconnAgreeExpDate"
+          xlink:label="solar_InterconnAgreeExpDate"
+          xlink:type="locator"/>
+        <presentationArc
+          order="12"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_InterconnAgreeAbstract"
+          xlink:to="solar_InterconnAgreeExpDate"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_InterconnAgreeDocLink"
+          xlink:label="solar_InterconnAgreeDocLink"
+          xlink:type="locator"/>
+        <presentationArc
+          order="13"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_InterconnAgreeAbstract"
+          xlink:to="solar_InterconnAgreeDocLink"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_DocIDInterconnAgree"
+          xlink:label="solar_DocIDInterconnAgree"
+          xlink:type="locator"/>
+        <presentationArc
+          order="14"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_InterconnAgreeAbstract"
+          xlink:to="solar_DocIDInterconnAgree"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_PreparerOfInterconnAgree"
+          xlink:label="solar_PreparerOfInterconnAgree"
+          xlink:type="locator"/>
+        <presentationArc
+          order="15"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_InterconnAgreeAbstract"
+          xlink:to="solar_PreparerOfInterconnAgree"
+          xlink:type="arc"/>
+    </presentationLink>
+</linkbase>

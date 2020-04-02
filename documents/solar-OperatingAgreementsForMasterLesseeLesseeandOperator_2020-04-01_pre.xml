@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Copyright 2019 SunSpec Alliance and XBRL US Inc. 
+
+Licensed under the Apache License, Version 2.0 (the "License"); 
+you may not use this file except in compliance with the License. 
+You may obtain a copy of the License at 
+
+    http://www.apache.org/licenses/LICENSE-2.0 
+
+Unless required by applicable law or agreed to in writing, software 
+distributed under the License is distributed on an "AS IS" BASIS, 
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+See the License for the specific language governing permissions and 
+limitations under the License.
+
+
+Orange Button Taxonomy - OperatingAgreementsForMasterLesseeLesseeandOperator-->
+<linkbase
+  xmlns="http://www.xbrl.org/2003/linkbase"
+  xmlns:xbrli="http://www.xbrl.org/2003/instance"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+    <roleRef
+      roleURI="http://xbrl.us/Solar/2020-04-01/roles/OperatingAgreementsForMasterLesseeLesseeandOperator"
+      xlink:href="../documents\solar-OperatingAgreementsForMasterLesseeLesseeandOperator_2020-04-01.xsd#roleType_OperatingAgreementsForMasterLesseeLesseeandOperator"
+      xlink:type="simple"/>
+    <presentationLink
+      xlink:role="http://xbrl.us/Solar/2020-04-01/roles/OperatingAgreementsForMasterLesseeLesseeandOperator"
+      xlink:type="extended">
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_OpAgreeForMasterLesseeLesseeAndOpAbstract"
+          xlink:label="solar_OpAgreeForMasterLesseeLesseeAndOpAbstract"
+          xlink:type="locator"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_OpAgreeForMasterLesseeLesseeAndOpAvailOfDoc"
+          xlink:label="solar_OpAgreeForMasterLesseeLesseeAndOpAvailOfDoc"
+          xlink:type="locator"/>
+        <presentationArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_OpAgreeForMasterLesseeLesseeAndOpAbstract"
+          xlink:to="solar_OpAgreeForMasterLesseeLesseeAndOpAvailOfDoc"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_OpAgreeForMasterLesseeLesseeAndOpAvailOfFinalDoc"
+          xlink:label="solar_OpAgreeForMasterLesseeLesseeAndOpAvailOfFinalDoc"
+          xlink:type="locator"/>
+        <presentationArc
+          order="2"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_OpAgreeForMasterLesseeLesseeAndOpAbstract"
+          xlink:to="solar_OpAgreeForMasterLesseeLesseeAndOpAvailOfFinalDoc"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_OpAgreeForMasterLesseeLesseeAndOpAvailOfDocExcept"
+          xlink:label="solar_OpAgreeForMasterLesseeLesseeAndOpAvailOfDocExcept"
+          xlink:type="locator"/>
+        <presentationArc
+          order="3"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_OpAgreeForMasterLesseeLesseeAndOpAbstract"
+          xlink:to="solar_OpAgreeForMasterLesseeLesseeAndOpAvailOfDocExcept"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_OpAgreeForMasterLesseeLesseeAndOpExceptDesc"
+          xlink:label="solar_OpAgreeForMasterLesseeLesseeAndOpExceptDesc"
+          xlink:type="locator"/>
+        <presentationArc
+          order="4"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_OpAgreeForMasterLesseeLesseeAndOpAbstract"
+          xlink:to="solar_OpAgreeForMasterLesseeLesseeAndOpExceptDesc"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_OpAgreeForMasterLesseeLesseeAndOpCntrparty"
+          xlink:label="solar_OpAgreeForMasterLesseeLesseeAndOpCntrparty"
+          xlink:type="locator"/>
+        <presentationArc
+          order="5"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_OpAgreeForMasterLesseeLesseeAndOpAbstract"
+          xlink:to="solar_OpAgreeForMasterLesseeLesseeAndOpCntrparty"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_OpAgreeForMasterLesseeLesseeAndOpEffectDate"
+          xlink:label="solar_OpAgreeForMasterLesseeLesseeAndOpEffectDate"
+          xlink:type="locator"/>
+        <presentationArc
+          order="6"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_OpAgreeForMasterLesseeLesseeAndOpAbstract"
+          xlink:to="solar_OpAgreeForMasterLesseeLesseeAndOpEffectDate"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_OpAgreeForMasterLesseeLesseeAndOpExpDate"
+          xlink:label="solar_OpAgreeForMasterLesseeLesseeAndOpExpDate"
+          xlink:type="locator"/>
+        <presentationArc
+          order="7"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_OpAgreeForMasterLesseeLesseeAndOpAbstract"
+          xlink:to="solar_OpAgreeForMasterLesseeLesseeAndOpExpDate"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_OpAgreeForMasterLesseeLesseeAndOpDocLink"
+          xlink:label="solar_OpAgreeForMasterLesseeLesseeAndOpDocLink"
+          xlink:type="locator"/>
+        <presentationArc
+          order="8"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_OpAgreeForMasterLesseeLesseeAndOpAbstract"
+          xlink:to="solar_OpAgreeForMasterLesseeLesseeAndOpDocLink"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_PreparerOfOpAgreeForMasterLesseeLesseeAndOp"
+          xlink:label="solar_PreparerOfOpAgreeForMasterLesseeLesseeAndOp"
+          xlink:type="locator"/>
+        <presentationArc
+          order="9"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_OpAgreeForMasterLesseeLesseeAndOpAbstract"
+          xlink:to="solar_PreparerOfOpAgreeForMasterLesseeLesseeAndOp"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_DocIDOpAgreeForMasterLesseeLesseeAndOp"
+          xlink:label="solar_DocIDOpAgreeForMasterLesseeLesseeAndOp"
+          xlink:type="locator"/>
+        <presentationArc
+          order="10"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_OpAgreeForMasterLesseeLesseeAndOpAbstract"
+          xlink:to="solar_DocIDOpAgreeForMasterLesseeLesseeAndOp"
+          xlink:type="arc"/>
+    </presentationLink>
+</linkbase>

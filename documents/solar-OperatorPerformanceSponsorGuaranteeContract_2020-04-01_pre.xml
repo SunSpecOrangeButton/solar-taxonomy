@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Copyright 2019 SunSpec Alliance and XBRL US Inc. 
+
+Licensed under the Apache License, Version 2.0 (the "License"); 
+you may not use this file except in compliance with the License. 
+You may obtain a copy of the License at 
+
+    http://www.apache.org/licenses/LICENSE-2.0 
+
+Unless required by applicable law or agreed to in writing, software 
+distributed under the License is distributed on an "AS IS" BASIS, 
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+See the License for the specific language governing permissions and 
+limitations under the License.
+
+
+Orange Button Taxonomy - OperatorPerformanceSponsorGuaranteeContract-->
+<linkbase
+  xmlns="http://www.xbrl.org/2003/linkbase"
+  xmlns:xbrli="http://www.xbrl.org/2003/instance"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+    <roleRef
+      roleURI="http://xbrl.us/Solar/2020-04-01/roles/OperatorPerformanceSponsorGuaranteeContract"
+      xlink:href="../documents\solar-OperatorPerformanceSponsorGuaranteeContract_2020-04-01.xsd#roleType_OperatorPerformanceSponsorGuaranteeContract"
+      xlink:type="simple"/>
+    <presentationLink
+      xlink:role="http://xbrl.us/Solar/2020-04-01/roles/OperatorPerformanceSponsorGuaranteeContract"
+      xlink:type="extended">
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_OpPerfSponsorGuaranteeAbstract"
+          xlink:label="solar_OpPerfSponsorGuaranteeAbstract"
+          xlink:type="locator"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_OpPerfGuaranteeSponsorGuaranteedOutput"
+          xlink:label="solar_OpPerfGuaranteeSponsorGuaranteedOutput"
+          xlink:type="locator"/>
+        <presentationArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_OpPerfSponsorGuaranteeAbstract"
+          xlink:to="solar_OpPerfGuaranteeSponsorGuaranteedOutput"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_OpPerfGuaranteeSponsorPerfGuarantee"
+          xlink:label="solar_OpPerfGuaranteeSponsorPerfGuarantee"
+          xlink:type="locator"/>
+        <presentationArc
+          order="2"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_OpPerfSponsorGuaranteeAbstract"
+          xlink:to="solar_OpPerfGuaranteeSponsorPerfGuarantee"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_OpPerfGuaranteeSponsorPerfGuaranteeExpDate"
+          xlink:label="solar_OpPerfGuaranteeSponsorPerfGuaranteeExpDate"
+          xlink:type="locator"/>
+        <presentationArc
+          order="3"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_OpPerfSponsorGuaranteeAbstract"
+          xlink:to="solar_OpPerfGuaranteeSponsorPerfGuaranteeExpDate"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_OpPerfGuaranteeSponsorPerfGuaranteeInitiationDate"
+          xlink:label="solar_OpPerfGuaranteeSponsorPerfGuaranteeInitiationDate"
+          xlink:type="locator"/>
+        <presentationArc
+          order="4"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_OpPerfSponsorGuaranteeAbstract"
+          xlink:to="solar_OpPerfGuaranteeSponsorPerfGuaranteeInitiationDate"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_OpPerfGuaranteeSponsorPerfGuaranteeTerm"
+          xlink:label="solar_OpPerfGuaranteeSponsorPerfGuaranteeTerm"
+          xlink:type="locator"/>
+        <presentationArc
+          order="5"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_OpPerfSponsorGuaranteeAbstract"
+          xlink:to="solar_OpPerfGuaranteeSponsorPerfGuaranteeTerm"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_OpPerfGuaranteeSponsorPerfGuaranteeType"
+          xlink:label="solar_OpPerfGuaranteeSponsorPerfGuaranteeType"
+          xlink:type="locator"/>
+        <presentationArc
+          order="6"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_OpPerfSponsorGuaranteeAbstract"
+          xlink:to="solar_OpPerfGuaranteeSponsorPerfGuaranteeType"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_PreparerOfOpPerfSponsorGuaranteeContract"
+          xlink:label="solar_PreparerOfOpPerfSponsorGuaranteeContract"
+          xlink:type="locator"/>
+        <presentationArc
+          order="7"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_OpPerfSponsorGuaranteeAbstract"
+          xlink:to="solar_PreparerOfOpPerfSponsorGuaranteeContract"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_DocIDOpPerfSponsorGuaranteeContract"
+          xlink:label="solar_DocIDOpPerfSponsorGuaranteeContract"
+          xlink:type="locator"/>
+        <presentationArc
+          order="8"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_OpPerfSponsorGuaranteeAbstract"
+          xlink:to="solar_DocIDOpPerfSponsorGuaranteeContract"
+          xlink:type="arc"/>
+    </presentationLink>
+</linkbase>

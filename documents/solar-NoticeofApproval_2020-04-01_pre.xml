@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Copyright 2019 SunSpec Alliance and XBRL US Inc. 
+
+Licensed under the Apache License, Version 2.0 (the "License"); 
+you may not use this file except in compliance with the License. 
+You may obtain a copy of the License at 
+
+    http://www.apache.org/licenses/LICENSE-2.0 
+
+Unless required by applicable law or agreed to in writing, software 
+distributed under the License is distributed on an "AS IS" BASIS, 
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+See the License for the specific language governing permissions and 
+limitations under the License.
+
+
+Orange Button Taxonomy - NoticeofApproval-->
+<linkbase
+  xmlns="http://www.xbrl.org/2003/linkbase"
+  xmlns:xbrli="http://www.xbrl.org/2003/instance"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+    <roleRef
+      roleURI="http://xbrl.us/Solar/2020-04-01/roles/NoticeofApproval"
+      xlink:href="../documents\solar-NoticeofApproval_2020-04-01.xsd#roleType_NoticeofApproval"
+      xlink:type="simple"/>
+    <presentationLink
+      xlink:role="http://xbrl.us/Solar/2020-04-01/roles/NoticeofApproval"
+      xlink:type="extended">
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_NoticeOfApprovAbstract"
+          xlink:label="solar_NoticeOfApprovAbstract"
+          xlink:type="locator"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_NoticeOfApprovAvailOfDoc"
+          xlink:label="solar_NoticeOfApprovAvailOfDoc"
+          xlink:type="locator"/>
+        <presentationArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_NoticeOfApprovAbstract"
+          xlink:to="solar_NoticeOfApprovAvailOfDoc"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_NoticeOfApprovAvailOfFinalDoc"
+          xlink:label="solar_NoticeOfApprovAvailOfFinalDoc"
+          xlink:type="locator"/>
+        <presentationArc
+          order="2"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_NoticeOfApprovAbstract"
+          xlink:to="solar_NoticeOfApprovAvailOfFinalDoc"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_NoticeOfApprovAvailOfExcept"
+          xlink:label="solar_NoticeOfApprovAvailOfExcept"
+          xlink:type="locator"/>
+        <presentationArc
+          order="3"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_NoticeOfApprovAbstract"
+          xlink:to="solar_NoticeOfApprovAvailOfExcept"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_NoticeOfApprovExceptDesc"
+          xlink:label="solar_NoticeOfApprovExceptDesc"
+          xlink:type="locator"/>
+        <presentationArc
+          order="4"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_NoticeOfApprovAbstract"
+          xlink:to="solar_NoticeOfApprovExceptDesc"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_NoticeOfApprovCntrparty"
+          xlink:label="solar_NoticeOfApprovCntrparty"
+          xlink:type="locator"/>
+        <presentationArc
+          order="5"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_NoticeOfApprovAbstract"
+          xlink:to="solar_NoticeOfApprovCntrparty"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_NoticeOfApprovEffectDate"
+          xlink:label="solar_NoticeOfApprovEffectDate"
+          xlink:type="locator"/>
+        <presentationArc
+          order="6"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_NoticeOfApprovAbstract"
+          xlink:to="solar_NoticeOfApprovEffectDate"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_NoticeOfApprovExpDate"
+          xlink:label="solar_NoticeOfApprovExpDate"
+          xlink:type="locator"/>
+        <presentationArc
+          order="7"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_NoticeOfApprovAbstract"
+          xlink:to="solar_NoticeOfApprovExpDate"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_NoticeOfApprovDocLink"
+          xlink:label="solar_NoticeOfApprovDocLink"
+          xlink:type="locator"/>
+        <presentationArc
+          order="8"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_NoticeOfApprovAbstract"
+          xlink:to="solar_NoticeOfApprovDocLink"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_PreparerOfNoticeOfApprov"
+          xlink:label="solar_PreparerOfNoticeOfApprov"
+          xlink:type="locator"/>
+        <presentationArc
+          order="9"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_NoticeOfApprovAbstract"
+          xlink:to="solar_PreparerOfNoticeOfApprov"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_DocIDNoticeOfApprov"
+          xlink:label="solar_DocIDNoticeOfApprov"
+          xlink:type="locator"/>
+        <presentationArc
+          order="10"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_NoticeOfApprovAbstract"
+          xlink:to="solar_DocIDNoticeOfApprov"
+          xlink:type="arc"/>
+    </presentationLink>
+</linkbase>

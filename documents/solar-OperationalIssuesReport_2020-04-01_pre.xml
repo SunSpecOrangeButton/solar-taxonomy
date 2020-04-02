@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Copyright 2019 SunSpec Alliance and XBRL US Inc. 
+
+Licensed under the Apache License, Version 2.0 (the "License"); 
+you may not use this file except in compliance with the License. 
+You may obtain a copy of the License at 
+
+    http://www.apache.org/licenses/LICENSE-2.0 
+
+Unless required by applicable law or agreed to in writing, software 
+distributed under the License is distributed on an "AS IS" BASIS, 
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+See the License for the specific language governing permissions and 
+limitations under the License.
+
+
+Orange Button Taxonomy - OperationalIssuesReport-->
+<linkbase
+  xmlns="http://www.xbrl.org/2003/linkbase"
+  xmlns:xbrli="http://www.xbrl.org/2003/instance"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+    <roleRef
+      roleURI="http://xbrl.us/Solar/2020-04-01/roles/OperationalIssuesReport"
+      xlink:href="../documents\solar-OperationalIssuesReport_2020-04-01.xsd#roleType_OperationalIssuesReport"
+      xlink:type="simple"/>
+    <presentationLink
+      xlink:role="http://xbrl.us/Solar/2020-04-01/roles/OperationalIssuesReport"
+      xlink:type="extended">
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_OpIssuesAbstract"
+          xlink:label="solar_OpIssuesAbstract"
+          xlink:type="locator"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_OpIssuesDateAndTimeProdStopped"
+          xlink:label="solar_OpIssuesDateAndTimeProdStopped"
+          xlink:type="locator"/>
+        <presentationArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_OpIssuesAbstract"
+          xlink:to="solar_OpIssuesDateAndTimeProdStopped"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_OpIssuesRptIssueDesc"
+          xlink:label="solar_OpIssuesRptIssueDesc"
+          xlink:type="locator"/>
+        <presentationArc
+          order="2"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_OpIssuesAbstract"
+          xlink:to="solar_OpIssuesRptIssueDesc"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_OpIssuesDateAndTimeIssueResolved"
+          xlink:label="solar_OpIssuesDateAndTimeIssueResolved"
+          xlink:type="locator"/>
+        <presentationArc
+          order="3"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_OpIssuesAbstract"
+          xlink:to="solar_OpIssuesDateAndTimeIssueResolved"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_OpIssuesDateAndTimeIssueCommenced"
+          xlink:label="solar_OpIssuesDateAndTimeIssueCommenced"
+          xlink:type="locator"/>
+        <presentationArc
+          order="4"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_OpIssuesAbstract"
+          xlink:to="solar_OpIssuesDateAndTimeIssueCommenced"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_OpIssuesDateAndTimeProdResumed"
+          xlink:label="solar_OpIssuesDateAndTimeProdResumed"
+          xlink:type="locator"/>
+        <presentationArc
+          order="5"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_OpIssuesAbstract"
+          xlink:to="solar_OpIssuesDateAndTimeProdResumed"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_OpIssuesDatePMCompleted"
+          xlink:label="solar_OpIssuesDatePMCompleted"
+          xlink:type="locator"/>
+        <presentationArc
+          order="6"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_OpIssuesAbstract"
+          xlink:to="solar_OpIssuesDatePMCompleted"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_OpIssuesDatePMStarted"
+          xlink:label="solar_OpIssuesDatePMStarted"
+          xlink:type="locator"/>
+        <presentationArc
+          order="7"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_OpIssuesAbstract"
+          xlink:to="solar_OpIssuesDatePMStarted"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_OpIssuesImpactOfIssue"
+          xlink:label="solar_OpIssuesImpactOfIssue"
+          xlink:type="locator"/>
+        <presentationArc
+          order="8"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_OpIssuesAbstract"
+          xlink:to="solar_OpIssuesImpactOfIssue"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_OpIssuesFutureSteps"
+          xlink:label="solar_OpIssuesFutureSteps"
+          xlink:type="locator"/>
+        <presentationArc
+          order="9"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_OpIssuesAbstract"
+          xlink:to="solar_OpIssuesFutureSteps"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_OpIssuesPlanOfAction"
+          xlink:label="solar_OpIssuesPlanOfAction"
+          xlink:type="locator"/>
+        <presentationArc
+          order="10"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_OpIssuesAbstract"
+          xlink:to="solar_OpIssuesPlanOfAction"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_OpIssuesTitleOfIssue"
+          xlink:label="solar_OpIssuesTitleOfIssue"
+          xlink:type="locator"/>
+        <presentationArc
+          order="11"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_OpIssuesAbstract"
+          xlink:to="solar_OpIssuesTitleOfIssue"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_OpIssuesLengthofIssue"
+          xlink:label="solar_OpIssuesLengthofIssue"
+          xlink:type="locator"/>
+        <presentationArc
+          order="12"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_OpIssuesAbstract"
+          xlink:to="solar_OpIssuesLengthofIssue"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_PreparerOfOpIssuesRpt"
+          xlink:label="solar_PreparerOfOpIssuesRpt"
+          xlink:type="locator"/>
+        <presentationArc
+          order="13"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_OpIssuesAbstract"
+          xlink:to="solar_PreparerOfOpIssuesRpt"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_DocIDOpIssuesRpt"
+          xlink:label="solar_DocIDOpIssuesRpt"
+          xlink:type="locator"/>
+        <presentationArc
+          order="14"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_OpIssuesAbstract"
+          xlink:to="solar_DocIDOpIssuesRpt"
+          xlink:type="arc"/>
+    </presentationLink>
+</linkbase>

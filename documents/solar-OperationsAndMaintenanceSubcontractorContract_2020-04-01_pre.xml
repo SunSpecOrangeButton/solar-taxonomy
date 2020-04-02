@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Copyright 2019 SunSpec Alliance and XBRL US Inc. 
+
+Licensed under the Apache License, Version 2.0 (the "License"); 
+you may not use this file except in compliance with the License. 
+You may obtain a copy of the License at 
+
+    http://www.apache.org/licenses/LICENSE-2.0 
+
+Unless required by applicable law or agreed to in writing, software 
+distributed under the License is distributed on an "AS IS" BASIS, 
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+See the License for the specific language governing permissions and 
+limitations under the License.
+
+
+Orange Button Taxonomy - OperationsAndMaintenanceSubcontractorContract-->
+<linkbase
+  xmlns="http://www.xbrl.org/2003/linkbase"
+  xmlns:xbrli="http://www.xbrl.org/2003/instance"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+    <roleRef
+      roleURI="http://xbrl.us/Solar/2020-04-01/roles/OperationsAndMaintenanceSubcontractorContract"
+      xlink:href="../documents\solar-OperationsAndMaintenanceSubcontractorContract_2020-04-01.xsd#roleType_OperationsAndMaintenanceSubcontractorContract"
+      xlink:type="simple"/>
+    <presentationLink
+      xlink:role="http://xbrl.us/Solar/2020-04-01/roles/OperationsAndMaintenanceSubcontractorContract"
+      xlink:type="extended">
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_SubcontractorAbstract"
+          xlink:label="solar_SubcontractorAbstract"
+          xlink:type="locator"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_OMContractSubcontractor"
+          xlink:label="solar_OMContractSubcontractor"
+          xlink:type="locator"/>
+        <presentationArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_SubcontractorAbstract"
+          xlink:to="solar_OMContractSubcontractor"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_OMContractSubcontractorAddr"
+          xlink:label="solar_OMContractSubcontractorAddr"
+          xlink:type="locator"/>
+        <presentationArc
+          order="2"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_SubcontractorAbstract"
+          xlink:to="solar_OMContractSubcontractorAddr"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_OMContractSubcontractorEmail"
+          xlink:label="solar_OMContractSubcontractorEmail"
+          xlink:type="locator"/>
+        <presentationArc
+          order="3"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_SubcontractorAbstract"
+          xlink:to="solar_OMContractSubcontractorEmail"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_OMContractSubcontractorTelephone"
+          xlink:label="solar_OMContractSubcontractorTelephone"
+          xlink:type="locator"/>
+        <presentationArc
+          order="4"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_SubcontractorAbstract"
+          xlink:to="solar_OMContractSubcontractorTelephone"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_OMContractSubcontractorContactNameAndTitle"
+          xlink:label="solar_OMContractSubcontractorContactNameAndTitle"
+          xlink:type="locator"/>
+        <presentationArc
+          order="5"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_SubcontractorAbstract"
+          xlink:to="solar_OMContractSubcontractorContactNameAndTitle"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_OMContractSecondarySubcontractorAddr"
+          xlink:label="solar_OMContractSecondarySubcontractorAddr"
+          xlink:type="locator"/>
+        <presentationArc
+          order="6"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_SubcontractorAbstract"
+          xlink:to="solar_OMContractSecondarySubcontractorAddr"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_OMContractSecondarySubcontractorCo"
+          xlink:label="solar_OMContractSecondarySubcontractorCo"
+          xlink:type="locator"/>
+        <presentationArc
+          order="7"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_SubcontractorAbstract"
+          xlink:to="solar_OMContractSecondarySubcontractorCo"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_OMContractSecondarySubcontractorEmail"
+          xlink:label="solar_OMContractSecondarySubcontractorEmail"
+          xlink:type="locator"/>
+        <presentationArc
+          order="8"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_SubcontractorAbstract"
+          xlink:to="solar_OMContractSecondarySubcontractorEmail"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_OMContractSecondarySubcontractorPHone"
+          xlink:label="solar_OMContractSecondarySubcontractorPHone"
+          xlink:type="locator"/>
+        <presentationArc
+          order="9"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_SubcontractorAbstract"
+          xlink:to="solar_OMContractSecondarySubcontractorPHone"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_OMContractSecondarySubcontractorContactNameAndTitle"
+          xlink:label="solar_OMContractSecondarySubcontractorContactNameAndTitle"
+          xlink:type="locator"/>
+        <presentationArc
+          order="10"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_SubcontractorAbstract"
+          xlink:to="solar_OMContractSecondarySubcontractorContactNameAndTitle"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_OMContractSubcontractorScopeofWork"
+          xlink:label="solar_OMContractSubcontractorScopeofWork"
+          xlink:type="locator"/>
+        <presentationArc
+          order="11"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_SubcontractorAbstract"
+          xlink:to="solar_OMContractSubcontractorScopeofWork"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_PreparerOfOMSubcontractorContract"
+          xlink:label="solar_PreparerOfOMSubcontractorContract"
+          xlink:type="locator"/>
+        <presentationArc
+          order="12"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_SubcontractorAbstract"
+          xlink:to="solar_PreparerOfOMSubcontractorContract"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_DocIDOMSubcontractorContract"
+          xlink:label="solar_DocIDOMSubcontractorContract"
+          xlink:type="locator"/>
+        <presentationArc
+          order="13"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_SubcontractorAbstract"
+          xlink:to="solar_DocIDOMSubcontractorContract"
+          xlink:type="arc"/>
+    </presentationLink>
+</linkbase>

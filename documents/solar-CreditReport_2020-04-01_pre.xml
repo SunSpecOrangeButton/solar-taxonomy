@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Copyright 2019 SunSpec Alliance and XBRL US Inc. 
+
+Licensed under the Apache License, Version 2.0 (the "License"); 
+you may not use this file except in compliance with the License. 
+You may obtain a copy of the License at 
+
+    http://www.apache.org/licenses/LICENSE-2.0 
+
+Unless required by applicable law or agreed to in writing, software 
+distributed under the License is distributed on an "AS IS" BASIS, 
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+See the License for the specific language governing permissions and 
+limitations under the License.
+
+
+Orange Button Taxonomy - CreditReport-->
+<linkbase
+  xmlns="http://www.xbrl.org/2003/linkbase"
+  xmlns:xbrli="http://www.xbrl.org/2003/instance"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+    <roleRef
+      roleURI="http://xbrl.us/Solar/2020-04-01/roles/CreditReport"
+      xlink:href="../documents\solar-CreditReport_2020-04-01.xsd#roleType_CreditReport"
+      xlink:type="simple"/>
+    <presentationLink
+      xlink:role="http://xbrl.us/Solar/2020-04-01/roles/CreditReport"
+      xlink:type="extended">
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_CreditPerfCheckRptAbstract"
+          xlink:label="solar_CreditPerfCheckRptAbstract"
+          xlink:type="locator"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_CreditPerfRetailFICOScore"
+          xlink:label="solar_CreditPerfRetailFICOScore"
+          xlink:type="locator"/>
+        <presentationArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_CreditPerfCheckRptAbstract"
+          xlink:to="solar_CreditPerfRetailFICOScore"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_CreditPerfRetailFICOModelOrig"
+          xlink:label="solar_CreditPerfRetailFICOModelOrig"
+          xlink:type="locator"/>
+        <presentationArc
+          order="2"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_CreditPerfCheckRptAbstract"
+          xlink:to="solar_CreditPerfRetailFICOModelOrig"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_CreditPerfRetailFICOMeth"
+          xlink:label="solar_CreditPerfRetailFICOMeth"
+          xlink:type="locator"/>
+        <presentationArc
+          order="3"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_CreditPerfCheckRptAbstract"
+          xlink:to="solar_CreditPerfRetailFICOMeth"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_CreditPerfRetailDaysDelinquent"
+          xlink:label="solar_CreditPerfRetailDaysDelinquent"
+          xlink:type="locator"/>
+        <presentationArc
+          order="4"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_CreditPerfCheckRptAbstract"
+          xlink:to="solar_CreditPerfRetailDaysDelinquent"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_CreditPerfRetailCreditCheckDate"
+          xlink:label="solar_CreditPerfRetailCreditCheckDate"
+          xlink:type="locator"/>
+        <presentationArc
+          order="5"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_CreditPerfCheckRptAbstract"
+          xlink:to="solar_CreditPerfRetailCreditCheckDate"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_CreditPerfRetailDebtToIncomeRatio"
+          xlink:label="solar_CreditPerfRetailDebtToIncomeRatio"
+          xlink:type="locator"/>
+        <presentationArc
+          order="6"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_CreditPerfCheckRptAbstract"
+          xlink:to="solar_CreditPerfRetailDebtToIncomeRatio"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_CreditPerfRetailEstValueOfHouse"
+          xlink:label="solar_CreditPerfRetailEstValueOfHouse"
+          xlink:type="locator"/>
+        <presentationArc
+          order="7"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_CreditPerfCheckRptAbstract"
+          xlink:to="solar_CreditPerfRetailEstValueOfHouse"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_CreditPerfRetailHomeAppraisalDate"
+          xlink:label="solar_CreditPerfRetailHomeAppraisalDate"
+          xlink:type="locator"/>
+        <presentationArc
+          order="8"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_CreditPerfCheckRptAbstract"
+          xlink:to="solar_CreditPerfRetailHomeAppraisalDate"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_CreditPerfRetailLenOfEmployment"
+          xlink:label="solar_CreditPerfRetailLenOfEmployment"
+          xlink:type="locator"/>
+        <presentationArc
+          order="9"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_CreditPerfCheckRptAbstract"
+          xlink:to="solar_CreditPerfRetailLenOfEmployment"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_CreditPerfRetailLenOfHomeOwn"
+          xlink:label="solar_CreditPerfRetailLenOfHomeOwn"
+          xlink:type="locator"/>
+        <presentationArc
+          order="10"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_CreditPerfCheckRptAbstract"
+          xlink:to="solar_CreditPerfRetailLenOfHomeOwn"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_CreditPerfRetailLoanToValueRatio"
+          xlink:label="solar_CreditPerfRetailLoanToValueRatio"
+          xlink:type="locator"/>
+        <presentationArc
+          order="11"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_CreditPerfCheckRptAbstract"
+          xlink:to="solar_CreditPerfRetailLoanToValueRatio"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_CreditPerfRetailLoantoValueSource"
+          xlink:label="solar_CreditPerfRetailLoantoValueSource"
+          xlink:type="locator"/>
+        <presentationArc
+          order="12"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_CreditPerfCheckRptAbstract"
+          xlink:to="solar_CreditPerfRetailLoantoValueSource"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_CreditPerfRetailMortgBalance"
+          xlink:label="solar_CreditPerfRetailMortgBalance"
+          xlink:type="locator"/>
+        <presentationArc
+          order="13"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_CreditPerfCheckRptAbstract"
+          xlink:to="solar_CreditPerfRetailMortgBalance"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_CreditPerfRetailW2VerificationofEmployment"
+          xlink:label="solar_CreditPerfRetailW2VerificationofEmployment"
+          xlink:type="locator"/>
+        <presentationArc
+          order="14"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_CreditPerfCheckRptAbstract"
+          xlink:to="solar_CreditPerfRetailW2VerificationofEmployment"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_PreparerOfCreditReportsDoc"
+          xlink:label="solar_PreparerOfCreditReportsDoc"
+          xlink:type="locator"/>
+        <presentationArc
+          order="15"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_CreditPerfCheckRptAbstract"
+          xlink:to="solar_PreparerOfCreditReportsDoc"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_DocIDCreditReportsDocs"
+          xlink:label="solar_DocIDCreditReportsDocs"
+          xlink:type="locator"/>
+        <presentationArc
+          order="16"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_CreditPerfCheckRptAbstract"
+          xlink:to="solar_DocIDCreditReportsDocs"
+          xlink:type="arc"/>
+    </presentationLink>
+</linkbase>

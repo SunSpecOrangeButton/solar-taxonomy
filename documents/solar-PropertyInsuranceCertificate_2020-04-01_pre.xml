@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Copyright 2019 SunSpec Alliance and XBRL US Inc. 
+
+Licensed under the Apache License, Version 2.0 (the "License"); 
+you may not use this file except in compliance with the License. 
+You may obtain a copy of the License at 
+
+    http://www.apache.org/licenses/LICENSE-2.0 
+
+Unless required by applicable law or agreed to in writing, software 
+distributed under the License is distributed on an "AS IS" BASIS, 
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+See the License for the specific language governing permissions and 
+limitations under the License.
+
+
+Orange Button Taxonomy - PropertyInsuranceCertificate-->
+<linkbase
+  xmlns="http://www.xbrl.org/2003/linkbase"
+  xmlns:xbrli="http://www.xbrl.org/2003/instance"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+    <roleRef
+      roleURI="http://xbrl.us/Solar/2020-04-01/roles/PropertyInsuranceCertificate"
+      xlink:href="../documents\solar-PropertyInsuranceCertificate_2020-04-01.xsd#roleType_PropertyInsuranceCertificate"
+      xlink:type="simple"/>
+    <presentationLink
+      xlink:role="http://xbrl.us/Solar/2020-04-01/roles/PropertyInsuranceCertificate"
+      xlink:type="extended">
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_InsurPropertyCertAbstract"
+          xlink:label="solar_InsurPropertyCertAbstract"
+          xlink:type="locator"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_InsurPropertyCertAvailOfDoc"
+          xlink:label="solar_InsurPropertyCertAvailOfDoc"
+          xlink:type="locator"/>
+        <presentationArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_InsurPropertyCertAbstract"
+          xlink:to="solar_InsurPropertyCertAvailOfDoc"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_InsurPropertyCertAvailOfFinalDoc"
+          xlink:label="solar_InsurPropertyCertAvailOfFinalDoc"
+          xlink:type="locator"/>
+        <presentationArc
+          order="2"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_InsurPropertyCertAbstract"
+          xlink:to="solar_InsurPropertyCertAvailOfFinalDoc"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_InsurPropertyCertAvailOfDocExcept"
+          xlink:label="solar_InsurPropertyCertAvailOfDocExcept"
+          xlink:type="locator"/>
+        <presentationArc
+          order="3"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_InsurPropertyCertAbstract"
+          xlink:to="solar_InsurPropertyCertAvailOfDocExcept"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_InsurPropertyCertExceptDesc"
+          xlink:label="solar_InsurPropertyCertExceptDesc"
+          xlink:type="locator"/>
+        <presentationArc
+          order="4"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_InsurPropertyCertAbstract"
+          xlink:to="solar_InsurPropertyCertExceptDesc"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_InsurPropertyCertCntrparty"
+          xlink:label="solar_InsurPropertyCertCntrparty"
+          xlink:type="locator"/>
+        <presentationArc
+          order="5"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_InsurPropertyCertAbstract"
+          xlink:to="solar_InsurPropertyCertCntrparty"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_InsurPropertyCertEffectDate"
+          xlink:label="solar_InsurPropertyCertEffectDate"
+          xlink:type="locator"/>
+        <presentationArc
+          order="6"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_InsurPropertyCertAbstract"
+          xlink:to="solar_InsurPropertyCertEffectDate"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_InsurPropertyCertExpDate"
+          xlink:label="solar_InsurPropertyCertExpDate"
+          xlink:type="locator"/>
+        <presentationArc
+          order="7"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_InsurPropertyCertAbstract"
+          xlink:to="solar_InsurPropertyCertExpDate"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_InsurPropertyCertDocLink"
+          xlink:label="solar_InsurPropertyCertDocLink"
+          xlink:type="locator"/>
+        <presentationArc
+          order="8"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_InsurPropertyCertAbstract"
+          xlink:to="solar_InsurPropertyCertDocLink"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_PreparerOfPropertyInsurCert"
+          xlink:label="solar_PreparerOfPropertyInsurCert"
+          xlink:type="locator"/>
+        <presentationArc
+          order="9"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_InsurPropertyCertAbstract"
+          xlink:to="solar_PreparerOfPropertyInsurCert"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_DocIDPropertyInsurCert"
+          xlink:label="solar_DocIDPropertyInsurCert"
+          xlink:type="locator"/>
+        <presentationArc
+          order="10"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_InsurPropertyCertAbstract"
+          xlink:to="solar_DocIDPropertyInsurCert"
+          xlink:type="arc"/>
+    </presentationLink>
+</linkbase>

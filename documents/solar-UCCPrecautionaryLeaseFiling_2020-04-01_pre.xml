@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Copyright 2019 SunSpec Alliance and XBRL US Inc. 
+
+Licensed under the Apache License, Version 2.0 (the "License"); 
+you may not use this file except in compliance with the License. 
+You may obtain a copy of the License at 
+
+    http://www.apache.org/licenses/LICENSE-2.0 
+
+Unless required by applicable law or agreed to in writing, software 
+distributed under the License is distributed on an "AS IS" BASIS, 
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+See the License for the specific language governing permissions and 
+limitations under the License.
+
+
+Orange Button Taxonomy - UCCPrecautionaryLeaseFiling-->
+<linkbase
+  xmlns="http://www.xbrl.org/2003/linkbase"
+  xmlns:xbrli="http://www.xbrl.org/2003/instance"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+    <roleRef
+      roleURI="http://xbrl.us/Solar/2020-04-01/roles/UCCPrecautionaryLeaseFiling"
+      xlink:href="../documents\solar-UCCPrecautionaryLeaseFiling_2020-04-01.xsd#roleType_UCCPrecautionaryLeaseFiling"
+      xlink:type="simple"/>
+    <presentationLink
+      xlink:role="http://xbrl.us/Solar/2020-04-01/roles/UCCPrecautionaryLeaseFiling"
+      xlink:type="extended">
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_UCCPrecautLeaseFilingAbstract"
+          xlink:label="solar_UCCPrecautLeaseFilingAbstract"
+          xlink:type="locator"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_UCCPrecautLeaseFilingAvailOfDoc"
+          xlink:label="solar_UCCPrecautLeaseFilingAvailOfDoc"
+          xlink:type="locator"/>
+        <presentationArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_UCCPrecautLeaseFilingAbstract"
+          xlink:to="solar_UCCPrecautLeaseFilingAvailOfDoc"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_UCCPrecautLeaseFilingAvailOfFinalDoc"
+          xlink:label="solar_UCCPrecautLeaseFilingAvailOfFinalDoc"
+          xlink:type="locator"/>
+        <presentationArc
+          order="2"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_UCCPrecautLeaseFilingAbstract"
+          xlink:to="solar_UCCPrecautLeaseFilingAvailOfFinalDoc"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_UCCPrecautLeaseFilingAvailOfDocExcept"
+          xlink:label="solar_UCCPrecautLeaseFilingAvailOfDocExcept"
+          xlink:type="locator"/>
+        <presentationArc
+          order="3"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_UCCPrecautLeaseFilingAbstract"
+          xlink:to="solar_UCCPrecautLeaseFilingAvailOfDocExcept"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_UCCPrecautLeaseFilingExceptDesc"
+          xlink:label="solar_UCCPrecautLeaseFilingExceptDesc"
+          xlink:type="locator"/>
+        <presentationArc
+          order="4"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_UCCPrecautLeaseFilingAbstract"
+          xlink:to="solar_UCCPrecautLeaseFilingExceptDesc"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_UCCPrecautLeaseFilingCntrparty"
+          xlink:label="solar_UCCPrecautLeaseFilingCntrparty"
+          xlink:type="locator"/>
+        <presentationArc
+          order="5"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_UCCPrecautLeaseFilingAbstract"
+          xlink:to="solar_UCCPrecautLeaseFilingCntrparty"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_UCCPrecautLeaseFilingEffectDate"
+          xlink:label="solar_UCCPrecautLeaseFilingEffectDate"
+          xlink:type="locator"/>
+        <presentationArc
+          order="6"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_UCCPrecautLeaseFilingAbstract"
+          xlink:to="solar_UCCPrecautLeaseFilingEffectDate"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_UCCPrecautLeaseFilingExpDate"
+          xlink:label="solar_UCCPrecautLeaseFilingExpDate"
+          xlink:type="locator"/>
+        <presentationArc
+          order="7"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_UCCPrecautLeaseFilingAbstract"
+          xlink:to="solar_UCCPrecautLeaseFilingExpDate"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_UCCPrecautLeaseFilingDocLink"
+          xlink:label="solar_UCCPrecautLeaseFilingDocLink"
+          xlink:type="locator"/>
+        <presentationArc
+          order="8"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_UCCPrecautLeaseFilingAbstract"
+          xlink:to="solar_UCCPrecautLeaseFilingDocLink"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_PreparerOfUCCPrecautLeaseFiling"
+          xlink:label="solar_PreparerOfUCCPrecautLeaseFiling"
+          xlink:type="locator"/>
+        <presentationArc
+          order="9"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_UCCPrecautLeaseFilingAbstract"
+          xlink:to="solar_PreparerOfUCCPrecautLeaseFiling"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_DocIDUCCPrecautLeaseFiling"
+          xlink:label="solar_DocIDUCCPrecautLeaseFiling"
+          xlink:type="locator"/>
+        <presentationArc
+          order="10"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_UCCPrecautLeaseFilingAbstract"
+          xlink:to="solar_DocIDUCCPrecautLeaseFiling"
+          xlink:type="arc"/>
+    </presentationLink>
+</linkbase>
