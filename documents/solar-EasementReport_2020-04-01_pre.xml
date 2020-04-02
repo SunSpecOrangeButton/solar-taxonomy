@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Copyright 2019 SunSpec Alliance and XBRL US Inc. 
+
+Licensed under the Apache License, Version 2.0 (the "License"); 
+you may not use this file except in compliance with the License. 
+You may obtain a copy of the License at 
+
+    http://www.apache.org/licenses/LICENSE-2.0 
+
+Unless required by applicable law or agreed to in writing, software 
+distributed under the License is distributed on an "AS IS" BASIS, 
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+See the License for the specific language governing permissions and 
+limitations under the License.
+
+
+Orange Button Taxonomy - EasementReport-->
+<linkbase
+  xmlns="http://www.xbrl.org/2003/linkbase"
+  xmlns:xbrli="http://www.xbrl.org/2003/instance"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+    <roleRef
+      roleURI="http://xbrl.us/Solar/2020-04-01/roles/EasementReport"
+      xlink:href="../documents\solar-EasementReport_2020-04-01.xsd#roleType_EasementReport"
+      xlink:type="simple"/>
+    <presentationLink
+      xlink:role="http://xbrl.us/Solar/2020-04-01/roles/EasementReport"
+      xlink:type="extended">
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_EasementRptAbstract"
+          xlink:label="solar_EasementRptAbstract"
+          xlink:type="locator"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_EasementRptAvailOfDoc"
+          xlink:label="solar_EasementRptAvailOfDoc"
+          xlink:type="locator"/>
+        <presentationArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_EasementRptAbstract"
+          xlink:to="solar_EasementRptAvailOfDoc"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_EasementRptAvailOfFinalDoc"
+          xlink:label="solar_EasementRptAvailOfFinalDoc"
+          xlink:type="locator"/>
+        <presentationArc
+          order="2"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_EasementRptAbstract"
+          xlink:to="solar_EasementRptAvailOfFinalDoc"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_EasementRptAvailOfDocExcept"
+          xlink:label="solar_EasementRptAvailOfDocExcept"
+          xlink:type="locator"/>
+        <presentationArc
+          order="3"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_EasementRptAbstract"
+          xlink:to="solar_EasementRptAvailOfDocExcept"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_EasementRptExceptDesc"
+          xlink:label="solar_EasementRptExceptDesc"
+          xlink:type="locator"/>
+        <presentationArc
+          order="4"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_EasementRptAbstract"
+          xlink:to="solar_EasementRptExceptDesc"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_EasementRptCntrparty"
+          xlink:label="solar_EasementRptCntrparty"
+          xlink:type="locator"/>
+        <presentationArc
+          order="5"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_EasementRptAbstract"
+          xlink:to="solar_EasementRptCntrparty"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_EasementRptEffectDate"
+          xlink:label="solar_EasementRptEffectDate"
+          xlink:type="locator"/>
+        <presentationArc
+          order="6"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_EasementRptAbstract"
+          xlink:to="solar_EasementRptEffectDate"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_EasementRptExpDate"
+          xlink:label="solar_EasementRptExpDate"
+          xlink:type="locator"/>
+        <presentationArc
+          order="7"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_EasementRptAbstract"
+          xlink:to="solar_EasementRptExpDate"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_EasementRptDocLink"
+          xlink:label="solar_EasementRptDocLink"
+          xlink:type="locator"/>
+        <presentationArc
+          order="8"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_EasementRptAbstract"
+          xlink:to="solar_EasementRptDocLink"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_PreparerOfEasementRpt"
+          xlink:label="solar_PreparerOfEasementRpt"
+          xlink:type="locator"/>
+        <presentationArc
+          order="9"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_EasementRptAbstract"
+          xlink:to="solar_PreparerOfEasementRpt"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_DocIDEasementRpt"
+          xlink:label="solar_DocIDEasementRpt"
+          xlink:type="locator"/>
+        <presentationArc
+          order="10"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_EasementRptAbstract"
+          xlink:to="solar_DocIDEasementRpt"
+          xlink:type="arc"/>
+    </presentationLink>
+</linkbase>

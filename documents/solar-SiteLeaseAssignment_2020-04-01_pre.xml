@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Copyright 2019 SunSpec Alliance and XBRL US Inc. 
+
+Licensed under the Apache License, Version 2.0 (the "License"); 
+you may not use this file except in compliance with the License. 
+You may obtain a copy of the License at 
+
+    http://www.apache.org/licenses/LICENSE-2.0 
+
+Unless required by applicable law or agreed to in writing, software 
+distributed under the License is distributed on an "AS IS" BASIS, 
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+See the License for the specific language governing permissions and 
+limitations under the License.
+
+
+Orange Button Taxonomy - SiteLeaseAssignment-->
+<linkbase
+  xmlns="http://www.xbrl.org/2003/linkbase"
+  xmlns:xbrli="http://www.xbrl.org/2003/instance"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+    <roleRef
+      roleURI="http://xbrl.us/Solar/2020-04-01/roles/SiteLeaseAssignment"
+      xlink:href="../documents\solar-SiteLeaseAssignment_2020-04-01.xsd#roleType_SiteLeaseAssignment"
+      xlink:type="simple"/>
+    <presentationLink
+      xlink:role="http://xbrl.us/Solar/2020-04-01/roles/SiteLeaseAssignment"
+      xlink:type="extended">
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_SiteLeaseAssignAbstract"
+          xlink:label="solar_SiteLeaseAssignAbstract"
+          xlink:type="locator"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_SiteIDTable"
+          xlink:label="solar_SiteIDTable"
+          xlink:type="locator"/>
+        <presentationArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_SiteLeaseAssignAbstract"
+          xlink:to="solar_SiteIDTable"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_SiteIDAxis"
+          xlink:label="solar_SiteIDAxis"
+          xlink:type="locator"/>
+        <presentationArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_SiteIDTable"
+          xlink:to="solar_SiteIDAxis"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_SiteLeaseAssignLineItems"
+          xlink:label="solar_SiteLeaseAssignLineItems"
+          xlink:type="locator"/>
+        <presentationArc
+          order="2"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_SiteIDTable"
+          xlink:to="solar_SiteLeaseAssignLineItems"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_SiteLeaseAssignAvailOfDoc"
+          xlink:label="solar_SiteLeaseAssignAvailOfDoc"
+          xlink:type="locator"/>
+        <presentationArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_SiteLeaseAssignLineItems"
+          xlink:to="solar_SiteLeaseAssignAvailOfDoc"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_SiteLeaseAssignAvailOfFinalDoc"
+          xlink:label="solar_SiteLeaseAssignAvailOfFinalDoc"
+          xlink:type="locator"/>
+        <presentationArc
+          order="2"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_SiteLeaseAssignLineItems"
+          xlink:to="solar_SiteLeaseAssignAvailOfFinalDoc"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_SiteLeaseAssignAvailOfDocExcept"
+          xlink:label="solar_SiteLeaseAssignAvailOfDocExcept"
+          xlink:type="locator"/>
+        <presentationArc
+          order="3"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_SiteLeaseAssignLineItems"
+          xlink:to="solar_SiteLeaseAssignAvailOfDocExcept"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_SiteLeaseAssignExceptDesc"
+          xlink:label="solar_SiteLeaseAssignExceptDesc"
+          xlink:type="locator"/>
+        <presentationArc
+          order="4"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_SiteLeaseAssignLineItems"
+          xlink:to="solar_SiteLeaseAssignExceptDesc"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_SiteLeaseAssignCntrparty"
+          xlink:label="solar_SiteLeaseAssignCntrparty"
+          xlink:type="locator"/>
+        <presentationArc
+          order="5"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_SiteLeaseAssignLineItems"
+          xlink:to="solar_SiteLeaseAssignCntrparty"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_SiteLeaseAssignEffectDate"
+          xlink:label="solar_SiteLeaseAssignEffectDate"
+          xlink:type="locator"/>
+        <presentationArc
+          order="6"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_SiteLeaseAssignLineItems"
+          xlink:to="solar_SiteLeaseAssignEffectDate"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_SiteLeaseAssignExpDate"
+          xlink:label="solar_SiteLeaseAssignExpDate"
+          xlink:type="locator"/>
+        <presentationArc
+          order="7"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_SiteLeaseAssignLineItems"
+          xlink:to="solar_SiteLeaseAssignExpDate"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_SiteLeaseAssignDocLink"
+          xlink:label="solar_SiteLeaseAssignDocLink"
+          xlink:type="locator"/>
+        <presentationArc
+          order="8"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_SiteLeaseAssignLineItems"
+          xlink:to="solar_SiteLeaseAssignDocLink"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_PreparerOfSiteLeaseAssign"
+          xlink:label="solar_PreparerOfSiteLeaseAssign"
+          xlink:type="locator"/>
+        <presentationArc
+          order="9"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_SiteLeaseAssignLineItems"
+          xlink:to="solar_PreparerOfSiteLeaseAssign"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_DocIDSiteLeaseAssign"
+          xlink:label="solar_DocIDSiteLeaseAssign"
+          xlink:type="locator"/>
+        <presentationArc
+          order="10"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_SiteLeaseAssignLineItems"
+          xlink:to="solar_DocIDSiteLeaseAssign"
+          xlink:type="arc"/>
+    </presentationLink>
+</linkbase>

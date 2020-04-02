@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Copyright 2019 SunSpec Alliance and XBRL US Inc. 
+
+Licensed under the Apache License, Version 2.0 (the "License"); 
+you may not use this file except in compliance with the License. 
+You may obtain a copy of the License at 
+
+    http://www.apache.org/licenses/LICENSE-2.0 
+
+Unless required by applicable law or agreed to in writing, software 
+distributed under the License is distributed on an "AS IS" BASIS, 
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+See the License for the specific language governing permissions and 
+limitations under the License.
+
+
+Orange Button Taxonomy - TaxOpinion-->
+<linkbase
+  xmlns="http://www.xbrl.org/2003/linkbase"
+  xmlns:xbrli="http://www.xbrl.org/2003/instance"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+    <roleRef
+      roleURI="http://xbrl.us/Solar/2020-04-01/roles/TaxOpinion"
+      xlink:href="../documents\solar-TaxOpinion_2020-04-01.xsd#roleType_TaxOpinion"
+      xlink:type="simple"/>
+    <presentationLink
+      xlink:role="http://xbrl.us/Solar/2020-04-01/roles/TaxOpinion"
+      xlink:type="extended">
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_TaxOpinAbstract"
+          xlink:label="solar_TaxOpinAbstract"
+          xlink:type="locator"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_TaxOpinAvailOfDoc"
+          xlink:label="solar_TaxOpinAvailOfDoc"
+          xlink:type="locator"/>
+        <presentationArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_TaxOpinAbstract"
+          xlink:to="solar_TaxOpinAvailOfDoc"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_TaxOpinAvailOfFinalDoc"
+          xlink:label="solar_TaxOpinAvailOfFinalDoc"
+          xlink:type="locator"/>
+        <presentationArc
+          order="2"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_TaxOpinAbstract"
+          xlink:to="solar_TaxOpinAvailOfFinalDoc"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_TaxOpinAvailOfDocExcept"
+          xlink:label="solar_TaxOpinAvailOfDocExcept"
+          xlink:type="locator"/>
+        <presentationArc
+          order="3"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_TaxOpinAbstract"
+          xlink:to="solar_TaxOpinAvailOfDocExcept"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_TaxOpinExceptDesc"
+          xlink:label="solar_TaxOpinExceptDesc"
+          xlink:type="locator"/>
+        <presentationArc
+          order="4"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_TaxOpinAbstract"
+          xlink:to="solar_TaxOpinExceptDesc"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_TaxOpinCntrparty"
+          xlink:label="solar_TaxOpinCntrparty"
+          xlink:type="locator"/>
+        <presentationArc
+          order="5"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_TaxOpinAbstract"
+          xlink:to="solar_TaxOpinCntrparty"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_TaxOpinEffectDate"
+          xlink:label="solar_TaxOpinEffectDate"
+          xlink:type="locator"/>
+        <presentationArc
+          order="6"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_TaxOpinAbstract"
+          xlink:to="solar_TaxOpinEffectDate"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_TaxOpinExpDate"
+          xlink:label="solar_TaxOpinExpDate"
+          xlink:type="locator"/>
+        <presentationArc
+          order="7"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_TaxOpinAbstract"
+          xlink:to="solar_TaxOpinExpDate"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_TaxOpinDocLink"
+          xlink:label="solar_TaxOpinDocLink"
+          xlink:type="locator"/>
+        <presentationArc
+          order="8"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_TaxOpinAbstract"
+          xlink:to="solar_TaxOpinDocLink"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_PreparerOfTaxOpin"
+          xlink:label="solar_PreparerOfTaxOpin"
+          xlink:type="locator"/>
+        <presentationArc
+          order="9"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_TaxOpinAbstract"
+          xlink:to="solar_PreparerOfTaxOpin"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_DocIDTaxOpin"
+          xlink:label="solar_DocIDTaxOpin"
+          xlink:type="locator"/>
+        <presentationArc
+          order="10"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_TaxOpinAbstract"
+          xlink:to="solar_DocIDTaxOpin"
+          xlink:type="arc"/>
+    </presentationLink>
+</linkbase>

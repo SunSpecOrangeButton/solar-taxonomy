@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Copyright 2019 SunSpec Alliance and XBRL US Inc. 
+
+Licensed under the Apache License, Version 2.0 (the "License"); 
+you may not use this file except in compliance with the License. 
+You may obtain a copy of the License at 
+
+    http://www.apache.org/licenses/LICENSE-2.0 
+
+Unless required by applicable law or agreed to in writing, software 
+distributed under the License is distributed on an "AS IS" BASIS, 
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+See the License for the specific language governing permissions and 
+limitations under the License.
+
+
+Orange Button Taxonomy - CertificatesofInsurance-->
+<linkbase
+  xmlns="http://www.xbrl.org/2003/linkbase"
+  xmlns:xbrli="http://www.xbrl.org/2003/instance"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+    <roleRef
+      roleURI="http://xbrl.us/Solar/2020-04-01/roles/CertificatesofInsurance"
+      xlink:href="../documents\solar-CertificatesofInsurance_2020-04-01.xsd#roleType_CertificatesofInsurance"
+      xlink:type="simple"/>
+    <presentationLink
+      xlink:role="http://xbrl.us/Solar/2020-04-01/roles/CertificatesofInsurance"
+      xlink:type="extended">
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_CertOfInsurAbstract"
+          xlink:label="solar_CertOfInsurAbstract"
+          xlink:type="locator"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_CertOfInsurAvailOfDoc"
+          xlink:label="solar_CertOfInsurAvailOfDoc"
+          xlink:type="locator"/>
+        <presentationArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_CertOfInsurAbstract"
+          xlink:to="solar_CertOfInsurAvailOfDoc"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_CertOfInsurAvailOfFinalDoc"
+          xlink:label="solar_CertOfInsurAvailOfFinalDoc"
+          xlink:type="locator"/>
+        <presentationArc
+          order="2"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_CertOfInsurAbstract"
+          xlink:to="solar_CertOfInsurAvailOfFinalDoc"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_CertOfInsurAvailOfDocExcept"
+          xlink:label="solar_CertOfInsurAvailOfDocExcept"
+          xlink:type="locator"/>
+        <presentationArc
+          order="3"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_CertOfInsurAbstract"
+          xlink:to="solar_CertOfInsurAvailOfDocExcept"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_CertOfInsurExceptDesc"
+          xlink:label="solar_CertOfInsurExceptDesc"
+          xlink:type="locator"/>
+        <presentationArc
+          order="4"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_CertOfInsurAbstract"
+          xlink:to="solar_CertOfInsurExceptDesc"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_CertOfInsurCntrparty"
+          xlink:label="solar_CertOfInsurCntrparty"
+          xlink:type="locator"/>
+        <presentationArc
+          order="5"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_CertOfInsurAbstract"
+          xlink:to="solar_CertOfInsurCntrparty"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_CertOfInsurEffectDate"
+          xlink:label="solar_CertOfInsurEffectDate"
+          xlink:type="locator"/>
+        <presentationArc
+          order="6"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_CertOfInsurAbstract"
+          xlink:to="solar_CertOfInsurEffectDate"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_CertOfInsurExpDate"
+          xlink:label="solar_CertOfInsurExpDate"
+          xlink:type="locator"/>
+        <presentationArc
+          order="7"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_CertOfInsurAbstract"
+          xlink:to="solar_CertOfInsurExpDate"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_CertOfInsurDocLink"
+          xlink:label="solar_CertOfInsurDocLink"
+          xlink:type="locator"/>
+        <presentationArc
+          order="8"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_CertOfInsurAbstract"
+          xlink:to="solar_CertOfInsurDocLink"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_PreparerOfCertOfInsur"
+          xlink:label="solar_PreparerOfCertOfInsur"
+          xlink:type="locator"/>
+        <presentationArc
+          order="9"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_CertOfInsurAbstract"
+          xlink:to="solar_PreparerOfCertOfInsur"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_DocIDCertOfInsur"
+          xlink:label="solar_DocIDCertOfInsur"
+          xlink:type="locator"/>
+        <presentationArc
+          order="10"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_CertOfInsurAbstract"
+          xlink:to="solar_DocIDCertOfInsur"
+          xlink:type="arc"/>
+    </presentationLink>
+</linkbase>

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Copyright 2019 SunSpec Alliance and XBRL US Inc. 
+
+Licensed under the Apache License, Version 2.0 (the "License"); 
+you may not use this file except in compliance with the License. 
+You may obtain a copy of the License at 
+
+    http://www.apache.org/licenses/LICENSE-2.0 
+
+Unless required by applicable law or agreed to in writing, software 
+distributed under the License is distributed on an "AS IS" BASIS, 
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+See the License for the specific language governing permissions and 
+limitations under the License.
+
+
+Orange Button Taxonomy - TitleSurvey-->
+<linkbase
+  xmlns="http://www.xbrl.org/2003/linkbase"
+  xmlns:xbrli="http://www.xbrl.org/2003/instance"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+    <roleRef
+      roleURI="http://xbrl.us/Solar/2020-04-01/roles/TitleSurvey"
+      xlink:href="../documents\solar-TitleSurvey_2020-04-01.xsd#roleType_TitleSurvey"
+      xlink:type="simple"/>
+    <presentationLink
+      xlink:role="http://xbrl.us/Solar/2020-04-01/roles/TitleSurvey"
+      xlink:type="extended">
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_TitleSurveyAbstract"
+          xlink:label="solar_TitleSurveyAbstract"
+          xlink:type="locator"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_SiteIDTable"
+          xlink:label="solar_SiteIDTable"
+          xlink:type="locator"/>
+        <presentationArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_TitleSurveyAbstract"
+          xlink:to="solar_SiteIDTable"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_SiteIDAxis"
+          xlink:label="solar_SiteIDAxis"
+          xlink:type="locator"/>
+        <presentationArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_SiteIDTable"
+          xlink:to="solar_SiteIDAxis"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_TitleSurveyLineItems"
+          xlink:label="solar_TitleSurveyLineItems"
+          xlink:type="locator"/>
+        <presentationArc
+          order="2"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_SiteIDTable"
+          xlink:to="solar_TitleSurveyLineItems"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_TitleSurveyAvailOfDoc"
+          xlink:label="solar_TitleSurveyAvailOfDoc"
+          xlink:type="locator"/>
+        <presentationArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_TitleSurveyLineItems"
+          xlink:to="solar_TitleSurveyAvailOfDoc"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_TitleSurveyAvailOfFinalDoc"
+          xlink:label="solar_TitleSurveyAvailOfFinalDoc"
+          xlink:type="locator"/>
+        <presentationArc
+          order="2"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_TitleSurveyLineItems"
+          xlink:to="solar_TitleSurveyAvailOfFinalDoc"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_TitleSurveyAvailOfDocExcept"
+          xlink:label="solar_TitleSurveyAvailOfDocExcept"
+          xlink:type="locator"/>
+        <presentationArc
+          order="3"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_TitleSurveyLineItems"
+          xlink:to="solar_TitleSurveyAvailOfDocExcept"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_TitleSurveyExceptDesc"
+          xlink:label="solar_TitleSurveyExceptDesc"
+          xlink:type="locator"/>
+        <presentationArc
+          order="4"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_TitleSurveyLineItems"
+          xlink:to="solar_TitleSurveyExceptDesc"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_TitleSurveyCntrparty"
+          xlink:label="solar_TitleSurveyCntrparty"
+          xlink:type="locator"/>
+        <presentationArc
+          order="5"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_TitleSurveyLineItems"
+          xlink:to="solar_TitleSurveyCntrparty"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_TitleSurveyEffectDate"
+          xlink:label="solar_TitleSurveyEffectDate"
+          xlink:type="locator"/>
+        <presentationArc
+          order="6"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_TitleSurveyLineItems"
+          xlink:to="solar_TitleSurveyEffectDate"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_TitleSurveyExpDate"
+          xlink:label="solar_TitleSurveyExpDate"
+          xlink:type="locator"/>
+        <presentationArc
+          order="7"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_TitleSurveyLineItems"
+          xlink:to="solar_TitleSurveyExpDate"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_TitleSurveyDocLink"
+          xlink:label="solar_TitleSurveyDocLink"
+          xlink:type="locator"/>
+        <presentationArc
+          order="8"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_TitleSurveyLineItems"
+          xlink:to="solar_TitleSurveyDocLink"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_PreparerOfTitleSurvey"
+          xlink:label="solar_PreparerOfTitleSurvey"
+          xlink:type="locator"/>
+        <presentationArc
+          order="9"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_TitleSurveyLineItems"
+          xlink:to="solar_PreparerOfTitleSurvey"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_DocIDTitleSurvey"
+          xlink:label="solar_DocIDTitleSurvey"
+          xlink:type="locator"/>
+        <presentationArc
+          order="10"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_TitleSurveyLineItems"
+          xlink:to="solar_DocIDTitleSurvey"
+          xlink:type="arc"/>
+    </presentationLink>
+</linkbase>

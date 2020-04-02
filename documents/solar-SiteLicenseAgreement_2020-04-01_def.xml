@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Copyright 2019 SunSpec Alliance and XBRL US Inc. 
+
+Licensed under the Apache License, Version 2.0 (the "License"); 
+you may not use this file except in compliance with the License. 
+You may obtain a copy of the License at 
+
+    http://www.apache.org/licenses/LICENSE-2.0 
+
+Unless required by applicable law or agreed to in writing, software 
+distributed under the License is distributed on an "AS IS" BASIS, 
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+See the License for the specific language governing permissions and 
+limitations under the License.
+
+
+Orange Button Taxonomy - SiteLicenseAgreement-->
+<linkbase
+  xmlns="http://www.xbrl.org/2003/linkbase"
+  xmlns:xbrldt="http://xbrl.org/2005/xbrldt"
+  xmlns:xbrli="http://www.xbrl.org/2003/instance"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+    <arcroleRef
+      arcroleURI="http://xbrl.org/int/dim/arcrole/hypercube-dimension"
+      xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#hypercube-dimension"
+      xlink:type="simple"/>
+    <arcroleRef
+      arcroleURI="http://xbrl.org/int/dim/arcrole/domain-member"
+      xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#domain-member"
+      xlink:type="simple"/>
+    <arcroleRef
+      arcroleURI="http://xbrl.org/int/dim/arcrole/dimension-default"
+      xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#dimension-default"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/Solar/2020-04-01/roles/SiteLicenseAgreement"
+      xlink:href="../documents\solar-SiteLicenseAgreement_2020-04-01.xsd#roleType_SiteLicenseAgreement"
+      xlink:type="simple"/>
+    <arcroleRef
+      arcroleURI="http://xbrl.org/int/dim/arcrole/all"
+      xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#all"
+      xlink:type="simple"/>
+    <arcroleRef
+      arcroleURI="http://xbrl.org/int/dim/arcrole/dimension-domain"
+      xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#dimension-domain"
+      xlink:type="simple"/>
+    <definitionLink
+      xlink:role="http://xbrl.us/Solar/2020-04-01/roles/SiteLicenseAgreement"
+      xlink:type="extended">
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_SiteLicenseAgreeAbstract"
+          xlink:label="solar_SiteLicenseAgreeAbstract"
+          xlink:type="locator"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_SiteLicenseAgreeLineItems"
+          xlink:label="solar_SiteLicenseAgreeLineItems"
+          xlink:type="locator"/>
+        <definitionArc
+          order="1"
+          xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
+          xlink:from="solar_SiteLicenseAgreeAbstract"
+          xlink:to="solar_SiteLicenseAgreeLineItems"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_SiteIDTable"
+          xlink:label="solar_SiteIDTable"
+          xlink:type="locator"/>
+        <definitionArc
+          order="1"
+          xbrldt:closed="true"
+          xbrldt:contextElement="segment"
+          xlink:arcrole="http://xbrl.org/int/dim/arcrole/all"
+          xlink:from="solar_SiteLicenseAgreeLineItems"
+          xlink:to="solar_SiteIDTable"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_SiteIDAxis"
+          xlink:label="solar_SiteIDAxis"
+          xlink:type="locator"/>
+        <definitionArc
+          order="1"
+          xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension"
+          xlink:from="solar_SiteIDTable"
+          xlink:to="solar_SiteIDAxis"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_SiteLicenseAgreeAvailOfDoc"
+          xlink:label="solar_SiteLicenseAgreeAvailOfDoc"
+          xlink:type="locator"/>
+        <definitionArc
+          order="2"
+          xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
+          xlink:from="solar_SiteLicenseAgreeLineItems"
+          xlink:to="solar_SiteLicenseAgreeAvailOfDoc"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_SiteLicenseAgreeAvailOfFinalDoc"
+          xlink:label="solar_SiteLicenseAgreeAvailOfFinalDoc"
+          xlink:type="locator"/>
+        <definitionArc
+          order="3"
+          xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
+          xlink:from="solar_SiteLicenseAgreeLineItems"
+          xlink:to="solar_SiteLicenseAgreeAvailOfFinalDoc"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_SiteLicenseAgreeAvailOfDocExcept"
+          xlink:label="solar_SiteLicenseAgreeAvailOfDocExcept"
+          xlink:type="locator"/>
+        <definitionArc
+          order="4"
+          xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
+          xlink:from="solar_SiteLicenseAgreeLineItems"
+          xlink:to="solar_SiteLicenseAgreeAvailOfDocExcept"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_SiteLicenseAgreeExceptDesc"
+          xlink:label="solar_SiteLicenseAgreeExceptDesc"
+          xlink:type="locator"/>
+        <definitionArc
+          order="5"
+          xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
+          xlink:from="solar_SiteLicenseAgreeLineItems"
+          xlink:to="solar_SiteLicenseAgreeExceptDesc"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_SiteLicenseAgreeCntrparty"
+          xlink:label="solar_SiteLicenseAgreeCntrparty"
+          xlink:type="locator"/>
+        <definitionArc
+          order="6"
+          xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
+          xlink:from="solar_SiteLicenseAgreeLineItems"
+          xlink:to="solar_SiteLicenseAgreeCntrparty"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_SiteLicenseAgreeEffectDate"
+          xlink:label="solar_SiteLicenseAgreeEffectDate"
+          xlink:type="locator"/>
+        <definitionArc
+          order="7"
+          xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
+          xlink:from="solar_SiteLicenseAgreeLineItems"
+          xlink:to="solar_SiteLicenseAgreeEffectDate"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_SiteLicenseAgreeExpDate"
+          xlink:label="solar_SiteLicenseAgreeExpDate"
+          xlink:type="locator"/>
+        <definitionArc
+          order="8"
+          xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
+          xlink:from="solar_SiteLicenseAgreeLineItems"
+          xlink:to="solar_SiteLicenseAgreeExpDate"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_SiteLicenseAgreeLink"
+          xlink:label="solar_SiteLicenseAgreeLink"
+          xlink:type="locator"/>
+        <definitionArc
+          order="9"
+          xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
+          xlink:from="solar_SiteLicenseAgreeLineItems"
+          xlink:to="solar_SiteLicenseAgreeLink"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_PreparerOfSiteLicenseAgree"
+          xlink:label="solar_PreparerOfSiteLicenseAgree"
+          xlink:type="locator"/>
+        <definitionArc
+          order="10"
+          xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
+          xlink:from="solar_SiteLicenseAgreeLineItems"
+          xlink:to="solar_PreparerOfSiteLicenseAgree"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_DocIDSiteLicenseAgree"
+          xlink:label="solar_DocIDSiteLicenseAgree"
+          xlink:type="locator"/>
+        <definitionArc
+          order="11"
+          xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
+          xlink:from="solar_SiteLicenseAgreeLineItems"
+          xlink:to="solar_DocIDSiteLicenseAgree"
+          xlink:type="arc"/>
+    </definitionLink>
+    <definitionLink
+      xlink:role="http://xbrl.us/Solar/2020-04-01/roles/SiteLicenseAgreement"
+      xlink:type="extended"/>
+</linkbase>

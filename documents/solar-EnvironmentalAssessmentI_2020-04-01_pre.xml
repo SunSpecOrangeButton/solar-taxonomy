@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Copyright 2019 SunSpec Alliance and XBRL US Inc. 
+
+Licensed under the Apache License, Version 2.0 (the "License"); 
+you may not use this file except in compliance with the License. 
+You may obtain a copy of the License at 
+
+    http://www.apache.org/licenses/LICENSE-2.0 
+
+Unless required by applicable law or agreed to in writing, software 
+distributed under the License is distributed on an "AS IS" BASIS, 
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+See the License for the specific language governing permissions and 
+limitations under the License.
+
+
+Orange Button Taxonomy - EnvironmentalAssessmentI-->
+<linkbase
+  xmlns="http://www.xbrl.org/2003/linkbase"
+  xmlns:xbrli="http://www.xbrl.org/2003/instance"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+    <roleRef
+      roleURI="http://xbrl.us/Solar/2020-04-01/roles/EnvironmentalAssessmentI"
+      xlink:href="../documents\solar-EnvironmentalAssessmentI_2020-04-01.xsd#roleType_EnvironmentalAssessmentI"
+      xlink:type="simple"/>
+    <presentationLink
+      xlink:role="http://xbrl.us/Solar/2020-04-01/roles/EnvironmentalAssessmentI"
+      xlink:type="extended">
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_EnvSiteAssessIAbstract"
+          xlink:label="solar_EnvSiteAssessIAbstract"
+          xlink:type="locator"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_SiteIDTable"
+          xlink:label="solar_SiteIDTable"
+          xlink:type="locator"/>
+        <presentationArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_EnvSiteAssessIAbstract"
+          xlink:to="solar_SiteIDTable"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_SiteIDAxis"
+          xlink:label="solar_SiteIDAxis"
+          xlink:type="locator"/>
+        <presentationArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_SiteIDTable"
+          xlink:to="solar_SiteIDAxis"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_EnvSiteAssessILineItems"
+          xlink:label="solar_EnvSiteAssessILineItems"
+          xlink:type="locator"/>
+        <presentationArc
+          order="2"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_SiteIDTable"
+          xlink:to="solar_EnvSiteAssessILineItems"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_EnvSiteAssessIAvailOfDoc"
+          xlink:label="solar_EnvSiteAssessIAvailOfDoc"
+          xlink:type="locator"/>
+        <presentationArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_EnvSiteAssessILineItems"
+          xlink:to="solar_EnvSiteAssessIAvailOfDoc"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_EnvSiteAssessIAvailOfFinalDoc"
+          xlink:label="solar_EnvSiteAssessIAvailOfFinalDoc"
+          xlink:type="locator"/>
+        <presentationArc
+          order="2"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_EnvSiteAssessILineItems"
+          xlink:to="solar_EnvSiteAssessIAvailOfFinalDoc"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_EnvSiteAssessIAvailOfDocExcept"
+          xlink:label="solar_EnvSiteAssessIAvailOfDocExcept"
+          xlink:type="locator"/>
+        <presentationArc
+          order="3"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_EnvSiteAssessILineItems"
+          xlink:to="solar_EnvSiteAssessIAvailOfDocExcept"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_EnvSiteAssessIExceptDesc"
+          xlink:label="solar_EnvSiteAssessIExceptDesc"
+          xlink:type="locator"/>
+        <presentationArc
+          order="4"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_EnvSiteAssessILineItems"
+          xlink:to="solar_EnvSiteAssessIExceptDesc"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_EnvSiteAssessICntrparty"
+          xlink:label="solar_EnvSiteAssessICntrparty"
+          xlink:type="locator"/>
+        <presentationArc
+          order="5"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_EnvSiteAssessILineItems"
+          xlink:to="solar_EnvSiteAssessICntrparty"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_EnvSiteAssessIEffectDate"
+          xlink:label="solar_EnvSiteAssessIEffectDate"
+          xlink:type="locator"/>
+        <presentationArc
+          order="6"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_EnvSiteAssessILineItems"
+          xlink:to="solar_EnvSiteAssessIEffectDate"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_EnvSiteAssessIExpDate"
+          xlink:label="solar_EnvSiteAssessIExpDate"
+          xlink:type="locator"/>
+        <presentationArc
+          order="7"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_EnvSiteAssessILineItems"
+          xlink:to="solar_EnvSiteAssessIExpDate"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_EnvSiteAssessIRptAuthor"
+          xlink:label="solar_EnvSiteAssessIRptAuthor"
+          xlink:type="locator"/>
+        <presentationArc
+          order="8"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_EnvSiteAssessILineItems"
+          xlink:to="solar_EnvSiteAssessIRptAuthor"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_EnvSiteAssessIRecognizedEnvCond"
+          xlink:label="solar_EnvSiteAssessIRecognizedEnvCond"
+          xlink:type="locator"/>
+        <presentationArc
+          order="9"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_EnvSiteAssessILineItems"
+          xlink:to="solar_EnvSiteAssessIRecognizedEnvCond"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_EnvSiteAssessIDocLink"
+          xlink:label="solar_EnvSiteAssessIDocLink"
+          xlink:type="locator"/>
+        <presentationArc
+          order="10"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_EnvSiteAssessILineItems"
+          xlink:to="solar_EnvSiteAssessIDocLink"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_PreparerOfEnvAssessI"
+          xlink:label="solar_PreparerOfEnvAssessI"
+          xlink:type="locator"/>
+        <presentationArc
+          order="11"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_EnvSiteAssessILineItems"
+          xlink:to="solar_PreparerOfEnvAssessI"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_DocIDEnvAssessI"
+          xlink:label="solar_DocIDEnvAssessI"
+          xlink:type="locator"/>
+        <presentationArc
+          order="12"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_EnvSiteAssessILineItems"
+          xlink:to="solar_DocIDEnvAssessI"
+          xlink:type="arc"/>
+    </presentationLink>
+</linkbase>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Copyright 2019 SunSpec Alliance and XBRL US Inc. 
+
+Licensed under the Apache License, Version 2.0 (the "License"); 
+you may not use this file except in compliance with the License. 
+You may obtain a copy of the License at 
+
+    http://www.apache.org/licenses/LICENSE-2.0 
+
+Unless required by applicable law or agreed to in writing, software 
+distributed under the License is distributed on an "AS IS" BASIS, 
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+See the License for the specific language governing permissions and 
+limitations under the License.
+
+
+Orange Button Taxonomy - CertificateOfFinalCompletion-->
+<linkbase
+  xmlns="http://www.xbrl.org/2003/linkbase"
+  xmlns:xbrli="http://www.xbrl.org/2003/instance"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+    <roleRef
+      roleURI="http://xbrl.us/Solar/2020-04-01/roles/CertificateOfFinalCompletion"
+      xlink:href="../documents\solar-CertificateOfFinalCompletion_2020-04-01.xsd#roleType_CertificateOfFinalCompletion"
+      xlink:type="simple"/>
+    <presentationLink
+      xlink:role="http://xbrl.us/Solar/2020-04-01/roles/CertificateOfFinalCompletion"
+      xlink:type="extended">
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_CertOfFinalComplAbstract"
+          xlink:label="solar_CertOfFinalComplAbstract"
+          xlink:type="locator"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_CertOfFinalComplAvailOfDoc"
+          xlink:label="solar_CertOfFinalComplAvailOfDoc"
+          xlink:type="locator"/>
+        <presentationArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_CertOfFinalComplAbstract"
+          xlink:to="solar_CertOfFinalComplAvailOfDoc"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_CertOfFinalComplAvailOfFinalDoc"
+          xlink:label="solar_CertOfFinalComplAvailOfFinalDoc"
+          xlink:type="locator"/>
+        <presentationArc
+          order="2"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_CertOfFinalComplAbstract"
+          xlink:to="solar_CertOfFinalComplAvailOfFinalDoc"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_CertOfFinalComplAvailOfDocExcept"
+          xlink:label="solar_CertOfFinalComplAvailOfDocExcept"
+          xlink:type="locator"/>
+        <presentationArc
+          order="3"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_CertOfFinalComplAbstract"
+          xlink:to="solar_CertOfFinalComplAvailOfDocExcept"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_CertOfFinalComplExceptDesc"
+          xlink:label="solar_CertOfFinalComplExceptDesc"
+          xlink:type="locator"/>
+        <presentationArc
+          order="4"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_CertOfFinalComplAbstract"
+          xlink:to="solar_CertOfFinalComplExceptDesc"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_CertOfFinalComplCntrparty"
+          xlink:label="solar_CertOfFinalComplCntrparty"
+          xlink:type="locator"/>
+        <presentationArc
+          order="5"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_CertOfFinalComplAbstract"
+          xlink:to="solar_CertOfFinalComplCntrparty"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_CertOfFinalComplEffectDate"
+          xlink:label="solar_CertOfFinalComplEffectDate"
+          xlink:type="locator"/>
+        <presentationArc
+          order="6"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_CertOfFinalComplAbstract"
+          xlink:to="solar_CertOfFinalComplEffectDate"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_CertOfFinalComplDocLink"
+          xlink:label="solar_CertOfFinalComplDocLink"
+          xlink:type="locator"/>
+        <presentationArc
+          order="7"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_CertOfFinalComplAbstract"
+          xlink:to="solar_CertOfFinalComplDocLink"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_PreparerOfCertOfFinalCompl"
+          xlink:label="solar_PreparerOfCertOfFinalCompl"
+          xlink:type="locator"/>
+        <presentationArc
+          order="8"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_CertOfFinalComplAbstract"
+          xlink:to="solar_PreparerOfCertOfFinalCompl"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_DocIDCertOfFinalCompl"
+          xlink:label="solar_DocIDCertOfFinalCompl"
+          xlink:type="locator"/>
+        <presentationArc
+          order="9"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_CertOfFinalComplAbstract"
+          xlink:to="solar_DocIDCertOfFinalCompl"
+          xlink:type="arc"/>
+    </presentationLink>
+</linkbase>

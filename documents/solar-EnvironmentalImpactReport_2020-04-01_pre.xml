@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Copyright 2019 SunSpec Alliance and XBRL US Inc. 
+
+Licensed under the Apache License, Version 2.0 (the "License"); 
+you may not use this file except in compliance with the License. 
+You may obtain a copy of the License at 
+
+    http://www.apache.org/licenses/LICENSE-2.0 
+
+Unless required by applicable law or agreed to in writing, software 
+distributed under the License is distributed on an "AS IS" BASIS, 
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+See the License for the specific language governing permissions and 
+limitations under the License.
+
+
+Orange Button Taxonomy - EnvironmentalImpactReport-->
+<linkbase
+  xmlns="http://www.xbrl.org/2003/linkbase"
+  xmlns:xbrli="http://www.xbrl.org/2003/instance"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+    <roleRef
+      roleURI="http://xbrl.us/Solar/2020-04-01/roles/EnvironmentalImpactReport"
+      xlink:href="../documents\solar-EnvironmentalImpactReport_2020-04-01.xsd#roleType_EnvironmentalImpactReport"
+      xlink:type="simple"/>
+    <presentationLink
+      xlink:role="http://xbrl.us/Solar/2020-04-01/roles/EnvironmentalImpactReport"
+      xlink:type="extended">
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_EnvImpactRptAbstract"
+          xlink:label="solar_EnvImpactRptAbstract"
+          xlink:type="locator"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_SiteIDTable"
+          xlink:label="solar_SiteIDTable"
+          xlink:type="locator"/>
+        <presentationArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_EnvImpactRptAbstract"
+          xlink:to="solar_SiteIDTable"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_SiteIDAxis"
+          xlink:label="solar_SiteIDAxis"
+          xlink:type="locator"/>
+        <presentationArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_SiteIDTable"
+          xlink:to="solar_SiteIDAxis"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_EnvImpactRptLineItems"
+          xlink:label="solar_EnvImpactRptLineItems"
+          xlink:type="locator"/>
+        <presentationArc
+          order="2"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_SiteIDTable"
+          xlink:to="solar_EnvImpactRptLineItems"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_EnvBiologicalResources"
+          xlink:label="solar_EnvBiologicalResources"
+          xlink:type="locator"/>
+        <presentationArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_EnvImpactRptLineItems"
+          xlink:to="solar_EnvBiologicalResources"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_EnvGeneralEnvImpact"
+          xlink:label="solar_EnvGeneralEnvImpact"
+          xlink:type="locator"/>
+        <presentationArc
+          order="2"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_EnvImpactRptLineItems"
+          xlink:to="solar_EnvGeneralEnvImpact"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_EnvSiteAssess"
+          xlink:label="solar_EnvSiteAssess"
+          xlink:type="locator"/>
+        <presentationArc
+          order="3"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_EnvImpactRptLineItems"
+          xlink:to="solar_EnvSiteAssess"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_EnvImpactRptAvailOfDoc"
+          xlink:label="solar_EnvImpactRptAvailOfDoc"
+          xlink:type="locator"/>
+        <presentationArc
+          order="4"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_EnvImpactRptLineItems"
+          xlink:to="solar_EnvImpactRptAvailOfDoc"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_EnvImpactRptAvailOfFinalDoc"
+          xlink:label="solar_EnvImpactRptAvailOfFinalDoc"
+          xlink:type="locator"/>
+        <presentationArc
+          order="5"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_EnvImpactRptLineItems"
+          xlink:to="solar_EnvImpactRptAvailOfFinalDoc"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_EnvImpactRptAvailOfDocExcept"
+          xlink:label="solar_EnvImpactRptAvailOfDocExcept"
+          xlink:type="locator"/>
+        <presentationArc
+          order="6"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_EnvImpactRptLineItems"
+          xlink:to="solar_EnvImpactRptAvailOfDocExcept"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_EnvImpactRptExceptDesc"
+          xlink:label="solar_EnvImpactRptExceptDesc"
+          xlink:type="locator"/>
+        <presentationArc
+          order="7"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_EnvImpactRptLineItems"
+          xlink:to="solar_EnvImpactRptExceptDesc"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_EnvImpactRptCntrparty"
+          xlink:label="solar_EnvImpactRptCntrparty"
+          xlink:type="locator"/>
+        <presentationArc
+          order="8"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_EnvImpactRptLineItems"
+          xlink:to="solar_EnvImpactRptCntrparty"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_EnvImpactRptEffectDate"
+          xlink:label="solar_EnvImpactRptEffectDate"
+          xlink:type="locator"/>
+        <presentationArc
+          order="9"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_EnvImpactRptLineItems"
+          xlink:to="solar_EnvImpactRptEffectDate"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_EnvImpactRptExpDate"
+          xlink:label="solar_EnvImpactRptExpDate"
+          xlink:type="locator"/>
+        <presentationArc
+          order="10"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_EnvImpactRptLineItems"
+          xlink:to="solar_EnvImpactRptExpDate"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_EnvImpactRptDocLink"
+          xlink:label="solar_EnvImpactRptDocLink"
+          xlink:type="locator"/>
+        <presentationArc
+          order="11"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_EnvImpactRptLineItems"
+          xlink:to="solar_EnvImpactRptDocLink"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_PreparerOfEnvImpactRpt"
+          xlink:label="solar_PreparerOfEnvImpactRpt"
+          xlink:type="locator"/>
+        <presentationArc
+          order="12"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_EnvImpactRptLineItems"
+          xlink:to="solar_PreparerOfEnvImpactRpt"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_DocIDEnvImpactRpt"
+          xlink:label="solar_DocIDEnvImpactRpt"
+          xlink:type="locator"/>
+        <presentationArc
+          order="13"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_EnvImpactRptLineItems"
+          xlink:to="solar_DocIDEnvImpactRpt"
+          xlink:type="arc"/>
+    </presentationLink>
+</linkbase>

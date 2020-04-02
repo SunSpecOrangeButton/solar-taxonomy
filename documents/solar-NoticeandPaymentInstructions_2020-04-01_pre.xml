@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Copyright 2019 SunSpec Alliance and XBRL US Inc. 
+
+Licensed under the Apache License, Version 2.0 (the "License"); 
+you may not use this file except in compliance with the License. 
+You may obtain a copy of the License at 
+
+    http://www.apache.org/licenses/LICENSE-2.0 
+
+Unless required by applicable law or agreed to in writing, software 
+distributed under the License is distributed on an "AS IS" BASIS, 
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+See the License for the specific language governing permissions and 
+limitations under the License.
+
+
+Orange Button Taxonomy - NoticeandPaymentInstructions-->
+<linkbase
+  xmlns="http://www.xbrl.org/2003/linkbase"
+  xmlns:xbrli="http://www.xbrl.org/2003/instance"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+    <roleRef
+      roleURI="http://xbrl.us/Solar/2020-04-01/roles/NoticeandPaymentInstructions"
+      xlink:href="../documents\solar-NoticeandPaymentInstructions_2020-04-01.xsd#roleType_NoticeandPaymentInstructions"
+      xlink:type="simple"/>
+    <presentationLink
+      xlink:role="http://xbrl.us/Solar/2020-04-01/roles/NoticeandPaymentInstructions"
+      xlink:type="extended">
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_NoticeAndPmtInstrAbstract"
+          xlink:label="solar_NoticeAndPmtInstrAbstract"
+          xlink:type="locator"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_NoticeAndPmtInstrAvailOfDoc"
+          xlink:label="solar_NoticeAndPmtInstrAvailOfDoc"
+          xlink:type="locator"/>
+        <presentationArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_NoticeAndPmtInstrAbstract"
+          xlink:to="solar_NoticeAndPmtInstrAvailOfDoc"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_NoticeAndPmtInstrAvailOfFinalDoc"
+          xlink:label="solar_NoticeAndPmtInstrAvailOfFinalDoc"
+          xlink:type="locator"/>
+        <presentationArc
+          order="2"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_NoticeAndPmtInstrAbstract"
+          xlink:to="solar_NoticeAndPmtInstrAvailOfFinalDoc"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_NoticeAndPmtInstrAvailOfDocExcept"
+          xlink:label="solar_NoticeAndPmtInstrAvailOfDocExcept"
+          xlink:type="locator"/>
+        <presentationArc
+          order="3"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_NoticeAndPmtInstrAbstract"
+          xlink:to="solar_NoticeAndPmtInstrAvailOfDocExcept"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_NoticeAndPmtInstrExceptDesc"
+          xlink:label="solar_NoticeAndPmtInstrExceptDesc"
+          xlink:type="locator"/>
+        <presentationArc
+          order="4"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_NoticeAndPmtInstrAbstract"
+          xlink:to="solar_NoticeAndPmtInstrExceptDesc"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_NoticeAndPmtInstrCntrparty"
+          xlink:label="solar_NoticeAndPmtInstrCntrparty"
+          xlink:type="locator"/>
+        <presentationArc
+          order="5"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_NoticeAndPmtInstrAbstract"
+          xlink:to="solar_NoticeAndPmtInstrCntrparty"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_NoticeAndPmtInstrEffectDate"
+          xlink:label="solar_NoticeAndPmtInstrEffectDate"
+          xlink:type="locator"/>
+        <presentationArc
+          order="6"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_NoticeAndPmtInstrAbstract"
+          xlink:to="solar_NoticeAndPmtInstrEffectDate"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_NoticeAndPmtInstrExpDate"
+          xlink:label="solar_NoticeAndPmtInstrExpDate"
+          xlink:type="locator"/>
+        <presentationArc
+          order="7"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_NoticeAndPmtInstrAbstract"
+          xlink:to="solar_NoticeAndPmtInstrExpDate"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_NoticeAndPmtInstrLink"
+          xlink:label="solar_NoticeAndPmtInstrLink"
+          xlink:type="locator"/>
+        <presentationArc
+          order="8"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_NoticeAndPmtInstrAbstract"
+          xlink:to="solar_NoticeAndPmtInstrLink"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_PreparerOfNoticeAndPmtInstr"
+          xlink:label="solar_PreparerOfNoticeAndPmtInstr"
+          xlink:type="locator"/>
+        <presentationArc
+          order="9"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_NoticeAndPmtInstrAbstract"
+          xlink:to="solar_PreparerOfNoticeAndPmtInstr"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_DocIDNoticeAndPmtInstr"
+          xlink:label="solar_DocIDNoticeAndPmtInstr"
+          xlink:type="locator"/>
+        <presentationArc
+          order="10"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_NoticeAndPmtInstrAbstract"
+          xlink:to="solar_DocIDNoticeAndPmtInstr"
+          xlink:type="arc"/>
+    </presentationLink>
+</linkbase>

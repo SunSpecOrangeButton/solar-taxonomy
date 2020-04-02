@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Copyright 2019 SunSpec Alliance and XBRL US Inc. 
+
+Licensed under the Apache License, Version 2.0 (the "License"); 
+you may not use this file except in compliance with the License. 
+You may obtain a copy of the License at 
+
+    http://www.apache.org/licenses/LICENSE-2.0 
+
+Unless required by applicable law or agreed to in writing, software 
+distributed under the License is distributed on an "AS IS" BASIS, 
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+See the License for the specific language governing permissions and 
+limitations under the License.
+
+
+Orange Button Taxonomy - EstoppelCertificatePowerPurchaseAgreement-->
+<linkbase
+  xmlns="http://www.xbrl.org/2003/linkbase"
+  xmlns:xbrli="http://www.xbrl.org/2003/instance"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+    <roleRef
+      roleURI="http://xbrl.us/Solar/2020-04-01/roles/EstoppelCertificatePowerPurchaseAgreement"
+      xlink:href="../documents\solar-EstoppelCertificatePowerPurchaseAgreement_2020-04-01.xsd#roleType_EstoppelCertificatePowerPurchaseAgreement"
+      xlink:type="simple"/>
+    <presentationLink
+      xlink:role="http://xbrl.us/Solar/2020-04-01/roles/EstoppelCertificatePowerPurchaseAgreement"
+      xlink:type="extended">
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_EstoppelCertPPAAbstract"
+          xlink:label="solar_EstoppelCertPPAAbstract"
+          xlink:type="locator"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_EstoppelCertPPAAvailOfDoc"
+          xlink:label="solar_EstoppelCertPPAAvailOfDoc"
+          xlink:type="locator"/>
+        <presentationArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_EstoppelCertPPAAbstract"
+          xlink:to="solar_EstoppelCertPPAAvailOfDoc"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_EstoppelCertPPAAvailOfFinalDoc"
+          xlink:label="solar_EstoppelCertPPAAvailOfFinalDoc"
+          xlink:type="locator"/>
+        <presentationArc
+          order="2"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_EstoppelCertPPAAbstract"
+          xlink:to="solar_EstoppelCertPPAAvailOfFinalDoc"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_EstoppelCertPPAAvailOfDocExcept"
+          xlink:label="solar_EstoppelCertPPAAvailOfDocExcept"
+          xlink:type="locator"/>
+        <presentationArc
+          order="3"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_EstoppelCertPPAAbstract"
+          xlink:to="solar_EstoppelCertPPAAvailOfDocExcept"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_EstoppelCertPPAExceptDesc"
+          xlink:label="solar_EstoppelCertPPAExceptDesc"
+          xlink:type="locator"/>
+        <presentationArc
+          order="4"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_EstoppelCertPPAAbstract"
+          xlink:to="solar_EstoppelCertPPAExceptDesc"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_EstoppelCertPPACntrparty"
+          xlink:label="solar_EstoppelCertPPACntrparty"
+          xlink:type="locator"/>
+        <presentationArc
+          order="5"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_EstoppelCertPPAAbstract"
+          xlink:to="solar_EstoppelCertPPACntrparty"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_EstoppelCertPPAEffectDate"
+          xlink:label="solar_EstoppelCertPPAEffectDate"
+          xlink:type="locator"/>
+        <presentationArc
+          order="6"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_EstoppelCertPPAAbstract"
+          xlink:to="solar_EstoppelCertPPAEffectDate"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_EstoppelCertPPAExpDate"
+          xlink:label="solar_EstoppelCertPPAExpDate"
+          xlink:type="locator"/>
+        <presentationArc
+          order="7"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_EstoppelCertPPAAbstract"
+          xlink:to="solar_EstoppelCertPPAExpDate"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_EstoppelCertPPADocLink"
+          xlink:label="solar_EstoppelCertPPADocLink"
+          xlink:type="locator"/>
+        <presentationArc
+          order="8"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_EstoppelCertPPAAbstract"
+          xlink:to="solar_EstoppelCertPPADocLink"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_PreparerOfEstoppelCertPPA"
+          xlink:label="solar_PreparerOfEstoppelCertPPA"
+          xlink:type="locator"/>
+        <presentationArc
+          order="9"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_EstoppelCertPPAAbstract"
+          xlink:to="solar_PreparerOfEstoppelCertPPA"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="../core/solar_2020-04-01.xsd#solar_DocIDEstoppelCertPPA"
+          xlink:label="solar_DocIDEstoppelCertPPA"
+          xlink:type="locator"/>
+        <presentationArc
+          order="10"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+          xlink:from="solar_EstoppelCertPPAAbstract"
+          xlink:to="solar_DocIDEstoppelCertPPA"
+          xlink:type="arc"/>
+    </presentationLink>
+</linkbase>
