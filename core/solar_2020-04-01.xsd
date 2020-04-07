@@ -83,7 +83,7 @@ Initial Solar taxonomy-->
       schemaLocation="solar-gen-roles-2018-03-31.xsd"/>
     <xs:import
       namespace="http://xbrl.us/dtr/type/solar-types"
-      schemaLocation="solar-types-2019-07-31.xsd"/>
+      schemaLocation="solar-types-2020-04-01.xsd"/>
     <xs:import
       namespace="http://xbrl.us/solar/parts"
       schemaLocation="solar-ref-parts_2018-03-31.xsd"/>

@@ -22,16 +22,16 @@ Orange Button Taxonomy - Sponsor-->
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
     <roleRef
+      roleURI="http://xbrl.us/Solar/2020-04-01/roles/Sponsor"
+      xlink:href="../data\solar-Sponsor_2020-04-01.xsd#roleType_Sponsor"
+      xlink:type="simple"/>
+    <roleRef
       roleURI="http://xbrl.us/Solar/2020-04-01/roles/FinancialPerformance"
       xlink:href="../data\solar-Sponsor_2020-04-01.xsd#roleType_FinancialPerformance"
       xlink:type="simple"/>
     <roleRef
       roleURI="http://xbrl.us/Solar/2020-04-01/roles/OperationalPerformance"
       xlink:href="../data\solar-Sponsor_2020-04-01.xsd#roleType_OperationalPerformance"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/Solar/2020-04-01/roles/Sponsor"
-      xlink:href="../data\solar-Sponsor_2020-04-01.xsd#roleType_Sponsor"
       xlink:type="simple"/>
     <presentationLink
       xlink:role="http://xbrl.us/Solar/2020-04-01/roles/Sponsor"

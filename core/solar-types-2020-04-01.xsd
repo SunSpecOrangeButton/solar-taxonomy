@@ -36,8 +36,8 @@ limitations under the License.
     <complexType xmlns="http://www.w3.org/2001/XMLSchema" abstract="false" mixed="false" name="moduleTechnologyItemType">
     <simpleContent>
       <restriction base="xbrli:stringItemType">
-        <xs:enumeration value="Mono-C-Si"/>
-        <xs:enumeration value="Multi-C-Si"/> 
+        <xs:enumeration value="Mono_C_Si"/>
+        <xs:enumeration value="Multi_C_Si"/> 
         <xs:enumeration value="Thin Film"/> 
         <xs:enumeration value="Other"/>
       </restriction>
@@ -47,9 +47,9 @@ limitations under the License.
     <simpleContent>
       <restriction base="xbrli:stringItemType">
         <xs:enumeration value="ASi"/>
-        <xs:enumeration value="ASi - Triple"/> 
-        <xs:enumeration value="ASi - Tandem"/> 
-        <xs:enumeration value="ASi - Single"/> 
+        <xs:enumeration value="ASi_Triple"/> 
+        <xs:enumeration value="ASi_Tandem"/> 
+        <xs:enumeration value="ASi_Single"/> 
         <xs:enumeration value="BiPv"/>
         <xs:enumeration value="BiFacial"/>
         <xs:enumeration value="CdTe"/>
@@ -113,21 +113,21 @@ limitations under the License.
   <complexType xmlns="http://www.w3.org/2001/XMLSchema" abstract="false" mixed="false" name="climateZoneANSIItemType">
     <simpleContent>
       <restriction base="xbrli:stringItemType">
-        <xs:enumeration value="Very Hot - Humid"/>
-        <xs:enumeration value="Very Hot - Dry"/>
-        <xs:enumeration value="Hot - Humid"/>
-        <xs:enumeration value="Hot - Dry"/>
-        <xs:enumeration value="Warm - Humid"/>
-        <xs:enumeration value="Warm - Dry"/>
-        <xs:enumeration value="Warm - Marine"/>
-        <xs:enumeration value="Mixed - Humid"/>
-        <xs:enumeration value="Mixed - Dry"/>
-        <xs:enumeration value="Mixed - Marine"/>
-        <xs:enumeration value="Cool - Humid"/>
-        <xs:enumeration value="Cool - Dry"/>
-        <xs:enumeration value="Cool - Marine"/>
-        <xs:enumeration value="Cold - Humid"/>
-        <xs:enumeration value="Cold - Dry"/>
+        <xs:enumeration value="Very Hot Humid"/>
+        <xs:enumeration value="Very Hot Dry"/>
+        <xs:enumeration value="Hot Humid"/>
+        <xs:enumeration value="Hot Dry"/>
+        <xs:enumeration value="Warm Humid"/>
+        <xs:enumeration value="Warm Dry"/>
+        <xs:enumeration value="Warm Marine"/>
+        <xs:enumeration value="Mixed Humid"/>
+        <xs:enumeration value="Mixed Dry"/>
+        <xs:enumeration value="Mixed Marine"/>
+        <xs:enumeration value="Cool Humid"/>
+        <xs:enumeration value="Cool Dry"/>
+        <xs:enumeration value="Cool Marine"/>
+        <xs:enumeration value="Cold Humid"/>
+        <xs:enumeration value="Cold Dry"/>
         <xs:enumeration value="Very Cold"/>
         <xs:enumeration value="Subarctic"/>
       </restriction>
@@ -179,7 +179,7 @@ limitations under the License.
     <simpleContent>
       <restriction base="xbrli:stringItemType">
         <xs:enumeration value="Origination Request"/>
-        <xs:enumeration value="Signing Non-binding Commitment"/>
+        <xs:enumeration value="Signing Non_binding Commitment"/>
         <xs:enumeration value="Signing Binding Commitment"/>
         <xs:enumeration value="Signing And Closing"/>
         <xs:enumeration value="Closing"/>
@@ -203,17 +203,17 @@ limitations under the License.
         <xs:enumeration value="Asset Manager"/>
         <xs:enumeration value="Asset Owner"/>
         <xs:enumeration value="Automobile Liability Insurer"/>
-        <xs:enumeration value="Back-leverage Lender"/>
-        <xs:enumeration value="Back-up Asset Manager"/>
-        <xs:enumeration value="Back-up Maintenance Provider"/>
-        <xs:enumeration value="Back-up Monitoring Service Provider"/>
+        <xs:enumeration value="Back_leverage Lender"/>
+        <xs:enumeration value="Back_up Asset Manager"/>
+        <xs:enumeration value="Back_up Maintenance Provider"/>
+        <xs:enumeration value="Back_up Monitoring Service Provider"/>
         <xs:enumeration value="Bond Agent"/>
-        <xs:enumeration value="Builders/Construction All-Risk Insurers"/>
+        <xs:enumeration value="Builders_Construction All_Risk Insurers"/>
         <xs:enumeration value="Business Interruption Insurer"/>
         <xs:enumeration value="Collateral Agent"/>
         <xs:enumeration value="Commercial Lender"/>
         <xs:enumeration value="Contract Attorney"/>
-        <xs:enumeration value="Construction Contractor/Installer"/>
+        <xs:enumeration value="Construction Contractor Installer"/>
         <xs:enumeration value="Construction Lender"/>
         <xs:enumeration value="Construction Warranty Provider"/>
         <xs:enumeration value="Corporate Attorney"/>
@@ -221,7 +221,7 @@ limitations under the License.
         <xs:enumeration value="Energy Forecasting Service"/>
         <xs:enumeration value="Energy Price Forecaster"/>
         <xs:enumeration value="Equipment Warranty Provider"/>
-        <xs:enumeration value="Engineering Contractor/Installer"/>
+        <xs:enumeration value="Engineering Contractor Installer"/>
         <xs:enumeration value="Environmental Attorney"/>
         <xs:enumeration value="Environmental Consultant"/>
         <xs:enumeration value="Equipment Factory Auditor"/>
@@ -236,13 +236,13 @@ limitations under the License.
         <xs:enumeration value="Interconnecting Utility as Authority Having Jurisdiction"/>
         <xs:enumeration value="Insurance Broker"/>
         <xs:enumeration value="Insurance Consultant"/>
-        <xs:enumeration value="Land-Use Attorney"/>
+        <xs:enumeration value="Land_Use Attorney"/>
         <xs:enumeration value="Lessor"/>
         <xs:enumeration value="Litigation Attorney"/>
         <xs:enumeration value="LLC Partner Managing Member"/>
         <xs:enumeration value="LLC Partner Voting Member"/>
         <xs:enumeration value="LLC Partner Passive Member"/>
-        <xs:enumeration value="Long-term Equity Investor"/>
+        <xs:enumeration value="Longterm Equity Investor"/>
         <xs:enumeration value="Maintenance Provider"/>
         <xs:enumeration value="Monitoring Service Provider"/>
         <xs:enumeration value="Ocean Cargo Insurer"/>
@@ -261,18 +261,18 @@ limitations under the License.
         <xs:enumeration value="REC Offtaker"/>
         <xs:enumeration value="Regional Transmission Operator as Authority Having Jurisdiction"/>
         <xs:enumeration value="Scheduling Coordinator"/> 
-        <xs:enumeration value="Site Owner/Site Control"/>
+        <xs:enumeration value="Site Owner Site Control"/>
         <xs:enumeration value="Site Security Company"/>
         <xs:enumeration value="Subcontractor"/>
-        <xs:enumeration value="Subcontractor Contractor/Installer"/>
+        <xs:enumeration value="Subcontractor Contractor Installer"/>
         <xs:enumeration value="Surety"/>
         <xs:enumeration value="Tax Attorney"/>
         <xs:enumeration value="Tax Consultant"/>
-        <xs:enumeration value="Tax-equity Investor"/>
+        <xs:enumeration value="Tax equity Investor"/>
         <xs:enumeration value="Telecom Provider"/>
         <xs:enumeration value="Transmission Consultant"/>
         <xs:enumeration value="Trustee"/>  
-        <xs:enumeration value="Umbrella/Excess Liability Insurer"/>
+        <xs:enumeration value="Umbrella Excess Liability Insurer"/>
         <xs:enumeration value="Utility"/>
         <xs:enumeration value="Weather Data Provider"/> 
         <xs:enumeration value="Workers Compensation Insurer"/>
@@ -421,8 +421,8 @@ limitations under the License.
   <complexType xmlns="http://www.w3.org/2001/XMLSchema" abstract="false" mixed="false" name="batteryConnectionItemType">
     <simpleContent>
       <restriction base="xbrli:stringItemType">
-        <xs:enumeration value="DC-Coupled"/>
-        <xs:enumeration value="AC-Coupled"/>
+        <xs:enumeration value="DC_Coupled"/>
+        <xs:enumeration value="AC_Coupled"/>
       </restriction>
     </simpleContent>
   </complexType>
@@ -568,7 +568,7 @@ limitations under the License.
     <xs:enumeration value="Attached"/>
     <xs:enumeration value="Ballasted"/>
     <xs:enumeration value="BIPV"/>
-    <xs:enumeration value="Pole/Pier"/>
+    <xs:enumeration value="Pole_Pier"/>
   </restriction>
 </simpleContent>
 </complexType>
@@ -675,11 +675,11 @@ limitations under the License.
 <complexType xmlns="http://www.w3.org/2001/XMLSchema" abstract="false" mixed="false" name="projectPhaseItemType">
 <simpleContent>
   <restriction base="xbrli:stringItemType">
-    <xs:enumeration value="Pre-Construction"/>
+    <xs:enumeration value="Pre_Construction"/>
     <xs:enumeration value="Early Construction"/>
     <xs:enumeration value="Periodic Throughout Construction"/>
-    <xs:enumeration value="Initial Funding/Mechanical Completion"/>
-    <xs:enumeration value="Post-Funding"/>
+    <xs:enumeration value="Initial Funding Mechanical Completion"/>
+    <xs:enumeration value="Post_Funding"/>
   </restriction>
 </simpleContent>
 </complexType>
@@ -710,21 +710,21 @@ limitations under the License.
 <complexType xmlns="http://www.w3.org/2001/XMLSchema" abstract="false" mixed="false" name="climateClassificationKoppenItemType">
 <simpleContent>
   <restriction base="xbrli:stringItemType">
-    <xs:enumeration value="2.1 Tropical/megathermal climates"/>
-    <xs:enumeration value="2.1.1 Tropical rainforest climate"/>
-    <xs:enumeration value="2.1.2 Tropical monsoon climate"/>
-    <xs:enumeration value="2.1.3 Tropical wet and dry or savanna climates"/>
-    <xs:enumeration value="2.2 Dry (desert and semi-arid) climates"/>
-    <xs:enumeration value="2.3 Temperate/mesothermal climates"/>
-    <xs:enumeration value="2.3.1 Mediterranean climates"/>
-    <xs:enumeration value="2.3.2 Humid subtropical climates"/>
-    <xs:enumeration value="2.3.3 Oceanic climates"/>
-    <xs:enumeration value="2.3.4 Highland climates"/>
-    <xs:enumeration value="2.4 Continental/microthermal climates"/>
-    <xs:enumeration value="2.4.1 Hot summer continental climates"/>
-    <xs:enumeration value="2.4.2 Warm summer continental or hemiboreal climates"/>
-    <xs:enumeration value="2.4.3 Subarctic or boreal climates"/>
-    <xs:enumeration value="2.5 Polar climates"/>
+    <xs:enumeration value="Tropical megathermal climates"/>
+    <xs:enumeration value="Tropical rainforest climate"/>
+    <xs:enumeration value="Tropical monsoon climate"/>
+    <xs:enumeration value="Tropical wet and dry or savanna climates"/>
+    <xs:enumeration value="Dry desert and semi_arid climates"/>
+    <xs:enumeration value="Temperate mesothermal climates"/>
+    <xs:enumeration value="Mediterranean climates"/>
+    <xs:enumeration value="Humid subtropical climates"/>
+    <xs:enumeration value="Oceanic climates"/>
+    <xs:enumeration value="Highland climates"/>
+    <xs:enumeration value="Continental microthermal climates"/>
+    <xs:enumeration value="Hot summer continental climates"/>
+    <xs:enumeration value="Warm summer continental or hemiboreal climates"/>
+    <xs:enumeration value="Subarctic or boreal climates"/>
+    <xs:enumeration value="Polar climates"/>
   </restriction>
 </simpleContent>
 </complexType>
@@ -840,7 +840,7 @@ limitations under the License.
     <xs:enumeration value="Surety Solar Module Supply Bond"/>     
     <xs:enumeration value="Surety Solar Module Warranty Security Bond"/>     
     <xs:enumeration value="Electronic Surety Bond Provider Module Warranty Security"/>     
-    <xs:enumeration value="Electronic Surety Bond Provider Power Purchase Agreement Payment Bond."/> 
+    <xs:enumeration value="Electronic Surety Bond Provider Power Purchase Agreement Payment Bond"/> 
   </restriction>
 </simpleContent>
 </complexType>
