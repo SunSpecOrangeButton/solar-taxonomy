@@ -26,12 +26,12 @@ Orange Button Taxonomy - Sponsor-->
       xlink:href="../data\solar-Sponsor_2020-04-01.xsd#roleType_Sponsor"
       xlink:type="simple"/>
     <roleRef
-      roleURI="http://xbrl.us/Solar/2020-04-01/roles/FinancialPerformance"
-      xlink:href="../data\solar-Sponsor_2020-04-01.xsd#roleType_FinancialPerformance"
-      xlink:type="simple"/>
-    <roleRef
       roleURI="http://xbrl.us/Solar/2020-04-01/roles/OperationalPerformance"
       xlink:href="../data\solar-Sponsor_2020-04-01.xsd#roleType_OperationalPerformance"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/Solar/2020-04-01/roles/FinancialPerformance"
+      xlink:href="../data\solar-Sponsor_2020-04-01.xsd#roleType_FinancialPerformance"
       xlink:type="simple"/>
     <presentationLink
       xlink:role="http://xbrl.us/Solar/2020-04-01/roles/Sponsor"

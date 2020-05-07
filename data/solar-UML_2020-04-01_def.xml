@@ -22,17 +22,13 @@ Orange Button Taxonomy - UML-->
   xmlns:xlink="http://www.w3.org/1999/xlink"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
-    <arcroleRef
-      arcroleURI="http://xbrl.org/int/dim/arcrole/domain-member"
-      xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#domain-member"
-      xlink:type="simple"/>
-    <arcroleRef
-      arcroleURI="http://xbrl.org/int/dim/arcrole/hypercube-dimension"
-      xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#hypercube-dimension"
-      xlink:type="simple"/>
     <roleRef
-      roleURI="http://xbrl.us/Solar/2020-04-01/roles/Site"
-      xlink:href="../data\solar-UML_2020-04-01.xsd#roleType_Site"
+      roleURI="http://xbrl.us/Solar/2020-04-01/roles/SystemDeviceListing"
+      xlink:href="../data\solar-UML_2020-04-01.xsd#roleType_SystemDeviceListing"
+      xlink:type="simple"/>
+    <arcroleRef
+      arcroleURI="http://xbrl.org/int/dim/arcrole/all"
+      xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#all"
       xlink:type="simple"/>
     <roleRef
       roleURI="http://xbrl.us/Solar/2020-04-01/roles/SystemInstallationType"
@@ -47,16 +43,20 @@ Orange Button Taxonomy - UML-->
       xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#dimension-default"
       xlink:type="simple"/>
     <arcroleRef
-      arcroleURI="http://xbrl.org/int/dim/arcrole/all"
-      xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#all"
+      arcroleURI="http://xbrl.org/int/dim/arcrole/hypercube-dimension"
+      xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#hypercube-dimension"
       xlink:type="simple"/>
     <arcroleRef
       arcroleURI="http://xbrl.org/int/dim/arcrole/dimension-domain"
       xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#dimension-domain"
       xlink:type="simple"/>
     <roleRef
-      roleURI="http://xbrl.us/Solar/2020-04-01/roles/SystemDeviceListing"
-      xlink:href="../data\solar-UML_2020-04-01.xsd#roleType_SystemDeviceListing"
+      roleURI="http://xbrl.us/Solar/2020-04-01/roles/Site"
+      xlink:href="../data\solar-UML_2020-04-01.xsd#roleType_Site"
+      xlink:type="simple"/>
+    <arcroleRef
+      arcroleURI="http://xbrl.org/int/dim/arcrole/domain-member"
+      xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#domain-member"
       xlink:type="simple"/>
     <definitionLink
       xlink:role="http://xbrl.us/Solar/2020-04-01/roles/Site"

@@ -22,20 +22,20 @@ Orange Button Taxonomy - UML-->
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
     <roleRef
-      roleURI="http://xbrl.us/Solar/2020-04-01/roles/Site"
-      xlink:href="../data\solar-UML_2020-04-01.xsd#roleType_Site"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/Solar/2020-04-01/roles/System"
-      xlink:href="../data\solar-UML_2020-04-01.xsd#roleType_System"
-      xlink:type="simple"/>
-    <roleRef
       roleURI="http://xbrl.us/Solar/2020-04-01/roles/SystemDeviceListing"
       xlink:href="../data\solar-UML_2020-04-01.xsd#roleType_SystemDeviceListing"
       xlink:type="simple"/>
     <roleRef
       roleURI="http://xbrl.us/Solar/2020-04-01/roles/SystemInstallationType"
       xlink:href="../data\solar-UML_2020-04-01.xsd#roleType_SystemInstallationType"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/Solar/2020-04-01/roles/System"
+      xlink:href="../data\solar-UML_2020-04-01.xsd#roleType_System"
+      xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/Solar/2020-04-01/roles/Site"
+      xlink:href="../data\solar-UML_2020-04-01.xsd#roleType_Site"
       xlink:type="simple"/>
     <presentationLink
       xlink:role="http://xbrl.us/Solar/2020-04-01/roles/Site"

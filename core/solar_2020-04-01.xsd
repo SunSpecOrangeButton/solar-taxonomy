@@ -145,15 +145,15 @@ Initial Solar taxonomy-->
       name="ASTME28484ModelCoeffA1"
       nillable="true"
       substitutionGroup="xbrli:item"
-      type="num:percentItemType"
+      type="xbrli:decimalItemType"
       xbrli:periodType="instant"/>
     <xs:element
       id="solar_ASTME28484ModelCoeffA2"
       name="ASTME28484ModelCoeffA2"
       nillable="true"
       substitutionGroup="xbrli:item"
-      type="xbrli:durationItemType"
-      xbrli:periodType="duration"/>
+      type="xbrli:decimalItemType"
+      xbrli:periodType="instant"/>
     <xs:element
       id="solar_ASTME28484ModelCoeffA3"
       name="ASTME28484ModelCoeffA3"
@@ -173,7 +173,7 @@ Initial Solar taxonomy-->
       name="ASTME2848ModelResidualMean"
       nillable="true"
       substitutionGroup="xbrli:item"
-      type="num:powerItemType"
+      type="xbrli:decimalItemType"
       xbrli:periodType="instant"/>
     <xs:element
       id="solar_ASTME2848ModelResidualStandardDeviation"
@@ -187,7 +187,7 @@ Initial Solar taxonomy-->
       name="ASTME2848PowerRtgAtRptCond"
       nillable="true"
       substitutionGroup="xbrli:item"
-      type="xbrli:decimalItemType"
+      type="num:powerItemType"
       xbrli:periodType="instant"/>
     <xs:element
       id="solar_ASTME2848PowerRtgUncertainty"
@@ -296,8 +296,8 @@ Initial Solar taxonomy-->
       name="AccuracyClass"
       nillable="true"
       substitutionGroup="xbrli:item"
-      type="xbrli:dateItemType"
-      xbrli:periodType="instant"/>
+      type="xbrli:stringItemType"
+      xbrli:periodType="duration"/>
     <xs:element
       id="solar_ActiveEnergyOrParasiticLoad"
       name="ActiveEnergyOrParasiticLoad"
@@ -451,7 +451,7 @@ Initial Solar taxonomy-->
       name="Albedo"
       nillable="true"
       substitutionGroup="xbrli:item"
-      type="num:lengthItemType"
+      type="num:percentItemType"
       xbrli:periodType="duration"/>
     <xs:element
       id="solar_AllInEnergyPerfIndex"
@@ -1122,8 +1122,8 @@ Initial Solar taxonomy-->
       nillable="true"
       solar:periodIndependent="0"
       substitutionGroup="xbrli:item"
-      type="xbrli:integerItemType"
-      xbrli:periodType="instant"/>
+      type="num:percentItemType"
+      xbrli:periodType="duration"/>
     <xs:element
       id="solar_ArrayTotalModuleArea"
       name="ArrayTotalModuleArea"
@@ -1761,7 +1761,7 @@ Initial Solar taxonomy-->
       name="Avail"
       nillable="true"
       substitutionGroup="xbrli:item"
-      type="num-us:temperatureItemType"
+      type="num:percentItemType"
       xbrli:periodType="duration"/>
     <xs:element
       id="solar_AvailCalcMeth"
@@ -2425,8 +2425,8 @@ Initial Solar taxonomy-->
       name="CalibrationInterval"
       nillable="true"
       substitutionGroup="xbrli:item"
-      type="xbrli:dateItemType"
-      xbrli:periodType="instant"/>
+      type="xbrli:durationItemType"
+      xbrli:periodType="duration"/>
     <xs:element
       id="solar_CalibrationMeth"
       name="CalibrationMeth"
@@ -5137,7 +5137,7 @@ Initial Solar taxonomy-->
       name="CurrentShortCircuit"
       nillable="true"
       substitutionGroup="xbrli:item"
-      type="num:lengthItemType"
+      type="num-us:electricCurrentItemType"
       xbrli:periodType="duration"/>
     <xs:element
       id="solar_CurrentStateAndLocalTaxExpenseBenefitPerWatt"
@@ -5151,7 +5151,7 @@ Initial Solar taxonomy-->
       name="CurrentTransducerRatio"
       nillable="true"
       substitutionGroup="xbrli:item"
-      type="xbrli:booleanItemType"
+      type="xbrli:decimalItemType"
       xbrli:periodType="duration"/>
     <xs:element
       id="solar_Curtail"
@@ -5198,7 +5198,7 @@ Initial Solar taxonomy-->
       name="CurtailLimit"
       nillable="true"
       substitutionGroup="xbrli:item"
-      type="num-us:temperatureItemType"
+      type="num:powerItemType"
       xbrli:periodType="duration"/>
     <xs:element
       id="solar_CurtailMeasPeriod"
@@ -5549,14 +5549,14 @@ Initial Solar taxonomy-->
       name="DataFilterVisual"
       nillable="true"
       substitutionGroup="xbrli:item"
-      type="xbrli:decimalItemType"
+      type="xbrli:booleanItemType"
       xbrli:periodType="duration"/>
     <xs:element
       id="solar_DataSelected"
       name="DataSelected"
       nillable="true"
       substitutionGroup="xbrli:item"
-      type="xbrli:stringItemType"
+      type="xbrli:booleanItemType"
       xbrli:periodType="duration"/>
     <xs:element
       id="solar_DebtInstrumentPeriodicPmtInterestPerWatt"
@@ -8073,8 +8073,8 @@ Initial Solar taxonomy-->
       name="EnergyAC"
       nillable="true"
       substitutionGroup="xbrli:item"
-      type="num:powerItemType"
-      xbrli:periodType="instant"/>
+      type="num:energyItemType"
+      xbrli:periodType="duration"/>
     <xs:element
       id="solar_EnergyAvailComparison"
       name="EnergyAvailComparison"
@@ -10283,70 +10283,70 @@ Initial Solar taxonomy-->
       name="FilterIrradMax"
       nillable="true"
       substitutionGroup="xbrli:item"
-      type="xbrli:booleanItemType"
+      type="num-us:irradianceItemType"
       xbrli:periodType="duration"/>
     <xs:element
       id="solar_FilterIrradMin"
       name="FilterIrradMin"
       nillable="true"
       substitutionGroup="xbrli:item"
-      type="xbrli:booleanItemType"
+      type="num-us:irradianceItemType"
       xbrli:periodType="duration"/>
     <xs:element
       id="solar_FilterIrradStabilityMax"
       name="FilterIrradStabilityMax"
       nillable="true"
       substitutionGroup="xbrli:item"
-      type="num:powerItemType"
-      xbrli:periodType="duration"/>
+      type="num:percentItemType"
+      xbrli:periodType="instant"/>
     <xs:element
       id="solar_FilterIrradStabilityWindowLen"
       name="FilterIrradStabilityWindowLen"
       nillable="true"
       substitutionGroup="xbrli:item"
-      type="num:powerItemType"
+      type="xbrli:durationItemType"
       xbrli:periodType="duration"/>
     <xs:element
       id="solar_FilterPowerACMax"
       name="FilterPowerACMax"
       nillable="true"
       substitutionGroup="xbrli:item"
-      type="num-us:speedItemType"
+      type="num:powerItemType"
       xbrli:periodType="duration"/>
     <xs:element
       id="solar_FilterPowerACMin"
       name="FilterPowerACMin"
       nillable="true"
       substitutionGroup="xbrli:item"
-      type="num-us:speedItemType"
+      type="num:powerItemType"
       xbrli:periodType="duration"/>
     <xs:element
       id="solar_FilterTempAmbMax"
       name="FilterTempAmbMax"
       nillable="true"
       substitutionGroup="xbrli:item"
-      type="num-us:irradianceItemType"
+      type="num-us:temperatureItemType"
       xbrli:periodType="duration"/>
     <xs:element
       id="solar_FilterTempAmbMin"
       name="FilterTempAmbMin"
       nillable="true"
       substitutionGroup="xbrli:item"
-      type="num-us:irradianceItemType"
+      type="num-us:temperatureItemType"
       xbrli:periodType="duration"/>
     <xs:element
       id="solar_FilterWindSpeedMax"
       name="FilterWindSpeedMax"
       nillable="true"
       substitutionGroup="xbrli:item"
-      type="num-us:temperatureItemType"
+      type="num-us:speedItemType"
       xbrli:periodType="duration"/>
     <xs:element
       id="solar_FilterWindSpeedMin"
       name="FilterWindSpeedMin"
       nillable="true"
       substitutionGroup="xbrli:item"
-      type="num-us:temperatureItemType"
+      type="num-us:speedItemType"
       xbrli:periodType="duration"/>
     <xs:element
       abstract="true"
@@ -12104,7 +12104,7 @@ Initial Solar taxonomy-->
       name="HumidityRelative"
       nillable="true"
       substitutionGroup="xbrli:item"
-      type="num-us:speedItemType"
+      type="num:percentItemType"
       xbrli:periodType="duration"/>
     <xs:element
       id="solar_HypotheticalLiquidationAtBookValueBalance"
@@ -15267,14 +15267,14 @@ Initial Solar taxonomy-->
       name="IrradDiffuseHorizontal"
       nillable="true"
       substitutionGroup="xbrli:item"
-      type="xbrli:stringItemType"
+      type="num-us:irradianceItemType"
       xbrli:periodType="duration"/>
     <xs:element
       id="solar_IrradDirectNormal"
       name="IrradDirectNormal"
       nillable="true"
       substitutionGroup="xbrli:item"
-      type="xbrli:durationItemType"
+      type="num-us:irradianceItemType"
       xbrli:periodType="duration"/>
     <xs:element
       id="solar_IrradForPowerTargetCapMeas"
@@ -17834,7 +17834,7 @@ Initial Solar taxonomy-->
       name="MeasScope"
       nillable="true"
       substitutionGroup="xbrli:item"
-      type="num-us:voltageItemType"
+      type="xbrli:stringItemType"
       xbrli:periodType="duration"/>
     <xs:element
       id="solar_MeasUncertaintyBasisDesc"
@@ -24279,15 +24279,15 @@ Initial Solar taxonomy-->
       name="PowerAC"
       nillable="true"
       substitutionGroup="xbrli:item"
-      type="xbrli:stringItemType"
-      xbrli:periodType="duration"/>
+      type="num:powerItemType"
+      xbrli:periodType="instant"/>
     <xs:element
       id="solar_PowerDC"
       name="PowerDC"
       nillable="true"
       substitutionGroup="xbrli:item"
-      type="xbrli:decimalItemType"
-      xbrli:periodType="duration"/>
+      type="num:powerItemType"
+      xbrli:periodType="instant"/>
     <xs:element
       id="solar_PowerPerfIndex"
       name="PowerPerfIndex"
@@ -24317,7 +24317,7 @@ Initial Solar taxonomy-->
       name="PrecipitationType"
       nillable="true"
       substitutionGroup="xbrli:item"
-      type="num:lengthItemType"
+      type="xbrli:stringItemType"
       xbrli:periodType="duration"/>
     <xs:element
       id="solar_PredictedAllInOneYearYield"
@@ -25504,7 +25504,7 @@ Initial Solar taxonomy-->
       name="PressureAtmospheric"
       nillable="true"
       substitutionGroup="xbrli:item"
-      type="num-us:planeAngleItemType"
+      type="num-us:pressureItemType"
       xbrli:periodType="duration"/>
     <xs:element
       abstract="true"
@@ -27617,7 +27617,7 @@ Initial Solar taxonomy-->
       name="Rainfall"
       nillable="true"
       substitutionGroup="xbrli:item"
-      type="num:percentItemType"
+      type="num:lengthItemType"
       xbrli:periodType="duration"/>
     <xs:element
       id="solar_RatedPowerPeakAC"
@@ -27695,7 +27695,7 @@ Initial Solar taxonomy-->
       name="RefCellCalibrationConstantAtRptCond"
       nillable="true"
       substitutionGroup="xbrli:item"
-      type="num:percentItemType"
+      type="xbrli:decimalItemType"
       xbrli:periodType="duration"/>
     <xs:element
       id="solar_ReferenceOneYearYield"
@@ -28092,7 +28092,7 @@ Initial Solar taxonomy-->
       name="RevenueGrade"
       nillable="true"
       substitutionGroup="xbrli:item"
-      type="num-us:electricCurrentItemType"
+      type="xbrli:booleanItemType"
       xbrli:periodType="duration"/>
     <xs:element
       abstract="true"
@@ -30341,7 +30341,7 @@ Initial Solar taxonomy-->
       name="SnowAccumulation"
       nillable="true"
       substitutionGroup="xbrli:item"
-      type="xbrli:stringItemType"
+      type="num:lengthItemType"
       xbrli:periodType="duration"/>
     <xs:element
       id="solar_SnowModelFactorTMMPct"
@@ -30364,7 +30364,7 @@ Initial Solar taxonomy-->
       name="Snowfall"
       nillable="true"
       substitutionGroup="xbrli:item"
-      type="num-us:pressureItemType"
+      type="num:lengthItemType"
       xbrli:periodType="duration"/>
     <xs:element
       id="solar_SoilInSiteRptAvailable"
@@ -30378,7 +30378,7 @@ Initial Solar taxonomy-->
       name="SoilingInstrumentType"
       nillable="true"
       substitutionGroup="xbrli:item"
-      type="num:percentItemType"
+      type="xbrli:stringItemType"
       xbrli:periodType="duration"/>
     <xs:element
       id="solar_SoilingModelFactorTMMPct"
@@ -30401,7 +30401,7 @@ Initial Solar taxonomy-->
       name="SoilingRatio"
       nillable="true"
       substitutionGroup="xbrli:item"
-      type="num:powerItemType"
+      type="num:percentItemType"
       xbrli:periodType="duration"/>
     <xs:element
       id="solar_SolarArrayAnnualDegrad"
@@ -32276,7 +32276,7 @@ Initial Solar taxonomy-->
       name="TempAmb"
       nillable="true"
       substitutionGroup="xbrli:item"
-      type="num-us:irradianceItemType"
+      type="num-us:temperatureItemType"
       xbrli:periodType="duration"/>
     <xs:element
       id="solar_TempCell"
@@ -32290,8 +32290,8 @@ Initial Solar taxonomy-->
       name="TempMeter"
       nillable="true"
       substitutionGroup="xbrli:item"
-      type="num:powerItemType"
-      xbrli:periodType="instant"/>
+      type="num-us:temperatureItemType"
+      xbrli:periodType="duration"/>
     <xs:element
       id="solar_TempModule"
       name="TempModule"
@@ -32304,7 +32304,7 @@ Initial Solar taxonomy-->
       name="TempRefCell"
       nillable="true"
       substitutionGroup="xbrli:item"
-      type="num:percentItemType"
+      type="num-us:temperatureItemType"
       xbrli:periodType="duration"/>
     <xs:element
       abstract="true"
@@ -33799,7 +33799,7 @@ Initial Solar taxonomy-->
       name="VoltageOpenCircuit"
       nillable="true"
       substitutionGroup="xbrli:item"
-      type="num-us:temperatureItemType"
+      type="num-us:voltageItemType"
       xbrli:periodType="duration"/>
     <xs:element
       abstract="true"
@@ -33984,14 +33984,14 @@ Initial Solar taxonomy-->
       name="WindDirection"
       nillable="true"
       substitutionGroup="xbrli:item"
-      type="num-us:temperatureItemType"
+      type="num-us:planeAngleItemType"
       xbrli:periodType="duration"/>
     <xs:element
       id="solar_WindSpeed"
       name="WindSpeed"
       nillable="true"
       substitutionGroup="xbrli:item"
-      type="num-us:irradianceItemType"
+      type="num-us:speedItemType"
       xbrli:periodType="duration"/>
     <xs:element
       abstract="true"
